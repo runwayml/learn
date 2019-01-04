@@ -1,5 +1,3 @@
-![Logo](https://runway.nyc3.cdn.digitaloceanspaces.com/logos/rwtransparent.png)
-
 * Getting started
 
   * [Quick start](quickstart.md)
