@@ -1,14 +1,10 @@
- * Getting started
+* Getting started
 
-  * [Quick start](quickstart.md)
-  * [Install](install.md)
+    * [Quickstart](quickstart.md)
+    * [Overview](overview.md)
+    * [Importing Models](importing.md)
 
-* Models
-
-  * [How to Add Models](configuration.md)
-  * [Docker Containers](themes.md)
-
-
+<!-- 
 * Input Data
 
   * [HTTP](deploy.md)
@@ -27,4 +23,4 @@
 * More
 
     * [Awesome Runway](awesome.md)
-    * [Changelog](changelog.md)
+    * [Changelog](changelog.md) -->

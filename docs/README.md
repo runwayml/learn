@@ -1,32 +1,29 @@
-## Runway
+![Runway Screenshot](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/models_directory.png)
 
-> A magical documentation site generator.
+# Runway
 
-## What it is
+> __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
-docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an `index.html` and [deploy it on GitHub Pages](deploy.md).
+Welcome to Runway! Runway is a toolkit that enables creators of all kinds to use artificial intelligence in an intuitive way. Runway allows you to discover new machine learning models, try them out using a simple visual interface, and connect them to third-party applications. This documentation contains an overview of Runway's features and a collection of examples to help get you up and running. 
 
-See the [Quick start](quickstart.md) guide for more details.
+### Try Runway
 
-## Features
+#### Download latest version
 
-- No statically built html files
-- Simple and lightweight (~19kB gzipped)
-- Smart full-text search plugin
-- Multiple themes
-- Useful plugin API
-- Emoji support
-- Compatible with IE10+
-- Support server-side rendering ([example](https://github.com/docsifyjs/docsify-ssr-demo))
+* [Mac](https://api.runwayapp.ai/v1/download?platform=mac)
+* [Windows](https://api.runwayapp.ai/v1/download?platform=windows)
+* [Linux](https://api.runwayapp.ai/v1/download?platform=linux)
 
-## Examples
+#### System requirements
 
-Check out the [Showcase](https://github.com/docsifyjs/docsify/#showcase) to see docsify in use.
+* Mac, Windows, or Linux operating system
+* More than 4GB of RAM
+* [Docker](https://www.docker.com/) installed.
 
-## Donate
+<p class='note'><b>Note for Windows users</b>: Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise or Education editions of Windows.</p>
 
-Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](https://github.com/QingWei-Li/donate). :heart:
+### Join our community
 
-## Community
+Runway has an active community of creators and contributors on Slack. 
 
-Users and the development team are usually in the [Gitter chat room](https://gitter.im/docsifyjs/Lobby).
+You are encouraged to join our Slack group and introduce yourself, share projects, and provide feedback to help shape the future of Runway.
