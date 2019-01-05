@@ -69,8 +69,6 @@ And here's the modified code for the same model wrapped in a server so that Runw
 
 
 ```diff
-# model.py 
-
 import json
 from PIL import Image
 from torchvision import models, transforms
@@ -108,6 +106,7 @@ model = models.squeezenet1_1(pretrained=True)
 + if __name__ == '__main__':
 +     rw.run()
 ```
+<p class='subtitle'>Contents of model.py</p>
 
 Behind the scenes, the Runway Python SDK sets up a server with an endpoint `/classify` accepting a base64-encoded image, which it then converts into a `PIL.Image` before passing it to the `classify()` function.
 

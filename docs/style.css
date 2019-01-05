@@ -1,6 +1,17 @@
+p {
+    line-height: 2;
+}
+
 .note {
     border: 1px solid gray;
     border-radius: 5px;
     padding: 1em;
-    margin: 1em;
+    margin: 30px 0 !important;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 14px;
+    margin: -20px 0 40px 0;
+    text-align: center;
 }
