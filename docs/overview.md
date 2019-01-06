@@ -1,5 +1,11 @@
 # Overview
 
+Runway is a toolkit that enables creators of all kinds to use artificial intelligence in an intuitive way. Runway is composed of two main parts: 
+- An desktop app with a simple and intuitive visual interface.
+- A dev API to run a headless version of Runway. *Coming soon!*
+
+In this quick overview, we will go over the desktop, and explain how the interface works.
+
 ## Models Directory
 
 ![Models Directory](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/models_directory_annotated.png)
@@ -35,3 +41,4 @@
 
 * __Cloud GPU__: Run models powered with GPUs from a variety of cloud providers.
 * __Training__: Train models on your own datasets.
+

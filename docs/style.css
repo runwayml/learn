@@ -15,3 +15,26 @@ p {
     margin: -20px 0 40px 0;
     text-align: center;
 }
+
+
+.next{
+    border-radius: 5px;
+    padding: 1em;
+    margin: 30px 0 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.Img-Small{
+    width: 100%;
+    text-align: center;
+}
+
+.Img-Small img{
+    width: 20rem !important;
+}
+
+.Img-Small p{
+    margin: 0px;
+    font-style: italic;
+    font-size: 0.8rem;
+}

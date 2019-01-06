@@ -1,4 +1,4 @@
-# Runway Documentation
+# Welcome to Runway!
 
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
@@ -26,6 +26,16 @@ You will need to have a valid beta invite to be part of this program. If you hav
 
 ### Join our community
 
-Runway has an active community of creators and contributors on Slack. 
+Runway has an active community of creators and contributors on Slack. Join the community [here](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc)
 
 You are encouraged to join our Slack group and introduce yourself, share projects, and provide feedback to help shape the future of Runway.
+
+If you want to contribute to the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](/#/contributing)
+
+<p class='next'>
+  <b><a href="/#/installation">
+   Read Next: Installation
+  </b></a> 
+  <br/> 
+  Create an account and learn how to start using Runway
+</p>

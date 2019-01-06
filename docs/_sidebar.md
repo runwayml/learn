@@ -1,5 +1,6 @@
 * Getting started
-    * [Quickstart](quickstart.md)
+    * [Introduction to Runway](README.md)
+    * [Installation](installation.md)
     * [Overview](overview.md)
     * [A Brief Introduction to AI](intro-to-ai.md)
 
