@@ -1,12 +1,14 @@
-![Runway Screenshot](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/models_directory.png)
-
-# Runway
+# Runway Documentation
 
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
 Welcome to Runway! Runway is a toolkit that enables creators of all kinds to use artificial intelligence in an intuitive way. Runway allows you to discover new machine learning models, try them out using a simple visual interface, and connect them to third-party applications. This documentation contains an overview of Runway's features and a collection of examples to help get you up and running. 
 
-### Try Runway
+![Runway Screenshot](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/models_directory.png)
+
+### Try Runway Beta
+
+You will need to have a valid beta invite to be part of this program. If you haven't signed up for the beta please register [here](https://runwayapp.ai/). We will be slowly sending out invites to the beta over the next few months.
 
 #### Download latest version
 
