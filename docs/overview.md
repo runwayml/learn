@@ -8,7 +8,7 @@ Runway is a toolkit that enables creators of all kinds to use artificial intelli
 
 In this quick overview, we will go over the desktop application, explain how the interface works and how you can start using state of the art artificial intelligence models with a few simple clicks!
 
-The current beta version of Runway (*Release 0.0.4*) has three main views: I/O, Models Directory and Settings. You can switch between views clicking on the vertical menu on the left.
+The current beta version of Runway (*Release 0.1.0*) has three main views: I/O, Models Directory and Settings. You can switch between views clicking on the vertical menu on the left.
 
 ## 1) I/O View
 
