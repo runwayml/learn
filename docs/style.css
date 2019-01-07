@@ -30,10 +30,31 @@ p {
 }
 
 .Img-Small img{
-    width: 20rem !important;
+    width: 20rem;
+    height: 100%;
 }
 
 .Img-Small p{
+    margin: 0px;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.RectImg img{
+    height: 10rem !important;
+    width: 10rem !important;
+}
+
+.Img-with-Description{
+    width: 100%;
+    text-align: center;
+}
+
+.Img-with-Description img{
+    margin: 0px;
+}
+
+.Img-with-Description p{
     margin: 0px;
     font-style: italic;
     font-size: 0.8rem;
