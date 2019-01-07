@@ -67,3 +67,27 @@ p {
 .app-name-link img{
     width: 40px;
 }
+
+nav {
+    margin-top: 20px;
+}
+
+nav :any-link { 
+    color: #364149;
+    text-decoration: none;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+nav :any-link:active { 
+    color: #364149;
+    text-decoration: none;
+}
+
+nav.app-nav li ul {
+  min-width: 100px;
+}
+.sidebar>h1{
+  text-align: left;
+  margin-left: 1rem;
+}
