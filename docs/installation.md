@@ -70,6 +70,8 @@ Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/in
   <p>Docker icon in the Notifications area or System tray. </p>
 </div>
 
+<p class='note'><b>Check your Firewall</b>: If you encounter any issues with Docker on Windows, please check your Windows Firewall and see that it is not affecting Docker. Also, be sure that Windows has at least one Share Drive with Docker.</p>
+
 Please refer to [this official Docker](https://docs.docker.com/docker-for-windows/) installation guide on Windows if you are having any issues.
 
 - **On Linux**: verify if docker is installed and running with the following command:
