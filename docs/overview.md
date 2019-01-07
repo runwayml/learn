@@ -16,7 +16,7 @@ The I/O (Input/Output) is the main view and the one that you will see when the a
 
 ![Runway Welcome View](https://runway.nyc3.digitaloceanspaces.com/documentation/welcome_view.png)
 
-When you open a new model or load a Workspace the I/O View will change to display the Input/Output view. This is Runway's main view; the place where you can interact with your models with a variety of input and output options described below.
+When you open a new model or load a Workspace the I/O View will change to display the **Input/Output view**. This is Runway's main view; the place where you can interact with your models with a variety of input and output options described below.
 
 ![Input/Output View](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/io_view_annotated.png)
 
