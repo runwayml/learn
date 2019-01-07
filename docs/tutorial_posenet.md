@@ -52,7 +52,36 @@ Select the [PoseNet](https://github.com/runwayml/processing/blob/master/posenet/
 
 ![step 7](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/7_open_processing_sketch.png)
 
-In that small Processing sketch, the following set of lines allow you to listen for Runway data streams:
+In that small Processing sketch, the following set of lines set up the connection with the OSC server:
+
+```java
+void setup () {
+  // ...
+
+  // Set up OSC client
+  OscProperties properties = new OscProperties();
+  properties.setRemoteAddress("127.0.0.1", 57200);
+  properties.setListeningPort(57200);
+  properties.setDatagramSize(99999999);
+  properties.setSRSP(OscProperties.ON);
+  oscP5 = new OscP5(this, properties);
+
+  // Use the localhost and the port 57100 that we define in Runway
+  myBroadcastLocation = new NetAddress(runwayHost, runwayPort);
+
+  connect();
+
+  // ...
+}
+
+void connect() {
+  // Send message to subscribe to model updates
+  OscMessage m = new OscMessage("/server/connect");
+  oscP5.send(m, myBroadcastLocation);
+}
+```
+
+And the following code receives and parses updates from the model:
 
 ```java
 // OSC Event: listens to data coming from Runway
