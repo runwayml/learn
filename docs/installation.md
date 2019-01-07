@@ -36,7 +36,7 @@ After verifying your account you are good to go! If you log out of your account 
   <p>Account Verified. All Set!</p>
 </div>
 
-?> The app will auto-update every time there is a new update available. You will also see a message at the top right corner of the app if an update is ready. There's no need to download the app again for updates.
+?> The app will auto-update every time there is a new update available. You will also see a message at the top right corner of the app if an update is ready. There's no need to manually download the app again to receive updates.
 
 <p class='note'><b>Note for Linux users</b>: You will need to configure Runway to run as an AppImage. Please follow <a href="https://discourse.appimage.org/t/how-to-run-an-appimage/80">this extra step</a>.</p>
 
