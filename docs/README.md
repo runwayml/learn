@@ -22,7 +22,9 @@ You will need to have a valid beta invite to be part of this program. If you hav
 * More than 4GB of RAM
 * [Docker](https://www.docker.com/) installed.
 
-<p class='note'><b>Note for Windows users</b>: Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise or Education editions of Windows.</p>
+Please follow the installation guide [here](installation.md).
+
+<p class='note'><b>Note for Windows Users</b>: Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise or Education editions of Windows. If you don't have a Pro, Enterprise or Education Windows edition you will be only able to run some models. More on this <a href="/#/installation?id=download-docker">here.</a> </p>
 
 ### Join our community
 
@@ -30,12 +32,12 @@ Runway has an active community of creators and contributors on Slack. Join the c
 
 You are encouraged to join our Slack group and introduce yourself, share projects, and provide feedback to help shape the future of Runway.
 
-If you want to contribute to the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](/#/contributing)
+If you want to contribute to the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](/#/contributing).
 
 <p class='next'>
   <b><a href="/#/installation">
    Read Next: Installation
   </b></a> 
   <br/> 
-  Create an account and learn how to start using Runway
+  Install Runway, create an account and learn how to start building A.I projects.
 </p>
