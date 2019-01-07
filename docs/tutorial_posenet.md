@@ -2,6 +2,11 @@
 
 Runway provides a simple visual interface for experimenting with a variety of machine learning models, but what happens when you want to use those models outside of Runway, in your own applications? This tutorial demonstrates how to perform skeleton tracking in a Processing sketch by communicating in real-time with a pose estimation model running inside Runway.
 
+### Requirements
+
+- Runway Beta
+- [Processing](https://processing.org/download/)
+
 ### Step 1
 
 In this tutorial, we will use PoseNet, which is based on the paper [Towards Accurate Multi-person Pose Estimation in the Wild](https://arxiv.org/abs/1701.01779) and a [Tensorflow.js](https://js.tensorflow.org/) implementation by [Dan Oved](https://www.danioved.com/). The first step is selecting the PoseNet model from the Model Directory.
@@ -10,30 +15,59 @@ In this tutorial, we will use PoseNet, which is based on the paper [Towards Accu
 
 ### Step 2
 
+From the PoseNet model view, click on the right top dropdown menu and select **"Add to Workspace"** and then **"New Workspace"**. Create a new workspace by giving it any name you want. 
+
 ![step 2](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/2_add_posenet_to_workspace.png)
 
 ### Step 3
+
+On the I/O, select the **Input** dropdown and click **Camera**. This will allow Runway to access your webcam stream.
 
 ![step 3](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/3_select_camera_input.png)
 
 
 ### Step 4
 
+On the **Output** panel, click the dropdown menu and select **OSC**. OSC stands for Open Sound Control, and it is a protocol for networking computers. This will allow Runway to send data and for Processing to listen for incoming data.
+
 ![step 4](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/4_select_osc_output.png)
 
 ### Step 5
+
+With the **Camera** and the **OSC** options selected, click **Run PoseNet** on the lower right side of the application.
 
 ![step 5](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/5_run_posenet.png)
 
 ### Step 6
 
+Once the model is running, you will be able to see the output data in the **Format Type** panel. Every new frame being processed will show a progress bar under the camera input. This means the model is running and the data is being stream to an OSC server.
+
 ![step 6](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/6_posenet_running.png)
 
 ### Step 7
 
+Visit the [Runway+Processing](https://github.com/runwayml/processing) repository on GitHub and clone or download it. This repo contains a series of practical examples showing how to connect Runway with Processing.
+
+Select the [PoseNet](https://github.com/runwayml/processing/blob/master/posenet/posenet.pde) example and run it with the Processing IDE.
+
 ![step 7](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/7_open_processing_sketch.png)
 
+In that small Processing sketch, the following set of lines allow you to listen for Runway data streams:
+
+```java
+// OSC Event: listens to data coming from Runway
+void oscEvent(OscMessage theOscMessage) {
+  // The data is in a JSON string, so first we get the string value
+  String dataString = theOscMessage.get(0).stringValue();
+
+  // We then parse it as a JSONObject
+  data = parseJSONObject(dataString);
+}
+```
+
 ### Step 8
+
+Processing will now receive PoseNet data coming from Runway. Now go create something great in Processing using machine learning!
 
 ![step 8](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/8_voila.png)
 
