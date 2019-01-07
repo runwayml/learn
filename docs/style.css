@@ -33,6 +33,10 @@ p {
     width: 20rem !important;
 }
 
+.Img-Medum img{
+    width: 40rem !important;
+}
+
 .Img-Small p{
     margin: 0px;
     font-style: italic;

@@ -17,7 +17,7 @@
 
 * Tutorials
     * [Using Your First AI Model](quickstart.md)
-    * [Classifying a Folder of Images](overview.md)
+    * [Captioning every image in a folder](tutorial_im2txt.md)
     * [Pose Estimation in the Wild](overview.md)
     * [Playing with Text to Image](overview.md)
     * [AutoColorizing a Video](overview.md)
