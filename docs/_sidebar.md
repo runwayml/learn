@@ -2,7 +2,7 @@
     * [Introduction to Runway](/)
     * [Installation](installation.md)
     * [Overview](overview.md)
-    * [A Brief Introduction to A.I](intro-to-ai.md)
+    * [A Brief Introduction to A.I.](intro-to-ai.md)
 
 * How-To
     * [Import your own Models](importing.md)
