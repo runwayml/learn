@@ -21,16 +21,16 @@
 
 * Integrations 
     * [~~Ableton~~](#)
-    * [Arduino](https://github.com/runwayml/examples_arduino)
+    * [Arduino](https://github.com/runwayml/arduino)
     * [~~Blender~~](#)
-    * [Max/MSP](https://github.com/runwayml/examples_maxmsp)
-    * [OpenFrameworks](https://github.com/runwayml/examples_openFrameworks)
-    * [Processing](https://github.com/runwayml/examples_processing)
+    * [Max/MSP](https://github.com/runwayml/maxmsp)
+    * [OpenFrameworks](https://github.com/runwayml/openFrameworks)
+    * [Processing](https://github.com/runwayml/processing)
     * [~~Photoshop~~](#)
-    * [Pure Data](https://github.com/runwayml/examples_puredata)
+    * [Pure Data](https://github.com/runwayml/puredata)
     * [~~Sketch~~](#)
-    * [TouchDesinger](https://github.com/runwayml/examples_touchDesigner)
-    * [Unity](https://github.com/runwayml/examples_unity)
+    * [TouchDesinger](https://github.com/runwayml/touchDesigner)
+    * [Unity](https://github.com/runwayml/unity)
     * [~~Unreal Engine 4~~](#)
     * [~~VSCode~~](#)
 

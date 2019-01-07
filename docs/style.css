@@ -63,3 +63,7 @@ p {
     font-style: italic;
     font-size: 0.8rem;
 }
+
+.app-name-link img{
+    width: 40px;
+}
