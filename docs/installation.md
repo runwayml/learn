@@ -63,11 +63,11 @@ Once Docker is installed and running, you should see the following:
 
 Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac) installation guide on Mac if you are having any issues.
 
-- **On Windows**: a Docker icon in the top status bar. This indicates that Docker is running and accessible from Runway.
+- **On Windows**: a Docker icon in the bottom notifications area. This indicates that Docker is running and accessible from Runway.
 
-<div class="Img-Small RectImg">
+<div class="Img-Small">
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-windows.png" alt="Docker Icon mac" >
-  <p>Docker icon in the Notifications area or System tray. (Image from <a href="https://docs.docker.com/docker-for-windows/#docker-settings-dialog">Docker</a>) </p>
+  <p>Docker icon in the Notifications area or System tray. </p>
 </div>
 
 Please refer to [this official Docker](https://docs.docker.com/docker-for-windows/) installation guide on Windows if you are having any issues.
@@ -89,7 +89,7 @@ If Docker is not installed, unavailable or not running you will see the followin
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-unavailable-Runway.png" alt="Docker Icon mac" >
-  <p>A whale icon in the bottom status bar inside Runway.</p>
+  <p>If Docker is not available, Runway will show a "Docker Unavailable" message in the bottom status bar.</p>
 </div>
 
 ## Increase Docker memory limit
