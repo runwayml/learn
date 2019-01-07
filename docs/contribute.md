@@ -13,3 +13,11 @@ Runway allows you to connect state of the are machine learning models to third-p
 - [Prototype2-OFX-runwayml-websocket](https://github.com/ioio-creative/Prototype2-OFX-runwayml-websocket): A prototype of a OFX Runway client. By [IOIO Creative](http://ioiocreative.com/)
 - [Gaze Tracking in p5.js](https://lries.com/posts/gaze-tracking-runway-ml/): A simple sketch to run the gaze capture model with p5.js.
 - [“No Machine is an Island” at BBC](http://entretags.de/no-machine-is-an-island/): A physical installation that presents a conversation between two machines based on machine learning algorithms. By [Larissa Pschetz](http://entretags.de/) and [http://liuyuxi.xyz/](Yuxi Liu).
+
+<p class='next'>
+  <b><a href="/#/intro-to-ai">
+   Read Next: A tutorial on how to caption every image in a folder
+  </b></a> 
+  <br/> 
+  Learn how to use im2txt to caption images in a folder.
+</p>
