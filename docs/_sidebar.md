@@ -15,7 +15,7 @@
 
 * Tutorials
     * [Captioning every image in a folder](tutorial_im2txt.md)
-    * [Skeleton tracking in Processing](tutorial_posenet_processing.md)
+    * [Skeleton tracking in Processing](tutorial_posenet.md)
     * [~~Playing with Text to Image~~](tutorial_t2i.md)
     * [~~Auto Colorizing a Video~~](tutorial_colorzing_video.md)
 

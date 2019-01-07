@@ -1,2 +1,0 @@
-# Pose Estimation with Processing
-
