@@ -102,4 +102,4 @@ Processing will now receive PoseNet data coming from Runway. Now go create somet
 
 ### Summary
 
-This tutorial shows how to use a pose estimation model, called PoseNet, to perform pose estimation on the webcam stream and send the results to a Processing sketch.
+This tutorial shows how to use a pose estimation model, called PoseNet, to perform skeleton tracking on the webcam stream and send the results to a Processing sketch.

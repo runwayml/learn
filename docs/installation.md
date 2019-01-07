@@ -4,7 +4,7 @@ If you received a valid beta invite to be part of this program, please follow th
 
 ?> If you encounter any problems or issues with the installation, please send us an email to [support@runwayapp.ai](mailto:support@runwayapp.ai) or leave a message in the [`#login-and-account`](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc) channel in Slack.
 
-### Create an Account
+## Create an Account
 
 Once you have downloaded the app, open Runway by double clicking the icon and you will be prompt to create a new account. Start by entering the beta email associated with your account.
 
@@ -40,7 +40,7 @@ After verifying your account you are good to go! If you log out of your account 
 
 <p class='note'><b>Note for Linux users</b>: You will need to configure Runway to run as an AppImage. Please follow <a href="https://discourse.appimage.org/t/how-to-run-an-appimage/80">this extra step</a>.</p>
 
-### Download Docker
+## Download Docker
 
 In order to fully use all of Runway capabilities you will need to have [Docker](https://www.docker.com/) installed in your computer. This is only a requirement when running models on your computer *(cloud GPU support comming soon!)*. Docker CE is a free and open-source software.
 
@@ -92,6 +92,30 @@ If Docker is not installed, unavailable or not running you will see the followin
   <p>A whale icon in the bottom status bar inside Runway.</p>
 </div>
 
+## Increase Docker memory limit
+
+By default, Docker allocates a maximum of 2 GB of memory to run models. Some Runway models exceed that, which may lead to errors. To prevent that, you need to increase Docker's memory limit. Open Docker Preferences:
+
+<div class="Img-Small">
+  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/docker_open_preferences.png" alt="Docker Open Preferences" >
+  <p>Open Docker preferences.</p>
+</div>
+
+Go to the "Advanced" tab.
+
+<div class="Img-Small">
+  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/docker_advanced_tab.png" alt="Docker Open Preferences" >
+  <p>Go to the "Advanced" tab in Preferences.</p>
+</div>
+
+Increase the "Memory" slider to 8.0 GB, then click "Apply & Restart." 
+
+<div class="Img-Small">
+  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/docker_increase_limit.png" alt="Docker Open Preferences" >
+  <p>Increase Docker's memory limit.</p>
+</div>
+
+All set!
 
 <p class='next'>
   <b><a href="/#/overview">
