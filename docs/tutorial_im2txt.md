@@ -4,19 +4,19 @@ Runway makes it really simple to use AI to process your own photo albums, media 
 
 ![still images](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_im2txt_medialibrary/0_dataset.png)
 
-### Step 1: 
+### Step 1
 
 In this tutorial, we will use im2txt, which is based on the paper [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/pdf/1411.4555.pdf) released by Google Research. The first step is selecting the im2txt model from the Model Directory.
 
 ![step 1](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_im2txt_medialibrary/1_select_im2txt.png)
 
-### Step 2:
+### Step 2
 
 In this view, you can view information about the model, including a description of what the model does, licensing information, as well as the model input and output datatypes (`image` for the input image and `array[text, number]` for a list of captions and probabilities for each generated caption). To use im2txt, you will first need to install the model locally. Select "Install" to proceed to install im2txt.
 
 ![step 2](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_im2txt_medialibrary/2_install_im2txt.png)
 
-### Step 3:
+### Step 3
 
 Once the model has been installed, you can now add it to a workspace and start using it. Click "Add to Workspace" to create a new workspace for the model.
 

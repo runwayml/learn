@@ -18,7 +18,7 @@
 * Tutorials
     * [Using Your First AI Model](quickstart.md)
     * [Captioning every image in a folder](tutorial_im2txt.md)
-    * [Pose Estimation in the Wild](overview.md)
+    * [Skeleton Tracking in Processing](tutorial_posenet.md)
     * [Playing with Text to Image](overview.md)
     * [AutoColorizing a Video](overview.md)
 
