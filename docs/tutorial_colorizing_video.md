@@ -1,7 +1,6 @@
-# Colorizing a black and white video.
+# Colorizing black and white videos
 
-In this tutorial, we will colorize frames of a black and white video using a [Colorful Image Colorization](https://arxiv.org/abs/1603.08511) model by Zhang et al. to create a colorized version of the video. This model uses deep neural networks and can add color to greyscale photos.
-
+In this tutorial, we will colorize frames of a black and white video using the [Colorful Image Colorization](https://arxiv.org/abs/1603.08511) model by Zhang et al. This model uses a deep neural network to generate a colorized version of a greyscale image.
 
 ### Requirements
 
@@ -21,7 +20,7 @@ Next, click the install button the top right side of the app.
 
 ![Colorizing images with Runway, step 2](https://runway.nyc3.digitaloceanspaces.com/documentation/tutorial_colorization/2_install_model.png)
 
-This will prompt you to install the model. **You need to have Docker installed in order to continue.**
+This will prompt you to install the model. [**You need to have Docker installed in order to continue.**](/installation?id=download-docker)
 
 ?> Some deep learning models might be large so please note that downloading the model might take a couple of minutes.
 
