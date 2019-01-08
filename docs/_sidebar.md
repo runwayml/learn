@@ -14,9 +14,9 @@
     * [~~Run on Cloud GPU~~](cloud-gpu.md)
 
 * Tutorials
-    * [Playing with Text to Image](tutorial_t2i.md)
+    * [Playing with Text to Image (AttnGAN)](tutorial_t2i.md)
     * [Captioning every image in a folder](tutorial_im2txt.md)
-    * [Colorizing black and white videos](tutorial_colorizing_video.md)
+    * [Colorizing a black and white video](tutorial_colorizing_video.md)
     * [Skeleton tracking in Processing](tutorial_posenet.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
