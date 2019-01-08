@@ -15,7 +15,7 @@ Runway allows you to connect state of the are machine learning models to third-p
 - [“No Machine is an Island” at BBC](http://entretags.de/no-machine-is-an-island/): A physical installation that presents a conversation between two machines based on machine learning algorithms. By [Larissa Pschetz](http://entretags.de/) and [http://liuyuxi.xyz/](Yuxi Liu).
 
 <p class='next'>
-  <b><a href="/#/intro-to-ai">
+  <b><a href="/#/tutorial_im2txt">
    Read Next: A tutorial on how to caption every image in a folder
   </b></a> 
   <br/> 

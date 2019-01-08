@@ -13,7 +13,7 @@ People have trained and built models for many different purposes, including mode
 Reality is complex, so a model will never be able to completely mimic real phenomena. But we should pick a model that catches the broad strokes of behaviour. Keep in mind the famous words of the great statistician George Box: "*All models are wrong, but some are useful* ".
 
 <p class='next'>
-  <b><a href="/#/">
+  <b><a href="/#/tutorial_im2txt">
    Read Next: Learn how to classify all images in a folder.
   </b></a> 
   <br/> 
