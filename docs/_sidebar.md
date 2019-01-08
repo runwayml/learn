@@ -4,6 +4,14 @@
     * [Overview](overview.md)
     * [A Brief Introduction to A.I.](intro-to-ai.md)
 
+* Tutorials
+    * [Playing with Text to Image (AttnGAN)](tutorial_t2i.md)
+    * [Captioning every image in a folder](tutorial_im2txt.md)
+    * [Colorizing a black and white video](tutorial_colorizing_video.md)
+    * [Skeleton tracking in Processing](tutorial_posenet.md)
+    * [~~Background Removal in Photoshop~~](#)
+    * [~~Skeleton tracking in Unity~~](#)
+
 * How-To
     * [Import your own Models](importing.md)
     * [Contribute to Runway](contribute.md)
@@ -12,14 +20,6 @@
     * [~~Select your Input Source~~](input-source.md)
     * [~~Select your Output Source~~](output-source.md)
     * [~~Run on Cloud GPU~~](cloud-gpu.md)
-
-* Tutorials
-    * [Playing with Text to Image (AttnGAN)](tutorial_t2i.md)
-    * [Captioning every image in a folder](tutorial_im2txt.md)
-    * [Colorizing a black and white video](tutorial_colorizing_video.md)
-    * [Skeleton tracking in Processing](tutorial_posenet.md)
-    * [~~Background Removal in Photoshop~~](#)
-    * [~~Skeleton tracking in Unity~~](#)
 
 * Integrations 
     * [~~Ableton~~](#)
