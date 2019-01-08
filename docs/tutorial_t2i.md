@@ -1,6 +1,6 @@
 # Experimenting with GANs: Playing with Text to Image
 
-Runway allows you to use and experiment with state of the art machine learning models without coding a single line of code. In this tutorial we will use an model called [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://github.com/taoxugit/AttnGAN/) by Tao Xu et al. to **generate images based on text.** This is the same model you can find in the interactive web experiment [Text2Image](https://t2i.cvalenzuelab.com/).
+Runway allows you to use and experiment with state of the art machine learning models without typing a single line of code. In this tutorial we will be using an model called [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://github.com/taoxugit/AttnGAN/) by Tao Xu et al. to **generate images based on text.** This is the same model you can find in the interactive web experiment [Text2Image](https://t2i.cvalenzuelab.com/).
 
 
 ### Requirements
@@ -35,7 +35,7 @@ Once the model is installed, you will be able to add it to a Workspace. Click on
 
 ### Step 4
 
-On the I/O View select the **Text** option in the **Input** dropdown.
+From the **Input** dropdown in the I/O View select the **Text** option.
 
 ![GAN, AttnGAN with Runway, step 4](https://runway.nyc3.digitaloceanspaces.com/documentation/tutorial_attngan_local/6_select_input_text.png)
 
@@ -53,7 +53,7 @@ Next, click the **Run AttnGAN** button on the bottom right corner.
 
 ### Step 7
 
-Once the model is running and available to use, you will be able to type anything in the **Text** input box and generate your own A.I based images based on your text!
+Once the model is running, you will be able to type anything in the **Text** input box and generate your own A.I based images based on your text!
 
 ![GAN, AttnGAN with Runway, step 5](https://runway.nyc3.digitaloceanspaces.com/documentation/tutorial_attngan_local/9_image_generated.png)
 

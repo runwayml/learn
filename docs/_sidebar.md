@@ -16,8 +16,10 @@
 * Tutorials
     * [Playing with Text to Image](tutorial_t2i.md)
     * [Captioning every image in a folder](tutorial_im2txt.md)
+    * [Colorizing black and white videos](tutorial_colorizing_video.md)
     * [Skeleton tracking in Processing](tutorial_posenet.md)
-    * [~~Auto Colorizing a Video~~](tutorial_colorzing_video.md)
+    * [~~Background Removal in Photoshop~~](#)
+    * [~~Skeleton tracking in Unity~~](#)
 
 * Integrations 
     * [~~Ableton~~](#)
