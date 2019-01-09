@@ -1,6 +1,6 @@
 # Installation
 
-If you received a valid beta invite to be part of this program, please follow the link provided in the email and download the right version for your operating system. You can also find the link to download the app [here](http://localhost:4000/#/?id=download-latest-version).
+If you received a valid beta invite to be part of this program, please follow the link provided in the email and download the right version for your operating system. You can also find the link to download the app [here](/?id=download-latest-version).
 
 ?> If you encounter any problems or issues with the installation, please send us an email to [support@runwayapp.ai](mailto:support@runwayapp.ai) or leave a message in the [`#login-and-account`](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc) channel in Slack.
 
