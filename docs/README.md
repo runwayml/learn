@@ -8,13 +8,7 @@ Welcome to Runway! Runway is a toolkit that enables creators of all kinds to use
 
 ### Try Runway Beta
 
-You will need to have a valid beta invite to be part of this program. If you haven't signed up for the beta please register [here](https://runwayapp.ai/). We will be slowly sending out invites to the beta over the next few months.
-
-#### Download latest version
-
-* [Mac](https://api.runwayapp.ai/v1/download?platform=mac)
-* [Windows](https://api.runwayapp.ai/v1/download?platform=windows)
-* [Linux](https://api.runwayapp.ai/v1/download?platform=linux)
+**You will need to have a valid beta invite to be part of this program.** If you haven't signed up for the beta please register [here](https://runwayapp.ai/). We will be slowly sending out invites to the beta over the next few months.
 
 #### System requirements
 
