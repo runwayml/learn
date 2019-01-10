@@ -31,7 +31,7 @@
     * [~~Photoshop~~](#)
     * [Pure Data](https://github.com/runwayml/puredata)
     * [~~Sketch~~](#)
-    * [TouchDesinger](https://github.com/runwayml/touchDesigner)
+    * [TouchDesigner](https://github.com/runwayml/touchDesigner)
     * [Unity](https://github.com/runwayml/unity)
     * [~~Unreal Engine 4~~](#)
     * [~~VSCode~~](#)
