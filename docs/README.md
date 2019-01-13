@@ -13,7 +13,7 @@ Welcome to Runway! Runway is a toolkit that enables creators of all kinds to use
 #### System requirements
 
 * Mac, Windows, or Linux operating system
-* More than 4GB of RAM
+* More than 8GB of RAM
 * [Docker](https://www.docker.com/) installed.
 
 Please follow the installation guide [here](installation.md).
