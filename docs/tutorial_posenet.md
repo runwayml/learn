@@ -46,7 +46,9 @@ Once the model is running, you will be able to see the output data in the **Form
 
 ### Step 7
 
-Visit the [Runway+Processing](https://github.com/runwayml/processing) repository on GitHub and clone or download it. This repo contains a series of practical examples showing how to connect Runway with Processing.
+Install the [OSC-P5](http://www.sojamo.de/libraries/oscP5/) module (as it is not a standard Processing Library). In Processing go to: Sketch > Import Library > Add Library and type `OSCp5` then click `install`.
+
+Nest, visit the [Runway+Processing](https://github.com/runwayml/processing) repository on GitHub and clone or download it. This repo contains a series of practical examples showing how to connect Runway with Processing.
 
 Select the [PoseNet](https://github.com/runwayml/processing/blob/master/posenet/posenet.pde) example and run it with the Processing IDE.
 
