@@ -9,6 +9,7 @@
     * [Captioning every image in a folder](tutorial_im2txt.md)
     * [Colorizing a black and white video](tutorial_colorizing_video.md)
     * [Skeleton tracking in Processing](tutorial_posenet.md)
+    * [Applying Style Transfer to an Image](tutorial_style_transfer.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
 

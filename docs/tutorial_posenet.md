@@ -11,13 +11,13 @@ Runway provides a simple visual interface for experimenting with a variety of ma
 
 In this tutorial, we will use PoseNet, which is based on the paper [Towards Accurate Multi-person Pose Estimation in the Wild](https://arxiv.org/abs/1701.01779) and a [Tensorflow.js](https://js.tensorflow.org/) implementation by [Dan Oved](https://www.danioved.com/). The first step is selecting the PoseNet model from the Model Directory.
 
-![Skeleton tracking in Processing with Runway, step 1](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/1_select_posenet.png)
+![Skeleton tracking in Processing with Runway, step 1](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/posenet01.jpg)
 
 ### Step 2
 
 From the PoseNet model view, click on the right top dropdown menu and select **"Add to Workspace"** and then **"New Workspace"**. Create a new workspace by giving it any name you want. 
 
-![Skeleton tracking in Processing with Runway, step 1](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/2_add_posenet_to_workspace.png)
+![Skeleton tracking in Processing with Runway, step 1](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/posenet02.jpg)
 
 ### Step 3
 

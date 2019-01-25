@@ -12,23 +12,26 @@ In this tutorial, we will colorize frames of a black and white video using the [
 
 The first step is to select the model **Automatic Colorization** from the Model Directory:
 
-![Colorizing images with Runway, step 1](https://runway.nyc3.digitaloceanspaces.com/documentation/tutorial_colorization/1_%20select_model.png)
+![Colorizing images with Runway, step 1](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/automatic01.jpg)
 
 ### Step 2
 
-Next, click the install button the top right side of the app.
+Next, add the model to a workspace from the top right side of the app.
 
-![Colorizing images with Runway, step 2](https://runway.nyc3.digitaloceanspaces.com/documentation/tutorial_colorization/2_install_model.png)
+![Colorizing images with Runway, step 2](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/automatic02.jpg)
 
-This will prompt you to install the model. [**You need to have Docker installed in order to continue.**](/installation?id=download-docker)
 
-?> Some deep learning models might be large so please note that downloading the model might take a couple of minutes.
+### Step 3 
 
-### Step 3
+If you haven't installed **Automatic Colorization**, the bottom right button will prompt you to install the model.  **You need to have Docker installed in order to continue.**
 
-Once the model is installed, you will be able to add it to a Workspace. Click on the dropdown menu and create a new workspace.
+![Colorizing images with Runway, step 3](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/automatic03.jpg)
 
-![Colorizing images with Runway, step 3](https://runway.nyc3.digitaloceanspaces.com/documentation/tutorial_colorization/3_add_to_workspace.png)
+
+?> Some deep learning models might be large so please note that downloading the model might take a couple of minutes. In this case, **Automatic Colorization** might take **4 to 8 minutes** to download depending on your internet connection.
+
+![Colorizing images with Runway, step 4](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/automatic04.jpg)
+
 
 ### Step 4
 

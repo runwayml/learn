@@ -10,15 +10,15 @@ In this quick overview, we will go over the desktop application, explain how the
 
 The current beta version of Runway (*Release 0.1.0*) has three main views: I/O, Models Directory and Settings. You can switch between views clicking on the vertical menu on the left.
 
-## 1) I/O View
+## 1) Start Screen
 
-The I/O (Input/Output) is the main view and the one that you will see when the app first starts. If there are no **Workspaces** created (more on Workspaces below) or Models running you will see the initial **Welcome Screen**. On the **Welcome Screen** you'll get information about the current release, links to documentation, new features and general information about your account.
+You will see the **Start Screen** everytime the app starts. Choose **Start from a Model** or restore a previous **Workspace** (more on Workspaces below). Also, on the **Start View** you'll get links to documentation and tutorials, and links to our community channels.
 
-![Runway Welcome View](https://runway.nyc3.digitaloceanspaces.com/documentation/welcome_view.png)
+![Runway Welcome View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/splash.jpg)
 
-When you open a new model or load a Workspace the I/O View will change to display the **Input/Output view**. This is Runway's main view; the place where you can interact with your models with a variety of input and output options described below.
+When you open a new model or load a Workspace the **Start Screen** will change to display the **Input/Output view**. This is Runway's main view; the place where you can interact with your models with a variety of input and output options described below.
 
-![Input/Output View](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/io_view_annotated.png)
+![Input/Output View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/io_annotated.jpg)
 
 - 1) **Workspaces and Models**: All current Workspaces and Models will be visible in this panel. The Workspace and Model that's currently being used will be highlighted.
 - 2) **Current Input Source**: Depending on the model you are working on, the input source will vary. Here is a list of current supported input values:
@@ -34,7 +34,7 @@ When you open a new model or load a Workspace the I/O View will change to displa
 | OSC        | all types       | Query and receive results using OSC over UDP      |
 
 - 3) **Change Input Source**: From this dropdown menu you can switch the type of input you want for the selected model. 
-- 4) **Model Options**: Technically called *Hyperparameters*, this are the arguments and variables from where you can tweak and change the way the model works. Every model has it's own custom set of configurations and some might not have at all.
+- 4) **Model and Input Options**: Technically called *Hyperparameters*, this are the arguments and variables from where you can tweak and change the way the model works. Every model has it's own custom set of configurations and some might not have at all. Some inputs Options, like camare settings, might be configured here too. 
 - 5) **Output Data**: Once a model is running, you will be able to see its data output in this panel. For the most part, this will be a `JSON` data structure containing the current values created by passing the input through the model.
 - 6) **Output View**: From this panel you can select the type of output for your model. Here is a list of current supported output options:
 
@@ -47,7 +47,7 @@ When you open a new model or load a Workspace the I/O View will change to displa
 | OSC        | Query and receive results using OSC over UDP                        |
 
 - 7) **Change Output Option**: From this dropdown menu you can switch the type of output you want for the selected model. 
-- 8) **Run/Stop**: This button will allow you to start and stop your models. As of release 0.1.0 models can only be run locally.
+- 8) **Run/Stop & Install**: This button will allow you to start and stop your models. As of release 0.2.0 models can only be run locally. Uninstalled models will prompt here to install them before first use. 
 
 <p class='note'>
   Upcoming updates will include: <br>
@@ -67,7 +67,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 Runway's **Models Directory** is a unique place to search, discover, publish, install new models. You can search for models with specific attributes, input types, creator, functionality or date. Runway comes with a pre-packed set of models that are ready to use right out of the box, but you will need to download and install other models.
 
-![Models Directory](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/models_directory_annotated.png)
+![Models Directory](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/models_directory_annotated.jpg)
 
 - 1) **Your Models**: This panel gives you quick access to already installed models.
 - 2) **Import Model**: This button will allow you to import models into Runway. Check how to import models [here](importing.md).
@@ -77,10 +77,10 @@ Runway's **Models Directory** is a unique place to search, discover, publish, in
 
 Here, you learn more about the model, its authors, specifications and characteristics, as well as licensing information.
 
-![Input/Output View](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/model_view.png)
+![Input/Output View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/models_info_annotated.jpg)
 
-- 1) **Information**: Name, authors, description and license of the model.
-- 2) **Install and Use**: Whenever you want to install and/or use a model you will need to go here. If the model is not installed, you will be able to install it.
+- 1) **Information**: Name, authors, gallery, description and license of the model.
+- 2) **Use (add to Workspace)**: Whenever you want to use a model you will need to go here. If the model is not installed, you will be able to install it from the Input/Output View.
 - 3) **Characteristics**: A summary table with the model's main characteristics.
 
 ## 4) Settings
