@@ -12,11 +12,11 @@ The current beta version of Runway (*Release 0.1.0*) has three main views: I/O, 
 
 ## 1) Start Screen
 
-You will see the **Start Screen** everytime the app starts. Choose **Start from a Model** or restore a previous **Workspace** (more on Workspaces below). Also, on the **Start View** you'll get links to documentation and tutorials, and links to our community channels.
+Every time you open Runway you will see the **Start Screen**. Here you can choose to **Start from a Model** or restore a previous **Workspace** (more on Workspaces below).
 
 ![Runway Welcome View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/splash.jpg)
 
-When you open a new model or load a Workspace the **Start Screen** will change to display the **Input/Output view**. This is Runway's main view; the place where you can interact with your models with a variety of input and output options described below.
+Once you select a model or load a Workspace, you will see the **Input/Output view**. This is Runway's main view; the place where you can interact with your models with a variety of input and output options described below.
 
 ![Input/Output View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/io_annotated.jpg)
 
@@ -75,13 +75,13 @@ Runway's **Models Directory** is a unique place to search, discover, publish, in
 
 ## 3) Model Information
 
-Here, you learn more about the model, its authors, specifications and characteristics, as well as licensing information.
+Every model in Runway has its own view. From here, you can learn more about the model, authors, specifications and characteristics, examples and license.
 
 ![Input/Output View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/models_info_annotated.jpg)
 
 - 1) **Information**: Name, authors, gallery, description and license of the model.
-- 2) **Use (add to Workspace)**: Whenever you want to use a model you will need to go here. If the model is not installed, you will be able to install it from the Input/Output View.
-- 3) **Characteristics**: A summary table with the model's main characteristics.
+- 2) **Use (add to Workspace)**: Add this model to a workspace.
+- 3) **Characteristics**: A summary table with the main characteristics of the model.
 
 ## 4) Settings
 
