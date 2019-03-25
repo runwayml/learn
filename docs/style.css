@@ -1,0 +1,93 @@
+p {
+    line-height: 2;
+}
+
+.note {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 30px 0 !important;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 14px;
+    margin: -20px 0 40px 0;
+    text-align: center;
+}
+
+
+.next{
+    border-radius: 5px;
+    padding: 1em;
+    margin: 30px 0 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.Img-Small{
+    width: 100%;
+    text-align: center;
+}
+
+.Img-Small img{
+    width: 20rem;
+    height: 100%;
+}
+
+.Img-Medum img{
+    width: 40rem !important;
+}
+
+.Img-Small p{
+    margin: 0px;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.RectImg img{
+    height: 10rem !important;
+    width: 10rem !important;
+}
+
+.Img-with-Description{
+    width: 100%;
+    text-align: center;
+}
+
+.Img-with-Description img{
+    margin: 0px;
+}
+
+.Img-with-Description p{
+    margin: 0px;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.app-name-link img{
+    width: 40px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav :any-link { 
+    color: #364149;
+    text-decoration: none;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+nav :any-link:active { 
+    color: #364149;
+    text-decoration: none;
+}
+
+nav.app-nav li ul {
+  min-width: 100px;
+}
+.sidebar>h1{
+  text-align: left;
+  margin-left: 1rem;
+}
