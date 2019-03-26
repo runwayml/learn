@@ -10,6 +10,8 @@
     * [Colorizing a black and white video](tutorial_colorizing_video.md)
     * [Skeleton tracking in Processing](tutorial_posenet.md)
     * [Applying Style Transfer to an Image](tutorial_style_transfer.md)
+    * [Image Classification with MobileNet](tutorial_mobilenet.md)
+    * [Object Localization with COCO-SSD](tutorial_cocossd.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
 
