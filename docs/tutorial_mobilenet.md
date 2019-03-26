@@ -6,8 +6,6 @@ model to identify the objects in an image folder.
 
 ### Requirements
 * Runway Beta
-* Docker (If you don't have Docker installed, please follow the
-  installation instructions [here](https://docs.runwayapp.ai/#/installation?id=download-docker))
 * A folder with multiple image files
 
 ### Step 1

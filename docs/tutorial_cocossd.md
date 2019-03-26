@@ -6,8 +6,6 @@ In this tutorial, we will use COCO-SSD to find and label the elements shown in a
 
 ### Requirements
 * Runway Beta
-* Docker (If you don't have Docker installed, please follow the
-  installation instructions [here](https://docs.runwayapp.ai/#/installation?id=download-docker))
 * A video that features everyday items
 
 ### Step 1
