@@ -1,5 +1,5 @@
 
-# Tutorial: Object localization with COCO-SSD
+# Tutorial: Object Localization with COCO-SSD
 
 Runway facilitates object detection and identification in images and video. 
 In this tutorial, we will use COCO-SSD to find and label the elements shown in a movie.
@@ -8,7 +8,7 @@ In this tutorial, we will use COCO-SSD to find and label the elements shown in a
 * Runway Beta
 * Docker (If you don't have Docker installed, please follow the
   installation instructions [here](https://docs.runwayapp.ai/#/installation?id=download-docker))
-* A video that features everyday items.
+* A video that features everyday items
 
 ### Step 1
 
