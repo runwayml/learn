@@ -12,6 +12,7 @@
     * [Applying Style Transfer to an Image](tutorial_style_transfer.md)
     * [Image Classification with MobileNet](tutorial_mobilenet.md)
     * [Object Localization with COCO-SSD](tutorial_cocossd.md)
+    * [Creating Contour Drawings with PhotoSketch](tutorial_photosketch.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
 
