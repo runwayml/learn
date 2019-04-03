@@ -13,26 +13,26 @@ In this tutorial, we will use PhotoSketch to create an outline from your camera 
 
 Select the **PhotoSketch** model from the Model Directory.
 
-![Select Model](01_select_model.png)
+![Select Model](images/tutorial_photosketch/01_select_model.png)
 
 ## Step 2
 
 Add the model to a workspace using the drop-down list on the top right
 side of the app.
 
-![Add to Workspace](02_add_to_workspace.png)
+![Add to Workspace](images/tutorial_photosketch/02_add_to_workspace.png)
 
 ## Step 3
 
 Select **Input** > **Camera**
 
-![Set Input](03_set_input.png)
+![Set Input](images/tutorial_photosketch/03_set_input.png)
 
 ## Step 4
 
 Set the camera and image options.
 
-![Settings](04_settings.png)
+![Settings](images/tutorial_photosketch/04_settings.png)
 
 ## Step 5
 
@@ -43,13 +43,13 @@ To use a remote GPU, make sure you have available credits, toggle the **Enable R
 
 Alternatively, you may run the model locally. Toggle the remote GPU off, and make sure Docker is running. Click on the button on the bottom right to download the model and run it locally.
 
-![HTTP Output](05_http.png)
+![HTTP Output](images/tutorial_photosketch/05_http.png)
 
 ## Step 6
 
 In the external app, make sure Runway's server and routes match to receive the output as a base 64 image.
 
-![Success](06_success.png)
+![Success](images/tutorial_photosketch/06_success.png)
 
 ## Summary
 
