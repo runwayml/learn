@@ -41,7 +41,6 @@ Use the HTTP server and route to send the resulting image to an external app.
 
 Choose to run it locally or remotely on an external GPU. You can enable the remote GPU by toggling the  **Enable Remote GPU** switch on. Next, click on **Run Remotely**.
 
-Alternatively, you may run the model locally. Toggle the remote GPU off, and make sure Docker is running. Click on the button on the bottom right to download the model and run it locally.
 
 ![HTTP Output](images/tutorial_photosketch/05_http.png)
 
