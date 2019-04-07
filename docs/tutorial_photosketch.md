@@ -52,4 +52,4 @@ In the external app, make sure Runway's server and routes match to receive the o
 
 ## Summary
 
-This tutorial uses PhotoSketch to generate contour drawings from your camera input.
+In this tutorial, we used the PhotoSketch model to generate live contour drawings from your webcam stream and use those as inputs to draw on a web app.
