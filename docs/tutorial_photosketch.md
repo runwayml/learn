@@ -6,7 +6,7 @@ In this tutorial, we will use PhotoSketch to create an outline from your camera 
 
 ## Requirements
 * Runway Beta
-* Docker to run the model locally, or enough credits to use a remote GPU (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/installation?id=download-docker))
+* Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/installation?id=download-docker))
 * A webcam or built-in camera
 
 ## Step 1
