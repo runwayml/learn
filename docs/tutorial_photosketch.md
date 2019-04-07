@@ -39,7 +39,7 @@ Set the camera and image options.
 Select **Output** > **Network**, and click on **HTTP**.
 Use the HTTP server and route to send the resulting image to an external app.
 
-To use a remote GPU, make sure you have available credits, toggle the **Enable Remote GPU** switch on, and click on **Run Remotely**.
+Choose to run it locally or remotely on an external GPU. You can enable the remote GPU by toggling the  **Enable Remote GPU** switch on. Next, click on **Run Remotely**.
 
 Alternatively, you may run the model locally. Toggle the remote GPU off, and make sure Docker is running. Click on the button on the bottom right to download the model and run it locally.
 
