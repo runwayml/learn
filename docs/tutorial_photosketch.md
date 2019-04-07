@@ -1,7 +1,7 @@
 
 # Tutorial: Creating Contour Drawings with PhotoSketch
 
-Runway allows you to generate contour drawings from images automatically.
+The [PhotoSketch model](https://arxiv.org/pdf/1901.00542.pdf) created by Li et al. allows you to infer contour drawings from images automatically.
 In this tutorial, we will use PhotoSketch to create an outline from your camera input. Then, we will output the resulting image via HTTP for external use.
 
 ## Requirements
