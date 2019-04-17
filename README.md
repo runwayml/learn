@@ -4,6 +4,7 @@
   </p>
 </a>
 
+[![Runway Slack](https://img.shields.io/badge/slack-runwayml.slack.com-33b279.svg)](https://runwayml.slack.com/)
 
 This is the public documentation for [Runway](https://runwayapp.ai/). This includes technical references, the Runway API docs, tutorials and examples.
 
