@@ -1,4 +1,9 @@
-# Runway Documentation
+<a href="#" target='_self' >
+  <p align="center">
+    <img src="./assets/banner.png">
+  </p>
+</a>
+
 
 This is the public documentation for [Runway](https://runwayapp.ai/). This includes technical references, the Runway API docs, tutorials and examples.
 
