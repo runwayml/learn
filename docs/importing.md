@@ -183,10 +183,11 @@ Once you've imported your model, a model build should be triggered automatically
 
 ![Import Model #6](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/6_small.png)
 
-You can view model logs during or after a build to debug your model build process.
+Clicking on a model version to view details about the build. You will notice that the `default` switch is flipped automatically for the first build. This means that the model is now published by your Runway users and available for others to use. You can set any successfully built version to be the `default` version, but you must have at least one default version. This is an intentional decision for the time being, as _Private Models_ is a feature still to come.
 
 ![Import Model #7](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/7_small.png)
 
+You can view model logs during or after a build to debug your model build process.
+
 ![Import Model #8](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/8_small.png)
 
-#### 5. Edit Model Metadata and Publish
