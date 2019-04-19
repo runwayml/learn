@@ -1,29 +1,37 @@
 # Importing Models into Runway
 
-<p class='note'><b>Note</b>: The importing functionality will be enabled in the next version of the beta.</p>
+Runway models are platform-agnostic; models written in any framework/language can be used by Runway as long as the model can be made accessible via an HTTP server. This process, however, is easiest in Python where we provide an SDK for parsing the inputs to the model, serializing its outputs, and setting up the server environment.
 
-A Runway Model consists of a Docker image serving a machine learning algorithm, and a specification that includes instructions for how to run that Docker image (e.g. entrypoint command, server port, inputs/outputs) and relevant metadata (e.g. author, paper, Github repo). 
+A Runway Model consists of an HTTP server that exposes a common interface over a network and a configuration file that specifies dependencies and build steps for running that server (and your model code) inside a Docker container. Both the network interface for interacting with the model and the Docker images created as a result of the configuration file are abstracted from the developer using the [Runway Model SDK](https://sdk.runwayml.com).
 
-Runway is platform-agnostic; models written in any framework/language can be used by Runway as long as the model can be made accessible in an HTTP server. The process however is easiest in Python where we provide an SDK for parsing the inputs to the model, serializing its outputs, and setting up the server.
+Here are the steps involved in porting an ML model written in Python to Runway:
 
-Here are the steps involved in porting an ML model into Runway:
+1. Create a `runway_model.py` file which implements several methods from the [Runway Model SDK](https://sdk.runwayml.com).
+1. Write a `runway.yml` config file.
+1. Upload your code to a GitHub repository.
+1. Import your new model into the Runway app using your GitHub account.
 
-1. Create a model server
-2. Wrap the model server and its dependencies in a Docker container
-3. Write a specification JSON file that points to the Docker container and also contains input/output datatype information, so that Runway knows how to interact with the model
-4. Import the model into the Runway app
+Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
 
-### Example: Importing SqueezeNet into Runway
+In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv.org/abs/1512.03385) computer vision model to Runway. We also provide a [Runway Model Template](https://github.com/runwayml/model-template) repository that contains boilerplate code for porting a new model.
 
-#### 1. Create a model server
+### Importing SqueezeNet into Runway
 
-[SqueezeNet](https://arxiv.org/abs/1512.03385) is a neural network architecture used for computer vision tasks, optimized for mobile/embedded devices. [PyTorch](https://github.com/pytorch/vision) includes an implementation of SqueezeNet pretrained on ImageNet that can be used out-of-the-box for object recognition.
+We recommend cloning the `runwayml/squeezenet` GitHub repository so that you can follow along with the tutorial.
 
-Here's the code to classify a single local image (via hard-coded path) with pretrained SqueezeNet:
+```bash
+git clone https://github.com/runwayml/model-squeezenet
+cd model-squeezenet
+```
+
+#### 1. Create a `runway_model.py` model server file
+
+SqueezeNet is a neural network architecture used for computer vision tasks, optimized for mobile/embedded devices. [PyTorch](https://github.com/pytorch/vision) includes an implementation of SqueezeNet pre-trained on ImageNet that can be used out-of-the-box for object recognition.
+
+Here's the code to classify a single local image (via a hard-coded path) with pre-trained SqueezeNet:
 
 ```python
-# model.py 
-
+# model.py
 import json
 from PIL import Image
 from torchvision import models, transforms
@@ -46,11 +54,11 @@ preprocess = transforms.Compose([
    normalize
 ])
 
-# initialize the model and download pretrained weights 
+# initialize the model and download pre-trained weights
 
 model = models.squeezenet1_1(pretrained=True)
 
-# open a local iamge
+# open a local image
 img = Image.open('still_life.jpg')
 
 # preprocess the image and convert it into a tensor
@@ -73,7 +81,8 @@ import json
 from PIL import Image
 from torchvision import models, transforms
 from torch.autograd import Variable
-+ from runway import RunwayServer
++ import runway
++ from runway.data_types import image, text
 
 labels = json.load(open('labels.json'))
 
@@ -89,120 +98,95 @@ preprocess = transforms.Compose([
    normalize
 ])
 
-model = models.squeezenet1_1(pretrained=True)
++ @runway.setup
++ def setup():
++     model = models.squeezenet1_1(pretrained=True)
 
-+ rw = RunwayServer()
-
-+ @rw.command('classify', inputs={'photo': 'image'}, outputs={'label': 'text'})
++ @runway.command('classify', inputs={ 'photo': image() }, outputs={ 'label': text() })
 + def classify(input):
-+  img = input['photo']
-   img_tensor = preprocess(img)
-   img_tensor.unsqueeze_(0)
-   img_variable = Variable(img_tensor)
-   fc_out = model(img_variable)
-   label = labels[str(fc_out.data.numpy().argmax())]
-+  return {'label': label}
++     img = input['photo']
+      img_tensor = preprocess(img)
+      img_tensor.unsqueeze_(0)
+      img_variable = Variable(img_tensor)
+      fc_out = model(img_variable)
+      label = labels[str(fc_out.data.numpy().argmax())]
++     return { 'label': label }
 
 + if __name__ == '__main__':
 +     rw.run()
 ```
 <p class='subtitle'>Contents of model.py</p>
 
-Behind the scenes, the Runway Python SDK sets up a server with an endpoint `/classify` accepting a base64-encoded image, which it then converts into a `PIL.Image` before passing it to the `classify()` function.
+Behind the scenes, the Runway Python SDK uses the `@runway.command()` decorator to set up a server with a `/classify` endpoint that accepts a base64-encoded image. The SDK then converts this image into a `PIL.Image` before passing it to the `classify()` function, which classifies it and returns a text label.
 
 <p class="note"><b>NOTE:</b> You don't have to use the Runway Python SDK to set up the server. You can just use any server framework (e.g. Flask) and set up the classification endpoint manually. The SDK just makes things easier by taking care of parsing/serializing inputs/outputs and setting up the endpoints for you.</p>
 
-#### 2. Wrap the model server and its dependencies in a Docker container
+#### 2. Write a `runway.yml` config file
 
-Runway uses Docker to bundle up all of a model's dependencies and make them portable across platforms/setups.
+Next we need to write a config file that defines the environment, dependencies, and build steps required to build and run our model. This file is written in [YAML](https://learnxinyminutes.com/docs/yaml/), a human-readable superset of JSON. Below is an example of the `runway.yml` file for Squeezenet:
 
-There are already official PyTorch images available on Dockerhub, so we'll just use those as a starting point for our image, and simply install the Runway SDK, copy `model.py` and `labels.json` over to the container, and start the server.
-
-Here's our `Dockerfile`: 
-
-```dockerfile
-FROM pytorch/pytorch:v0.2
-
-RUN pip install runway-python
-
-WORKDIR /root
-
-COPY . .
-
-CMD python model.py
+```yaml
+python: 3.6
+cuda: 9.2
+entrypoint: python runway_model.py
+build_steps:
+  - pip install -r requirements.txt
 ```
 
-To build the docker image:
+This file specifies the Python and CUDA versions to use, the entrypoint command which launches the Runway model and HTTP server, and a build step which installs the Python dependencies required to run our model. See the [Runway YAML reference page](https://sdk.runwayml.com/en/latest/runway_yaml_file.html) for a full list of config values supported in the `runway.yml` config file.
+
+Peeking at the `requirements.txt` file reveals that the only dependencies for the SqueezeNet Runway model are PyTorch and PyTorch Vision, as well as the Runway Model SDK itself.
+
+```
+torch==1.0.0
+torchvision==0.2.1
+runway-python
+```
+
+<p class="note">
+  <b>NOTE:</b> The <code>runway-python</code> module must always be installed via the <code>build_steps</code>. Failing to install this required dependency via the <code>runway.yml</code> file will cause all model builds to fail.
+</p>
+
+#### 3. Upload your code to a GitHub repository
+
+Once your model has a `runway_model.py` and `runway.yml` config file Runway it's time to upload your repository to GitHub. Create a new GitHub repo named `runway-model-tutorial` on your GitHub account.
+
+If you cloned the example `runway/model-squeezenet` repo at the beginning of this tutorial, you reset the remote `origin` to point to your newly created repo instead of the original you cloned from.
 
 ```bash
-$ docker build -t agermanidis/squeezenet .
-```
-
-We can try running the image to make sure it works:
-
-```bash
-$ docker run --rm -it agermanidis/squeezenet
-...
- * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
-```
-
-(Optional) If we want others to be able to use the model, we can publish the image to Docker Hub:
-
-```bash
-$ docker publish agermanidis/squeezenet
-```
-
-#### 3. Write a specification JSON file
-
-Next we need to write a specification file that will allow Runway to interact with the model. This will include a reference to the Docker image that we just created, information about what input the model expects, what output it produces, and other information (description, license, etc).
-
-We can write it by hand, or [use a JSON schema editor](https://json-editor.github.io/json-editor/?schema=N4IgLglmA2CmIC4QCUDqACAsgewCa2nQBFYAzCAOygmwpABpwBPAB3iWwCMArWAYzAMQ+clUi0AzolABlAK4sW2AE5hYuACqtYUhAG0QEALYBDAObxGJubhpC1AD0GMAbvzAqh3CbRABdRgAxCAJcaWY2RBAuXgEhZVgARzkIBLD9EAoTI0sI+ACQFmVsNlUQ3VAsnPCwbSiJMGVKMxAAX0ZayIRQTvYQBqaKFvbhHT4mlnE6brz6xua2xiNKGrqkCjkjTlhlRZBTB1WuzM3t3ZGG2BYjvo2tnbbWkeDQitmkE2VlEyYhKFgjG8ACQJUhRADEAHoRJRqJJIS9oGEnkEQkiAIJfH43KIxdzxJIpNKIAyfb5MADyYIKRRKO0gOnCZJ+VPCtFgrP0oBBZAh0LIsKmEgRaOR9G5oL5MLENAowsRuCkrT8TxGAGFsEZTBRcCRRHDpj01tEePjGAlkql1CTMtlcpQWHIwFJGNgnY7nf5GLTSgy3lV2EbjgMFiMHU63r0oszfox/oC2RQOWCuSAeSmQFDpQb5aLFhLeUgswKZfCFZjyW0VSM3WAPZHjTG/moEzN2Zy9AWM8X9UKRaF82nJUX+b3ZbnQhXscrVSiQBaidaMgGhG5lBJZUJ8BJxhBJrKZAALFTOUY7iZTAAytBajHGsBMHl2jGgED4sDluVw2D4AGsdgAkqYFguiAfCatqipeoUxS+uU4QrjMUZICGQx7GuG6+EhxqocMjDbru+60EeJ44ih8xoSMBEXrK15odhwYUXhYEJI+ngMX0uF7K+76fmR/RMXs35/oBwGMjMPr0vBMx8I6/FcSMZhyRxcyDMMc7Cf+ygUkRcrhJJZTiaASiqPxlBqBYz6jKQ1jQIICAABwAAwuaqrq6Q2xxNnGLbAsOmajoK479kijx3hBJg6p5fTeYYvnhOmUoljmkIalqkW6slUyPE8QAA==&value=N4IgdghgtgpiBcIQBoQDcYCcDOBLA9mAkqgCYzYDGmuADgC4FgDKAFvpvcSiOVTQyYAZQgHNuqajAj0OEkABtclGGGxxEPUvkoBrLAEkoEURQTAAvpPxRjYUtgQBtALoWgA=&prompt_before_delete&theme=bootstrap2&iconlib=fontawesome4&object_layout=normal&show_errors=interaction).
-
-Here's a barebones specification for our SqueezeNet model (saved to `runway.json`):
-
-```json
-{
-  "name": "SqueezeNet",
-  "version": "0.1",
-  "publisher": "Anastasis Germanidis",
-  "license": "MIT",
-  "dockerImages": {
-    "cpu": "agermanidis/squeezenet"
-  },
-  "commands": [
-    {
-      "name": "classify",
-      "inputs": [
-        {
-          "name": "photo",
-          "type": "image"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "label",
-          "type": "text"
-        }
-      ]
-    }
-  ]
-}
+# change the remote "origin" to point to your new repo
+git remote set-url origin https://github.com/<YOUR_USERNAME>/runway-model-tutorial
+# push the code to your repo
+git push origin master
 ```
 
 #### 4. Import the model
 
-We are now ready to import our new model into the Runway app. Open the Runway app, then go to the Models Directory.
+Once you've pushed your model to GitHub, it's time to import your model in the Runway app. Open Runway and select the _Create New Model From GitHub_ button on the lower left.
 
-![step 1](https://i.imgur.com/ZK27Dm7.png)
+![Import Model #1](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/1_small.png)
 
-Click the "Import Model" button and select your `runway.json` file.
+Authorize Runway to access public data on your GitHub account.
 
-![step 2](https://i.imgur.com/6gSBwnU.jpg)
+![Import Model #2](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/2_small.png)
+<img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/3_small.png" style="max-width: 50%; margin: auto; display: block;">
 
-Runway automatically discovers the local Docker image, so it should appear in the Installed models in the sidebar. We can go ahead and add it to a workspace to start using it (we can additional information in the specification later so it's not so empty 🙂)
+Back in the Runway app, select the repository that contains your Runway model; `runway-model-tutorial` in our case.
 
-![step 3](https://i.imgur.com/YxRP2LMr.png)
+![Import Model #4](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/4_small.png)
 
-Finally, we can use SqueezeNet within Runway to classify our images!
+Next you can edit the model name and add a category to your model. Other info settings are available to edit later.
 
-![step 4](https://i.imgur.com/IUF8HxT.jpg)
+![Import Model #5](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/5_small.png)
+
+Once you've imported your model, a model build should be triggered automatically. Runway will clone the code from your repository and use its `runway.yml` file to build a Docker image from your model. Select the "Versions" tab in your model page to view all builds, past and present.
+
+![Import Model #6](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/6_small.png)
+
+You can view model logs during or after a build to debug your model build process.
+
+![Import Model #7](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/7_small.png)
+
+![Import Model #8](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/8_small.png)
+
+#### 5. Edit Model Metadata and Publish
