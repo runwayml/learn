@@ -10,6 +10,7 @@ Here are the steps involved in porting an ML model written in Python to Runway:
 1. Write a `runway.yml` config file.
 1. Upload your code to a GitHub repository.
 1. Import your new model into the Runway app using your GitHub account.
+1. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
 
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
 
@@ -17,12 +18,7 @@ In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv
 
 ### Importing SqueezeNet into Runway
 
-We recommend cloning the `runwayml/squeezenet` GitHub repository so that you can follow along with the tutorial.
-
-```bash
-git clone https://github.com/runwayml/model-squeezenet
-cd model-squeezenet
-```
+We recommend forking the [`runwayml/model-squeezenet`](https://github.com/runwayml/model-squeezenet) GitHub repository to your own GitHub user account so that you can follow along with the tutorial.
 
 #### 1. Create a `runway_model.py` model server file
 
@@ -149,16 +145,7 @@ runway-python
 
 #### 3. Upload your code to a GitHub repository
 
-Once your model has a `runway_model.py` and `runway.yml` config file Runway it's time to upload your repository to GitHub. Create a new GitHub repo named `runway-model-tutorial` on your GitHub account.
-
-If you cloned the example `runway/model-squeezenet` repo at the beginning of this tutorial, you reset the remote `origin` to point to your newly created repo instead of the original you cloned from.
-
-```bash
-# change the remote "origin" to point to your new repo
-git remote set-url origin https://github.com/<YOUR_USERNAME>/runway-model-tutorial
-# push the code to your repo
-git push origin master
-```
+Once your model has a `runway_model.py` and `runway.yml` config file it's time to upload your repository to GitHub. If you forked the `runway/model-squeezenet` repo at the beginning of this tutorial, you should already have a `git remote` that points to the forked repository on your GitHub user account. If you instead cloned the repo, or you started creating a model from scratch instead of using the `runwayml/model-squeezenet` repo, you should publish your code to GitHub as an open source repository now. For the remainder of this tutorial, we will assume the repository being ported is located at `https://github.com/YOUR_USERNAME/runway-model-tutorial`.
 
 #### 4. Import the model
 
@@ -179,11 +166,13 @@ Next you can edit the model name and add a category to your model. Other info se
 
 ![Import Model #5](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/5_small.png)
 
-Once you've imported your model, a model build should be triggered automatically. Runway will clone the code from your repository and use its `runway.yml` file to build a Docker image from your model. Select the "Versions" tab in your model page to view all builds, past and present.
+#### 5. Push a new commit to trigger a build
+
+Once you've imported your model to Runway, you must push a new commit to GitHub to trigger a model build. When you do so, Runway will clone the code from your repository and use its `runway.yml` file to build a Docker image from your model. Each new commit pushed to the `master` branch of GitHub repository linked to a model will trigger a new model version to be built by Runway. Select the "Versions" tab in your model page to view all builds, past and present.
 
 ![Import Model #6](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/6_small.png)
 
-Clicking on a model version to view details about the build. You will notice that the `default` switch is flipped automatically for the first build. This means that the model is now published by your Runway users and available for others to use. You can set any successfully built version to be the `default` version, but you must have at least one default version. This is an intentional decision for the time being, as _Private Models_ is a feature still to come.
+Click on a model version to view details about the version builds. You will notice that the `default` switch is flipped automatically for the first build. This means that the model is now published by your Runway users and is available for others to use. You can set any successfully built version to be the `default` version, but you must have at least one default version. This is an intentional decision for the time being, as _Private Models_ is a feature that is still to come.
 
 ![Import Model #7](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/7_small.png)
 
@@ -191,3 +180,25 @@ You can view model logs during or after a build to debug your model build proces
 
 ![Import Model #8](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/8_small.png)
 
+Once a model version has been successfully built you can add it to a workspace. You can also add any successful model versions to your personal workspace by hovering over the model version check mark in the "Versions" panel until it becomes a "+" icon, and then selecting it. This allows you to test new model versions before making them the default model version that is published to all Runway users.
+
+### Edit Model Info
+
+Once you've imported your model you should edit its model info to help other users understand who made it and what its used for. As the publisher of the model, you can do this from the model page using the "Edit Info" button. We recommend adding all of these fields for each model:
+
+* **Model Name**: The name of the model. Alphanumeric values, underscores, and hyphens are allowed here. No spaces.
+* **Tagline**: A short one-line description of what your model does.
+* **Description**: A long description of what your model does. The description can be a paragraph or more and is interpreted as Markdown.
+* **Images**: A collection of images showcasing your model. The first image you add in the "Gallery" tab will be used as the thumbnail for the image.
+* **Attributions**: A list of names and respective roles for people or organizations that significantly contributed to a model. This usually includes authors or publishers of machine learning papers or frameworks. Be generous with attributions; give credit where credit is due. We intentionally differentiate between a model publisher (the Runway user that adds/publishes a model) and the original authors of the model code or paper. This provides flexibility and encourages remix, experimentation, and "forking" of models.
+* **LICENSE**: The license defining how the model can be used.
+* **Keywords**: A list of tags that can be used to find your model in Runway.
+* **Performance Notes**: How can users expect the model to perform on GPU or CPU environments?
+* **Code, Paper, and More**: A list of links to resources related to your model, like source code, ArXiv papers, blog posts, or more.
+
+### Links
+
+For more information about how to port a new or existing model to Runway, check out these resources:
+
+* [Runway Model SDK Docs](https://sdk.runwayml.com): Documentation for the Python SDK used to port models
+* [Runway Model Template](https://github.com/runwayml/model-template): A boilerplate model template that you can use as a starting point to port models
