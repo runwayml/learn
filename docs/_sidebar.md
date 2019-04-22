@@ -12,7 +12,7 @@
     * [Applying Style Transfer to an Image](tutorial_style_transfer.md)
     * [Image Classification with MobileNet](tutorial_mobilenet.md)
     * [Object Localization with COCO-SSD](tutorial_cocossd.md)
-    * [Creating Contour Drawings with PhotoSketch](tutorial_photosketch.md)
+    * [Contour Drawings with PhotoSketch](tutorial_photosketch.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
 
@@ -31,6 +31,7 @@
     * [~~Blender~~](#)
     * [Max/MSP](https://github.com/runwayml/maxmsp)
     * [OpenFrameworks](https://github.com/runwayml/openFrameworks)
+    * [P5.js](https://github.com/runwayml/p5js)
     * [Processing](https://github.com/runwayml/processing)
     * [~~Photoshop~~](#)
     * [Pure Data](https://github.com/runwayml/puredata)
