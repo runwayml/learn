@@ -100,7 +100,7 @@ preprocess = transforms.Compose([
 
 + @runway.setup
 + def setup():
-+     model = models.squeezenet1_1(pretrained=True)
++     return models.squeezenet1_1(pretrained=True)
 
 + @runway.command('classify', inputs={ 'photo': image() }, outputs={ 'label': text() })
 + def classify(model, input):
