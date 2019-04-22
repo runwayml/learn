@@ -1,5 +1,5 @@
 
-# Tutorial: Creating Contour Drawings with PhotoSketch
+# Tutorial: Contour Drawings with PhotoSketch
 
 The [PhotoSketch model](https://arxiv.org/pdf/1901.00542.pdf) created by Li et al. allows you to infer contour drawings from images automatically.
 In this tutorial, we will use Runway to run PhotoSketch to create a real-time contour outline of your webcam stream. We will then send the resulting image via HTTP network to a simple web app built with JavaScript and [p5.js](http://p5js.org/)
@@ -41,20 +41,33 @@ Use the HTTP server and route to send the resulting image to an external app.
 
 Choose to run the model locally or remotely on an external GPU. You
 can enable the remote GPU by toggling the  **Enable Remote GPU**
-switch on. Next, click on **Run Remotely**.
+switch on. Click on **Run Remotely** when your app is ready.
 
 ![HTTP Output](images/tutorial_photosketch/05_http.png)
 
 ### Step 6
 
-Our **ColoringBook** [example for p5.js](https://github.com/runwayml/p5js)
-receives the PhotoSketch drawing from Runway and displays it on the
-canvas, where you can color or draw on it using the mouse cursor. To
-get started, make sure the **Port** input matches Runway's route from
-**Step 5**, then press the PhotoSketch button until you receive an
-image you like.
+Our **ColoringBook** example for p5.js receives the PhotoSketch drawing from Runway and displays it on the canvas, where you can color or draw on it using the mouse cursor. 
 
-![Success](images/tutorial_photosketch/06_success.png)
+To get started, navigate to the [example repository](https://github.com/runwayml/p5js).
+
+* To clone the repository (requires [git](https://git-scm.com/)), click on the right side button and copy the link. Open your terminal or command prompt, navigate to the folder where you would like to store the repository, and type:
+
+```
+$ git clone https://github.com/runwayml/p5js.git
+```
+
+* Alternatively, click on the right side button and select **Download ZIP** instead. Unzip the file to the desired location.
+
+![Get Repository](images/tutorial_photosketch/06_repository.png)
+
+Once the repository folder is ready, navigate to `PhotoSketch/ColoringBook/` and open `index.html` using your browser of choice (or a local web server).
+
+### Step 7
+
+Make sure PhotoSketch is running in Runway and check if the **Port** value matches Runway's HTTP Server from **Step 5** (e.g. `8001`). Press the PhotoSketch button until you receive an image you like.
+
+![Success](images/tutorial_photosketch/07_success.png)
 
 When you are done with your sketch, click on the
 **Save** button to download the canvas as an image file.
