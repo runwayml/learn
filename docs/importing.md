@@ -117,6 +117,50 @@ Behind the scenes, the Runway Python SDK uses the `@runway.command()` decorator 
 
 <p class="note"><b>NOTE:</b> You don't have to use the Runway Python SDK to set up the server. You can just use any server framework (e.g. Flask) and set up the classification endpoint manually. The SDK just makes things easier by taking care of parsing/serializing inputs/outputs and setting up the endpoints for you.</p>
 
+##### Testing your `runway_model.py` locally
+
+Before we configure our build environment and publish our model to Runway, we should test it locally to make sure that it works as expected.
+
+```bash
+## Optionally create and activate a Python 3 virtual environment
+# virtualenv -p python3 venv && source venv/bin/activate
+
+pip install -r requirements.txt
+
+# Run the entrypoint script
+python runway_model.py
+```
+
+You should see an output similar to this, indicating your model is running.
+
+```
+Setting up model...
+Starting model server at http://0.0.0.0:8000...
+```
+
+We can test the model's `/classify` command by `POST`ing an image and having the model classify its contents for us.
+
+```bash
+# Base64 encode an image and save the encoded version as an environment variable
+# to use in a POST request to the modelf
+curl -o cat.jpg "https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/cat.jpg"
+BASE64_IMAGE=$(base64 -i cat.jpg | xargs echo "data:image/jpeg;base64," | sed "s/ //" )
+
+# Make a POST request to the /classify command, receiving
+curl http://0.0.0.0:8000/classify \
+   -X POST \
+   -H "content-type: application/json" \
+   -d "{ \"photo\": \"${BASE64_IMAGE}\" }"
+```
+
+You should see the model classify the image and return a class label in JSON like so:
+
+```
+{"label": "tabby, tabby cat"}
+```
+
+Once you've confirmed your model works correctly locally, we can create a `runway.yml` config file before building the model remotely with Runway + GitHub.
+
 #### 2. Write a `runway.yml` config file
 
 Next we need to write a config file that defines the environment, dependencies, and build steps required to build and run our model. This file is written in [YAML](https://learnxinyminutes.com/docs/yaml/), a human-readable superset of JSON. Below is an example of the `runway.yml` file for Squeezenet:
