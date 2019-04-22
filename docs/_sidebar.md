@@ -13,6 +13,7 @@
     * [Image Classification with MobileNet](tutorial_mobilenet.md)
     * [Object Localization with COCO-SSD](tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorial_photosketch.md)
+    * [Realistic Textures with ESRGAN](tutorial_esrgan.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
 
