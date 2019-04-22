@@ -103,7 +103,7 @@ preprocess = transforms.Compose([
 +     model = models.squeezenet1_1(pretrained=True)
 
 + @runway.command('classify', inputs={ 'photo': image() }, outputs={ 'label': text() })
-+ def classify(input):
++ def classify(model, input):
 +     img = input['photo']
       img_tensor = preprocess(img)
       img_tensor.unsqueeze_(0)
