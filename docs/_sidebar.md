@@ -1,32 +1,32 @@
 * Getting started
     * [Introduction to Runway](/)
-    * [Installation](installation.md)
-    * [Overview](overview.md)
-    * [A Brief Introduction to A.I.](intro-to-ai.md)
+    * [Installation](getting-started/installation.md)
+    * [Overview](getting-started/overview.md)
+    * [A Brief Introduction to A.I.](getting-started/intro-to-ai.md)
 
 * Tutorials
-    * [Playing with Text to Image (AttnGAN)](tutorial_t2i.md)
-    * [Captioning every image in a folder](tutorial_im2txt.md)
-    * [Colorizing a black and white video](tutorial_colorizing_video.md)
-    * [Skeleton tracking in Processing](tutorial_posenet.md)
-    * [Applying Style Transfer to an Image](tutorial_style_transfer.md)
-    * [Image Classification with MobileNet](tutorial_mobilenet.md)
-    * [Object Localization with COCO-SSD](tutorial_cocossd.md)
-    * [Contour Drawings with PhotoSketch](tutorial_photosketch.md)
-    * [Realistic Textures with ESRGAN](tutorial_esrgan.md)
+    * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
+    * [Captioning every image in a folder](tutorials/tutorial_im2txt.md)
+    * [Colorizing a black and white video](tutorials/tutorial_colorizing_video.md)
+    * [Skeleton tracking in Processing](tutorials/tutorial_posenet.md)
+    * [Applying Style Transfer to an Image](tutorials/tutorial_style_transfer.md)
+    * [Image Classification with MobileNet](tutorials/tutorial_mobilenet.md)
+    * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
+    * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
+    * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
 
 * How-To
-    * [Import your own Models](importing.md)
-    * [Contribute to Runway](contribute.md)
-    * [~~Browse the Model Directory~~](browse-model-directory.md)
-    * [~~Use a Pre-installed Model~~](use-pre-installed-model.md)
-    * [~~Select your Input Source~~](input-source.md)
-    * [~~Select your Output Source~~](output-source.md)
-    * [~~Run on Cloud GPU~~](cloud-gpu.md)
+    * [Import your own Models](how-to/importing.md)
+    * [Contribute to Runway](how-to/contribute.md)
+    * [~~Browse the Model Directory~~](how-to/browse-model-directory.md)
+    * [~~Use a Pre-installed Model~~](how-to/use-pre-installed-model.md)
+    * [~~Select your Input Source~~](how-to/input-source.md)
+    * [~~Select your Output Source~~](how-to/output-source.md)
+    * [~~Run on Cloud GPU~~](how-to/cloud-gpu.md)
 
-* Integrations 
+* Integrations
     * [~~Ableton~~](#)
     * [Arduino](https://github.com/runwayml/arduino)
     * [~~Blender~~](#)
@@ -59,4 +59,3 @@
 
 * More
     * [Awesome Runway](https://github.com/runwayml/awesome-runway)
-
