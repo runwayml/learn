@@ -1,8 +1,10 @@
 * Getting started
-    * [Introduction to Runway](/)
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
     * [A Brief Introduction to A.I.](getting-started/intro-to-ai.md)
+    * [Creative Applications of AI](getting-started/creative-ai.md)
+    * [Model 101](getting-started/model-101.md)
+    * [The World of GPU's](getting-started/the-world-of-gpus.md)
 
 * Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
@@ -45,17 +47,6 @@
 * Code Libraries
     * [JavaScript](https://github.com/runwayml/javascript)
     * [Python](https://github.com/runwayml/python)
-
-<!--
-* Technical Reference
-
-    * Input Data
-        * [HTTP](deploy.md)
-        * [OSC](helpers.md)
-    * Output Data
-        * [HTTP](deploy.md)
-        * [OSC](helpers.md)
-     -->
 
 * More
     * [Awesome Runway](https://github.com/runwayml/awesome-runway)
