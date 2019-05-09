@@ -14,7 +14,7 @@ Once you have downloaded the app, open Runway by double clicking the icon and yo
 </div>
 
 **Only users that received the beta invite mail will be able to follow the next steps.** If you signed up for the beta and haven't received an invitation yet please stay tuned! We will be rolling invites to the beta over the next few months. If you are an educator planning on using Runway for your class, please send us an email to [educators@runwayapp.ai](mailto:educators@runwayapp.ai) as we might fit invites for students.
- 
+
 Next, create your Runway account. Choose your `username`, a strong `password` and enter your first and last name. If you are planning on using Runway from an organization (company, school, NGO, Research Lab, etc) please enter the organization name.
 
 <div class="Img-Small">
@@ -50,7 +50,7 @@ You can download and install Docker using the following links:
 - [Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
 - [Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-!> Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise or Education editions of Windows. If you don't have a Pro, Enterprise or Education Windows edition you will not be able to install Docker and you will be able to only run some Runway models. 
+!> Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise or Education editions of Windows. If you don't have a Pro, Enterprise or Education Windows edition you will not be able to install Docker and you will be able to only run some Runway models.
 
 Once Docker is installed and running, you should see the following:
 
@@ -110,7 +110,7 @@ Go to the "Advanced" tab.
   <p>Go to the "Advanced" tab in Preferences.</p>
 </div>
 
-Increase the "Memory" slider to 8.0 GB, then click "Apply & Restart." 
+Increase the "Memory" slider to 8.0 GB, then click "Apply & Restart."
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/docker_increase_limit.png" alt="Docker Open Preferences" >
@@ -120,9 +120,9 @@ Increase the "Memory" slider to 8.0 GB, then click "Apply & Restart."
 All set!
 
 <p class='next'>
-  <b><a href="/#/overview">
+  <b><a href="/#/getting-started/overview">
    Read Next: Overview
-  </b></a> 
-  <br/> 
+  </b></a>
+  <br/>
   Familiarize yourself with how Runway works.
 </p>

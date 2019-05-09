@@ -2,7 +2,7 @@
 
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
-Runway is a toolkit that enables creators of all kinds to use artificial intelligence in an intuitive way. Runway is composed of two main parts: 
+Runway is a toolkit that enables creators of all kinds to use artificial intelligence in an intuitive way. Runway is composed of two main parts:
 - An desktop app with a simple and intuitive visual interface.
 - A dev API to run a headless version of Runway. *Coming soon!*
 
@@ -33,8 +33,8 @@ Once you select a model or load a Workspace, you will see the **Input/Output vie
 | Socket.IO  | all types       | Query and receive results via a Socket.IO message |
 | OSC        | all types       | Query and receive results using OSC over UDP      |
 
-- 3) **Change Input Source**: From this dropdown menu you can switch the type of input you want for the selected model. 
-- 4) **Model and Input Options**: Technically called *Hyperparameters*, this are the arguments and variables from where you can tweak and change the way the model works. Every model has it's own custom set of configurations and some might not have at all. Some inputs Options, like camare settings, might be configured here too. 
+- 3) **Change Input Source**: From this dropdown menu you can switch the type of input you want for the selected model.
+- 4) **Model and Input Options**: Technically called *Hyperparameters*, this are the arguments and variables from where you can tweak and change the way the model works. Every model has it's own custom set of configurations and some might not have at all. Some inputs Options, like camare settings, might be configured here too.
 - 5) **Output Data**: Once a model is running, you will be able to see its data output in this panel. For the most part, this will be a `JSON` data structure containing the current values created by passing the input through the model.
 - 6) **Output View**: From this panel you can select the type of output for your model. Here is a list of current supported output options:
 
@@ -46,18 +46,18 @@ Once you select a model or load a Workspace, you will see the **Input/Output vie
 | Socket.IO  | Query and receive results via a Socket.IO message                   |
 | OSC        | Query and receive results using OSC over UDP                        |
 
-- 7) **Change Output Option**: From this dropdown menu you can switch the type of output you want for the selected model. 
-- 8) **Run/Stop & Install**: This button will allow you to start and stop your models. As of release 0.2.0 models can only be run locally. Uninstalled models will prompt here to install them before first use. 
+- 7) **Change Output Option**: From this dropdown menu you can switch the type of output you want for the selected model.
+- 8) **Run/Stop & Install**: This button will allow you to start and stop your models. As of release 0.2.0 models can only be run locally. Uninstalled models will prompt here to install them before first use.
 
 <p class='note'>
   Upcoming updates will include: <br>
   <b>Cloud GPU:</b> Run models powered with GPUs from a variety of cloud providers. <br>
-  <b>Training:</b> Train models on your own datasets. 
+  <b>Training:</b> Train models on your own datasets.
 </p>
 
 ### Understanding Workspaces
 
-Runway is logically organized in a hierarchy of **Workspaces** and **Models** (check [the intro to A.I](intro-to-ai.md) for a definition of a model). **Workspaces** provide a way to logically group models used in the same project together. For example, a user working an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
+Runway is logically organized in a hierarchy of **Workspaces** and **Models** (check [the intro to A.I](getting-started/intro-to-ai.md) for a definition of a model). **Workspaces** provide a way to logically group models used in the same project together. For example, a user working an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
 
 A **Workspace** is a collection of models. In a **Workspace** you can organize your models by theme, hierarchy, or however else you like.
 
@@ -70,7 +70,7 @@ Runway's **Models Directory** is a unique place to search, discover, publish, in
 ![Models Directory](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/models_directory_annotated.jpg)
 
 - 1) **Your Models**: This panel gives you quick access to already installed models.
-- 2) **Import Model**: This button will allow you to import models into Runway. Check how to import models [here](importing.md).
+- 2) **Import Model**: This button will allow you to import models into Runway. Check how to import models [here](how-to/importing.md).
 - 3) **Model Box**: This model box contains a brief information of a model. Clicking it will take you to the model page where you can use it inside a Workspace.
 
 ## 3) Model Information
@@ -90,9 +90,9 @@ The settings view has your account details and basic information about the app.
 ![Input/Output View](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/settings_view.png)
 
 <p class='next'>
-  <b><a href="/#/intro-to-ai">
+  <b><a href="/#/getting-started/intro-to-ai">
    Read Next: A Brief Introduction to Artificial Intelligence (A.I)
-  </b></a> 
-  <br/> 
+  </b></a>
+  <br/>
   Understand how A.I works and how can you use it in Runway
 </p>
