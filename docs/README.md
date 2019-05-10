@@ -12,7 +12,7 @@ First, let's get you [signed up!](https://runwayml.com/) Shortly upon signing up
 
 * Mac, Windows, or Linux operating system
 * More than 8GB of RAM
-* [Docker](https://www.docker.com/) installed - [see our guide to why we need Docker](/#/getting-started/docker)
+* [Docker](https://www.docker.com/) installed - [see our guide to why we need Docker](/getting-started/docker)
 
 Please follow the [installation guide](installation.md).
 
@@ -33,7 +33,7 @@ If you want to contribute to the development of the  project please visit our [G
 
 
 <p class='next'>
-  <b><a href="/#/installation">
+  <b><a href="/#/getting-started/installation">
    Read Next: Installation
   </b></a>
   <br/>
