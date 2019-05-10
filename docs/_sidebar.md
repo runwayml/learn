@@ -40,4 +40,5 @@
     * [Unity](https://github.com/runwayml/unity)
 
 * More
-    * [Awesome Runway](https://github.com/runwayml)
+    * [Developing with Runway](https://github.com/runwayml)
+    * [Runway Model SDK](https://sdk.runwayml.com/)
