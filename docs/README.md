@@ -1,6 +1,6 @@
 # Welcome to Runway!
 
-Welcome to Runway! Runway is a platform and community for you to create with AI. Runway allows provides you with a simple visual interface to use the latest AI techniques. We offer a creative platform where you can create and also allow easy connections to third party applications. Here, in our documentation, we aim to help you get up and running with Runway ML.
+Welcome to Runway! Runway is a platform and community for you to create with Artificial Intelligence (AI). Runway provides you with a simple visual interface to use the latest AI techniques. We offer a creative platform where you can create and also allow easy connections to third party applications. Here, in our documentation, we aim to help you get up and running with Runway ML.
 
 ![Runway Screenshot](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/models_directory.jpg)
 
