@@ -2,7 +2,7 @@
 
 If you received a valid beta invite to be part of this program, please follow the link provided in the email and download the right version for your operating system.
 
-?> If you encounter any problems or issues with the installation, please send us an email to [support@runwayapp.ai](mailto:support@runwayapp.ai) or leave a message in the [`#login-and-account`](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc) channel in Slack.
+?> If you encounter any problems or issues with the installation, please send us an email to [support@runwayml.com](mailto:support@runwayml.com) or leave a message in the [`#login-and-account`](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc) channel in Slack.
 
 ## Create an Account
 
@@ -22,7 +22,7 @@ Next, create your Runway account. Choose your `username`, a strong `password` an
   <p>Create your Runway account.</p>
 </div>
 
-Once your account has been created, you will need to verify the email associated with your account. Please check your inbox for a verification code we will send. Check your spam or promotions folder in case you don't receive a verification code after a few minutes. If you are having trouble please send us an email to [support@runwayapp.ai](mailto:support@runwayapp.ai)
+Once your account has been created, you will need to verify the email associated with your account. Please check your inbox for a verification code we will send. Check your spam or promotions folder in case you don't receive a verification code after a few minutes. If you are having trouble please send us an email to [support@runwayml.com](mailto:support@runwayml.com)
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_04.png" alt="Runway Verification code" >
