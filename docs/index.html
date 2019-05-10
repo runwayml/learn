@@ -47,7 +47,14 @@
         }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      plugins: []
+      plugins: [],
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -64,6 +71,8 @@
   <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
+  <!-- docsify-tabs (latest v1.x.x) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
 </body>
 

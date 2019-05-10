@@ -42,17 +42,13 @@ After verifying your account you are good to go! If you log out of your account 
 
 In order to use all of Runway capabilities you will need to have [Docker](https://www.docker.com/) installed in your computer. This is only a requirement when you want to run some AI locally on your system. Docker is FREE and open-source software. Find out more, about [why we use Docker](getting-started/docker.md).
 
-You can download and install Docker using the following links:
+<!-- tabs:start -->
 
-- [Mac](https://download.docker.com/mac/stable/Docker.dmg)
-- [Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
-- [Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+#### **Mac**
 
-!> For Windows, you'll need to have a Pro, Enterprise or Education edition of Windows, in order to install Docker. If you're unable to install Docker on your Windows machine, don't worry, some of our models will still work for you!
+**Download Docker:** [Download Docker for Mac](https://download.docker.com/mac/stable/Docker.dmg)
 
-Once Docker is installed and running, you should see the following:
-
-- **On Mac**: a Docker icon in the top status bar. This indicates that Docker is running and accessible from Runway.
+**Verify Installation:** a Docker icon in the top status bar. This indicates that Docker is running and accessible from Runway.
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-mac.png" alt="Docker Icon mac" >
@@ -61,7 +57,17 @@ Once Docker is installed and running, you should see the following:
 
 Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac) installation guide on Mac if you are having any issues.
 
-- **On Windows**: a Docker icon in the bottom notifications area. This indicates that Docker is running and accessible from Runway.
+
+#### **Windows**
+
+**Download Docker:** [Download Docker for Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
+
+!> For Windows, you'll need to have a Pro, Enterprise or Education edition of Windows, in order to install Docker. If you're unable to install Docker on your Windows machine, don't worry, some of our models will still work for you!
+
+Once Docker is installed and running, you should see the following:
+
+
+**Verify Installation:** a Docker icon in the bottom notifications area. This indicates that Docker is running and accessible from Runway.
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-windows.png" alt="Docker Icon mac" >
@@ -72,7 +78,12 @@ Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/in
 
 Please refer to [this official Docker](https://docs.docker.com/docker-for-windows/) installation guide on Windows if you are having any issues.
 
-- **On Linux**: verify if docker is installed and running with the following command:
+
+#### **Linux**
+
+**Download Docker:** [Download Docker for Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+
+**Verify Installation:** verify if docker is installed and running with the following command:
 
 ```sh
 docker --help
@@ -91,6 +102,9 @@ If Docker is not installed, unavailable or not running you will see the followin
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-unavailable-Runway.png" alt="Docker Icon mac" >
   <p>If Docker is not available, Runway will show a "Docker Unavailable" message in the bottom status bar.</p>
 </div>
+
+<!-- tabs:end -->
+
 
 ## Increase Docker memory limit
 
@@ -116,6 +130,7 @@ Increase the "Memory" slider to 8.0 GB, then click "Apply & Restart."
 </div>
 
 All set!
+
 
 <p class='next'>
   <b><a href="/#/getting-started/overview">
