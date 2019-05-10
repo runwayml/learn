@@ -5,7 +5,7 @@ neural networks. This tutorial will show you how use the MobileNet
 model to identify the objects in an image folder.
 
 ### Requirements
-* Runway Beta
+* Runway App
 * A folder with multiple image files
 
 ### Step 1

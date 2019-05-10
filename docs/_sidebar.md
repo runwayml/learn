@@ -5,13 +5,14 @@
     * [Creative Applications of AI](getting-started/creative-ai.md)
     * [Model 101](getting-started/model-101.md)
     * [The World of GPU's](getting-started/the-world-of-gpus.md)
+    * [Why we use Docker](getting-started/docker.md)
 
-* Tutorials
+* [Tutorials](tutorials/tutorials.md)
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
-    * [Captioning every image in a folder](tutorials/tutorial_im2txt.md)
-    * [Colorizing a black and white video](tutorials/tutorial_colorizing_video.md)
-    * [Skeleton tracking in Processing](tutorials/tutorial_posenet.md)
-    * [Applying Style Transfer to an Image](tutorials/tutorial_style_transfer.md)
+    * [Captioning Images](tutorials/tutorial_im2txt.md)
+    * [Colorizing Black & White Video's](tutorials/tutorial_colorizing_video.md)
+    * [Skeleton Tracking in Processing](tutorials/tutorial_posenet.md)
+    * [Style Transfer of an Image](tutorials/tutorial_style_transfer.md)
     * [Image Classification with MobileNet](tutorials/tutorial_mobilenet.md)
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
@@ -28,7 +29,7 @@
     * [~~Select your Output Source~~](how-to/output-source.md)
     * [~~Run on Cloud GPU~~](how-to/cloud-gpu.md)
 
-* Integrationsx
+* Integrations
     * [Arduino](https://github.com/runwayml/arduino)
     * [JavaScript](https://github.com/runwayml/javascript)
     * [Max/MSP](https://github.com/runwayml/maxmsp)

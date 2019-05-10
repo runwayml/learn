@@ -5,8 +5,8 @@ Runway allows you to use and experiment with state of the art machine learning m
 
 ### Requirements
 
-- Runway Beta
-- Docker (If you don't have Docker installed, please follow the installation instructions [here](/installation?id=download-docker).)
+- Runway App
+- Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 
 
 ### Step 1
@@ -21,7 +21,7 @@ Next, add the model to a workspace from the top right side of the app.
 
 ![GAN, AttnGAN with Runway, step 2](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/attn01.jpg)
 
-### Step 3 
+### Step 3
 
 If you haven't installed **AttnGAN**, the bottom right button will prompt you to install the model.  **You need to have Docker installed in order to continue.**
 
@@ -34,7 +34,7 @@ If you haven't installed **AttnGAN**, the bottom right button will prompt you to
 
 ### Step 4
 
-Once the model is installed, you will be able to use it. 
+Once the model is installed, you will be able to use it.
 
 On the I/O View select the **Local** option in the **Output** dropdown.
 

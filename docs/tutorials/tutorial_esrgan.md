@@ -6,9 +6,9 @@ This tutorial shows how to enhance low-resolution images to generate a
 high-resolution texture without unpleasant artifacts. 
 
 ### Requirements
-* Runway Beta
+* Runway App
 * A folder with multiple low-resolution image files (such as the ones found in this [wiki](https://wiki.minetest.net/Low_resolution_texture_packs)).
-* Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/installation?id=download-docker))
+* Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/getting-started/docker))
 
 
 ### Step 1

@@ -1,4 +1,4 @@
-# Tutorial: Captioning every image in a folder
+# Tutorial: Captioning Images
 
 Runway makes it really simple to use AI to process your own photo albums, media libraries, and documents. This tutorial will guide you through generating captions for every image in a folder using the model im2txt and Runway's "Export to File" functionality.
 
@@ -12,12 +12,12 @@ In this tutorial, we will use **im2txt**, which is based on the paper [Show and 
 
 ### Step 2
 
-In this view, you can view information about the model, including a description of what the model does, licensing information, as well as the model input and output datatypes (`image` for the input image and `array[text, number]` for a list of captions and probabilities for each generated caption). To use im2txt, you will first need to add the model to a workspace. 
+In this view, you can view information about the model, including a description of what the model does, licensing information, as well as the model input and output datatypes (`image` for the input image and `array[text, number]` for a list of captions and probabilities for each generated caption). To use im2txt, you will first need to add the model to a workspace.
 
 ![step 2](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/im2txt02.jpg)
 
 
-### Step 3 
+### Step 3
 
 If you haven't installed **im2txt**, the bottom right button will prompt you to install the model.  **You need to have Docker installed in order to continue.**
 

@@ -1,19 +1,17 @@
 # Installation
 
-If you received a valid beta invite to be part of this program, please follow the link provided in the email and download the right version for your operating system.
+If you haven't yet downloaded Runway, then let's begin by getting you an [invite to download the app](https://runwayml.com/). You can do this through signing up on our list on [runwayml.com](https://runwayml.com/). Shortly after getting an email, you should receive a link to download Runway. Download the right version for your operating system.
 
-?> If you encounter any problems or issues with the installation, please send us an email to [support@runwayml.com](mailto:support@runwayml.com) or leave a message in the [`#login-and-account`](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc) channel in Slack.
+?> If you encounter any problems or issues with the installation, please send us an email to [support@runwayml.com](mailto:support@runwayml.com).
 
 ## Create an Account
 
-Once you have downloaded the app, open Runway by double clicking the icon and you will be prompt to create a new account. Start by entering the beta email associated with your account.
+Once you have downloaded the app, open Runway by double clicking the icon and you will be prompt to create a new account. Start by entering the email you used to register with.
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_01.png" alt="Runway Login Email Verification" >
-  <p>Enter your beta registered email.</p>
+  <p>Enter your registered email.</p>
 </div>
-
-**Only users that received the beta invite mail will be able to follow the next steps.** If you signed up for the beta and haven't received an invitation yet please stay tuned! We will be rolling invites to the beta over the next few months. If you are an educator planning on using Runway for your class, please send us an email to [educators@runwayapp.ai](mailto:educators@runwayapp.ai) as we might fit invites for students.
 
 Next, create your Runway account. Choose your `username`, a strong `password` and enter your first and last name. If you are planning on using Runway from an organization (company, school, NGO, Research Lab, etc) please enter the organization name.
 
@@ -22,14 +20,14 @@ Next, create your Runway account. Choose your `username`, a strong `password` an
   <p>Create your Runway account.</p>
 </div>
 
-Once your account has been created, you will need to verify the email associated with your account. Please check your inbox for a verification code we will send. Check your spam or promotions folder in case you don't receive a verification code after a few minutes. If you are having trouble please send us an email to [support@runwayml.com](mailto:support@runwayml.com)
+Once your account has been created, you will need to verify the email associated with your account. Please check your inbox for a verification code we will send. Check your spam or promotions folder in case you don't receive a verification code after a few minutes.
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_04.png" alt="Runway Verification code" >
   <p>Enter the Verification Code</p>
 </div>
 
-After verifying your account you are good to go! If you log out of your account you can enter again just by typing your email, username and password. **Note: You can login from different devices but only one active device per account is valid in the beta program.**
+After verifying your account you are good to go! If you log out of your account you can enter again just by typing your email, username and password.
 
 <div class="Img-Small">
   <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_06.png" alt="Runway Account Verified" >
@@ -42,7 +40,7 @@ After verifying your account you are good to go! If you log out of your account 
 
 ## Download Docker
 
-In order to fully use all of Runway capabilities you will need to have [Docker](https://www.docker.com/) installed in your computer. This is only a requirement when running models on your computer *(cloud GPU support comming soon!)*. Docker CE is a free and open-source software.
+In order to use all of Runway capabilities you will need to have [Docker](https://www.docker.com/) installed in your computer. This is only a requirement when you want to run some AI locally on your system. Docker is FREE and open-source software. Find out more, about [why we use Docker](getting-started/docker.md).
 
 You can download and install Docker using the following links:
 
@@ -50,7 +48,7 @@ You can download and install Docker using the following links:
 - [Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
 - [Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-!> Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise or Education editions of Windows. If you don't have a Pro, Enterprise or Education Windows edition you will not be able to install Docker and you will be able to only run some Runway models.
+!> For Windows, you'll need to have a Pro, Enterprise or Education edition of Windows, in order to install Docker. If you're unable to install Docker on your Windows machine, don't worry, some of our models will still work for you!
 
 Once Docker is installed and running, you should see the following:
 

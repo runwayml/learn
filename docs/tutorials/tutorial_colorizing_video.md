@@ -1,11 +1,11 @@
-# Tutorial: Colorizing a black and white video
+# Tutorial: Colorizing Black & White Video's
 
 In this tutorial, we will colorize frames of a black and white video using the [Colorful Image Colorization](https://arxiv.org/abs/1603.08511) model by Zhang et al. This model uses a deep neural network to generate a colorized version of a greyscale image.
 
 ### Requirements
 
-- Runway Beta
-- Docker (If you don't have Docker installed, please follow the installation instructions [here](/installation?id=download-docker).)
+- Runway App
+- Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 - A grayscale MP4 video
 
 ### Step 1
@@ -21,7 +21,7 @@ Next, add the model to a workspace from the top right side of the app.
 ![Colorizing images with Runway, step 2](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/automatic02.jpg)
 
 
-### Step 3 
+### Step 3
 
 If you haven't installed **Automatic Colorization**, the bottom right button will prompt you to install the model.  **You need to have Docker installed in order to continue.**
 
@@ -47,7 +47,7 @@ On the I/O View select the **File** option in the **Output** dropdown. We will b
 
 ### Step 6
 
-Adjust the output settings. You can change the amount of frames per second (fps) and format of the output video. 
+Adjust the output settings. You can change the amount of frames per second (fps) and format of the output video.
 
 ?> Higher fps will mean more processing time!
 

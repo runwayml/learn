@@ -1,11 +1,11 @@
-# Tutorial: Applying Style-Aware Content (Style Transfer) to an image. 
+# Tutorial: Style Transfer of an Image
 
 In this tutorial, we will the ["A Style-Aware Content Loss for Real-time HD Style Transfer"](https://arxiv.org/pdf/1807.10201.pdf) model to transfer the particular style of a painter to any image we want. This model is able to capture the more subtle style and nature of an artist by training on multiple paintings rather than a single one.
 
 ### Requirements
 
-- Runway Beta
-- Docker (If you don't have Docker installed, please follow the installation instructions [here](/installation?id=download-docker).)
+- Runway App
+- Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 - An image file.  
 
 ### Step 1
@@ -21,7 +21,7 @@ Next, add the model to a workspace from the top right side of the app.
 ![Adaptive Style Transfer with Runway, step 2](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/styletransfer02.jpg)
 
 
-### Step 3 
+### Step 3
 
 If you haven't installed **Adaptive Style Transfer**, the bottom right button will prompt you to install the model.  **You need to have Docker installed in order to continue.**
 
@@ -35,9 +35,9 @@ If you haven't installed **Adaptive Style Transfer**, the bottom right button wi
 
 ### Step 4
 
-To run **Adaptive Style Transfer** you will need download a `Checkpoint` for every style. `Checkpoints` are specific `Artifacts` that contains the information needed to apply a specific type of style to an image. 
+To run **Adaptive Style Transfer** you will need download a `Checkpoint` for every style. `Checkpoints` are specific `Artifacts` that contains the information needed to apply a specific type of style to an image.
 
-Search for the **Style Checkpoint** dropdown and pick the `Checkpoint` you want to use. In this case we will download and use the Van Gogh `Checkpoint`. 
+Search for the **Style Checkpoint** dropdown and pick the `Checkpoint` you want to use. In this case we will download and use the Van Gogh `Checkpoint`.
 
 ![Adaptive Style Transfer with Runway, step 5](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/styletransfer05.jpg)
 
@@ -69,7 +69,7 @@ Next, click the **Run Adaptive Style Transfer** button on the bottom right corne
 
 ### Step 8
 
-After processing the image, Runway will show the result at the local view panel. 
+After processing the image, Runway will show the result at the local view panel.
 
 ![Adaptive Style Transfer with Runway, step 10](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/styletransfer10.jpg)
 

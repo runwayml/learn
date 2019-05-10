@@ -5,9 +5,9 @@ The [PhotoSketch model](https://arxiv.org/pdf/1901.00542.pdf) created by Li et a
 In this tutorial, we will use Runway to run PhotoSketch to create a real-time contour outline of your webcam stream. We will then send the resulting image via HTTP network to a simple web app built with JavaScript and [p5.js](http://p5js.org/)
 
 ### Requirements
-* Runway Beta
+* Runway App
 * A webcam or built-in camera
-* Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/installation?id=download-docker))
+* Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/getting-started/docker))
 
 ### Step 1
 
@@ -40,14 +40,14 @@ Select **Output** > **Network**, and click on **HTTP**.
 Use the HTTP server and route to send the resulting image to an external app.
 
 Choose to run the model locally or remotely on an external GPU. You
-can enable the remote GPU by toggling the  **Enable Remote GPU**
+can enable the remote GPU by toggling the **Enable Remote GPU**
 switch on. Click on **Run Remotely** when your app is ready.
 
 ![HTTP Output](images/tutorial_photosketch/05_http.png)
 
 ### Step 6
 
-Our **ColoringBook** example for p5.js receives the PhotoSketch drawing from Runway and displays it on the canvas, where you can color or draw on it using the mouse cursor. 
+Our **ColoringBook** example for p5.js receives the PhotoSketch drawing from Runway and displays it on the canvas, where you can color or draw on it using the mouse cursor.
 
 To get started, navigate to the [example repository](https://github.com/runwayml/p5js).
 
