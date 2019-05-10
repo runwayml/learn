@@ -1,12 +1,12 @@
 # Overview
 
-> __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
+Welcome to Runway! Runway is a platform and community for you to create with AI. Runway allows provides you with a simple visual interface to use the latest AI techniques. We offer a creative platform where you can create and also allow easy connections to third party applications. Here, in our documentation, we aim to help you get up and running with Runway ML.
 
-Runway is a toolkit that enables creators of all kinds to use artificial intelligence in an intuitive way. Runway is composed of two main parts:
+Runway is composed of two main parts:
 - An desktop app with a simple and intuitive visual interface.
 - A dev API to run a headless version of Runway. *Coming soon!*
 
-In this quick overview, we will go over the desktop application, explain how the interface works and how you can start using state of the art artificial intelligence models with a few simple clicks!
+Here, we will go over the desktop application. We will explain how the interface works and how you can start using state of the art artificial intelligence models with a few simple clicks!
 
 The current beta version of Runway (*Release 0.1.0*) has three main views: I/O, Models Directory and Settings. You can switch between views clicking on the vertical menu on the left.
 
