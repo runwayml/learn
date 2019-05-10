@@ -28,25 +28,16 @@
     * [~~Select your Output Source~~](how-to/output-source.md)
     * [~~Run on Cloud GPU~~](how-to/cloud-gpu.md)
 
-* Integrations
-    * [~~Ableton~~](#)
+* Integrationsx
     * [Arduino](https://github.com/runwayml/arduino)
-    * [~~Blender~~](#)
+    * [JavaScript](https://github.com/runwayml/javascript)
     * [Max/MSP](https://github.com/runwayml/maxmsp)
     * [OpenFrameworks](https://github.com/runwayml/openFrameworks)
     * [P5.js](https://github.com/runwayml/p5js)
     * [Processing](https://github.com/runwayml/processing)
-    * [~~Photoshop~~](#)
     * [Pure Data](https://github.com/runwayml/puredata)
-    * [~~Sketch~~](#)
     * [TouchDesigner](https://github.com/runwayml/touchDesigner)
     * [Unity](https://github.com/runwayml/unity)
-    * [~~Unreal Engine 4~~](#)
-    * [~~VSCode~~](#)
-
-* Code Libraries
-    * [JavaScript](https://github.com/runwayml/javascript)
-    * [Python](https://github.com/runwayml/python)
 
 * More
-    * [Awesome Runway](https://github.com/runwayml/awesome-runway)
+    * [Awesome Runway](https://github.com/runwayml)
