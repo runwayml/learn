@@ -109,7 +109,7 @@ preprocess = transforms.Compose([
 +     return { 'label': label }
 
 + if __name__ == '__main__':
-+     rw.run()
++     runway.run()
 ```
 <p class='subtitle'>Contents of model.py</p>
 
