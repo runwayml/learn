@@ -4,6 +4,13 @@ Here at Runway, we use [Docker](https://www.docker.com/) to help us run our AI m
 
 ![Select Model](images/tutorial_docker/docker-runway.png)
 
+
+## Which models can be run Locally?
+
+When you browse models, you can see in the model information, if it supports CPU and/or GPU. If the model supports CPU you can run on your local harddrive. Here we see the model Facial Landmarks is able to run locally.
+
+![CPU model](images/model-running/model-cpu.png)
+
 ## What is Docker?
 
 [Docker](https://www.docker.com/) is a tool which is designed to run, deploy and create applications, in a container. Containers are a way of making an environment similar to that of your computers Operating System (OS). This allows us to control what is installed within a container for your application, so we have only the things that are needed.

@@ -7,8 +7,8 @@
 
 * How-To
     * [Browse the Model Directory](how-to/browse-model-directory.md)
-    * [Run a Model](getting-started/run-a-model.md)
-      * [Run a Model Locally](getting-started/docker.md)
+    * [Run a Model](how-to/run-a-model.md)
+      * [Run a Model Locally](how-to/docker.md)
     * [~~Use a Pre-installed Model~~](how-to/use-pre-installed-model.md)
     * [~~Select your Input Source~~](how-to/input-source.md)
     * [~~Select your Output Source~~](how-to/output-source.md)
