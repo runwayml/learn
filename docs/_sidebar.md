@@ -6,9 +6,14 @@
     * [The World of GPU's](getting-started/the-world-of-gpus.md)
     * [Why we use Docker](getting-started/docker.md)
 
-* AI
-  * [A Brief Introduction to AI](AI/intro-to-ai.md)
-  * [Creative Applications of AI](AI/creative-ai.md)    
+* How-To
+    * [~~Browse the Model Directory~~](how-to/browse-model-directory.md)
+    * [~~Use a Pre-installed Model~~](how-to/use-pre-installed-model.md)
+    * [~~Select your Input Source~~](how-to/input-source.md)
+    * [~~Select your Output Source~~](how-to/output-source.md)
+    * [Run on Cloud GPU](how-to/cloud-gpu.md)
+    * [Import your own Model](how-to/importing.md)
+
 
 * [Tutorials](tutorials/tutorials.md)
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
@@ -20,17 +25,6 @@
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
-    * [~~Background Removal in Photoshop~~](#)
-    * [~~Skeleton tracking in Unity~~](#)
-
-* How-To
-    * [Import your own Models](how-to/importing.md)
-    * [Contribute to Runway](how-to/contribute.md)
-    * [~~Browse the Model Directory~~](how-to/browse-model-directory.md)
-    * [~~Use a Pre-installed Model~~](how-to/use-pre-installed-model.md)
-    * [~~Select your Input Source~~](how-to/input-source.md)
-    * [~~Select your Output Source~~](how-to/output-source.md)
-    * [~~Run on Cloud GPU~~](how-to/cloud-gpu.md)
 
 * Integrations
     * [Arduino](https://github.com/runwayml/arduino)
@@ -44,5 +38,6 @@
     * [Unity](https://github.com/runwayml/unity)
 
 * More
+    * [Contribute to Runway](how-to/contribute.md)
     * [Developing with Runway](https://github.com/runwayml)
     * [Runway Model SDK](https://sdk.runwayml.com/)
