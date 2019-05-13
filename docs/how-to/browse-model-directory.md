@@ -1,3 +1,4 @@
 # Browse the Model Directory
 
-Soon!
+
+![home screen](../,,/getting-started/views/home-screen.png)

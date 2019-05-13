@@ -4,7 +4,7 @@
     * [Views](getting-started/views.md)
     * [Model 101](getting-started/model-101.md)
     * [The World of GPU's](getting-started/the-world-of-gpus.md)
-    * [Why we use Docker](getting-started/docker.md)
+    * [Running Models Locally](getting-started/docker.md)
 
 * How-To
     * [Browse the Model Directory](how-to/browse-model-directory.md)
