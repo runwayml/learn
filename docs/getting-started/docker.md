@@ -2,7 +2,7 @@
 
 Here we discuss why we need to install Docker when you run Runway.
 
-![Select Model](images/tutorial_docker/docker.png)
+![Select Model](images/tutorial_docker/docker-runway.png)
 
 ### What is Docker?
 
