@@ -14,7 +14,7 @@ First, let's get you [signed up!](https://runwayml.com/) Shortly upon signing up
 * More than 8GB of RAM
 * [Docker](https://www.docker.com/) installed - [see our guide to why we need Docker](/getting-started/docker)
 
-Please follow the [installation guide](installation.md).
+Please follow the [installation guide](getting-started/installation.md).
 
 ### Join our community
 
@@ -28,14 +28,3 @@ We have a strong community where you can:
 * Get involved in attending and/or running workshops
 
 If you want to contribute to the development of the  project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](/#/how-to/contributing).
-
-
-
-
-<p class='next'>
-  <b><a href="/#/getting-started/installation">
-   Read Next: Installation
-  </b></a>
-  <br/>
-  Install Runway, create an account and learn how to start building A.I projects.
-</p>

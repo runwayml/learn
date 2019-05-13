@@ -35,14 +35,18 @@ When researchers have finished working on a making a model, often they share thi
 
 ## Our Top Models to try out
 
-Currently on Runway we provided a short list of the teams favorite models to get started with! Below are some recommendations, or checkout our tutoria on [browsing models on Runway](how-to/browse-model-directory).
-
+Currently on Runway we provided a short list of the teams favorite models to get started with! Below are some recommendations, or checkout our tutorial on [browsing models on Runway](how-to/browse-model-directory).
 
 ![Top Models](images/model_101/recommended_models.png)
 
 
 ## Running Models Locally vs. The Cloud
 
+Some of the models you may wish to run remotely (on the 'cloud') as opposed to locally. We do this, as sometimes our machines are not powerful enough, nor have a GPU that will work for that specific model ([Read more about GPUs](getting-started/the-world-of-gpus)).
+
+In order to run remotely, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud.
+
+![Remote GPU](images/model_101/running_remotely.png)
 
 ## Model Licenses, Attributions and Publishers
 

@@ -19,6 +19,8 @@ Many of our computers running Mac, Windows or Linux, may have a GPU under-the-ho
 
 Here we have a guide depending on your OS, of how to identify if you have a GPU.
 
+<!-- tabs:start -->
+
 #### **Windows**
 
 1. Click Start
@@ -43,15 +45,17 @@ In order to check if your Mac has a GPU.
 3. Hardware > Graphics/Displays
 4. Look at the 'Type' field on this panel. If it says GPU, then you do have a GPU
 
-!> Note that although newer versions of Macs do have a GPU, some models will not work with this GPU type. This is because many AI models, use NVidia GPU's. There are wider community groups working on forming models that will work on a  wider GPU basis. 
-
+!> Note that although newer versions of Macs do have a GPU, some models will not work with this GPU type. This is because many AI models, use NVidia GPU's. There are wider community groups working on forming models that will work on a  wider GPU basis.
 
 #### **Linux**
 
 Coming soon!
 <!-- tabs:end -->
 
-
-
 ## GPU's in the Cloud
-- Using Runway's Remote GPU runner
+
+Some of the models you may wish to run remotely (on the 'cloud') as opposed to locally, for example, to use a GPU for a model. Luckily we added the ability to do this!
+
+In order to run remotely, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud. Here we see the toggle allows us to 'Enable Remote GPU'
+
+![Remote GPU](images/model_101/running_remotely.png)
