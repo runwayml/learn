@@ -1,6 +1,6 @@
 # Running Models Locally
 
-Here at Runway, we use [Docker](https://www.docker.com/) to help us run our AI models. You only need to use Docker, if you'd like to run some of the models locally. Here we discuss why we need to install Docker when you run Runway.
+Here at Runway, we use [Docker](https://www.docker.com/) to help us run our AI models locally. You only need to use Docker, if you'd like to run some of the models locally. Here we discuss why we need to install Docker when you run Runway.
 
 ![Select Model](images/tutorial_docker/docker-runway.png)
 

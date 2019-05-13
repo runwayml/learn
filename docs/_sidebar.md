@@ -3,10 +3,12 @@
     * [Overview](getting-started/overview.md)
     * [Views](getting-started/views.md)
     * [Model 101](getting-started/model-101.md)
-    * [Running Models Locally](getting-started/docker.md)
+
 
 * How-To
     * [Browse the Model Directory](how-to/browse-model-directory.md)
+    * [Run a Model](getting-started/run-a-model.md)
+      * [Run a Model Locally](getting-started/docker.md)
     * [~~Use a Pre-installed Model~~](how-to/use-pre-installed-model.md)
     * [~~Select your Input Source~~](how-to/input-source.md)
     * [~~Select your Output Source~~](how-to/output-source.md)
