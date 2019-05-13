@@ -7,7 +7,7 @@
     * [Why we use Docker](getting-started/docker.md)
 
 * How-To
-    * [~~Browse the Model Directory~~](how-to/browse-model-directory.md)
+    * [Browse the Model Directory](how-to/browse-model-directory.md)
     * [~~Use a Pre-installed Model~~](how-to/use-pre-installed-model.md)
     * [~~Select your Input Source~~](how-to/input-source.md)
     * [~~Select your Output Source~~](how-to/output-source.md)

@@ -47,7 +47,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 Every model in Runway has its own view. From here, you can learn more about the model, authors, specifications and characteristics, examples and license.
 
-![Input/Output View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/models_info_annotated.jpg)
+![Input/Output View](images/views/model-view-annotated.png)
 
 1) **Information**: Name, authors, gallery, description and license of the model.
 
