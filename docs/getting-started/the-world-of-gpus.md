@@ -14,7 +14,6 @@ In recent years, GPU's have been part of the driving force behind why we see so 
 
 Many of our computers running Mac, Windows or Linux, may have a GPU under-the-hood. Currently Nvidia is the main provider of GPU's for AI and what we call deep learning. Then we have Google who formed a chip called the TPU also for AI. How ever not all GPU's are not yet ready for AI.
 
-
 ## Has my Machine got a GPU?
 
 Here we have a guide depending on your OS, of how to identify if you have a GPU.
@@ -27,7 +26,9 @@ Here we have a guide depending on your OS, of how to identify if you have a GPU.
 2. On the Start menu, click Run
 3. In the Open box, type "dxdiag" (without the quotation marks), and then click OK
 4. The DirectX Diagnostic Tool opens. Click the Display tab
-5. On the Display tab, information about your graphics card is shown in the Device section. You can see the name of your card, as well as how much video memory it has
+5. On the Display tab, information about your graphics card is shown in the Device section. You can see the name of your card, as well as how much video memory it has.
+
+!> Newer Windows often do have a GPU in them! Currently our models support NVidia GPU's.
 
 #### **Mac**
 

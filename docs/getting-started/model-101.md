@@ -2,7 +2,7 @@
 
 At the core of Runway, we have models. But what exactly is a model and how does it work? Here we discuss what a model is and why we need it within the Runway App.
 
-## What is a model and how is one created?
+## What is a Model? How is a Model Created?
 
 We use the term model, as a high level representation of AI logic.  The model itself, contains a set of series and rules, that can be both decided and determined by humans and machine intelligence. For example, a model may itself learn how to recognise a face in a video or image. A researcher has given the model, images containing faces and over time, the model has learned what a face looks like. This is an example of a form of recognition. We often take recognition for granted, as we learnt how to recognise people and inanimate objects as we learned as a child. But imagine how tricky it is for a computer to learn and recognise!
 
@@ -16,9 +16,7 @@ When the researcher feeds the model by giving it some data such as images, text,
 
 ## Endless possibilities of Models
 
-Now you know more about Models, what things can models do?
-
-People have trained and built models for many different purposes. Below are some of the models we have detected:
+Now you know more about Models, what can models do? People have trained and built models for many different purposes. Below are some of the models we have detected:
 
 * Recognition: emotions, objects, people body positions, hot-dogs, spam and sounds
 * Generate: photorealistic faces, captions, streets, facades, voices and videos of airplanes morphing into cats

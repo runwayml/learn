@@ -1,11 +1,14 @@
 * Getting started
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
-    * [A Brief Introduction to A.I.](getting-started/intro-to-ai.md)
-    * [Creative Applications of AI](getting-started/creative-ai.md)
+    * [Views](getting-started/views.md)
     * [Model 101](getting-started/model-101.md)
     * [The World of GPU's](getting-started/the-world-of-gpus.md)
     * [Why we use Docker](getting-started/docker.md)
+
+* AI
+  * [A Brief Introduction to AI](AI/intro-to-ai.md)
+  * [Creative Applications of AI](AI/creative-ai.md)    
 
 * [Tutorials](tutorials/tutorials.md)
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
