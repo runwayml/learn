@@ -3,7 +3,6 @@
     * [Overview](getting-started/overview.md)
     * [Views](getting-started/views.md)
     * [Model 101](getting-started/model-101.md)
-    * [The World of GPU's](getting-started/the-world-of-gpus.md)
     * [Running Models Locally](getting-started/docker.md)
 
 * How-To
