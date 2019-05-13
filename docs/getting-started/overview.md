@@ -88,11 +88,3 @@ Every model in Runway has its own view. From here, you can learn more about the 
 The settings view has your account details and basic information about the app.
 
 ![Input/Output View](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/settings_view.png)
-
-<p class='next'>
-  <b><a href="/#/getting-started/intro-to-ai">
-   Read Next: A Brief Introduction to Artificial Intelligence (A.I)
-  </b></a>
-  <br/>
-  Understand how A.I works and how can you use it in Runway
-</p>

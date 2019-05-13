@@ -130,12 +130,3 @@ Increase the "Memory" slider to 8.0 GB, then click "Apply & Restart."
 </div>
 
 All set!
-
-
-<p class='next'>
-  <b><a href="/#/getting-started/overview">
-   Read Next: Overview
-  </b></a>
-  <br/>
-  Familiarize yourself with how Runway works.
-</p>

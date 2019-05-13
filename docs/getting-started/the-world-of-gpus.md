@@ -43,6 +43,8 @@ In order to check if your Mac has a GPU.
 3. Hardware > Graphics/Displays
 4. Look at the 'Type' field on this panel. If it says GPU, then you do have a GPU
 
+!> Note that although newer versions of Macs do have a GPU, some models will not work with this GPU type. This is because many AI models, use NVidia GPU's. There are wider community groups working on forming models that will work on a  wider GPU basis. 
+
 
 #### **Linux**
 
