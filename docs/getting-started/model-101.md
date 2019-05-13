@@ -1,20 +1,53 @@
 # Models 101
 
-Runway's core units are machine learning models. Machine learning models execute a series of rules to create a high level representation of some input data to solve a specific task. These rules are not designed by humans, but rather learned from the data the model is trained on. Thus, a model created to recognize faces will first need to be trained on datasets of many different types of faces. Once trained, it should be able to recognize faces from pictures it has never seen before. In reality the process is a bit more complex. It involves collecting a large number of data points, creating training, validation and test data sets, choosing the right architecture, selecting the right hyper-parameters and then training your model using, if possible, a graphic processing unit (GPU) for faster results.
+At the core of Runway, we have models. But what exactly is a model and how does it work? Here we discuss what a model is and why we need it within the Runway App.
 
-People have trained and built models for many different purposes, including models to recognize emotions, objects and people, body positions, hot-dogs, spam and sounds; models to generate photorealistic faces, captions, streets, facades, voices and videos of airplanes morphing into cats; models to detect cancer, malaria and HIV. Some trained models are ethically dubious and raise important questions about the social impact of algorithms and biases in our society such as models used to screen job applicants or predict crime. People build models in different programming languages, with different frameworks and for different purposes.
+## What is a model and how is one created?
 
-Reality is complex, so a model will never be able to completely mimic real phenomena. But we should pick a model that catches the broad strokes of behaviour. Keep in mind the famous words of the great statistician George Box: "All models are wrong, but some are useful".
+We use the term model, as a high level representation of AI logic.  The model itself, contains a set of series and rules, that can be both decided and determined by humans and machine intelligence. For example, a model may itself learn how to recognise a face in a video or image. A researcher has given the model, images containing faces and over time, the model has learned what a face looks like. This is an example of a form of recognition. We often take recognition for granted, as we learnt how to recognise people and inanimate objects as we learned as a child. But imagine how tricky it is for a computer to learn and recognise!
 
-## What is a model?
+When the researcher feeds the model by giving it some data such as images, text, video, this is what we call *training data*. When it's finished learning, the researcher then *tests* the model, to see if it's been able to learn. We see if the model has learned the data from if it's output is relevant, For example. can it recognise a face now it's seen so many images of faces?
+
+### Types of Models
+
+- **Extract** - can extract information from some form of input. For example, facial tracking allows us to extract if a face exists in an image.
+- **Generate** - is where a model learns from its input to try and generate new. For example, if as a child we are only taught about the artist [Picasso](https://www.pablopicasso.org/), then will our art style be that of Picasso's? If we show a model all of Picasso's work, that is the only art style it knows. So a generative model will try to create new work based on Picasso's style.
+- **Transform** - a model transforms the input that is given to it. For example. If we apply stylisation to an image, so it looks like it's been painted by Vincent van Gogh.
+
+## Endless possibilities of Models
+
+Now you know more about Models, what things can models do?
+
+People have trained and built models for many different purposes. Below are some of the models we have detected:
+
+* Recognition: emotions, objects, people body positions, hot-dogs, spam and sounds
+* Generate: photorealistic faces, captions, streets, facades, voices and videos of airplanes morphing into cats
+* Detect: models to detect cancer, malaria and HIV
+
+Some trained models are ethically dubious and raise important questions about the social impact of algorithms and biases in our society such as models used to screen job applicants or predict crime. People build models in different programming languages, with different frameworks and for different purposes.
+
 ## Where to find models?
-## Our Top Models to try out
-## Running Models Locally vrs. The Cloud
 
-<p class='next'>
-  <b><a href="/#/tutorials/tutorial_im2txt">
-   Read Next: Learn how to classify all images in a folder.
-  </b></a>
-  <br/>
-  Follow up with a practical tutorial and learn how to use state of the art ML models.
-</p>
+On the Runway app you can browse through a selection of models and search according to your needs. Do check out our guide on [browsing models on Runway](how-to/browse-model-directory). The models we show in Runway, are all based on researchers work whom kindly share their work on [Github](https://github.com/).
+
+When researchers have finished working on a making a model, often they share this on a platform called [Github](https://github.com/). If you are familiar with Github, then look into our [Importing Models into Runway](how-to/importing) tutorial.
+
+
+## Our Top Models to try out
+
+Currently on Runway we provided a short list of the teams favorite models to get started with! Below are some recommendations, or checkout our tutoria on [browsing models on Runway](how-to/browse-model-directory).
+
+
+![Top Models](images/model_101/recommended_models.png)
+
+
+## Running Models Locally vs. The Cloud
+
+
+## Model Licenses, Attributions and Publishers
+
+It's important to note, that each model comes with a license. Please do check before use! Some of the models outputs may be restricted to non-commercial purposes. You and the license on the models tab labelled 'License'
+
+Equally, as important we aim to attribute and provide the publishers of the model. If you notice these to be in error, require additional information,
+
+![Licensing](images/model_101/licensing_attributes.png)
