@@ -23,7 +23,8 @@
     * [Image Classification with MobileNet](tutorials/tutorial_mobilenet.md)
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
-    * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
+    * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)    
+    * [Generating images with Style Gan](tutorials/tutorial_stylegan.md)
 
 * Integrations
     * [Arduino](https://github.com/runwayml/arduino)
