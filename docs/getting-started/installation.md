@@ -1,4 +1,10 @@
-# Installation
+## System requirements
+
+* Mac, Windows, or Linux operating system
+* More than 8GB of RAM
+* [Docker](https://www.docker.com/) installed - [see our guide to why we need Docker](/how-to/docker)
+
+## Installation
 
 If you haven't yet downloaded Runway, then let's begin by getting you an [invite to download the app](https://runwayml.com/). You can do this through signing up on our list on [runwayml.com](https://runwayml.com/). Shortly after getting an email, you should receive a link to download Runway. Download the right version for your operating system.
 
