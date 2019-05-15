@@ -2,14 +2,14 @@
 
 Here at Runway, we use [Docker](https://www.docker.com/) to help us run our AI models locally. You only need to use Docker, if you'd like to run some of the models locally. Here we discuss why we need to install Docker when you run Runway.
 
-![Select Model](images/tutorial_docker/docker-runway.png)
+![Select Model](assets/images/tutorials/tutorial_docker/docker-runway.png)
 
 
 ## Which models can be run Locally?
 
 When you browse models, you can see in the model information, if it supports CPU and/or GPU. If the model supports CPU you can run on your local harddrive. Here we see the model Facial Landmarks is able to run locally.
 
-![CPU model](images/model-running/model-cpu.png)
+![CPU model](assets/images/tutorials/model-running/model-cpu.png)
 
 ## What is Docker?
 
@@ -100,21 +100,21 @@ If Docker is not installed, unavailable or not running you will see the followin
 By default, Docker allocates a maximum of 2 GB of memory to run models. Some Runway models exceed that, which may lead to errors. To prevent that, you need to increase Docker's memory limit. Open Docker Preferences:
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/docker_open_preferences.png" alt="Docker Open Preferences" >
+  <img src="assets/images/how-to/run-locally/docker_open_preferences.png" alt="Docker Open Preferences" >
   <p>Open Docker preferences.</p>
 </div>
 
 Go to the "Advanced" tab.
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/docker_advanced_tab.png" alt="Docker Open Preferences" >
+  <img src="assets/images/how-to/run-locally/docker_advanced_tab.png" alt="Docker Open Preferences" >
   <p>Go to the "Advanced" tab in Preferences.</p>
 </div>
 
 Increase the "Memory" slider to 8.0 GB, then click "Apply & Restart."
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/docker_increase_limit.png" alt="Docker Open Preferences" >
+  <img src="assets/images/how-to/run-locally/docker_increase_limit.png" alt="Docker Open Preferences" >
   <p>Increase Docker's memory limit.</p>
 </div>
 

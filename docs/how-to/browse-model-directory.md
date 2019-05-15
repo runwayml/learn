@@ -1,4 +1,4 @@
 # Browse the Model Directory
 
 
-![home screen](../,,/getting-started/views/home-screen.png)
+![home screen](assets/images/views/home-screen.png)

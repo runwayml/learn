@@ -9,14 +9,12 @@
     * [Browse the Model Directory](how-to/browse-model-directory.md)
     * [Run a Model](how-to/run-a-model.md)
       * [Run a Model Locally](how-to/docker.md)
-    * [~~Use a Pre-installed Model~~](how-to/use-pre-installed-model.md)
     * [~~Select your Input Source~~](how-to/input-source.md)
     * [~~Select your Output Source~~](how-to/output-source.md)
-    * [Run on Cloud GPU](how-to/cloud-gpu.md)
     * [Import your own Model](how-to/importing.md)
 
 
-* [Tutorials](tutorials/tutorials.md)
+* Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
     * [Captioning Images](tutorials/tutorial_im2txt.md)
     * [Colorizing Black & White Video's](tutorials/tutorial_colorizing_video.md)

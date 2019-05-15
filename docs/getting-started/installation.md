@@ -9,28 +9,28 @@ If you haven't yet downloaded Runway, then let's begin by getting you an [invite
 Once you have downloaded the app, open Runway by double clicking the icon and you will be prompt to create a new account. Start by entering the email you used to register with.
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_01.png" alt="Runway Login Email Verification" >
+  <img src="assets/images/installation/login_01.png" alt="Runway Login Email Verification" >
   <p>Enter your registered email.</p>
 </div>
 
 Next, create your Runway account. Choose your `username`, a strong `password` and enter your first and last name. If you are planning on using Runway from an organization (company, school, NGO, Research Lab, etc) please enter the organization name.
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_02.png" alt="Runway Account Creation" >
+  <img src="assets/images/installation/login_02.png" alt="Runway Account Creation" >
   <p>Create your Runway account.</p>
 </div>
 
 Once your account has been created, you will need to verify the email associated with your account. Please check your inbox for a verification code we will send. Check your spam or promotions folder in case you don't receive a verification code after a few minutes.
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_04.png" alt="Runway Verification code" >
+  <img src="assets/images/installation/login_04.png" alt="Runway Verification code" >
   <p>Enter the Verification Code</p>
 </div>
 
 After verifying your account you are good to go! If you log out of your account you can enter again just by typing your email, username and password.
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/login_06.png" alt="Runway Account Verified" >
+  <img src="assets/images/installation/login_06.png" alt="Runway Account Verified" >
   <p>Account Verified. All Set!</p>
 </div>
 

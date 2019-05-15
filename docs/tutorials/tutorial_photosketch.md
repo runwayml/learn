@@ -13,20 +13,20 @@ In this tutorial, we will use Runway to run PhotoSketch to create a real-time co
 
 Select the **PhotoSketch** model from the Model Directory.
 
-![Select Model](images/tutorial_photosketch/01_select_model.png)
+![Select Model](assets/images/tutorials/tutorial_photosketch/01_select_model.png)
 
 ### Step 2
 
 Add the model to a workspace using the drop-down list on the top right
 side of the app.
 
-![Add to Workspace](images/tutorial_photosketch/02_add_to_workspace.png)
+![Add to Workspace](assets/images/tutorials/tutorial_photosketch/02_add_to_workspace.png)
 
 ### Step 3
 
 Select **Input** > **Camera**
 
-![Set Input](images/tutorial_photosketch/03_set_input.png)
+![Set Input](assets/images/tutorials/tutorial_photosketch/03_set_input.png)
 
 ### Step 4
 
@@ -59,7 +59,7 @@ $ git clone https://github.com/runwayml/p5js.git
 
 * Alternatively, click on the right side button and select **Download ZIP** instead. Unzip the file to the desired location.
 
-![Get Repository](images/tutorial_photosketch/06_repository.png)
+![Get Repository](assets/images/tutorials/tutorial_photosketch/06_repository.png)
 
 Once the repository folder is ready, navigate to `PhotoSketch/ColoringBook/` and open `index.html` using your browser of choice (or a local web server).
 
@@ -67,7 +67,7 @@ Once the repository folder is ready, navigate to `PhotoSketch/ColoringBook/` and
 
 Make sure PhotoSketch is running in Runway and check if the **Port** value matches Runway's HTTP Server from **Step 5** (e.g. `8001`). Press the PhotoSketch button until you receive an image you like.
 
-![Success](images/tutorial_photosketch/07_success.png)
+![Success](assets/images/tutorials/tutorial_photosketch/07_success.png)
 
 When you are done with your sketch, click on the
 **Save** button to download the canvas as an image file.

@@ -1,6 +1,6 @@
 # An Intro to AI
 
-![Models Directory](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/store.jpg)
+![Models Directory](assets/images/views/home-screen.png)
 
 Runway's main goal is to allow you, as creators to use AI. But what do we mean by AI?
 

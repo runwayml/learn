@@ -11,38 +11,38 @@ Runway provides a simple visual interface for experimenting with a variety of ma
 
 In this tutorial, we will use PoseNet, which is based on the paper [Towards Accurate Multi-person Pose Estimation in the Wild](https://arxiv.org/abs/1701.01779) and a [Tensorflow.js](https://js.tensorflow.org/) implementation by [Dan Oved](https://www.danioved.com/). The first step is selecting the PoseNet model from the Model Directory.
 
-![Skeleton tracking in Processing with Runway, step 1](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/posenet01.jpg)
+![Skeleton tracking in Processing with Runway, step 1](assets/images/tutorials/tutorial_posenet/posenet01.jpg)
 
 ### Step 2
 
-From the PoseNet model view, click on the right top dropdown menu and select **"Add to Workspace"** and then **"New Workspace"**. Create a new workspace by giving it any name you want. 
+From the PoseNet model view, click on the right top dropdown menu and select **"Add to Workspace"** and then **"New Workspace"**. Create a new workspace by giving it any name you want.
 
-![Skeleton tracking in Processing with Runway, step 1](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/posenet02.jpg)
+![Skeleton tracking in Processing with Runway, step 1](assets/images/tutorials/tutorial_posenet/posenet02.jpg)
 
 ### Step 3
 
 On the I/O, select the **Input** dropdown and click **Camera**. This will allow Runway to access your webcam stream.
 
-![Skeleton tracking in Processing with Runway, step 3](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/3_select_camera_input.png)
+![Skeleton tracking in Processing with Runway, step 3](assets/images/tutorials/tutorial_posenet//3_select_camera_input.png)
 
 
 ### Step 4
 
 On the **Output** panel, click the dropdown menu and select **OSC**. OSC stands for Open Sound Control, and it is a protocol for networking computers. This will allow Runway to send data and for Processing to listen for incoming data.
 
-![Skeleton tracking in Processing with Runway, step 4](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/4_select_osc_output.png)
+![Skeleton tracking in Processing with Runway, step 4](assets/images/tutorials/tutorial_posenet//4_select_osc_output.png)
 
 ### Step 5
 
 With the **Camera** and the **OSC** options selected, click **Run PoseNet** on the lower right side of the application.
 
-![Skeleton tracking in Processing with Runway, step 5](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/5_run_posenet.png)
+![Skeleton tracking in Processing with Runway, step 5](assets/images/tutorials/tutorial_posenet//5_run_posenet.png)
 
 ### Step 6
 
 Once the model is running, you will be able to see the output data in the **Format Type** panel. Every new frame being processed will show a progress bar under the camera input. This means the model is running and the data is being stream to an OSC server.
 
-![Skeleton tracking in Processing with Runway, step 6](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/6_posenet_running.png)
+![Skeleton tracking in Processing with Runway, step 6](assets/images/tutorials/tutorial_posenet//6_posenet_running.png)
 
 ### Step 7
 
@@ -52,7 +52,7 @@ Nest, visit the [Runway+Processing](https://github.com/runwayml/processing) repo
 
 Select the [PoseNet](https://github.com/runwayml/processing/blob/master/posenet/posenet.pde) example and run it with the Processing IDE.
 
-![Skeleton tracking in Processing with Runway, step 7](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/7_open_processing_sketch.png)
+![Skeleton tracking in Processing with Runway, step 7](assets/images/tutorials/tutorial_posenet//7_open_processing_sketch.png)
 
 In that small Processing sketch, the following set of lines set up the connection with the OSC server:
 
@@ -100,7 +100,7 @@ void oscEvent(OscMessage theOscMessage) {
 
 Processing will now receive PoseNet data coming from Runway. Now go create something great in Processing using machine learning!
 
-![Skeleton tracking in Processing with Runway, step  8](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_posenet_processing/8_voila.png)
+![Skeleton tracking in Processing with Runway, step  8](assets/images/tutorials/tutorial_posenet//8_voila.png)
 
 ### Summary
 

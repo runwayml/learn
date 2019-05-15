@@ -59,4 +59,4 @@ Some of the models you may wish to run remotely (on the 'cloud') as opposed to l
 
 In order to run remotely, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud. Here we see the toggle allows us to 'Enable Remote GPU'
 
-![Remote GPU](images/model_101/running_remotely.png)
+![Remote GPU](assets/images/model_101/running_remotely.png)

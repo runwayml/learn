@@ -15,14 +15,14 @@ The current beta version of Runway (*Release 0.1.0*) has three main views: I/O, 
 
 Every time you open Runway you will see the **Start Screen**. Here you can choose to **Start from a Model** or restore a previous **Workspace** (more on Workspaces below).
 
-![Runway Welcome View](images/views/intro-screen.png)
+![Runway Welcome View](assets/images/views/intro-screen.png)
 
 
 ## Home
 
 **Runway's Home** is a unique place to search, discover, publish, install new models. You can search for models with specific attributes, input types, creator, functionality or date. Runway comes with a pre-packed set of models that are ready to use right out of the box, but you will need to download and install other models.
 
-![Models Directory](images/views/home-screen-annotated.png)
+![Models Directory](assets/images/views/home-screen-annotated.png)
 
 1) **Your Models**: This panel gives you quick access to already installed models.
 
@@ -35,4 +35,4 @@ Every time you open Runway you will see the **Start Screen**. Here you can choos
 
 The settings view has your account details and basic information about the app.
 
-![Input/Output View](images/views/settings.png)
+![Input/Output View](assets/images/views/settings.png)

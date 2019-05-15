@@ -61,6 +61,13 @@
         previousText: 'Previous',
         nextText: 'Next',
         crossChapter: true
+      },
+      markdown: {
+        renderer: {
+          image: function(href, title) {
+            return `<img src="${href}"/>`
+          }
+        }
       }
     }
   </script>

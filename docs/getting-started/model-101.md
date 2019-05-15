@@ -35,7 +35,7 @@ When researchers have finished working on a making a model, often they share thi
 
 Currently on Runway we provided a short list of the teams favorite models to get started with! Below are some recommendations, or checkout our tutorial on [browsing models on Runway](how-to/browse-model-directory).
 
-![Top Models](images/model_101/recommended_models.png)
+![Top Models](assets/images/model_101/recommended_models.png)
 
 
 ## Running Models Locally vs. The Cloud
@@ -44,7 +44,7 @@ Some of the models you may wish to run remotely (on the 'cloud') as opposed to l
 
 In order to run remotely, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud.
 
-![Remote GPU](images/model_101/running_remotely.png)
+![Remote GPU](assets/images/model_101/running_remotely.png)
 
 ## Model Licenses, Attributions and Publishers
 
@@ -52,4 +52,4 @@ It's important to note, that each model comes with a license. Please do check be
 
 Equally, as important we aim to attribute and provide the publishers of the model. If you notice these to be in error, require additional information,
 
-![Licensing](images/model_101/licensing_attributes.png)
+![Licensing](assets/images/model_101/licensing_attributes.png)

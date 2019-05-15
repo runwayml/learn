@@ -2,7 +2,7 @@
 
 Once you select a model you will see your workspace for this model. This is the place where you can interact with your model. Let's walk through the layout of our workspace.
 
-![Input/Output View](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/io_annotated.jpg)
+![Input/Output View](assets/images/views/workspace-annotated.jpg)
 
 1) **Workspaces and Models**: All current Workspaces and Models will be visible in this panel. The Workspace and Model that's currently being used will be highlighted.
 
@@ -47,7 +47,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 Every model in Runway has its own view. From here, you can learn more about the model, authors, specifications and characteristics, examples and license.
 
-![Input/Output View](images/views/model-view-annotated.png)
+![Input/Output View](assets/images/views/model-view-annotated.png)
 
 1) **Information**: Name, authors, gallery, description and license of the model.
 
