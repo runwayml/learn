@@ -40,11 +40,18 @@ Currently on Runway we provided a short list of the teams favorite models to get
 
 ## Running Models Locally vs. The Cloud
 
-Some of the models you may wish to run remotely (on the 'cloud') as opposed to locally. We do this, as sometimes our machines are not powerful enough, nor have a GPU that will work for that specific model ([Read more about GPUs](getting-started/the-world-of-gpus)).
+Most models are currently run in the cloud. We do this, as sometimes our machines are not powerful enough, nor have a GPU that will work for that specific model. Find out [how to run your first model](how-to/run-a-model.md)
 
-In order to run remotely, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud.
+In order to run your model, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud.
 
 ![Remote GPU](assets/images/model_101/running_remotely.png)
+
+Some models are able to run locally. In order to know if a model runs remotely, we look at the models characteristics. We see this model, has GPU support, but not CPU support. If a model has CPU support, we can run it on our computer. Read mode about how you can run a model onn your computer [how to run your first model](how-to/docker.md)
+
+![characteristics](assets/images/model_101/model-characteristics.png)
+
+
+
 
 ## Model Licenses, Attributions and Publishers
 
