@@ -11,7 +11,7 @@ Runway provides a simple visual interface for experimenting with a variety of ma
 
 In this tutorial, we will use PoseNet, which is based on the paper [Towards Accurate Multi-person Pose Estimation in the Wild](https://arxiv.org/abs/1701.01779) and a [Tensorflow.js](https://js.tensorflow.org/) implementation by [Dan Oved](https://www.danioved.com/). The first step is selecting the PoseNet model from the Model Directory.
 
-![Skeleton tracking in Processing with Runway, step 1](assets/images/tutorials/tutorial_posenet/posenet01.jpg)
+![Skeleton tracking in Processing with Runway, step 1](assets/images/tutorials/tutorial_posenet/01_select_model.png)
 
 ### Step 2
 

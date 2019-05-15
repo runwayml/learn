@@ -8,7 +8,7 @@ Runway makes it really simple to use AI to process your own photo albums, media 
 
 In this tutorial, we will use **im2txt**, which is based on the paper [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/pdf/1411.4555.pdf) released by Google Research. The first step is selecting the im2txt model from the Model Directory.
 
-![step 1](assets/images/tutorials/tutorial_im2txt/im2txt01.jpg)
+![step 1](assets/images/tutorials/tutorial_im2txt/im2txt01.png)
 
 ### Step 2
 

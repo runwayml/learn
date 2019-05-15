@@ -1,4 +1,3 @@
-
 # Tutorial: Object Localization with COCO-SSD
 
 Runway facilitates object detection and identification in images and video.

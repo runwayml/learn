@@ -12,7 +12,7 @@ In this tutorial, we will the ["A Style-Aware Content Loss for Real-time HD Styl
 
 The first step is to select the model **Adaptive Style Transfer** from the Model Directory:
 
-![Adaptive Style Transfer with Runway, step 1](assets/images/tutorials/tutorial_style_transfer/styletransfer01.jpg)
+![Adaptive Style Transfer with Runway, step 1](assets/images/tutorials/tutorial_style_transfer/select_model_01.png)
 
 ### Step 2
 

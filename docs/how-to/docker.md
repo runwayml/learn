@@ -9,7 +9,7 @@ Here at Runway, we use [Docker](https://www.docker.com/) to help us run our AI m
 
 When you browse models, you can see in the model information, if it supports CPU and/or GPU. If the model supports CPU you can run on your local harddrive. Here we see the model Facial Landmarks is able to run locally.
 
-![CPU model](assets/images/tutorials/model-running/model-cpu.png)
+![CPU model](assets/images/how-to/run-locally/model-cpu.png)
 
 ## What is Docker?
 
@@ -41,7 +41,7 @@ Yes! We have chosen to use Docker, as we want to ensure everyone can use Runway.
 **Verify Installation:** a Docker icon in the top status bar. This indicates that Docker is running and accessible from Runway.
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-mac.png" alt="Docker Icon mac" >
+  <img src="assets/images/how-to/run-locally/docker-bar-mac.png" alt="Docker Icon mac" >
   <p>A whale in the top status bar indicates that Docker is running.</p>
 </div>
 
@@ -60,7 +60,7 @@ Once Docker is installed and running, you should see the following:
 **Verify Installation:** a Docker icon in the bottom notifications area. This indicates that Docker is running and accessible from Runway.
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-windows.png" alt="Docker Icon mac" >
+  <img src="assets/images/how-to/run-locally/docker-bar-windows.png" alt="Docker Icon mac" >
   <p>Docker icon in the Notifications area or System tray. </p>
 </div>
 
@@ -82,14 +82,14 @@ docker --help
 Runway will notify you if Docker is running or not. In the bottom status bar inside Runway you will see a whale icon and a message that indicates that Docker is available:
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-available-Runway.png" alt="Docker Icon mac" >
+  <img src="assets/images/how-to/run-locally/docker-available-Runway.png" alt="Docker Icon mac" >
   <p>A whale icon in the bottom status bar inside Runway.</p>
 </div>
 
 If Docker is not installed, unavailable or not running you will see the following message:
 
 <div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-unavailable-Runway.png" alt="Docker Icon mac" >
+  <img src="assets/images/how-to/run-locally/docker-unavailable-Runway.png" alt="Docker Icon mac" >
   <p>If Docker is not available, Runway will show a "Docker Unavailable" message in the bottom status bar.</p>
 </div>
 

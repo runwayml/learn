@@ -12,7 +12,7 @@ In this tutorial, we will colorize frames of a black and white video using the [
 
 The first step is to select the model **Automatic Colorization** from the Model Directory:
 
-![Colorizing images with Runway, step 1](assets/images/tutorials/tutorial_colorizing_video/automatic01.jpg)
+![Colorizing images with Runway, step 1](assets/images/tutorials/tutorial_colorizing_video/automatic01.png)
 
 ### Step 2
 

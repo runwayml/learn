@@ -13,7 +13,7 @@ Runway allows you to use and experiment with state of the art machine learning m
 
 The first step is to select the model **AttnGAN** from the Model Directory:
 
-![GAN, AttnGAN with Runway, step 1](assets/images/tutorials/tutorial_t2i/attn00.jpg)
+![GAN, AttnGAN with Runway, step 1](assets/images/tutorials/tutorial_t2i/select_model_01.png)
 
 ### Step 2
 
