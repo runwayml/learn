@@ -31,7 +31,7 @@ Select **Input** > **Camera**
 
 Set the camera and image options.
 
-![Settings](images/tutorials/tutorial_photosketch/04_settings.png)
+![Settings](assets/images/tutorials/tutorial_photosketch/04_settings.png)
 
 ### Step 5
 
@@ -42,7 +42,7 @@ Choose to run the model locally or remotely on an external GPU. You
 can enable the remote GPU by toggling the **Enable Remote GPU**
 switch on. Click on **Run Remotely** when your app is ready.
 
-![HTTP Output](images/tutorials/tutorial_photosketch/05_http.png)
+![HTTP Output](assets/images/tutorials/tutorial_photosketch/05_http.png)
 
 ### Step 6
 
