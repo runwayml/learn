@@ -1,4 +1,3 @@
-
 # Tutorial: Contour Drawings with PhotoSketch
 
 The [PhotoSketch model](https://arxiv.org/pdf/1901.00542.pdf) created by Li et al. allows you to infer contour drawings from images automatically.
@@ -32,7 +31,7 @@ Select **Input** > **Camera**
 
 Set the camera and image options.
 
-![Settings](images/tutorial_photosketch/04_settings.png)
+![Settings](images/tutorials/tutorial_photosketch/04_settings.png)
 
 ### Step 5
 
@@ -43,7 +42,7 @@ Choose to run the model locally or remotely on an external GPU. You
 can enable the remote GPU by toggling the **Enable Remote GPU**
 switch on. Click on **Run Remotely** when your app is ready.
 
-![HTTP Output](images/tutorial_photosketch/05_http.png)
+![HTTP Output](images/tutorials/tutorial_photosketch/05_http.png)
 
 ### Step 6
 
