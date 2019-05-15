@@ -40,4 +40,4 @@
     * [Contribute to Runway](how-to/contribute.md)
     * [Developing with Runway](https://github.com/runwayml)
     * [Runway Model SDK](https://sdk.runwayml.com/)
-    * [Awesome Runway](awesome-runway.md)
+    * [Awesome Runway](more/awesome-runway.md)
