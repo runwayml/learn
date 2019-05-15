@@ -18,7 +18,7 @@ The first step is to select the model **Automatic Colorization** from the Model 
 
 Next, add the model to a workspace from the top right side of the app.
 
-![Colorizing images with Runway, step 2](assets/images/tutorials/tutorial_colorizing_video/automatic02.jpg)
+![Colorizing images with Runway, step 2](assets/images/tutorials/tutorial_colorizing_video/automatic02.png)
 
 
 ### Step 3

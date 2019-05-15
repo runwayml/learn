@@ -18,7 +18,7 @@ The first step is to select the model **Adaptive Style Transfer** from the Model
 
 Next, add the model to a workspace from the top right side of the app.
 
-![Adaptive Style Transfer with Runway, step 2](assets/images/tutorials/tutorial_style_transfer/styletransfer02.jpg)
+![Adaptive Style Transfer with Runway, step 2](assets/images/tutorials/tutorial_style_transfer/styletransfer02.png)
 
 
 ### Step 3

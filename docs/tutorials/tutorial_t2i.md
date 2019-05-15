@@ -13,13 +13,13 @@ Runway allows you to use and experiment with state of the art machine learning m
 
 The first step is to select the model **AttnGAN** from the Model Directory:
 
-![GAN, AttnGAN with Runway, step 1](assets/images/tutorials/tutorial_t2i/select_model_01.png)
+![GAN, AttnGAN with Runway, step 1](assets/images/tutorials/tutorial_t2i/01_model.png)
 
 ### Step 2
 
 Next, add the model to a workspace from the top right side of the app.
 
-![GAN, AttnGAN with Runway, step 2](assets/images/tutorials/tutorial_t2i/attn01.jpg)
+![GAN, AttnGAN with Runway, step 2](assets/images/tutorials/tutorial_t2i/02_select.png)
 
 ### Step 3
 

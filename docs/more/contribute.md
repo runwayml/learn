@@ -1,5 +1,7 @@
 # Contributing to Runway
 
+## Open Source Development
+
 Runway allows you to connect state of the are machine learning models to third-party applications via open source extensions, plugins, libraries and add-ons. You can create and share your extensions and models with the Runway community. The official and supported OSS projects can be found in our GitHub account:
 
 [https://github.com/runwayml](https://github.com/runwayml)

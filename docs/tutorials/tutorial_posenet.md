@@ -17,7 +17,7 @@ In this tutorial, we will use PoseNet, which is based on the paper [Towards Accu
 
 From the PoseNet model view, click on the right top dropdown menu and select **"Add to Workspace"** and then **"New Workspace"**. Create a new workspace by giving it any name you want.
 
-![Skeleton tracking in Processing with Runway, step 1](assets/images/tutorials/tutorial_posenet/posenet02.jpg)
+![Skeleton tracking in Processing with Runway, step 1](assets/images/tutorials/tutorial_posenet/posenet02.png)
 
 ### Step 3
 

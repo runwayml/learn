@@ -14,7 +14,7 @@ In this tutorial, we will use **im2txt**, which is based on the paper [Show and 
 
 In this view, you can view information about the model, including a description of what the model does, licensing information, as well as the model input and output datatypes (`image` for the input image and `array[text, number]` for a list of captions and probabilities for each generated caption). To use im2txt, you will first need to add the model to a workspace.
 
-![step 2](assets/images/tutorials/tutorial_im2txt/im2txt02.jpg)
+![step 2](assets/images/tutorials/tutorial_im2txt/02_select.png)
 
 
 ### Step 3
