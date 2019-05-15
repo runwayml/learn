@@ -38,7 +38,7 @@
     * [Unity](https://github.com/runwayml/unity)
 
 * More
-    * [Contribute to Runway](how-to/contribute.md)
+    * [Contribute to Runway](more/contribute.md)
     * [Developing with Runway](https://github.com/runwayml)
     * [Runway Model SDK](https://sdk.runwayml.com/)
     * [Awesome Runway](more/awesome-runway.md)
