@@ -58,4 +58,4 @@
      -->
 
 * More
-    * [Awesome Runway](https://github.com/runwayml/awesome-runway)
+    * [Awesome Runway](https://github.com/runwayml/docs/blob/master/docs/awesome-runway.md)
