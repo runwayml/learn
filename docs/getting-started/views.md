@@ -2,11 +2,11 @@
 
 Once you select a model you will see your workspace for this model. This is the place where you can interact with your model. Let's walk through the layout of our workspace.
 
-![Input/Output View](assets/images/views/workspace-annotated.jpg)
+![Input/Output View](assets/images/views/workspace-annotated.png)
 
-1) **Workspaces and Models**: All current Workspaces and Models will be visible in this panel. The Workspace and Model that's currently being used will be highlighted.
+1) **Workspaces and Models**: Here we see all of our workspaces. The highlighted workspace is what we are currently viewing.
 
-2) **Current Input**: The input sources will update according to what your model supports for input. Currently Runway supports the following inputs:
+2) **Input**: Here we see our input panel. This is where we can specify if we want a file, image, folder etc. All the inputs we currently support are below
 
 | Input      | Supported Types | Description                                       |
 |------------|-----------------|---------------------------------------------------|
@@ -18,9 +18,8 @@ Once you select a model you will see your workspace for this model. This is the 
 | Socket.IO  | all types       | Query and receive results via a Socket.IO message |
 | OSC        | all types       | Query and receive results using OSC over UDP      |
 
-3) **Options**: Each model has a set of options, you can change and tweak. In AI terms, these are often known as hyperparameters.
 
-4) **Output**: Once a model is running, you will be able to see it's output in this panel. Some models will allow you to select the type of output you want. Current output types are:
+3) **Output**: Once a model is running, you will be able to see it's output in this panel. Some models will allow you to select the type of output you want. Current output types are:
 
 | Output     | Description                                       
 |------------|---------------------------------------------------------------------|
@@ -30,9 +29,9 @@ Once you select a model you will see your workspace for this model. This is the 
 | Socket.IO  | Query and receive results via a Socket.IO message                   |
 | OSC        | Query and receive results using OSC over UDP                        |
 
-5) **Change Output Option**: From this dropdown menu you can switch the type of output you want for the selected model.
+4) **Options**: Each model has a set of options, you can change and tweak. In AI terms, these are often known as hyperparameters.
 
-6) **Run/Stop & Install**: This button will allow you to start and stop your models. As of release 0.2.0 models can only be run locally. Uninstalled models will prompt here to install them before first use.
+5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](how-to/run-a-model.md)
 
 
 ### Understanding Workspaces
@@ -49,8 +48,8 @@ Every model in Runway has its own view. From here, you can learn more about the 
 
 ![Input/Output View](assets/images/views/model-view-annotated.png)
 
-1) **Information**: Name, authors, gallery, description and license of the model.
+1) **Information**: Here we provide a short summary of the model itself and what we can do with it. We can also see the authors and the licensing information. Read more about models in [**Model 101**](getting-started/model-101.md)
 
-2) **Use (add to Workspace)**: Add this model to a workspace.
+2) **Use (add to Workspace)**: This allows is to add a model to a new or existing workspacee.
 
-3) **Characteristics**: A summary table with the main characteristics of the model.
+3) **Characteristics**: Here we find the researchers of the model, original paper and Github repo, where the models code is.
