@@ -1,17 +1,16 @@
 ## My Workspace
 
-Once you select a model you will see your workspace for this model. This is the place where you can interact with your model. Let's walk through the layout of our workspace.
+You can use and group models in a workspace. Inside a workspace, you can interact with your model. Let's walk through the layout of how to interact with a model.
 
 ![Input/Output View](assets/images/views/workspace-annotated.png)
 
-1) **Workspaces and Models**: Here we see all of our workspaces. The highlighted workspace is what we are currently viewing.
+1) **Workspaces and Models**: Here we see all of our workspaces and models. The highlighted workspace is what we are currently viewing.
 
-2) **Input**: Here we see our input panel. This is where we can specify if we want a file, image, folder etc. All the inputs we currently support are below
+2) **Input**: This is where we you can specify the type of input we want for the model. Supported inputs include:
 
 | Input      | Supported Types | Description                                       |
 |------------|-----------------|---------------------------------------------------|
 | Camera     | image           | Use frames from the webcam stream as input        |
-| Microphone | audio           | Audio segments from microphone as input           |
 | Text       | text            | Free-from text input                              |
 | File       | all types       | Use a supported file type                         |
 | HTTP       | all types       | Query and receive results via an HTTP requests    |
@@ -29,7 +28,7 @@ Once you select a model you will see your workspace for this model. This is the 
 | Socket.IO  | Query and receive results via a Socket.IO message                   |
 | OSC        | Query and receive results using OSC over UDP                        |
 
-4) **Options**: Each model has a set of options, you can change and tweak. In AI terms, these are often known as hyperparameters.
+4) **Options**: Each model has a set of options, you can change and tweak. These are often known as hyperparameters.
 
 5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](how-to/run-a-model.md)
 

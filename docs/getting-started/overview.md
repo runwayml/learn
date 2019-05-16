@@ -1,15 +1,11 @@
 # Overview
 
-Welcome to Runway! Runway is a platform and community for you to create with AI. Runway allows provides you with a simple visual interface to use the latest AI techniques. We offer a creative platform where you can create and also allow easy connections to third party applications. Here, in our documentation, we aim to help you get up and running with Runway ML.
+Runway is a platform that allows creators of all kinds to use machine learning. Runway provides you with a simple way to use the latest machine learning techniques and algorithms in an intuitive way. In this documentation, we aim to help you get up and running with Runway.
 
-Runway is composed of two main parts:
-
-- A desktop app with a simple and intuitive visual interface.
 - A dev API to run a headless version of Runway. *Coming soon!*
 
-Here, we will go over the desktop application. We will explain how the interface works and how you can start using state of the art artificial intelligence models with a few simple clicks!
+Here, we will go over the desktop application. We will explain how the interface works and how you can start using state of the art artificial intelligence models with a few simple clicks
 
-The current beta version of Runway (*Release 0.1.0*) has three main views: I/O, Models Directory and Settings. You can switch between views clicking on the vertical menu on the left.
 
 ## Start Screen
 
@@ -20,7 +16,7 @@ Every time you open Runway you will see the **Start Screen**. Here you can choos
 
 ## Home
 
-**Runway's Home** is a unique place to search, discover, publish, install new models. You can search for models with specific attributes, input types, creator, functionality or date. Runway comes with a pre-packed set of models that are ready to use right out of the box, but you will need to download and install other models.
+**Runway's Home** is a unique place to search, discover, publish and install machine learning models. You can search for models with specific attributes, input types, creator, functionality or date.
 
 ![Models Directory](assets/images/views/home-screen-annotated.png)
 

@@ -1,6 +1,6 @@
-# Tutorial: Style GAN
+# Tutorial: StyleGAN
 
-In this tutorial, we will generate new images using a Style Gan from the paper ["A Style-Based Generator Architecture for Generative Adversarial Networks"](https://arxiv.org/pdf/1812.04948.pdf). This model is trained on sets of images such as faces to produce new faces. You have likely seen this in [thispersondoesnotexist.com](https://thispersondoesnotexist.com/)
+In this tutorial, we will generate synthetic images using a StyleGan implementation from the paper ["A Style-Based Generator Architecture for Generative Adversarial Networks"](https://arxiv.org/pdf/1812.04948.pdf). This model has different checkpoints we can use to generate and create synthetic images.
 
 ### Step 1
 

@@ -9,7 +9,7 @@ Here are the steps involved in porting an ML model written in Python to Runway:
 1. Create a `runway_model.py` file which implements several methods from the [Runway Model SDK](https://sdk.runwayml.com).
 1. Write a `runway.yml` config file.
 1. Upload your code to a GitHub repository.
-1. Import your new model into the Runway app using your GitHub account.
+1. Import your new model into Runway using your GitHub account.
 1. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
 
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
@@ -193,7 +193,7 @@ Once your model has a `runway_model.py` and `runway.yml` config file it's time t
 
 #### 4. Import the model
 
-Once you've pushed your model to GitHub, it's time to import your model in the Runway app. Open Runway and select the _Create New Model From GitHub_ button on the lower left.
+Once you've pushed your model to GitHub, it's time to import your model in the Runway. Open Runway and select the _Create New Model From GitHub_ button on the lower left.
 
 ![Import Model #1](assets/images/views/home-screen.png)
 
@@ -202,7 +202,7 @@ Authorize Runway to access public data on your GitHub account.
 ![Import Model #2](assets/images/how-to/import-model/2_small.png)
 <img src="assets/images/how-to/import-model/3_small.png" style="max-width: 50%; margin: auto; display: block;">
 
-Back in the Runway app, select the repository that contains your Runway model; `runway-model-tutorial` in our case.
+Back in Runway, select the repository that contains your Runway model; `runway-model-tutorial` in our case.
 
 ![Import Model #4](assets/images/how-to/import-model/4_small.png)
 

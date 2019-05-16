@@ -1,10 +1,10 @@
 # The World of GPU's
 
-Here at Runway, you may sometimes see an icon asking you if you'd like to use a GPU. But what exactly is a GPU, why should you care, and why do you even need one?
+But what exactly is a GPU, why should you care, and why do you even need one?
 
 ## What is a GPU?
 
-GPU stands for Graphics Processing Unit. It's most often used in computers, to display images to monitors. Previously GPU's were used for rendering games, but now they are more often being used in AI advancements.
+GPU stands for Graphics Processing Unit. It's often used in computers, to display images to monitors. GPU's are mostly used for rendering games and for other similar rendering intensive processes, but now they are also being used in AI advancements.
 
 You may have also heard of the term CPU (central processing unit). A CPU is present in all computers and is often referred to as the brains of a computer. GPU's are different from CPU's, as a GPU can only do a fraction of the amount of work that a CPU can, but with at an incredibly high speed. As a result GPU's are very powerful and are now being used in ways beyond rendering images.
 
@@ -12,7 +12,6 @@ You may have also heard of the term CPU (central processing unit). A CPU is pres
 
 In recent years, GPU's have been part of the driving force behind why we see so much advancement within AI. GPU's have allowed us to learn faster from vast amounts of data.
 
-Many of our computers running Mac, Windows or Linux, may have a GPU under-the-hood. Currently Nvidia is the main provider of GPU's for AI and what we call deep learning. Then we have Google who formed a chip called the TPU also for AI. How ever not all GPU's are not yet ready for AI.
 
 ## Has my Machine got a GPU?
 
@@ -55,8 +54,8 @@ Coming soon!
 
 ## GPU's in the Cloud
 
-Some of the models you may wish to run remotely (on the 'cloud') as opposed to locally, for example, to use a GPU for a model. Luckily we added the ability to do this!
+In Runway, you can choose to run models on remote cloud GPU's or locally with CPU support.
 
-In order to run remotely, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud. Here we see the toggle allows us to 'Enable Remote GPU'
+In order to run remotely, use the toggle switch within your workspace. This allows you to choose if you want to run on your machine or run in the cloud.
 
 ![Remote GPU](assets/images/model_101/running_remotely.png)

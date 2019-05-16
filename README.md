@@ -8,7 +8,7 @@
 
 This is the public documentation for [Runway](https://runwayml.com/). This includes technical references, the Runway API docs, tutorials and examples.
 
-The documentation is online at [http://docs.runwayapp.ai](http://docs.runwayapp.ai)
+The documentation is online at [http://docs.runwayml.com](http://docs.runwayml.com)
 
 ## Developing and running locally
 

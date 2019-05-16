@@ -1,6 +1,5 @@
-# Running a Model
+# Running a Model on Cloud GPU
 
-Here we are going to talk you through running a model.
 
 When you are in your workspace, have your inputs and output selected, you can now run your model. Click **Run Remotely** which will now start your model running in the cloud.
 
@@ -17,7 +16,7 @@ Here we can run our models remotely. By running remotely it runs in the cloud, s
 
 ## Tutorial
 
-In this tutorial, we use Style Gan to show you how to run a model.
+In this tutorial, we will use the StyleGan model and run it on remote GPU. 
 
 ### Step 1
 
@@ -50,13 +49,13 @@ Here we choose our inputs and outputs. Let's select **Vector** for input and **P
 
 ### Step 5
 
-For this model, we select a checkpoint we want to use, from our options. Here we select **Flickr Faces**
+For this model, we can select different checkpoint we want to use from our options panel. Here we select **Flickr Faces**
 
 ![io](assets/images/tutorials/tutorial_style_gan/04_io.png)
 
 ### Step 6
 
-In order to run your model, ensure the toggle is switched on in the lower left hand corner. Let's click **Run Remotely** which will now start your model running in the cloud.
+In order to run your model, ensure the GPU toggle is switched on in the lower left-hand corner. Let's click **Run Remotely** which will now start your model on cloud GPU.
 
 ![Remote GPU](assets/images/how-to/run-locally/running-remotely.png)
 

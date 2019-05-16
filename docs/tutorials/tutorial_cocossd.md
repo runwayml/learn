@@ -4,7 +4,7 @@ Runway facilitates object detection and identification in images and video.
 In this tutorial, we will use COCO-SSD to find and label the elements shown in a movie.
 
 ### Requirements
-* Runway App
+* Runway
 * A video that features everyday items
 
 ### Step 1

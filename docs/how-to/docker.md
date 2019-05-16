@@ -1,35 +1,33 @@
 # Running Models Locally
 
-Here at Runway, we use [Docker](https://www.docker.com/) to help us run our AI models locally. You only need to use Docker, if you'd like to run some of the models locally. Here we discuss why we need to install Docker when you run Runway.
+With Runway, you can choose to run model remotely with GPU support or locally in your computer with CPU support. *Only* when running models locally, you will need to install and use Docker. Here we discuss why we need to install Docker when you run Runway models locally.
 
-![Select Model](assets/images/tutorials/tutorial_docker/docker-runway.png)
 
 
 ## Which models can be run Locally?
 
-When you browse models, you can see in the model information, if it supports CPU and/or GPU. If the model supports CPU you can run on your local harddrive. Here we see the model Facial Landmarks is able to run locally.
+The model information regarding CPU and GPU support lives inside every model view page. If the model supports CPU and/or GPU will be described in the characteristics table. If the model supports CPU you can run it locally on your computer. For example, we can see that the model called Facial Landmarks is able to run locally:
 
 ![CPU model](assets/images/how-to/run-locally/model-cpu.png)
 
 ## What is Docker?
 
-[Docker](https://www.docker.com/) is a tool which is designed to run, deploy and create applications, in a container. Containers are a way of making an environment similar to that of your computers Operating System (OS). This allows us to control what is installed within a container for your application, so we have only the things that are needed.
+[Docker](https://www.docker.com/) is a tool designed to run, deploy and create applications that live inside containers. Containers are a way of making closed and specific environments for every application. This allows to control what is installed within a container for your application, so you can have only the things that are needed.
 
-Some of you may wonder if [Docker](https://www.docker.com/) is the same as a virtual machine (VM). Docker differs from a VM, as a VM will include a complete OS. The VM will act and run independently from your computer. But Docker in many ways, has a pick-and-choose kinder attitude and will use your computers resources, so it's less independent and arguably in many ways lighter to use.
+[Docker](https://www.docker.com/) is not the same as a virtual machine (VM). Docker differs from a VM, as a VM will include a complete OS. The VM will act and run independently from your computer. But Docker in many ways, has a pick-and-choose kinder attitude and will use your computer's resources, so it's less independent and arguably in many ways lighter to use.
 
-AI is usually pretty difficult to build and run, as there are often a lot requirements needed. By using Docker, we have already made these containers to run our AI capabilities. So you don't have to worry about creating or using Docker! We take the pains of installation away, to ensure you get to focus on being creative.
 
-When you add a [local model](getting-started/model-101) to your workspace, Runway asks Docker to download and launch one of our containers. Now Runway directs both your input and output from the Docker container.
+When running a [local model](getting-started/model-101), Runway will ask you to download and install the container that runs that specific model and will handle all necessary installation and configurations.
 
 <Insert diagram>
 
 ## Download Docker
 
-In order to use all of Runway capabilities you will need to have [Docker](https://www.docker.com/) installed in your computer. This is only a requirement when you want to run some AI locally on your system. Docker is FREE and open-source software. Find out more, about [why we use Docker](getting-started/docker.md).
+Only when running models locally, you will need to have [Docker](https://www.docker.com/) installed in your computer. This is only a requirement when running models locally. Docker is FREE and open-source software. Find out more, about [why we use Docker](getting-started/docker.md).
 
 ### Is Docker free?
 
-Yes! We have chosen to use Docker, as we want to ensure everyone can use Runway. By using Docker, it allows you to run our local models on your computer.
+Yes! We have chosen to use Docker as we want to ensure everyone can use Runway. By using Docker, you can choose to run models on your computer.
 
 
 <!-- tabs:start -->

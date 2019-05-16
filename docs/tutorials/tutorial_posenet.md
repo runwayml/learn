@@ -4,7 +4,7 @@ Runway provides a simple visual interface for experimenting with a variety of ma
 
 ### Requirements
 
-- Runway App
+- Runway
 - [Processing](https://processing.org/download/)
 
 ### Step 1

@@ -5,7 +5,7 @@ Runway allows you to use and experiment with state of the art machine learning m
 
 ### Requirements
 
-- Runway App
+- Runway
 - Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 
 

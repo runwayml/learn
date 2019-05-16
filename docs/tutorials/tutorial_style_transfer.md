@@ -4,7 +4,7 @@ In this tutorial, we will the ["A Style-Aware Content Loss for Real-time HD Styl
 
 ### Requirements
 
-- Runway App
+- Runway
 - Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 - An image file.  
 

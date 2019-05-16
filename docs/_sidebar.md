@@ -1,7 +1,7 @@
 * Getting started
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
-    * [Views](getting-started/views.md)
+    * [App Views](getting-started/views.md)
     * [Model 101](getting-started/model-101.md)
 
 

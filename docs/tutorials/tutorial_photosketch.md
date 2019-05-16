@@ -4,7 +4,7 @@ The [PhotoSketch model](https://arxiv.org/pdf/1901.00542.pdf) created by Li et a
 In this tutorial, we will use Runway to run PhotoSketch to create a real-time contour outline of your webcam stream. We will then send the resulting image via HTTP network to a simple web app built with JavaScript and [p5.js](http://p5js.org/)
 
 ### Requirements
-* Runway App
+* Runway
 * A webcam or built-in camera
 * Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/getting-started/docker))
 
