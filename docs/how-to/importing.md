@@ -9,7 +9,7 @@ Here are the steps involved in porting an ML model written in Python to Runway:
 1. Create a `runway_model.py` file which implements several methods from the [Runway Model SDK](https://sdk.runwayml.com).
 1. Write a `runway.yml` config file.
 1. Upload your code to a GitHub repository.
-1. Import your new model into the Runway app using your GitHub account.
+1. Import your new model into Runway using your GitHub account.
 1. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
 
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
@@ -143,7 +143,7 @@ We can test the model's `/classify` command by `POST`ing an image and having the
 ```bash
 # Base64 encode an image and save the encoded version as an environment variable
 # to use in a POST request to the modelf
-curl -o cat.jpg "https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/cat.jpg"
+curl -o cat.jpg "assets/images/how-to/import-model/cat.jpg"
 BASE64_IMAGE=$(base64 -i cat.jpg | xargs echo "data:image/jpeg;base64," | sed "s/ //" )
 
 # Make a POST request to the /classify command, receiving
@@ -193,36 +193,36 @@ Once your model has a `runway_model.py` and `runway.yml` config file it's time t
 
 #### 4. Import the model
 
-Once you've pushed your model to GitHub, it's time to import your model in the Runway app. Open Runway and select the _Create New Model From GitHub_ button on the lower left.
+Once you've pushed your model to GitHub, it's time to import your model in the Runway. Open Runway and select the _Create New Model From GitHub_ button on the lower left.
 
-![Import Model #1](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/1_small.png)
+![Import Model #1](assets/images/views/home-screen.png)
 
 Authorize Runway to access public data on your GitHub account.
 
-![Import Model #2](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/2_small.png)
-<img src="https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/3_small.png" style="max-width: 50%; margin: auto; display: block;">
+![Import Model #2](assets/images/how-to/import-model/2_small.png)
+<img src="assets/images/how-to/import-model/3_small.png" style="max-width: 50%; margin: auto; display: block;">
 
-Back in the Runway app, select the repository that contains your Runway model; `runway-model-tutorial` in our case.
+Back in Runway, select the repository that contains your Runway model; `runway-model-tutorial` in our case.
 
-![Import Model #4](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/4_small.png)
+![Import Model #4](assets/images/how-to/import-model/4_small.png)
 
 Next you can edit the model name and add a category to your model. Other info settings are available to edit later.
 
-![Import Model #5](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/5_small.png)
+![Import Model #5](assets/images/how-to/import-model/5_small.png)
 
 #### 5. Push a new commit to trigger a build
 
 Once you've imported your model to Runway, you must push a new commit to GitHub to trigger a model build. When you do so, Runway will clone the code from your repository and use its `runway.yml` file to build a Docker image from your model. Each new commit pushed to the `master` branch of GitHub repository linked to a model will trigger a new model version to be built by Runway. Select the "Versions" tab in your model page to view all builds, past and present.
 
-![Import Model #6](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/6_small.png)
+![Import Model #6](assets/images/how-to/import-model/6_small.png)
 
 Click on a model version to view details about the version builds. You will notice that the `default` switch is flipped automatically for the first build. This means that the model is now published by your Runway users and is available for others to use. You can set any successfully built version to be the `default` version, but you must have at least one default version. This is an intentional decision for the time being, as _Private Models_ is a feature that is still to come.
 
-![Import Model #7](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/7_small.png)
+![Import Model #7](assets/images/how-to/import-model/7_small.png)
 
 You can view model logs during or after a build to debug your model build process.
 
-![Import Model #8](https://runway.nyc3.cdn.digitaloceanspaces.com/documentation/tutorial_model_importing/8_small.png)
+![Import Model #8](assets/images/how-to/import-model/8_small.png)
 
 Once a model version has been successfully built you can add it to a workspace. You can also add any successful model versions to your personal workspace by hovering over the model version check mark in the "Versions" panel until it becomes a "+" icon, and then selecting it. This allows you to test new model versions before making them the default model version that is published to all Runway users.
 

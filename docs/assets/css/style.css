@@ -1,5 +1,12 @@
-p {
+@font-face {
+  font-family: graphik;
+  src: url(/assets/css/Graphik-Regular-Web.woff) format('woff'),
+       url(/assets/css/Graphik-Regular-Web.eot) format('eot'),
+}
+
+body, p, a {
     line-height: 2;
+    font-family: graphik;
 }
 
 .note {
@@ -21,7 +28,7 @@ p {
     border-radius: 5px;
     padding: 1em;
     margin: 30px 0 !important;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Img-Small{
@@ -72,14 +79,14 @@ nav {
     margin-top: 20px;
 }
 
-nav :any-link { 
+nav :any-link {
     color: #364149;
     text-decoration: none;
     letter-spacing: 0;
     margin-left: 10px;
 }
 
-nav :any-link:active { 
+nav :any-link:active {
     color: #364149;
     text-decoration: none;
 }
@@ -87,7 +94,35 @@ nav :any-link:active {
 nav.app-nav li ul {
   min-width: 100px;
 }
+
 .sidebar>h1{
   text-align: left;
   margin-left: 1rem;
+}
+
+:root {
+  --docsifytabs-border-color: gray;
+  --docsifytabs-tab-highlight-color: #42b983;
+}
+
+
+[data-tab="mac"]:before {
+  content: url('images/mac.svg');
+  height: 8px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+[data-tab="windows"]:before {
+  content: url('images/windows.svg');
+  height: 8px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+[data-tab="linux"]:before {
+  content: url('images/linux.svg');
+  height: 8px;
+  margin-right: 0.5em;
+  vertical-align: middle;
 }
