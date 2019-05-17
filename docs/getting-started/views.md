@@ -8,6 +8,7 @@ You can use and group models in a workspace. Inside a workspace, you can interac
 
 2) **Input**: This is where we you can specify the type of input we want for the model. Supported inputs include:
 
+
 | Input      | Supported Types | Description                                       |
 |------------|-----------------|---------------------------------------------------|
 | Camera     | image           | Use frames from the webcam stream as input        |
@@ -18,7 +19,8 @@ You can use and group models in a workspace. Inside a workspace, you can interac
 | OSC        | all types       | Query and receive results using OSC over UDP      |
 
 
-3) **Output**: Once a model is running, you will be able to see it's output in this panel. Some models will allow you to select the type of output you want. Current output types are:
+3) **Output**: Once a model is running, you will be able to see it's output in this panel. Some models will allow you to select the type of output you want. Supported outputs include:
+
 
 | Output     | Description                                       
 |------------|---------------------------------------------------------------------|
@@ -28,6 +30,7 @@ You can use and group models in a workspace. Inside a workspace, you can interac
 | Socket.IO  | Query and receive results via a Socket.IO message                   |
 | OSC        | Query and receive results using OSC over UDP                        |
 
+
 4) **Options**: Each model has a set of options, you can change and tweak. These are often known as hyperparameters.
 
 5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](how-to/run-a-model.md)
@@ -35,11 +38,11 @@ You can use and group models in a workspace. Inside a workspace, you can interac
 
 ### Understanding Workspaces
 
-Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/model-101.md) for a definition of a model). **Workspaces** provide a way to logically group models used in the same project together. For example, a user working an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
+Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/model-101.md). **Workspaces** provide a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
 
 A **Workspace** is a collection of models. In a **Workspace** you can organize your models by theme, hierarchy, or however else you like.
 
-?> **Remember:** A Workspace is a collection of A.I models. By grouping models together you can experiment and create with artificial intelligence models in a way that's logical to you.
+?> **Remember:** A Workspace is a collection of AI models. By grouping models together you can experiment and create with models in a way that's logical to you.
 
 ## Model View
 

@@ -22,11 +22,6 @@ When running a [local model](getting-started/model-101), Runway will ask you to 
 
 Only when running models locally, you will need to have [Docker](https://www.docker.com/) installed in your computer. This is only a requirement when running models locally. Docker is FREE and open-source software. Find out more, about [why we use Docker](getting-started/docker.md).
 
-### Is Docker free?
-
-Yes! We have chosen to use Docker as we want to ensure everyone can use Runway. By using Docker, you can choose to run models on your computer.
-
-
 <!-- tabs:start -->
 
 #### **Mac**

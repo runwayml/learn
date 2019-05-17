@@ -6,7 +6,7 @@ Runway is a platform that allows creators of all kinds to use machine learning. 
 
 ## Start Screen
 
-Every time you open Runway you will see the **Start Screen**. Here you can choose to **Start from a Model** or restore a previous **Workspace** (more on Workspaces below).
+Every time you open Runway you will see the **Start Screen**. Here you can choose to **Start from a Model** or restore a previous **Workspace** ([read more on workspaces](getting-started/views.md)).
 
 ![Runway Welcome View](assets/images/views/intro-screen.png)
 

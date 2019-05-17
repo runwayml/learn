@@ -2,15 +2,14 @@
 
 Runway models are platform-agnostic; models written in any framework/language can be used by Runway as long as the model can be made accessible via an HTTP server. This process, however, is easiest in Python where we provide an SDK for parsing the inputs to the model, serializing its outputs, and setting up the server environment.
 
-A Runway Model consists of an HTTP server that exposes a common interface over a network and a configuration file that specifies dependencies and build steps for running that server (and your model code) inside a Docker container. Both the network interface for interacting with the model and the Docker images created as a result of the configuration file are abstracted from the developer using the [Runway Model SDK](https://sdk.runwayml.com).
+A Runway model consists of an HTTP server that exposes a common interface over a network and a configuration file that specifies dependencies and build steps for running that server (and your model code) inside a Docker container. Both the network interface for interacting with the model and the Docker images created as a result of the configuration file are abstracted from the developer using the [Runway Model SDK](https://sdk.runwayml.com).
 
 Here are the steps involved in porting an ML model written in Python to Runway:
 
 1. Create a `runway_model.py` file which implements several methods from the [Runway Model SDK](https://sdk.runwayml.com).
-1. Write a `runway.yml` config file.
-1. Upload your code to a GitHub repository.
-1. Import your new model into Runway using your GitHub account.
-1. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
+2. Write a `runway.yml` config file.
+3. Upload your code to a GitHub repository.4. Import your new model into Runway using your GitHub account.
+4. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
 
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
 
