@@ -1,12 +1,5 @@
-@font-face {
-  font-family: graphik;
-  src: url(/assets/css/Graphik-Regular-Web.woff) format('woff'),
-       url(/assets/css/Graphik-Regular-Web.eot) format('eot'),
-}
-
 body, p, a {
     line-height: 2;
-    font-family: graphik;
 }
 
 .note {
