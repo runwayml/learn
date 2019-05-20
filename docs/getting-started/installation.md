@@ -1,12 +1,8 @@
-## System requirements
+## Donwload Runway
 
-* Mac, Windows, or Linux operating system
+TODO
 
-## Installation
-
-If you haven't yet downloaded Runway, then let's begin by getting you an [invite to download the app](https://runwayml.com/). You can do this through signing up on our list on [runwayml.com](https://runwayml.com/). Shortly after getting an email, you should receive a link to download Runway. Download the right version for your operating system.
-
-?> If you encounter any problems or issues with the installation, please send us an email to [support@runwayml.com](mailto:support@runwayml.com).
+?> If you encounter any problems or issues with the installation, please visit the [Support Center](https://support.runwayml.com/).
 
 ## Create an Account
 

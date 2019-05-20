@@ -1,6 +1,6 @@
 # Models 101
 
-At the core of Runway, we have machine learning models. But what do mean by the term model and how do we use a model? Here we discuss what a model is and why we need it within Runway.
+At the core of Runway, we have machine learning models. But what do we mean by the term *model* and how do we use a *model*? Here we discuss what a model is and why we need it within Runway.
 
 ## What is a Model? How is a Model Created?
 

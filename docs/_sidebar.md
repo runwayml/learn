@@ -38,8 +38,11 @@
     * [Unity](https://github.com/runwayml/unity)
 
 * More
-    * [Join the Community](more/community.md)
+    * [Support](https://support.runwayml.com/)
+    * [Github](https://github.com/runwayml)
+    * [Runway Python SDK](https://sdk.runwayml.com/)
+    * [Runway Model Template](https://github.com/runwayml/model-template)
     * [Contribute to Runway](more/contribute.md)
-    * [Developing with Runway](https://github.com/runwayml)
-    * [Runway Model SDK](https://sdk.runwayml.com/)
     * [Awesome Runway](more/awesome-runway.md)
+    * [Join the Community](/?id=join-our-community)
+    * [Main Website](https://runwayml.com/)
