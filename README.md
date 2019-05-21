@@ -6,9 +6,9 @@
 
 [![Runway Slack](https://img.shields.io/badge/slack-runwayml.slack.com-33b279.svg)](https://runwayml.slack.com/)
 
-This is the public documentation for [Runway](https://runwayapp.ai/). This includes technical references, the Runway API docs, tutorials and examples.
+This is the public documentation for [Runway](https://runwayml.com/). This includes technical references, the Runway API docs, tutorials and examples.
 
-The documentation is online at [http://docs.runwayapp.ai](http://docs.runwayapp.ai)
+The documentation is online at [http://docs.runwayml.com](http://docs.runwayml.com)
 
 ## Developing and running locally
 
