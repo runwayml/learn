@@ -1,28 +1,83 @@
 # Overview
 
-Runway is a platform that allows creators of all kinds to use machine learning. Runway provides you with a simple way to use the latest machine learning techniques and algorithms in an intuitive way. In this documentation, we aim to help you get up and running with Runway.
-
-- A dev API to run a headless version of Runway. *Coming soon!*
+In this quick overview, we will help you get familiar with Runway, will explain how the interface works and how you can start using powerful machine learning models with a few simple clicks!
 
 ## Start Screen
 
-Every time you open Runway you will see the **Start Screen**. Here you can choose to **Start from a Model** or restore a previous **Workspace** ([read more on workspaces](getting-started/views.md)).
+Every time you open Runway you will see the **Start Screen**. From here, you can choose to **Start from a Model** or restore a previous **Workspace** from another session. (Read more on workspaces [here](getting-started/views.md)).
 
 ![Runway Welcome View](assets/images/views/intro-screen.png)
 
+## Models Directory
 
-## Home
+**Runway's Models Directory** is a unique place to search, discover, publish and install machine learning models. You can search for models with specific attributes, input types, creator, functionality or date.
 
-**Runway's Home** is a unique place to search, discover, publish and install machine learning models. You can search for models with specific attributes, input types, creator, functionality or date.
+![Models Directory](assets/images/views/home-screen.png)
+
+This view is compromised of 3 main sections: Sidebar, New Model and a Model Box for every model listed.
 
 ![Models Directory](assets/images/views/home-screen-annotated.png)
 
-1) **Your Models**: This panel gives you quick access to already installed models.
+1) **Sidebar**: This panel gives you quick access to already installed models
 
-2) **Import Model**: This button will allow you to import models into Runway. Check how to import models [here](how-to/importing.md).
+2) **New Model**: This button will allow you to import models into Runway. Check how to import models [here](how-to/importing.md).
 
 3) **Model Box**: This model box contains a brief information of a model. Clicking it will take you to the model page where you can use it inside a Workspace.
 
+## Model View
+
+Every model in Runway has its own view. From here, you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
+
+![Input/Output View](assets/images/views/model-view.png)
+
+
+1) **Model Tabs**: TODO
+   - **Overview**: TODO
+   - **Versions**: TODO
+   - **Files**: TODO
+   - **Gallery**: TODO
+   - **Templates**: TODO
+   - **License**: TODO
+   - **Settings**: TODO
+
+2) **Add to Workspace**: This button allows to add the current model in view to a new or existing workspace.
+
+## Workspaces
+
+You can use and group models in a workspace. Inside a workspace, you can interact with your model. Let's walk through the layout of how to interact with a model.
+
+![Input/Output View](assets/images/views/workspace-annotated.png)
+
+1) **Workspaces and Models**: This sidebar contains and list all current workspaces and models in use.
+
+2) **Input**: The Input section allows you to change the type of input used for a specific model. Supported inputs include:
+
+| Input      | Supported Types | Description                                       |
+|------------|-----------------|---------------------------------------------------|
+| Camera     | image           | Use frames from the webcam stream as input        |
+| Text       | text            | Free-from text input                              |
+| File       | all types       | Use a supported file type                         |
+
+3) **Output**: The Output section allows you to change the type of input used for a specific model. Supported outputs include:
+
+| Output     | Description
+|------------|---------------------------------------------------------------------|
+| Local      | Preview the model output inside Runway                              |
+| File       | Stream the model output into a file using supported formats         |
+
+
+4) **Options**: Each model has a set of options that you can change and update. These are often known as hyperparameters. 
+   
+5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](how-to/run-a-model.md)
+
+
+### Understanding Workspaces
+
+Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/model-101.md). **Workspaces** provide a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
+
+A **Workspace** is a collection of models. In a **Workspace** you can organize your models by theme, hierarchy, or however else you like.
+
+?> **Remember:** A Workspace is a collection of AI models. By grouping models together you can experiment and create with models in a way that's logical to you.
 
 ## Settings
 

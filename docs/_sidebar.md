@@ -1,9 +1,7 @@
 * Getting started
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
-    * [App Views](getting-started/views.md)
-    * [Model 101](getting-started/model-101.md)
-
+    * [Models 101](getting-started/model-101.md)
 
 * How-To
     * [Browse the Model Directory](how-to/browse-model-directory.md)
