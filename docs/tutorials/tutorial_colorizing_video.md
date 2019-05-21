@@ -5,7 +5,6 @@ In this tutorial, we will colorize frames of a black and white video using the [
 ### Requirements
 
 - Runway
-- Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 - A grayscale MP4 video
 
 ### Step 1

@@ -1,11 +1,10 @@
-# Tutorial: Style Transfer of an Image
+# Tutorial: Style Transfer
 
 In this tutorial, we will the ["A Style-Aware Content Loss for Real-time HD Style Transfer"](https://arxiv.org/pdf/1807.10201.pdf) model to transfer the particular style of a painter to any image we want. This model is able to capture the more subtle style and nature of an artist by training on multiple paintings rather than a single one.
 
 ### Requirements
 
 - Runway
-- Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 - An image file.  
 
 ### Step 1

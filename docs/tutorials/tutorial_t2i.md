@@ -1,12 +1,11 @@
 # Tutorial: Playing with Text to Image (AttnGAN)
 
-Runway allows you to use and experiment with state of the art machine learning models without typing a single line of code. In this tutorial we will be using an model called [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://github.com/taoxugit/AttnGAN/) by Tao Xu et al. to **generate images based on text.** This is the same model you can find in the interactive web experiment [Text2Image](https://t2i.cvalenzuelab.com/).
+Runway allows you to use and experiment with machine learning models without typing a single line of code. In this tutorial we will be using an model called [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://github.com/taoxugit/AttnGAN/) by Tao Xu et al. to **generate images based on text.** This is the same model you can find in the interactive web experiment [Text2Image](https://t2i.cvalenzuelab.com/).
 
 
 ### Requirements
 
 - Runway
-- Docker (If you don't have Docker installed, please follow the installation instructions [here](/getting-started/docker).)
 
 
 ### Step 1

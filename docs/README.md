@@ -1,7 +1,7 @@
 # Welcome to Runway!
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
-Runway is a platform that allows creators of all kinds to use machine learning. It provides you with a simple way to use the latest machine learning techniques and algorithms in an intuitive way. In this documentation, we aim to help you get up and running with Runway.
+Runway is a platform that allows creators of all kinds to use machine learning. It provides you with a simple and complete way to use machine learning models in an intuitive way. In this documentation, we aim to help you get up and running with Runway.
 
 ![Runway Screenshot](assets/images/views/home-screen.png)
 

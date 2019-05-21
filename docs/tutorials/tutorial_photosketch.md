@@ -6,7 +6,6 @@ In this tutorial, we will use Runway to run PhotoSketch to create a real-time co
 ### Requirements
 * Runway
 * A webcam or built-in camera
-* Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/getting-started/docker))
 
 ### Step 1
 

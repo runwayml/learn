@@ -1,6 +1,6 @@
 # Tutorial: Captioning Images
 
-Runway makes it really simple to use AI to process your own photo albums, media libraries, and documents. This tutorial will guide you through generating captions for every image in a folder using the model im2txt and Runway's "Export to File" functionality.
+Runway makes it really simple to use machine learning models to process your own photo albums, media libraries, and documents. This tutorial will guide you through generating captions for every image in a folder using the model im2txt and Runway's "Export to File" functionality.
 
 ![still images](assets/images/tutorials/tutorial_im2txt/0_dataset.png)
 

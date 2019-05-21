@@ -1,6 +1,6 @@
 # Running Models Locally
 
-With Runway, you can choose to run model remotely with GPU support or locally in your computer with CPU support. *Only* when running models locally, you will need to install and use Docker. Here we discuss why we need to install Docker when you run Runway models locally.
+With Runway, you can choose to run model remotely with GPU support or locally in your computer with CPU support. **Only** when running models locally, you will need to install and use Docker. Here we discuss why we need to install Docker when you run Runway models locally.
 
 
 ## Which models can be run Locally?

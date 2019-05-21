@@ -6,7 +6,6 @@ Runway incorporates the ESRGAN model to enable image super-resolution. This tuto
 ### Requirements
 * Runway
 * A folder with multiple low-resolution image files (such as the ones found in this [wiki](https://wiki.minetest.net/Low_resolution_texture_packs)).
-* Optional: Docker to run the model locally. (To install Docker, please follow the installation instructions [here](https://docs.runwayapp.ai/#/getting-started/docker))
 
 
 ### Step 1
