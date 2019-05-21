@@ -37,6 +37,7 @@
 
 * More
     * [Support](https://support.runwayml.com/)
+    * [Your Account](https://account.runwayml.com/)
     * [Github](https://github.com/runwayml)
     * [Runway Python SDK](https://sdk.runwayml.com/)
     * [Runway Model Template](https://github.com/runwayml/model-template)
