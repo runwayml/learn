@@ -11,7 +11,6 @@
     * [~~Select your Output Source~~](how-to/output-source.md)
     * [Import your own Model](how-to/importing.md)
 
-
 * Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
     * [Captioning Images](tutorials/tutorial_im2txt.md)
