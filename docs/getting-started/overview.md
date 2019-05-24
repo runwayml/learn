@@ -83,9 +83,7 @@ This is only available if you added the model to Runway. This allows you to rena
 
 > __Note__: * These tabs are only available if you published the model to Runway
 
-2) **Model Side Bar**
-
-The model side-bar provides you further information.
+2) **Model Side Bar:** The model side-bar provides you further information.
 
 <!-- tabs:start -->
 
@@ -125,11 +123,7 @@ Here you can view the links to the model's code repository as well as research p
 
 <!-- tabs:end -->
 
-3) **Add to Workspace**
-
-This button allows to add the current model in view to a new or existing workspace.
-
-![add-to-workspace](assets/images/views/add-to-workspace.png)
+3) **Add to Workspace:** This button allows to add the current model in view to a new or existing workspace.
 
 
 ## Workspaces
