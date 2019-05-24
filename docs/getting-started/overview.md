@@ -167,4 +167,14 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 The **Settings** view has your account details and basic information about the app.
 
-![Input/Output View](assets/images/views/settings.png)
+![Input/Output View](assets/images/views/settings-annotated.png)
+
+1) **Profile**: Here you can view and edit your username, fullname, email and organization. When editing your profile, you will be redirected to [online profile](https://account.runwayml.com/).
+
+2) **Remote GPU**: Here you can view your current GPU credit and get more credit.
+
+3) **Settings**: Here you can view your **Export Directory** where model output will be saved to.
+
+4) **Githubs**: This allows you to link your Github account, if you have one. This is if you want to publish your own models to Runway.
+
+5) **Docker**: This indicates if Docker is running in the background, if you want to runa  model locally on your CPU.
