@@ -28,19 +28,109 @@ This view is compromised of 3 main sections: Sidebar, New Model and a Model Box 
 
 Every model in Runway has its own view. From here, you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
 
-![Input/Output View](assets/images/views/model-view.png)
+
+![versions](assets/images/views/model-view-annotated.png)
 
 
-1) **Model Tabs**: TODO
-   - **Overview**: TODO
-   - **Versions**: TODO
-   - **Files**: TODO
-   - **Gallery**: TODO
-   - **Templates**: TODO
-   - **License**: TODO
-   - **Settings**: TODO
 
-2) **Add to Workspace**: This button allows to add the current model in view to a new or existing workspace.
+1) **Model Tabs**
+
+<!-- tabs:start -->
+
+#### **Overview**
+
+Overview provides you with a tagline and a long description detailing what the model does.
+
+![overview](assets/images/views/model-tab/overview.png)
+
+#### **Versions**
+
+Allows you to set what the default model is. You will only be able to do this on models that you have added to Runway.
+
+![versions](assets/images/views/model-tab/versions.png)
+
+#### **Files* **
+
+Shows any pickles that are available for the model, also known as checkpoints.
+
+![versions](assets/images/views/model-tab/files.png)
+
+#### **Gallery**
+
+This shows images of what the model does.
+
+![versions](assets/images/views/model-tab/gallery.png)
+
+#### **Templates* **
+
+This is a quick-start way of using a model.
+
+![versions](assets/images/views/model-tab/templates.png)
+
+#### **License**
+
+This is the license of the model to show what it can be used for, such as commercial purposes.
+
+![versions](assets/images/views/model-tab/license.png)
+
+#### **Settings* **
+
+This is only available if you added the model to Runway. This allows you to rename and remove the model.
+
+![versions](assets/images/views/model-tab/settings.png)
+
+<!-- tabs:end -->
+
+> __Note__: * These tabs are only available if you published the model to Runway
+
+2) **Model Side Bar**
+
+The model side-bar provides you further information.
+
+<!-- tabs:start -->
+
+#### **Publishers**
+
+**Publishers** shows the user who published the model to Runway.
+
+![publishers](assets/images/views/model-sidebar/publishers.png)
+
+#### **Attributions**
+
+**Attributions** show the research institutions and researchers who designed and created the model.
+
+![attributions](assets/images/views/model-sidebar/attributions.png)
+
+#### **Characteristics**
+
+**Characteristics** informs you when the model was published, last updated and if it supports the CPU and/or GPU.
+
+![characteristics](assets/images/views/model-sidebar/characteristics.png)
+
+#### **Keywords**
+
+![keywords](assets/images/views/model-sidebar/keywords.png)
+
+#### **Performance Notes**
+
+**Performance Notes** shows the user who published the model to Runway.
+
+![performance-notes](assets/images/views/model-sidebar/performance-notes.png)
+
+Here you can view the links to the model's code repository as well as research papers associated to the model.
+
+#### **Code, Paper and More**
+
+![versions](assets/images/views/model-sidebar/code-paper.png)
+
+<!-- tabs:end -->
+
+3) **Add to Workspace**
+
+This button allows to add the current model in view to a new or existing workspace.
+
+![add-to-workspace](assets/images/views/add-to-workspace.png)
+
 
 ## Workspaces
 
