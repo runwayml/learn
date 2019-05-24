@@ -28,10 +28,7 @@ This view is compromised of 3 main sections: Sidebar, New Model and a Model Box 
 
 Every model in Runway has its own view. From here, you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
 
-
 ![versions](assets/images/views/model-view-annotated.png)
-
-
 
 1) **Model Tabs**
 
@@ -39,7 +36,7 @@ Every model in Runway has its own view. From here, you can learn more about the 
 
 #### **Overview**
 
-Overview provides you with a tagline and a long description detailing what the model does.
+**Overview** provides you with a tagline and a long description detailing what the model does.
 
 ![overview](assets/images/views/model-tab/overview.png)
 
@@ -115,7 +112,7 @@ This is only available if you added the model to Runway. This allows you to rena
 
 ![performance-notes](assets/images/views/model-sidebar/performance-notes.png)
 
-Here you can view the links to the model's code repository as well as research papers associated to the model.
+Here you can view the links to the model's code repository as well as research papers associated with the model.
 
 #### **Code, Paper and More**
 
@@ -169,12 +166,12 @@ The **Settings** view has your account details and basic information about the a
 
 ![Input/Output View](assets/images/views/settings-annotated.png)
 
-1) **Profile**: Here you can view and edit your username, fullname, email and organization. When editing your profile, you will be redirected to [online profile](https://account.runwayml.com/).
+1) **Profile**: Here you can view and edit your username, full name, email, and organization. When editing your profile, you will be redirected to [online profile](https://account.runwayml.com/).
 
 2) **Remote GPU**: Here you can view your current GPU credit and get more credit.
 
-3) **Settings**: Here you can view your **Export Directory** where model output will be saved to.
+3) **Settings**: Here you can view your **Export Directory** where the model output will be saved to.
 
-4) **Githubs**: This allows you to link your Github account, if you have one. This is if you want to publish your own models to Runway.
+4) **Githubs**: This allows you to link your Github account if you have one. This is if you want to publish your own models to Runway.
 
-5) **Docker**: This indicates if Docker is running in the background, if you want to runa  model locally on your CPU.
+5) **Docker**: This indicates if Docker is running in the background if you want to run a  model locally on your CPU.
