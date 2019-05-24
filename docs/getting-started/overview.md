@@ -22,7 +22,7 @@ This view is compromised of 3 main sections: Sidebar, New Model and a Model Box 
 
 2) **New Model**: This button will allow you to import models into Runway. Check how to import models [here](how-to/importing.md).
 
-3) **Model Box**: This model box contains a brief information of a model. Clicking it will take you to the model page where you can use it inside a Workspace.
+3) **Model Box**: This model box contains brief information of a model. Clicking it will take you to the model page where you can use it inside a Workspace.
 
 ## Model View
 
@@ -66,14 +66,14 @@ You can use and group models in a workspace. Inside a workspace, you can interac
 | File       | Stream the model output into a file using supported formats         |
 
 
-4) **Options**: Each model has a set of options that you can change and update. These are often known as hyperparameters. 
-   
+4) **Options**: Each model has a set of options that you can change and update. These are often known as hyperparameters.
+
 5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](how-to/run-a-model.md)
 
 
 ### Understanding Workspaces
 
-Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/model-101.md). **Workspaces** provide a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
+Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/model-101.md). **Workspaces** provides a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
 
 A **Workspace** is a collection of models. In a **Workspace** you can organize your models by theme, hierarchy, or however else you like.
 
@@ -81,6 +81,6 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 ## Settings
 
-The settings view has your account details and basic information about the app.
+The **Settings** view has your account details and basic information about the app.
 
 ![Input/Output View](assets/images/views/settings.png)

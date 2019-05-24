@@ -4,6 +4,21 @@ Runway models are platform-agnostic; models written in any framework/language ca
 
 A Runway model consists of an HTTP server that exposes a common interface over a network and a configuration file that specifies dependencies and build steps for running that server (and your model code) inside a Docker container. Both the network interface for interacting with the model and the Docker images created as a result of the configuration file are abstracted from the developer using the [Runway Model SDK](https://sdk.runwayml.com).
 
+## Connect to Github
+
+If you are planning to import models into Runway, then you will need to connect your Runway account to Github.  
+
+In **Settings**, there is a panel for you to link your Github account. Click on **Setup Github**. This will ask to sign in and authorize Runway to access your Github account.
+
+![HomePage Settings Annotated](assets/images/how-to/github-link/github-unlinked.png)
+
+When the connection is complete, the panel shows 'You are logged into Github as @xxx'. The button changes to Unlink Github
+
+![HomePage Settings Annotated](assets/images/how-to/github-link/github-link.png)
+
+
+## Porting
+
 Here are the steps involved in porting an ML model written in Python to Runway:
 
 1. Create a `runway_model.py` file which implements several methods from the [Runway Model SDK](https://sdk.runwayml.com).
@@ -172,7 +187,7 @@ build_steps:
   - pip install -r requirements.txt
 ```
 
-This file specifies the Python and CUDA versions to use, the entrypoint command which launches the Runway model and HTTP server, and a build step which installs the Python dependencies required to run our model. See the [Runway YAML reference page](https://sdk.runwayml.com/en/latest/runway_yaml_file.html) for a full list of config values supported in the `runway.yml` config file.
+This file specifies the Python and CUDA versions to use, the entry point command which launches the Runway model and HTTP server, and a build step which installs the Python dependencies required to run our model. See the [Runway YAML reference page](https://sdk.runwayml.com/en/latest/runway_yaml_file.html) for a full list of config values supported in the `runway.yml` config file.
 
 Peeking at the `requirements.txt` file reveals that the only dependencies for the SqueezeNet Runway model are PyTorch and PyTorch Vision, as well as the Runway Model SDK itself.
 
@@ -205,7 +220,7 @@ Back in Runway, select the repository that contains your Runway model; `runway-m
 
 ![Import Model #4](assets/images/how-to/import-model/4_small.png)
 
-Next you can edit the model name and add a category to your model. Other info settings are available to edit later.
+Next you can edit the model name and add a category to your model. Other info **Settings** are available to edit later.
 
 ![Import Model #5](assets/images/how-to/import-model/5_small.png)
 
@@ -225,9 +240,9 @@ You can view model logs during or after a build to debug your model build proces
 
 Once a model version has been successfully built you can add it to a workspace. You can also add any successful model versions to your personal workspace by hovering over the model version check mark in the "Versions" panel until it becomes a "+" icon, and then selecting it. This allows you to test new model versions before making them the default model version that is published to all Runway users.
 
-### Edit Model Info
+## Model Information
 
-Once you've imported your model you should edit its model info to help other users understand who made it and what its used for. As the publisher of the model, you can do this from the model page using the "Edit Info" button. We recommend adding all of these fields for each model:
+Once you've imported your model, you can add additional information to help others understand the model. As the publisher of the model, you can do this from the model page using the **Edit Info** button. We recommend adding these fields for your model:
 
 * **Model Name**: The name of the model. Alphanumeric values, underscores, and hyphens are allowed here. No spaces.
 * **Tagline**: A short one-line description of what your model does.
@@ -237,7 +252,7 @@ Once you've imported your model you should edit its model info to help other use
 * **LICENSE**: The license defining how the model can be used.
 * **Keywords**: A list of tags that can be used to find your model in Runway.
 * **Performance Notes**: How can users expect the model to perform on GPU or CPU environments?
-* **Code, Paper, and More**: A list of links to resources related to your model, like source code, ArXiv papers, blog posts, or more.
+* **Code, Paper, and More**: A list of links to resources related to your model, such as source code, ArXiv papers, blog posts, or more.
 
 ### Links
 

@@ -6,10 +6,8 @@
 * How-To
     * [Browse the Model Directory](how-to/browse-model-directory.md)
     * [Run a Model](how-to/run-a-model.md)
-    * [Run a Model Locally](how-to/run-a-model-locally.md)
-    * [~~Select your Input Source~~](how-to/input-source.md)
-    * [~~Select your Output Source~~](how-to/output-source.md)
-    * [Import your own Model](how-to/importing.md)
+    * [Managing your Models](how-to/manage-models.md)
+    * [Import a Model](how-to/importing.md)
 
 * Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
