@@ -16,49 +16,63 @@ body, p, a {
     text-align: center;
 }
 
-
-.next{
+.next {
     border-radius: 5px;
     padding: 1em;
     margin: 30px 0 !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.Img-Small{
+.sidebar>h1 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.content {
+    padding-top: 80px;
+}
+
+.markdown-section {
+    max-width: 950px;
+}
+
+
+/*-- Images */
+.Img-Small {
     width: 100%;
     text-align: center;
 }
 
-.Img-Small img{
+.Img-Small img {
     width: 20rem;
     height: 100%;
 }
 
-.Img-Medum img{
+.Img-Medum img {
     width: 40rem !important;
 }
 
-.Img-Small p{
+.Img-Small p {
     margin: 0px;
     font-style: italic;
     font-size: 0.8rem;
 }
 
-.RectImg img{
+.RectImg img {
     height: 10rem !important;
     width: 10rem !important;
 }
 
-.Img-with-Description{
+.Img-with-Description {
     width: 100%;
     text-align: center;
 }
 
-.Img-with-Description img{
+.Img-with-Description img {
     margin: 0px;
 }
 
-.Img-with-Description p{
+.Img-with-Description p {
     margin: 0px;
     font-style: italic;
     font-size: 0.8rem;
