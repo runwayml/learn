@@ -12,7 +12,7 @@ Let's begin selecting our model. For this tutorial we are going to use Style Gan
 
 Let's add it to a new workspace.
 
-![Add Model to Workspace](assets/images/how-to/run-model/add-to-workspace.png)
+![Add Model to Workspace](assets/images/how-to/run-locally/add-to-workspace.png)
 
 ### Step 3
 

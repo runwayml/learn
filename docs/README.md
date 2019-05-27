@@ -27,4 +27,4 @@ If you want to contribute to the development of the project please visit our [Gi
 
 ### Support
 
-If you encounter any problems or issues with the installation, please check out the [Support Center](https://support.runwayml.com/). You can also send us an email to support@runwayml.com.
+If you encounter any problems or issues with the installation, please check out the [Support Center](https://support.runwayml.com/).

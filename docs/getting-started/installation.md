@@ -1,4 +1,4 @@
-## Donwload Runway
+## Download Runway
 
 TODO
 
@@ -6,7 +6,7 @@ TODO
 
 ## Create an Account
 
-Once you have downloaded the app, open Runway by double clicking the icon and you will be prompt to create a new account. Start by entering the email you used to register with.
+Once you have downloaded the app, open Runway by double-clicking the icon and you will be prompt to create a new account. Start by entering the email you used to register with.
 
 <div class="Img-Small">
   <img src="assets/images/installation/login_01.png" alt="Runway Login Email Verification" >
@@ -27,7 +27,7 @@ Once your account has been created, you will need to verify the email associated
   <p>Enter the Verification Code</p>
 </div>
 
-After verifying your account you are good to go! If you log out of your account you can enter again just by typing your email, username and password.
+After verifying your account you are good to go! If you log out of your account you can enter again just by typing your email, username, and password.
 
 <div class="Img-Small">
   <img src="assets/images/installation/login_06.png" alt="Runway Account Verified" >
@@ -37,3 +37,7 @@ After verifying your account you are good to go! If you log out of your account 
 ?> The app will auto-update every time there is a new update available. You will also see a message at the top right corner of the app if an update is ready. There's no need to manually download the app again to receive updates.
 
 <p class='note'><b>Note for Linux users</b>: You will need to configure Runway to run as an AppImage. Please follow <a href="https://discourse.appimage.org/t/how-to-run-an-appimage/80">this extra step</a>.</p>
+
+## Updating Runway
+
+Runway automatically updates every time there is a new update available. You will also see a message at the top right corner of the app if an update is ready. There's no need to manually download the app again to receive updates.
