@@ -21,6 +21,8 @@
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)    
     * [Generating images with Style Gan](tutorials/tutorial_stylegan.md)
 
+* [Video Tutorials](video-tutorials/main.md)
+
 * Integrations
     * [Arduino](https://github.com/runwayml/arduino)
     * [JavaScript](https://github.com/runwayml/javascript)

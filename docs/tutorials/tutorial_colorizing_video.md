@@ -74,16 +74,21 @@ After processing all the frames, Runway will save the final video in your defaul
 
 #### Results
 
-<video width="320" height="240" controls>
-  <source src="assets/images/tutorials/tutorial_colorizing_video/Man%20with%20a%20Movie%20Camera(Dziga%20Vertov,%201929).mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<video width="320" height="240" controls>
-  <source src="assets/images/tutorials/tutorial_colorizing_video/1546968375020.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+<body>
+  <div class="container">
+    <div class='row'>
+    <div class='col'>
+      <video controls><source src="assets/images/tutorials/tutorial_colorizing_video/Man%20with%20a%20Movie%20Camera(Dziga%20Vertov,%201929).mp4" type="video/mp4" class='img-zoomable'/></video>
+      <h2>Browse Model Directory</h2>
+      <p>Here's a great introduction to <a href='how-to/browse-model-directory'>browsing the model directory.</a></p>
+    </div>
+    <div class='col'>
+      <video controls><source src="assets/images/tutorials/tutorial_colorizing_video/1546968375020.mp4" type="video/mp4" class='img-zoomable'/></video>
+      <h2>Browse Model Directory</h2>
+      <p>Here's a great introduction to <a href='how-to/browse-model-directory'>browsing the model directory.</a></p>
+    </div>
+    </div>
+  </div>
 
 ### Summary
 

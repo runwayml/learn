@@ -54,6 +54,7 @@
     color: #ebebeb;
     font-weight: 100;
     font-size: 14px;
+    margin-top: .6rem !important;
 }
 
 .Menu__Top__Menu {
@@ -169,4 +170,35 @@ p {
     margin: 0px;
     font-style: italic;
     font-size: 0.8rem;
+}
+
+video {
+  display: inline-block;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+.row h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0;
+    margin-top: 0.5rem;
+}
+
+.row {
+  padding-bottom: 2rem;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sidebar ul li p a {
+  font-weight: 700;
+  margin: 0;
+  color: #364149;
+  font-size: 15px;
+
 }
