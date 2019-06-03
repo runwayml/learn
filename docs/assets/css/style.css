@@ -129,6 +129,18 @@ p {
     max-width: 950px;
 }
 
+.markdown-section>:first-child p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.markdown-section>:first-child p a {
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+    text-decoration: none;
+}
+
 
 /*-- Images */
 .Img-Small {
@@ -137,8 +149,8 @@ p {
 }
 
 .Img-Small img {
-    width: 20rem;
-    height: 100%;
+    /* width: 20rem; */
+    /* height: 100%; */
 }
 
 .Img-Medum img {
@@ -169,4 +181,38 @@ p {
     margin: 0px;
     font-style: italic;
     font-size: 0.8rem;
+}
+
+/*-- Specific Inside pages */
+.Main__Title{
+    font-size: 2.4em !important;
+}
+
+.Main__Description{
+    color: grey;
+    font-size: 22px !important; 
+    line-height: 30px !important;
+}
+
+.Main__Buttons{
+    text-align: center;
+}
+
+.Main__Button{
+    border: none;
+    background: rgb(9,130,250);
+    color: white !important;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 .5em;
+    padding: .8em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+    text-shadow: 0 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
+}
+
+.Main__Button:hover{
+    background: #0677e6;
+    color: #ececec;
 }

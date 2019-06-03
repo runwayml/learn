@@ -1,7 +1,9 @@
 * Getting started
+    * [Overview](/)
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
     * [Models 101](getting-started/model-101.md)
+    * [Brief intro to ML and AI](getting-started/intro-to-machine-learning.md)
 
 * How-To
     * [Browse the Model Directory](how-to/browse-model-directory.md)
