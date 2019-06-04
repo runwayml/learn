@@ -1,14 +1,10 @@
 * Getting started
-    * [Overview](/)
+    * [Introduction to Runway](/)
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
-    * [Models 101](getting-started/model-101.md)
     * [Brief intro to ML and AI](getting-started/intro-to-machine-learning.md)
 
 * How-To
-    * [Browse the Model Directory](how-to/browse-model-directory.md)
-    * [Run a Model](how-to/run-a-model.md)
-    * [Managing your Models](how-to/manage-models.md)
     * [Import a Model](how-to/importing.md)
 
 * Tutorials
@@ -20,8 +16,7 @@
     * [Image Classification with MobileNet](tutorials/tutorial_mobilenet.md)
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
-    * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)    
-    * [Generating images with Style Gan](tutorials/tutorial_stylegan.md)
+    * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
 
 * Integrations
     * [Arduino](https://github.com/runwayml/arduino)

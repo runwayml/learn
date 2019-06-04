@@ -1,6 +1,6 @@
 <h3 class="Main__Title">Runway Documentation</h3>
 
-<p class="Main__Description">Runway is a platform that allows creators of all kinds to use artificial intelligence in an intuitive way. In this documentation, we aim to help you get up and running with Runway.</p>
+<p class="Main__Description">Runway is a platform that allows creators of all kinds to use machine learning in an intuitive way. In this documentation, we aim to help you get up and running with Runway.</p>
 
 <div class="Main__Buttons">
     <a class="Main__Button" href='https://runwayml.com/download' target="_blank">Download Runway</a>
@@ -13,11 +13,9 @@
 
 ### Getting Started
 
-Welcome! We are excited to have you here. - If this is your first time using Runway, you can start with our [installation guide](/#/getting-started/installation) and our brief [intro to machine learning](/#/getting-started/intro-to-machine-learning).
+Welcome! We are excited to have you here. If this is your first time using Runway, starting with our [installation guide](/#/getting-started/installation) might be a good idea. Also, be sure to check our brief [intro to machine learning](/#/getting-started/intro-to-machine-learning). Once you have installed Runway, learn  how to run and use model with the [tutorials guide.](/#/tutorials/tutorial_t2i).
 
-Learn how to run and use model with the [tutorials guide.](/#/tutorials/tutorial_t2i).
-
-Learn how to add models to Runway with the [importing model](/#/how-to/importing) guide.
+If you are interested in addding models, learn how to add models to Runway with the [importing model](/#/how-to/importing) guide.
 
 ### Join our community
 

@@ -4,21 +4,6 @@ Runway models are platform-agnostic; models written in any framework/language ca
 
 A Runway model consists of an HTTP server that exposes a common interface over a network and a configuration file that specifies dependencies and build steps for running that server (and your model code) inside a Docker container. Both the network interface for interacting with the model and the Docker images created as a result of the configuration file are abstracted from the developer using the [Runway Model SDK](https://sdk.runwayml.com).
 
-## Connect to Github
-
-If you are planning to import models into Runway, then you will need to connect your Runway account to Github.  
-
-In **Settings**, there is a panel for you to link your Github account. Click on **Setup Github**. This will ask to sign in and authorize Runway to access your Github account.
-
-![HomePage Settings Annotated](assets/images/how-to/github-link/github-unlinked.png)
-
-When the connection is complete, the panel shows 'You are logged into Github as @xxx'. The button changes to Unlink Github
-
-![HomePage Settings Annotated](assets/images/how-to/github-link/github-link.png)
-
-
-## Porting
-
 Here are the steps involved in porting an ML model written in Python to Runway:
 
 1. Create a `runway_model.py` file which implements several methods from the [Runway Model SDK](https://sdk.runwayml.com).
@@ -30,7 +15,7 @@ Once you've imported your model into Runway using your GitHub account, each `git
 
 In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv.org/abs/1512.03385) computer vision model to Runway. We also provide a [Runway Model Template](https://github.com/runwayml/model-template) repository that contains boilerplate code for porting a new model.
 
-### Importing SqueezeNet into Runway
+### Tutorial: Adding SqueezeNet into Runway
 
 We recommend forking the [`runwayml/model-squeezenet`](https://github.com/runwayml/model-squeezenet) GitHub repository to your own GitHub user account so that you can follow along with the tutorial.
 
@@ -209,34 +194,29 @@ Once your model has a `runway_model.py` and `runway.yml` config file it's time t
 
 Once you've pushed your model to GitHub, it's time to import your model in the Runway. Open Runway and select the _Create New Model From GitHub_ button on the lower left.
 
-![Import Model #1](assets/images/views/home-screen.png)
+![Import Model #1](assets/images/views/model-directory.png)
 
 Authorize Runway to access public data on your GitHub account.
 
-![Import Model #2](assets/images/how-to/import-model/2_small.png)
-<img src="assets/images/how-to/import-model/3_small.png" style="max-width: 50%; margin: auto; display: block;">
+![Import Model #2](assets/images/how-to/github-link/github-01.png)
 
 Back in Runway, select the repository that contains your Runway model; `runway-model-tutorial` in our case.
 
-![Import Model #4](assets/images/how-to/import-model/4_small.png)
-
-Next you can edit the model name and add a category to your model. Other info **Settings** are available to edit later.
-
-![Import Model #5](assets/images/how-to/import-model/5_small.png)
+![Import Model #4](assets/images/how-to/github-link/github-03.png)
 
 #### 5. Push a new commit to trigger a build
 
 Once you've imported your model to Runway, you must push a new commit to GitHub to trigger a model build. When you do so, Runway will clone the code from your repository and use its `runway.yml` file to build a Docker image from your model. Each new commit pushed to the `master` branch of GitHub repository linked to a model will trigger a new model version to be built by Runway. Select the "Versions" tab in your model page to view all builds, past and present.
 
-![Import Model #6](assets/images/how-to/import-model/6_small.png)
+![Import Model #6](assets/images/how-to/github-link/model-versions.png)
 
 Click on a model version to view details about the version builds. You will notice that the `default` switch is flipped automatically for the first build. This means that the model is now published by your Runway users and is available for others to use. You can set any successfully built version to be the `default` version, but you must have at least one default version. This is an intentional decision for the time being, as _Private Models_ is a feature that is still to come.
 
-![Import Model #7](assets/images/how-to/import-model/7_small.png)
+![Import Model #7](assets/images/how-to/github-link/logs.png)
 
 You can view model logs during or after a build to debug your model build process.
 
-![Import Model #8](assets/images/how-to/import-model/8_small.png)
+![Import Model #8](assets/images/how-to/github-link/logs2.png)
 
 Once a model version has been successfully built you can add it to a workspace. You can also add any successful model versions to your personal workspace by hovering over the model version check mark in the "Versions" panel until it becomes a "+" icon, and then selecting it. This allows you to test new model versions before making them the default model version that is published to all Runway users.
 
