@@ -1,3 +1,88 @@
+/* Fonts */
+@font-face {
+    font-family: 'GraphikRegular';
+    font-style: normal;
+    font-weight: 200;
+    src: url("fonts/Graphik-Regular-Web.woff2") format("woff2"),
+        url("fonts/Graphik-Regular-Web.woff") format("woff");
+}
+
+/* Custom Menu Top */
+.Menu__Top {
+    background: #1c1c1c;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    margin: 0px !important;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0 4em;
+    font-family: 'GraphikRegular', 'sans-serif' !important;
+}
+
+.Menu__Top__LogoContainer {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    width: 20%;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: auto 0 !important;
+    text-align: left;
+    cursor: pointer;
+}
+
+.Menu__Top__LogoContainer_Logo {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    text-align: right;
+}
+
+.Menu__Top__LogoContainer_Title {
+    color: black;
+    display: inline;
+    color: #ebebeb;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.Menu__Top__Menu {
+    -webkit-box-flex: 4;
+    -moz-box-flex: 4;
+    width: 80%;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    margin: auto 0;
+    text-align: right;
+}
+
+.Menu__Top__Menu__Item {
+    padding: 0px !important;
+    margin: 0 1em !important;
+    color: #ebebeb !important;
+    font-size: 1em !important;
+    font-weight: 100 !important;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.Menu__Top__Menu__Item:hover{
+    color: #73E5A2 !important;
+}
+
+
+/*- General Styles */
 p {
     line-height: 2;
 }
@@ -16,78 +101,118 @@ p {
     text-align: center;
 }
 
-
-.next{
+.next {
     border-radius: 5px;
     padding: 1em;
     margin: 30px 0 !important;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.Img-Small{
+.app-name-link img {
+    width: 40px;
+}
+
+.sidebar {
+    margin: 80px 0 0 0;
+}
+
+.sidebar>h1 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.content {
+    padding-top: 80px;
+}
+
+.markdown-section {
+    max-width: 950px;
+}
+
+.markdown-section>:first-child p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.markdown-section>:first-child p a {
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+    text-decoration: none;
+}
+
+
+/*-- Images */
+.Img-Small {
     width: 100%;
     text-align: center;
 }
 
-.Img-Small img{
-    width: 20rem;
-    height: 100%;
+.Img-Small img {
+    /* width: 20rem; */
+    /* height: 100%; */
 }
 
-.Img-Medum img{
+.Img-Medum img {
     width: 40rem !important;
 }
 
-.Img-Small p{
+.Img-Small p {
     margin: 0px;
     font-style: italic;
     font-size: 0.8rem;
 }
 
-.RectImg img{
+.RectImg img {
     height: 10rem !important;
     width: 10rem !important;
 }
 
-.Img-with-Description{
+.Img-with-Description {
     width: 100%;
     text-align: center;
 }
 
-.Img-with-Description img{
+.Img-with-Description img {
     margin: 0px;
 }
 
-.Img-with-Description p{
+.Img-with-Description p {
     margin: 0px;
     font-style: italic;
     font-size: 0.8rem;
 }
 
-.app-name-link img{
-    width: 40px;
+/*-- Specific Inside pages */
+.Main__Title{
+    font-size: 2.4em !important;
 }
 
-nav {
-    margin-top: 20px;
+.Main__Description{
+    color: grey;
+    font-size: 22px !important; 
+    line-height: 30px !important;
 }
 
-nav :any-link { 
-    color: #364149;
+.Main__Buttons{
+    text-align: center;
+}
+
+.Main__Button{
+    border: none;
+    background: rgb(9,130,250);
+    color: white !important;
     text-decoration: none;
-    letter-spacing: 0;
-    margin-left: 10px;
+    font-size: 14px;
+    margin: 0 .5em;
+    padding: .8em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+    text-shadow: 0 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
 }
 
-nav :any-link:active { 
-    color: #364149;
-    text-decoration: none;
-}
-
-nav.app-nav li ul {
-  min-width: 100px;
-}
-.sidebar>h1{
-  text-align: left;
-  margin-left: 1rem;
+.Main__Button:hover{
+    background: #0677e6;
+    color: #ececec;
 }

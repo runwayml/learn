@@ -1,37 +1,34 @@
-# Welcome to Runway!
+<h3 class="Main__Title">Runway Documentation</h3>
+
+<p class="Main__Description">Runway is a platform that allows creators of all kinds to use machine learning in an intuitive way. In this documentation, we aim to help you get up and running with Runway.</p>
+
+<div class="Main__Buttons">
+    <a class="Main__Button" href='https://runwayml.com/download' target="_blank">Download Runway</a>
+    <a class="Main__Button"  href='/#/getting-started/overview'>Get Started</a>
+</div>
 
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
-Welcome to Runway! Runway is a toolkit that enables creators of all kinds to use artificial intelligence in an intuitive way. Runway allows you to discover new machine learning models, try them out using a simple visual interface, and connect them to third-party applications. This documentation contains an overview of Runway's features and a collection of examples to help get you up and running. 
+![Runway Screenshot](assets/images/views/home-screen.png)
 
-![Runway Screenshot](https://runway.nyc3.digitaloceanspaces.com/documentation/0.2.0/models_directory.jpg)
+### Getting Started
 
-### Try Runway Beta
+Welcome! We are excited to have you here. If this is your first time using Runway, starting with our [installation guide](/#/getting-started/installation) might be a good idea. Also, be sure to check our brief [intro to machine learning](/#/getting-started/intro-to-machine-learning). Once you have installed Runway, learn  how to run and use model with the [tutorials guide.](/#/tutorials/tutorial_t2i).
 
-**You will need to have a valid beta invite to be part of this program.** If you haven't signed up for the beta please register [here](https://runwayapp.ai/). We will be slowly sending out invites to the beta over the next few months.
-
-#### System requirements
-
-* Mac, Windows, or Linux operating system
-* More than 8GB of RAM
-* [Docker](https://www.docker.com/) installed.
-
-Please follow the installation guide [here](installation.md).
-
-<p class='note'><b>Note for Windows Users</b>: Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise or Education editions of Windows. If you don't have a Pro, Enterprise or Education Windows edition you will be only able to run some models. More on this <a href="/#/installation?id=download-docker">here.</a> </p>
+If you are interested in addding models, learn how to add models to Runway with the [importing model](/#/how-to/importing) guide.
 
 ### Join our community
 
-Runway has an active community of creators and contributors on Slack. Join the community [here](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc)
+Runway has an active community of creators and contributors on [Slack]([here](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc)) and [GitHub](https://github.com/runwayml). We encourage everyone to:
 
-You are encouraged to join our Slack group and introduce yourself, share projects, and provide feedback to help shape the future of Runway.
+* Share your projects and creations
+* Learn more about creative applications of machine learning
+* Shape the future of Runway
+* Form collaborations
+* Get involved in attending and/or running workshops
 
-If you want to contribute to the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](/#/contributing).
+If you want to contribute to the development of the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](/#/how-to/contributing).
 
-<p class='next'>
-  <b><a href="/#/installation">
-   Read Next: Installation
-  </b></a> 
-  <br/> 
-  Install Runway, create an account and learn how to start building A.I projects.
-</p>
+### Support
+
+If you encounter any problems or issues with the installation, please check out the [Support Center](https://support.runwayml.com/).

@@ -5,21 +5,21 @@ neural networks. This tutorial will show you how use the MobileNet
 model to identify the objects in an image folder.
 
 ### Requirements
-* Runway Beta
+* Runway
 * A folder with multiple image files
 
 ### Step 1
 
 Select the **MobileNet** model from the Model Directory.
 
-![Select Model](images/tutorial_mobilenet/01_select_model.png)
+![Select Model](assets/images/tutorials/tutorial_mobilenet/01_select_model.png)
 
 ### Step 2
 
 Add the model to a workspace using the drop-down list on the top right
 side of the app.
 
-![Add to Workspace](images/tutorial_mobilenet/02_add_to_workspace.png)
+![Add to Workspace](assets/images/tutorials/tutorial_mobilenet/02_add_to_workspace.png)
 
 ### Step 3
 
@@ -27,7 +27,7 @@ Select **Input** > **File**, and click on **Open Folder** to select
 your image folder.
 Select **Output** > **Local**.
 
-![Set Input/Output](images/tutorial_mobilenet/03_set_io.png)
+![Set Input/Output](assets/images/tutorials/tutorial_mobilenet/03_set_io.png)
 
 ### Step 4
 
@@ -42,7 +42,7 @@ Click on each image to show the estimated label. Other **File** and
 **Network** outputs allow you to export the labels and probabilities
 for external use.
 
-![Success](images/tutorial_mobilenet/05_success.png)
+![Success](assets/images/tutorials/tutorial_mobilenet/05_success.png)
 
 ### Summary
 
