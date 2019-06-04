@@ -7,6 +7,21 @@
         url("fonts/Graphik-Regular-Web.woff") format("woff");
 }
 
+
+a:visited{
+    text-decoration: none !important;
+}
+
+a:active{
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+
+
 /* Custom Menu Top */
 .Menu__Top {
     background: #1c1c1c;
@@ -23,7 +38,6 @@
     padding: 0 4em;
     font-family: 'GraphikRegular', 'sans-serif' !important;
 }
-
 .Menu__Top__LogoContainer {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -57,15 +71,35 @@
 }
 
 .Menu__Top__Menu {
-    -webkit-box-flex: 4;
-    -moz-box-flex: 4;
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
     width: 80%;
-    -webkit-flex: 4;
-    -ms-flex: 4;
-    flex: 4;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
     margin: auto 0;
     text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+    .Menu__Top__LogoContainer{
+        width: 300px !important;
+        flex: 3;
+    }
+    .Menu__Top__Menu{
+        flex: 1;
+    }
+    .Menu__Top__Menu__Item{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 600px) {
+    .Menu__Top {
+        padding: 0 0.5em;
+    }
+}
+
+
 
 .Menu__Top__Menu__Item {
     padding: 0px !important;
