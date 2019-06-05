@@ -1,6 +1,6 @@
-# Tutorial: Autotitling the work of art that is your live webcam feed (im2txt with p5.js)
+# Tutorial: Auto-titling the work of art that is your live webcam feed (im2txt with p5.js)
 
-Runway makes it really simple to use AI with Javascript and create fun sketches on the web. This tutorial will guide you through generating live descriptions for your webcam feed using the im2txt model and p5.js.
+Runway makes it really simple to use AI with Javascript to create fun sketches on the web. This tutorial will guide you through generating live descriptions for your webcam feed using the im2txt model and p5.js.
 
 ![still images](images/tutorial_im2txt_p5/autotitle.gif)
 
