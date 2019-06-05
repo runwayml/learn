@@ -27,7 +27,7 @@ Runway has an active community of creators and contributors on [Slack](https://j
 * Form collaborations
 * Get involved in attending and/or running workshops
 
-If you want to contribute to the development of the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](how-to/contributing).
+If you want to contribute to the development of the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](more/contribute).
 
 ### Support
 
