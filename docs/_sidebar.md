@@ -14,6 +14,7 @@
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
+    * [Auto-titling your webcam feed with im2txt](tutorials/tutorial_im2txt_p5js.md)
     * [~~Background Removal in Photoshop~~](#)
     * [~~Skeleton tracking in Unity~~](#)
 
