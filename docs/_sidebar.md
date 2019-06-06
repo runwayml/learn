@@ -10,7 +10,7 @@
 * Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
     * [Captioning Images](tutorials/tutorial_im2txt.md)
-    * [Colorizing Black & White Video's](tutorials/tutorial_colorizing_video.md)
+    * [Colorizing Black & White Videos](tutorials/tutorial_colorizing_video.md)
     * [Skeleton Tracking in Processing](tutorials/tutorial_posenet.md)
     * [Style Transfer of an Image](tutorials/tutorial_style_transfer.md)
     * [Image Classification with MobileNet](tutorials/tutorial_mobilenet.md)
