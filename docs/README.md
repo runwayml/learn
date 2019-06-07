@@ -9,7 +9,7 @@
 
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
-![Runway Screenshot](assets/images/views/home-screen.png)
+![Runway Screenshot](assets/images/views/home-screen.jpg)
 
 ### Getting Started
 
