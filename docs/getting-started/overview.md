@@ -12,13 +12,13 @@ Every time you open Runway you will see the **Start Screen**. From here, you can
 
 Runway's Models Directory is a unique place to search, discover, publish and install machine learning models. You can search for models with specific attributes, input types, creator, functionality or by date.
 
-![Models Directory](assets/images/views/model-directory.png)
+![Models Directory](assets/images/views/model-directory.jpg)
 
 ## Model View
 
 Every model in Runway has its own view. Inside a model view you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
 
-![versions](assets/images/views/model.png)
+![versions](assets/images/views/model.jpg)
 
 Each model view is compromised of two main sections:
 
@@ -101,7 +101,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 ?> **Remember:** A Workspace is a collection of AI models. By grouping models together you can experiment and create with models in a way that's logical to you.
 
-![Input/Output View](assets/images/views/io.png)
+![Input/Output View](assets/images/views/io.jpg)
 
 1) **Workspaces and Models**: This sidebar contains and list all current workspaces and models in use.
 
@@ -129,4 +129,4 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 The **Settings** view has your account details, remaining credits, locally installed models and checkpoints as well and information about Runway.
 
-![Input/Output View](assets/images/views/settings.png)
+![Input/Output View](assets/images/views/settings.jpg)
