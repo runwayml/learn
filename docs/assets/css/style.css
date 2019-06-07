@@ -224,7 +224,7 @@ p {
 
 .Main__Description{
     color: grey;
-    font-size: 22px !important; 
+    font-size: 22px !important;
     line-height: 30px !important;
 }
 
@@ -249,4 +249,9 @@ p {
 .Main__Button:hover{
     background: #0677e6;
     color: #ececec;
+}
+
+/* Bullet points instead of dashes in left sidebar menu sub-menu items */
+.app-sub-sidebar li::before {
+    content: "•";
 }
