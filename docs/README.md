@@ -15,7 +15,7 @@
 
 Welcome! We are excited to have you here. If this is your first time using Runway, starting with our [installation guide](getting-started/installation) might be a good idea. Also, be sure to check our brief [intro to machine learning](getting-started/intro-to-machine-learning). Once you have installed Runway, learn  how to run and use model with the [tutorials guide](tutorials/tutorial_t2i).
 
-If you are interested in addding models, learn how to add models to Runway with the [importing model](how-to/importing) guide.
+If you are interested in adding your own models to Runway visit the [model importing](how-to/importing) guide.
 
 ### Join our community
 
@@ -27,7 +27,7 @@ Runway has an active community of creators and contributors on [Slack](https://j
 * Form collaborations
 * Get involved in attending and/or running workshops
 
-If you want to contribute to the development of the project please visit our [GitHub account](https://github.com/runwayml) and read the [Contributing Guide](more/contribute).
+If you want to contribute to the development of the project please visit our [GitHub organization](https://github.com/runwayml) and read the [Contributing Guide](more/contribute).
 
 ### Support
 

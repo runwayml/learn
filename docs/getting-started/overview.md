@@ -1,22 +1,22 @@
 # Overview
 
-In this quick overview, we will help you get familiar with Runway, will explain how the interface works and how you can start using powerful machine learning models with a few simple clicks!
+In this quick overview, we will help you get familiar with Runway. We'll explain how the interface works and how you can start using powerful machine learning models with just a few clicks!
 
 ## Start Screen
 
-Every time you open Runway you will see the **Start Screen**. From here, you can choose to **Browse Models** or restore a previous **Workspace** from another session. (Read more on workspaces [here](getting-started/views.md)).
+Every time you open Runway you will see the **Start Screen**. From here, you can choose to **Browse Models** or restore a **Workspace** from a previous session (read more on workspaces [below](#workspaces)).
 
 ![Runway Welcome View](assets/images/views/start-screen.png)
 
 ## Models Directory
 
-Runway's Models Directory is a unique place to search, discover, publish and install machine learning models. You can search for models with specific attributes, input types, creator, functionality or by date.
+Runway's Models Directory is a unique place to search, discover, publish, and install machine learning models. You can search for models with specific attributes, input types, creators, functionalities or by date added.
 
 ![Models Directory](assets/images/views/model-directory.jpg)
 
 ## Model View
 
-Every model in Runway has its own view. Inside a model view you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
+Every model in Runway has its own view once its selected from the Models Directory. Inside a model view you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
 
 ![versions](assets/images/views/model.jpg)
 

@@ -16,7 +16,7 @@ Once you have downloaded the app, open Runway. If you haven't created an account
 
 <div class="Img-Small">
   <img src="assets/images/installation/login_01.png" alt="Runway Login Email Verification" >
-  <p>Runway Login Window.</p>
+  <p>Runway Login Window</p>
 </div>
 
 Next, add your email:
@@ -33,21 +33,23 @@ Click next and create a new username and a strong password. Your username will b
   <p>Create your username and password</p>
 </div>
 
-Click next and add your final details. If you are planning on using Runway from an organization (company, school, NGO, Research Lab, etc) please enter the organization name.
+?> We enforce minimum password strength requirements to protect users from automated password guessing attacks. We strongly recommend using a [password manager](https://en.wikipedia.org/wiki/Password_manager) like [1Password](https://1password.com/) or [LastPass](https://www.lastpass.com/) (free) to generate and store cryptographically random passwords.
+
+Click next and add your final details. If you are planning on using Runway from an organization (company, school, NGO, research lab, etc) please enter the organization name.
 
 <div class="Img-Small">
   <img src="assets/images/installation/login_04.png" alt="Runway Account Creation" >
-  <p>You account details</p>
+  <p>Your account details</p>
 </div>
 
-Once your account has been created, you will need to verify the email associated with your account. Please check your inbox for a verification code we will send. Be sure to **check your spam or promotions folder** in case you don't receive a verification code after a few minutes.
+Once your account has been created, you will need to verify the email associated with your account. Please check your inbox for a verification code. Be sure to **check your spam or promotions folder** if you don't receive a verification code after a few minutes.
 
 <div class="Img-Small">
   <img src="assets/images/installation/login_05.png" alt="Runway Verification code" >
   <p>Enter the Verification Code</p>
 </div>
 
-After verifying your account you are good to go! If you log out of your account you can enter again just by typing your email or username and password. You can login and logout from any computer. Only once instance of Runway can be running at the same time from the same user.
+After verifying your account you are good to go! If you log out of your account you can enter again by using either your email or username and your password. You can login and logout from any computer, but only one instance of Runway can be running at any given time using a single user account.
 
 <div class="Img-Small">
   <img src="assets/images/installation/login_06.png" alt="Runway Account Verified" >
