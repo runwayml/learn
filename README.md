@@ -1,6 +1,6 @@
 <a href="#" target='_self' >
   <p align="center">
-    <img src="./assets/banner.png">
+    <img src="./docs/assets/images/banner.png">
   </p>
 </a>
 

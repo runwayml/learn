@@ -250,6 +250,7 @@ p {
     background: #0677e6;
     color: #ececec;
 }
+
 /* Bullet points instead of dashes in left sidebar menu sub-menu items */
 .app-sub-sidebar li::before {
     content: "•";
