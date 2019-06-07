@@ -3,6 +3,7 @@
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
     * [Brief intro to ML and AI](getting-started/intro-to-machine-learning.md)
+    * [Model 101](getting-started/model-101.md)
 
 * How-To
     * [Import a Model](how-to/importing.md)
