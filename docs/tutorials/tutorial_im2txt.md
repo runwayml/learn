@@ -24,7 +24,7 @@ If you haven't installed **im2txt**, the bottom right button will prompt you to 
 ![step 3](assets/images/tutorials/tutorial_im2txt/im2txt03.jpg)
 
 
-?> Some deep learning models might be large so please note that downloading the model might take a couple of minutes. In this case, AttnGAN might take **4 to 8 minutes** to download depending on your internet connection.
+?> Some deep learning models might be large so please note that downloading the model might take a couple of minutes.
 
 ![step 3](assets/images/tutorials/tutorial_im2txt/im2txt04.jpg)
 
