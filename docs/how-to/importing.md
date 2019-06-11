@@ -8,8 +8,9 @@ Here are the steps involved in porting an ML model written in Python to Runway:
 
 1. Create a `runway_model.py` file which implements several methods from the [Runway Model SDK](https://sdk.runwayml.com).
 2. Write a `runway.yml` config file.
-3. Upload your code to a GitHub repository.4. Import your new model into Runway using your GitHub account.
-4. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
+3. Upload your code to a GitHub repository.
+4. Import your new model into Runway using your GitHub account.
+5. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
 
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
 
