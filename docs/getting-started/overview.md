@@ -95,7 +95,7 @@ Links to external sites.
 
 ## Workspaces
 
-Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/model-101.md). **Workspaces** provides a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
+Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/models-101.md). **Workspaces** provides a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
 
 A **Workspace** is a collection of models. In a **Workspace** you can organize your models by theme, hierarchy, or however else you like.
 
