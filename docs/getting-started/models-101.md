@@ -30,8 +30,7 @@ Some trained models are ethically dubious and raise important questions about th
 
 ## Using Models in Runway
 
-In Runway, you can run and create a variety of machine learning models. Models can be used and run in Runway's cloud infrastructure or run locally on your computer. Find out more about [how to run your first model in Runway](how-to/run-a-model.md).
-
+In Runway, you can run and create a variety of machine learning models. Models can be used and run in Runway's cloud infrastructure or run locally on your computer. Find out more about [how to run your first model in Runway](tutorials/tutorial_t2i.md).
 
 ## Model Licenses, Attributions, and Publishers
 

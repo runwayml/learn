@@ -123,7 +123,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 4) **Options**: Each model has a set of options that you can change and update. These are often known as hyperparameters.
 
-5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](how-to/run-a-model.md)
+5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](tutorials/tutorial_t2i.md).
 
 ## Settings
 
