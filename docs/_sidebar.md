@@ -5,9 +5,6 @@
     * [Brief intro to ML and AI](getting-started/intro-to-machine-learning.md)
     * [Models 101](getting-started/models-101.md)
 
-* How-To
-    * [Import a Model](how-to/importing.md)
-
 * Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
     * [Captioning Images](tutorials/tutorial_im2txt.md)
@@ -18,6 +15,10 @@
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
+
+* How-To
+    * [Import a Model](how-to/importing.md)
+    * [Interacting with Models over the Network](how-to/network.md)
 
 * Integrations
     * [🔗 Arduino](https://github.com/runwayml/arduino)
