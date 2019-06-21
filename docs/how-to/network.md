@@ -144,6 +144,10 @@ socket.on('data', (output) => {
 
 Above is a screenshot illustrating Runway sending its output to a Processing sketch via OSC.
 
+Every model will create, by default, an OSC server that you can connect to.
+
+To connect to a model via OSC, you first need to create an OSC client and then send a message with the address `/server/connect` to Runway's OSC server at the port displayed within the app in order to start receiving data from Runway. Take a look at a working example with [PoseNet and Processing](https://github.com/runwayml/processing/blob/master/posenet/posenet.pde). Be sure to update the variable `runwayPort` to the port displayed in the app in your OSC code!
+
 OSC events are addressed to the following endpoints:
 
 * `SEND /query`: Send input data to a model.
