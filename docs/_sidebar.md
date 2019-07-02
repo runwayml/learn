@@ -38,6 +38,7 @@
     * [🔗 Github](https://github.com/runwayml)
     * [🔗 Runway Python SDK](https://sdk.runwayml.com/)
     * [🔗 Runway Model Template](https://github.com/runwayml/model-template)
+    * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)
     * [Contribute to Runway](more/contribute.md)
     * [Awesome Runway](more/awesome-runway.md)
     * [Join the Community](/?id=join-our-community)
