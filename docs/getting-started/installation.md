@@ -10,6 +10,8 @@ Get started by downloading the [latest release of Runway](https://runwayml.com/d
 
 ?> If you encounter any problems or issues with the installation, please visit the [Support Center](https://support.runwayml.com/).
 
+?> Having trouble installing Runway on Linux? Check out this [Runway on Linux guide](https://support.runwayml.com/en/articles/3116268-runway-on-linux).
+
 ## Create an Account
 
 Once you have downloaded the app, open Runway. If you haven't created an account yet click the **Create an account** button at the bottom of the login window.
