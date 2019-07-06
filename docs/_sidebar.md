@@ -15,6 +15,8 @@
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
+    * [Using P5 with Photosketch](tutorials/tutorial_p5_photosketch.md)
+    * [Using P5 with CycleGAN](tutorials/tutorial_p5_cyclegan.md)
 
 * How-To
     * [Import a Model](how-to/importing.md)
