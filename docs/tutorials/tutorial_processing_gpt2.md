@@ -6,10 +6,10 @@
 This post covers how to create an interface in [p5.js](https://p5js.org/download/), and use that interface to interact with a CycleGAN Model in RunwayML. 
 
 # GPT-2:
-GPT-2 is a model for generating long paragrahs of text. With GPT-2, one can condition the output of the model on some input text. The output from the model will then continue the text. For instance, if you prime the model with 'My name is matt and' the model will output something like ' I am a software developer...' etc. G
+GPT-2 is a model for generating long paragraphs of text. With GPT-2, one can condition the output of the model on some input text. The output from the model will then continue the text. For instance, if you prime the model with 'My name is matt and' the model will output something like ' I am a software developer...' etc. G
 
 # The Network:
-GPT-2 is a transformer model, in the same line as BERT, XLNet and other large text models. Transformers are a new state-of-the-art network for a large number of natural language understanding problems. 
+GPT-2 is a transformer model, in the same line as BERT, XLNet and other large text models. Transformers are a new state-of-the-art network for a wide array of natural language understanding problems. 
 
 # How to start the model:
 To set up the GPT-2 model in RunwayML, click on the 'Browse Model' button on the upper-left corner of the interface. Search for GPT-2 in the searchbar at the top of the interface, and select it. This will take you to a page with further information about the model. 
@@ -26,13 +26,13 @@ In the workspace, click the 'Run Remotely' button, ensuring that the 'Remote GPU
 ![Add to Workspace](assets/images/tutorials/tutorial_processing_gpt2/interface.png)
 
 # What the code does:
-We'll be  using Processing to communicate with RunwayML. Processing is a creative coding environment and language written in Java. We'll create this communication through the use of Open Sound Controll (OSC). 
+We'll be  using [Processing](https://processing.org/) to communicate with RunwayML. Processing is a creative coding environment and language written in Java. We'll create this communication through the use of [Open Sound Control](http://opensoundcontrol.org/introduction-osc) (OSC). 
 
 # How the code works:
 OSC is a messaging protocol much like MIDI. It allows the user to pipe messages to and from RunwayML. This sketch uses the processing OSC library to create a connection between RunwayML and Processing. We'll be sending over the start of a sentence, and well let our GPT-2 model generate the rest of the paragraph.
 
 # The Code in Detail (Setup)
-To run the code, we'll need to include the Processing OSC library in our sketch. This can be done by going under tools in the navbab, and selecting 'Add Tool...'. From there an interface should open. Under the 'Libraries' tab, search for the 'oscP5' library and click 'Install' in the bottom right. 
+To run the code, we'll need to include the Processing OSC library in our sketch. This can be done by going under tools in the navbar, and selecting 'Add Tool...'. From there an interface should open. Under the 'Libraries' tab, search for the 'oscP5' library and click 'Install' in the bottom right. 
 
 ![Port Address](assets/images/tutorials/tutorial_processing_gpt2/oscp5.png)
 
@@ -60,7 +60,7 @@ myBroadcastLocation = new NetAddress(runwayHost, runwayPort);
 
 ## Part 2
 
-Next, we'll define the port for our sketch to listen to. To recieve the text back from RunwayML, we'll define `port 57200` to listen to as a remote address.
+Next, we'll define the port for our sketch to listen to. To receive the text back from RunwayML, we'll define `port 57200` to listen to as a remote address.
 ```java
   //define OSC properties
   OscProperties properties = new OscProperties();
@@ -80,7 +80,7 @@ Next, we'll define the port for our sketch to listen to. To recieve the text bac
 ## Part 3
 ![Input Requirements](assets/images/tutorials/tutorial_processing_gpt2/input.png)
 
-Next, we'll setup up a function so that our sketch can send the input of the text box to Runway. Runway is expecting json with a prompt (the text we're sending) and a seed number. Here, we set the address that Runway will recieve the message on to `query`. We'll then create a new json object and add the text from our text field to the json object. The GPT-2 model also requires a seed number. The seed will determine how "creative" the text is (how closely it aligns to the training data), with 1 being the most creative and 0.01 the least creative. after `json_message.setString("prompt", theText);` and  `json_message.setInt("seed", 1);` we should have a json object that looks like this `{"prompt" : "the text you input", "seed" : "1" }`. We'll convert the json object to a string and send it to Runway via `oscP5.send(myMessage, myBroadcastLocation); `
+Next, we'll setup up a function so that our sketch can send the input of the text box to Runway. Runway is expecting json with a prompt (the text we're sending) and a seed number. Here, we set the address that Runway will receive the message on to `query`. We'll then create a new json object and add the text from our text field to the json object. The GPT-2 model also requires a seed number. The seed will determine how "creative" the text is (how closely it aligns to the training data), with 1 being the most creative and 0.01 the least creative. after `json_message.setString("prompt", theText);` and  `json_message.setInt("seed", 1);` we should have a json object that looks like this `{"prompt" : "the text you input", "seed" : "1" }`. We'll convert the json object to a string and send it to Runway via `oscP5.send(myMessage, myBroadcastLocation); `
 
 ```java
 //send the text from ou interface to RunwayML
@@ -108,10 +108,10 @@ void input(String theText) {
 
 ![Output Requirements](assets/images/tutorials/tutorial_processing_gpt2/output.png)
 
-We'll also need a function to read the json data back into our sketch (pictured above). We should be expecting the message to be coming from runway in json format from the `data` channel. With `if(theOscMessage.checkAddrPattern("/data")==true)`, we'll create recieve the oscMessage and check that the channel is, infact `data`. Next we'll get the string value from the data and parse the json object for the `text` key. 
+We'll also need a function to read the json data back into our sketch (pictured above). We should be expecting the message to be coming from runway in json format from the `data` channel. With `if(theOscMessage.checkAddrPattern("/data")==true)`, we'll create receive the oscMessage and check that the channel is, infact `data`. Next we'll get the string value from the data and parse the json object for the `text` key. 
 
 ```java  
-//recieve the message from RunwayML
+//receive the message from RunwayML
 void oscEvent(OscMessage theOscMessage) {  
   //ensure the message is coming from the "data" channel
   if(theOscMessage.checkAddrPattern("/data")==true) {
@@ -128,8 +128,5 @@ void oscEvent(OscMessage theOscMessage) {
 }
 ```
 
-
-
-
-# Moving Foward:
-The last part is displaying the text in the draw funtion! From here, you should be able to change the draw function to display the text in interesting ways! There are plenty of ways to extend this example! We're excited to see what you come up with
+# Running the Sketch:
+The last part is displaying the text in the draw function! From here, you should be able to change the draw function to display the text in interesting ways! Click the 'Run' arrow in the upper lefthand corner of the processing interface. The interface should appear. Enter some text and hit 'Return'. There are plenty of ways to extend this example! We're excited to see what you come up with
