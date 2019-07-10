@@ -3,13 +3,13 @@
 
 ![Header](assets/images/tutorials/tutorial_processing_gpt2/header.png)
 
-This post covers how to create an interface in [p5.js](https://p5js.org/download/), and use that interface to interact with a CycleGAN Model in RunwayML. 
+This post covers how to create an interface in [Processing](https://processing.org/), and use that interface to interact with a GPT-2 model in RunwayML. 
 
 # GPT-2:
-GPT-2 is a model for generating long paragraphs of text. With GPT-2, one can condition the output of the model on some input text. The output from the model will then continue the text. For instance, if you prime the model with 'My name is matt and' the model will output something like ' I am a software developer...' etc. G
+GPT-2 is a model for generating long paragraphs of text. With GPT-2, one can condition the output of the model on some input text. The output from the model will then continue the text. For instance, if you prime the model with 'My name is matt and' the model will output something like ' I am a software developer...' etc.
 
 # The Network:
-GPT-2 is a transformer model, in the same line as BERT, XLNet and other large text models. Transformers are a new state-of-the-art network for a wide array of natural language understanding problems. 
+GPT-2 is a transformer model. Transformers are a new state-of-the-art natural language processing network used for a wide array of language problems, including reading comprehension, question answering, summarization, and translation. Here we'll be using it for text generation. 
 
 # How to start the model:
 To set up the GPT-2 model in RunwayML, click on the 'Browse Model' button on the upper-left corner of the interface. Search for GPT-2 in the searchbar at the top of the interface, and select it. This will take you to a page with further information about the model. 
@@ -108,7 +108,7 @@ void input(String theText) {
 
 ![Output Requirements](assets/images/tutorials/tutorial_processing_gpt2/output.png)
 
-We'll also need a function to read the json data back into our sketch (pictured above). We should be expecting the message to be coming from runway in json format from the `data` channel. With `if(theOscMessage.checkAddrPattern("/data")==true)`, we'll create receive the oscMessage and check that the channel is, infact `data`. Next we'll get the string value from the data and parse the json object for the `text` key. 
+We'll also need a function to read the json data back into our sketch (pictured above). We should be expecting the message to be coming from Runway in json format from the `data` channel. With `if(theOscMessage.checkAddrPattern("/data")==true)`, we'll create receive the oscMessage and check that the channel is, infact `data`. Next we'll get the string value from the data and parse the json object for the `text` key. 
 
 ```java  
 //receive the message from RunwayML
