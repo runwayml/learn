@@ -8,7 +8,7 @@ This page contains descriptions of our current experimental features and details
 
 - ### Chaining (available as of beta version 0.6.11)
 
-Since the release of the beta version 0.6.11, you can link multiple machine learning models together, allowing you to explore an even more extensive and comprehensive set of creative workflows.
+Since the release of Runway beta version 0.6.11, you can link multiple machine learning models together, allowing you to explore an even more extensive and comprehensive set of creative workflows.
 
 Model chaining is a functionality inside Runway that allows you to use the output of one model as the input of another one, effectively chaining them together. This becomes very helpful when you want to create a continuous pipeline of processing for a given input. 
 
