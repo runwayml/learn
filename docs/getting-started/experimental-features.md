@@ -6,7 +6,7 @@ This page contains descriptions of our current experimental features and details
 
 ## Active Experimental Features
 
-- ### Chaining (release on beta version 0.6.11)
+- ### Chaining (available as of beta version 0.6.11)
 
 Since the release of the beta version 0.6.11, you can link multiple machine learning models together, allowing you to explore an even more extensive and comprehensive set of creative workflows.
 
