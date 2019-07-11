@@ -32,7 +32,7 @@
     * [🔗 TouchDesigner](https://github.com/runwayml/touchDesigner)
     * [🔗 Unity](https://github.com/runwayml/unity)
 
-* 🚢 More
+* 🌏 More
     * [🔗 Main Website](https://runwayml.com/)
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
