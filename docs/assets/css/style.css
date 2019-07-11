@@ -255,3 +255,7 @@ p {
 .app-sub-sidebar li::before {
     content: "•";
 }
+
+.pagination-item--next{
+    margin: 0 140px 0 0;
+}
