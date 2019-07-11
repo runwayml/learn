@@ -17,7 +17,7 @@
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
 
-* 👨‍🚀 How-To
+* 🤔 How-To
     * [Import a Model](how-to/importing.md)
     * [Interacting with Models over the Network](how-to/network.md)
 
