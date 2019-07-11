@@ -1,6 +1,6 @@
 # Experimental Features 🧪
 
-Runway is currently in beta. This means that we are actively developing the application and things are in constant change. But one of the cool things about being in beta is that you get to try new features often! 👩‍🔬
+Runway is currently in beta. This means that we are actively developing the application and things are constantly changing. But one of the cool things about being in beta is that you get to try new experimental features often! 
 
 This page contains descriptions of our current experimental features and details on how to use them.
 
