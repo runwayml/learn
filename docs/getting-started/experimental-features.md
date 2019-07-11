@@ -13,7 +13,7 @@ Since the release of Runway beta version 0.6.11, you can link multiple machine l
 Model chaining is a functionality inside Runway that allows you to use the output of one model as the input of another one, effectively chaining them together. This becomes very helpful when you want to create a continuous pipeline of processing for a given input. 
 
 ##### Things to keep in mind 🧠
-- Not all models can be connected to one another. For example, if one model expects text as an input you'll only be able to send the output of a model that outputs text. 
+- Not all models can be connected to one another. Only models with matching input/output types can be chained together. For example, models that expects text as input can only be the downstream chains of models that produce text-based output.
 - Be sure to run all models before expecting the final output!
 
 ##### Learn More 👇🏽
