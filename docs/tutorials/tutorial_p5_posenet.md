@@ -6,6 +6,7 @@ In this tutorial we will use the Posenet model in RunwayML, and connect it to a 
 
 - Runway
 - [P5.js](https://p5js.org/download/)
+- [Socket.io](https://socket.io/)
 
 ### Step 1
 

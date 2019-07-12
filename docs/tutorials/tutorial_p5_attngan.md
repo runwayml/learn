@@ -6,6 +6,7 @@ This tutorial will review how to connect an AttnGAN model in RunwayML to a sketc
 
 - Runway
 - [P5.js](https://p5js.org/download/)
+- [P5 DOM](https://p5js.org/reference/#/libraries/p5.dom)
 
 ### Step 1
 
