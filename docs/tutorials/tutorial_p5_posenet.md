@@ -47,12 +47,14 @@ In your html, be sure to include the [p5.js library](https://p5js.org/download/)
 # The Code in Detail (JS):
 The javascript code is commented line by line for your reference, there are a few important parts to pay attention to. 
 
-Here we set up a function 'sendImage' to send the image from the users webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending the a JSON object where the key ('input') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be call 'input' and is expecting a 'base 64 image' for it's value.
+The most important step for this sketch is ensuring that the sketch is connecting to RunwayML and able to communicate with it. This communication happens via websockets. Be sure that the Socket.io server port in RunwayML matches the server port in the sketch. Here, we have set up RunwayML to communicated via port 3000, and have also specified port 3000 in our sketch.
 
 ```js
 void setup () {
 var socket = io.connect('http://127.0.0.1:3000/');
 ```
+
+Here we set up a function 'sendImage' to send the image from the users webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending the a JSON object where the key ('input') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be call 'input' and is expecting a 'base 64 image' for it's value.
 
 ```js
    ...
