@@ -19,6 +19,7 @@
     * [Using P5 with CycleGAN](tutorials/tutorial_p5_cyclegan.md)
     * [Genertating Text with Processing and GPT2](tutorials/tutorial_processing_gpt2.md)
     * [Skeleton Tracking with P5.js](tutorials/tutorial_p5_posenet.md)
+    * [Using P5.js with AttnGAN](tutorials/tutorial_p5_attngan.md)
 
 * How-To
     * [Import a Model](how-to/importing.md)
