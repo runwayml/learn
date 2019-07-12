@@ -10,12 +10,6 @@ PhotoSketch is what is known as a Generative Adversarial Network. The goal of Ge
 
 PhotoSketch is a specific type of GAN called a conditional Generative Adversarial Network. Where regular GANs create images from a random noise, conditional GANs can condition that noise on additional input. This input can be any information, including labels, integers, or other images. PhotoSketch conditions this noise on other images. Pairs of images and sketches of those images are fed into the network. The output is a model that translates between images and sketches.
 
-# The Network:
-Learning the probability distribution of the generated data distribution from the input data is  done by setting up two distinct neural network. The generator network (G) is trying to generate images that look like they are from the training set, while the discriminator (D) network is attempting to determine whether a given image was produced by the generator, or from the training set. The discriminator will determine whether the output of the generator is real or fake and generating a 1 (real) or 0 (fake) a probability of whether it is real or fake. This game plays out over a series of epochs. At fist, neither the generator or discriminator perform well. As learning progresses and the gradients are passed back to each network, both improve their performance. The probability distributions for the fake image start to take shape in relation to the distribution of the real images over a series of epochs. 
-
-# The Details:
-The authors of PhotoSketch use a network much like Pix2Pix, which is also part of the RunwayML ecosystem. PhotoSketch differs in that it uses a specific loss called MM-loss or Min-Mean loss. In developing this network, the authors developed MM-loss to account for the use of multiple dataset while training the model. Without MM-loss, training across multiple datasets would have created conflicting gradients, and hindered the models performance. With MM-loss, the "mean" learns from all modalities of the target domain and treats them equally. The “min” allows the generator to adaptively pick the best modality to generate on-the-fly.
-
 # How to start the model:
 To set up the PhotoSketch model in RunwayML, click on the 'Browse Model' button on the upper-left corner of the interface. Scroll to PhotoSketch and select it. This will take you to a page with further information about the model. 
 

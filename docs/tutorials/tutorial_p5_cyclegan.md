@@ -3,13 +3,13 @@
 
 ![Header](assets/images/tutorials/tutorial_p5_cyclegan/header.png)
 
-This post covers how to create an interface in [p5.js](https://p5js.org/download/), and use that interface to interact with a CycleGAN Model in RunwayML. 
+This post covers how to create an interface in [p5.js](https://p5js.org/download/), and use that interface to interact with a CycleGAN Model in RunwayML. You can find the code for this tutorial [here](https://github.com/runwayml/p5js/tree/master/CycleGAN)
 
 # CycleGAN:
 CycleGAN is a type of conditional Generative Adversarial Network. Much like Pix2Pix or Photosketch, the goal of CycleGAN is to produce synthetic images. Like Pix2Pix, CycleGAN takes in two sets of images, an example set and a target set. The output of CycleGAN is to create images that look like the target set from examples from the example set. For instance, let's say we want to create a model that turns pictures of horses into pictures of zebras. CycleGAN will learn the probability distrobution of both sets of images to make this transformation possible. We can then query the model with pictures of horses, and get out the same picture but with th horse in the style of a zebra.
 
 # The Network:
-Learning the probability distribution of the generated data distribution from the input data is  done by setting up two distinct neural network. The generator network (G) is trying to generate images that look like they are from the training set, while the discriminator (D) network is attempting to determine whether a given image was produced by the generator, or from the training set. The discriminator will determine whether the output of the generator is real or fake and generating a 1 (real) or 0 (fake) a probability of whether it is real or fake. This game plays out over a series of epochs. At fist, neither the generator or discriminator perform well. As learning progresses and the gradients are passed back to each network, both improve their performance. The probability distributions for the fake image start to take shape in relation to the distribution of the real images over a series of epochs. 
+Learning the probability distribution of the generated data distribution from the input data is done by setting up two distinct neural network. The generator network (G) is trying to generate images that look like they are from the training set, while the discriminator (D) network is attempting to determine whether a given image was produced by the generator, or from the training set. The discriminator will determine whether the output of the generator is real or fake and generating a 1 (real) or 0 (fake) a probability of whether it is real or fake. This game plays out over a series of epochs. At fist, neither the generator or discriminator perform well. As learning progresses and the gradients are passed back to each network, both improve their performance. The probability distributions for the fake image start to take shape in relation to the distribution of the real images over a series of epochs. 
 
 # The Details:
 Where CycleGAN differs from Pix2Pix or other conditional GANs is that it doesn't require a 1 to 1 mapping between images. If you look at Pix2Pix examples, you'll see that the model requires a strictly similar representation between the image pairs. With CycleGAN however, we can just feed in a bunch of pictures of zebras and horses in no particular order and the network will "learn" the translation. No image pairs are needed. This is done through the use of a cycle consisten loss function used in the network.
@@ -29,7 +29,7 @@ In the workspace, click the 'Run Remotely' button, ensuring that the 'Remote GPU
 ![Add to Workspace](assets/images/tutorials/tutorial_p5_cyclegan/interface.png)
 
 # What the code does:
-Well be using [P5.js](https://p5js.org) to communicate to RunwayML. P5.js is a Javascript based creative coding framework. By bringing the output into the browser and the P5.js ecosystem, it will give us the flexibility to use the output from the model for other creative purposes. In this example we'll use the HTTP to connect with RunwayML. 
+Well be using [P5.js](https://p5js.org) to communicate to RunwayML. P5.js is a Javascript based creative coding framework. Our code for this tutorial can be found [here](https://github.com/runwayml/p5js/tree/master/CycleGAN). By bringing the output into the browser and the P5.js ecosystem, it will give us the flexibility to use the output from the model for other creative purposes. In this example we'll use the HTTP to connect with RunwayML. 
 
 # How the code works:
 HTTP are one of the many ways we can transfer data from our code into RunwayML. In this tutorial, we'll be posting an image as an input via a `POST` request. That input is queried on the model and the output is sent back to the browser.
@@ -102,6 +102,16 @@ function newDrawing(data){
     }
 }
 ```
+
+#Running The Sketch
+
+![Header](assets/images/tutorials/tutorial_p5_cyclegan/start_interface.png)
+
+We can run the sketch by changing directory into our sketch and running `python -m SimpleHTTPServer` for python2 or `python3 -m http.server` if you are using python 3. Your sketch should be running at `localhost:8000`, and should look like the image above. Drag and drop a file onto 'drop file', and hit the send button. If all works well, you should have results like the image below.
+
+
+![Header](assets/images/tutorials/tutorial_p5_cyclegan/header.png)
+
 
 
 # Moving Foward:
