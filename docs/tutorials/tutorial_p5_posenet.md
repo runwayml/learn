@@ -1,6 +1,6 @@
 # Tutorial: Skeleton tracking in P5.js
 
-In this tutorial we will use the Posenet model in RunwayML, and connect it to a sketch in [p5.js](https://p5js.org/). Posenet allows for accurate skeleton tracking. p5.js is a creative coding library in Javascript. In this tutorial, we'll use websockets to connect p5.js to RunwayML. Websockets are a great way to work with any input/output communication between RunwayML and the browser. This script continuously sends over an image from a browser base web camera input. That input is queried on the model and the output is sent back to the browser. We'll then be able to work with th skeleton points in p5.js for creative output!
+In this tutorial we will use the Posenet model in RunwayML, and connect it to a sketch in [p5.js](https://p5js.org/). Posenet allows for accurate skeleton tracking. p5.js is a creative coding library in Javascript. In this tutorial, we'll use websockets to connect p5.js to RunwayML. Websockets are a great way to work with any input/output communication between RunwayML and the browser. This script continuously sends over an image from a browser base web camera input. That input is queried on the model and the output is sent back to the browser. We'll then be able to work with the skeleton points in p5.js for creative output!
 
 ### Requirements
 
@@ -29,7 +29,7 @@ You should then see an interface like the one pictured above. We'll be using the
 
 ![Skeleton tracking in P5.js with Runway, step 4](assets/images/tutorials/tutorial_p5_posenet/port.png)
 
-In the upper rigth hand corner, select **Network** and click on **Socket.io**. The most important step for this sketch is ensuring that the sketch is connecting to RunwayML and able to communicate with it. This communication happens via websockets. Be sure that the Socket.io server port in RunwayML matches the server port in the sketch. Here, we have set up RunwayML to communicate via port 3000 (image above), and have also specified port 3000 in our sketch. 
+In the upper right hand corner, select **Network** and click on **Socket.io**. The most important step for this sketch is ensuring that the sketch is connecting to RunwayML and able to communicate with it. This communication happens via websockets. Be sure that the Socket.io server port in RunwayML matches the server port in the sketch. Here, we have set up RunwayML to communicate via port 3000 (image above), and have also specified port 3000 in our sketch. 
 
 ### Step 5
 
@@ -39,7 +39,7 @@ Next we'll want to run the code. The code can be found [at this link](https://gi
 
 ### Step 6
 
-Lets take a look at the code to get a sense of whats going on. The code will be in `posenet.js` file inside of the root folder.
+Lets take a look at the code to get a sense of what's going on. The code will be in `posenet.js` file inside of the root folder.
 
 # The Code in Detail (HTML):
 In your html, be sure to include the [p5.js library](https://p5js.org/download/), and the [Socket.io library](https://socket.io/). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout a nicer. In the body of the `index.html` page, we've added two buttons, a 'Stop' and 'Start' button that will give us further control in our sketch. We've also included a paragraph tag with an ID of 'status' to keep track of our connection to RunwayML and give visual feedback. Further, we've included a div tag with an ID for our sketch. This will attach our future sketch to this div, so that its positioned well on the page. Lastly, we've included a script tag for our sketch.
@@ -54,7 +54,7 @@ void setup () {
 var socket = io.connect('http://127.0.0.1:3000/');
 ```
 
-Here we set up a function 'sendImage' to send the image from the users webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending the a JSON object where the key ('input') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be call 'input' and is expecting a 'base 64 image' for it's value.
+Here we set up a function 'sendImage' to send the image from the users webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending the a JSON object where the key ('input') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be call 'input' and is expecting a 'base 64 image' for its value.
 
 ```js
    ...
