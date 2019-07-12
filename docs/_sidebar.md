@@ -19,6 +19,7 @@
 * How-To
     * [Import a Model](how-to/importing.md)
     * [Interacting with Models over the Network](how-to/network.md)
+    * [Chaining Models Together](how-to/chaining-models-together.md)
 
 * Integrations
     * [🔗 Arduino](https://github.com/runwayml/arduino)
