@@ -69,7 +69,7 @@ Next, we set up a function 'sendImage' to send the image from our webcam to Runw
   }
 ```
 
-Below, we'll also set up a `newDrawing` funciton. This funciton will read in the results from RunwayML. These results will be in json format, and we'll expect a json object with two key value pairs, one for the number of poses, and another with the array of keypoints for each pose. Below, we'll parse the json, and get the keypoints. Then we'll loop over all of the keypoints for the pose, and draw an ellipse for each x and y value for each keypoint.
+Lastly, we'll also set up a `newDrawing` funciton. This funciton will read in the results from RunwayML. These results will be in json format, and we'll expect a json object with two key value pairs, one for the number of poses, and another with the array of keypoints for each pose. Below, we'll parse the json, and get the keypoints. Then we'll loop over all of the keypoints for the pose, and draw an ellipse for each x and y value for each keypoint.
 
 ```js
 function newDrawing(data){
