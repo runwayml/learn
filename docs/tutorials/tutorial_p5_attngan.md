@@ -24,7 +24,7 @@ You should see a page with further information about the model. In the upper rig
 
 ![AttnGan with P5.js with Runway, step 3](assets/images/tutorials/tutorial_p5_attngan/interface.png)
 
-You should then see an interface like the one pictured above. We'll be using the socket.io library to communicate with RunwayML. AttnGAN requires a GPU to run. In the bottom right hand corner of the interface, click **Run Remotely** to start the model running on a remote GPU.
+You should then see an interface like the one pictured above. AttnGAN requires a GPU to run. In the bottom right hand corner of the interface, click **Run Remotely** to start the model running on a remote GPU.
 
 ### Step 4
 
@@ -36,11 +36,11 @@ In the upper right hand corner, select **Network** and click on **HTTP**. The mo
 
 ![AttnGan with P5.js with Runway, step 5](assets/images/tutorials/tutorial_p5_attngan/code.png)
 
-Next we'll want to run the code. The code can be found [at this link](https://github.com/runwayml/p5js/tree/master/AttnGAN). To run the code from terminal,  `cd` into the folder and run `$ python -m SimpleHTTPServer 8001`  for python2  or  `python3 -m http.server 8001` if you are using python 3. Navigate to `localhost:8001` in your browser. Be sure to use `8001` setting as python simple server will default to port 8000, which will conflict with RunwayML.
+Next we'll want to run the code. The code can be found [at this link](https://github.com/runwayml/p5js/tree/master/AttnGAN). To run the code from terminal, `cd` into the folder and run `$ python -m SimpleHTTPServer 8001`  for python2  or  `python3 -m http.server 8001` if you are using python 3. Navigate to `localhost:8001` in your browser. Be sure to use the `8001` setting as python simple server will default to port 8000, which will conflict with RunwayML.
 
 ### Step 6
 
-Lets take a look at the code to get a sense of what's going on. The code will be in `attngan.js` file inside of the root folder.
+Lets take a look at the code to get a sense of what's going on. The code will be in the `attngan.js` file inside of the root folder.
 
 # The Code in Detail (HTML):
 In your html, be sure to include the [p5.js library](https://p5js.org/download/), and the [p5.js DOM library](https://p5js.org/reference/#/libraries/p5.dom). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout a nicer. In the body of the `index.html` we've included a div with `id="input"`. We'll attach our text input box to this div in our sketch.
