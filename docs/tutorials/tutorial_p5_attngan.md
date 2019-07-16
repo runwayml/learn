@@ -1,6 +1,6 @@
 # Tutorial: AttnGAN with P5.js
 
-This tutorial will review how to connect an AttnGAN model in RunwayML to a sketch in [p5.js](https://p5js.org/). AttnGAN is a generative adversarial network model that takes in words or phrases, and outputs image like the words it's queried against. This is great for creative image generation that can be included to enhance our p5.js sketches. In this tutorial, we'll use HTTP to connect p5.js to RunwayML.
+This tutorial will review how to connect an AttnGAN model in RunwayML to a sketch in [p5.js](https://p5js.org/). AttnGAN is a generative adversarial network model that takes in words or phrases, and outputs image like the words it's queried against. This model is great for creative image generation, and can be included to enhance our p5.js sketches. In this tutorial, we'll use HTTP to connect p5.js to RunwayML.
 
 ### Requirements
 
@@ -65,7 +65,7 @@ Next, we'll define a input field to allow the user to input some text in our int
     input_text.parent("input")
 ```
 
-Next, we'll define that `sendText` callback function mentioned above. This function will take the text that is entered into the input field and post it to the url we've defined above. RunwayML is expecting a json object with a key of `caption` and a value that is the text value we would like to query. 
+Next, we'll define the `sendText` callback function mentioned above. This function will take the text that is entered into the input field and post it to the url we've defined above. RunwayML is expecting a json object with a key of `caption` and a value that is the text value we would like to query. 
 
 ```js
 function sendText() {
@@ -85,7 +85,7 @@ function sendText() {
 
 ![Skeleton tracking in Processing with Runway, step  8](assets/images/tutorials/tutorial_p5_attngan/header.png)
 
-If all works well, your sketch should look something like the image above! As you type in a word or phrase, you should see the image change with each keystroke. This setup will make a post request after each keystroke in the textbox. If you'd like to send the text only after the phrase is completed, try using a button! 
+If all works well, your sketch should look something like the image above! As you type in a word or phrase, you should see the image change with each keystroke. This setup will make a post request after each keystroke in the textbox. If you'd like to send the text only after the phrase is completed, try adding a button! 
 
 ### Summary
 
