@@ -1,6 +1,6 @@
 # Tutorial: Skeleton tracking in P5.js
 
-In this tutorial we will use the Posenet model in RunwayML, and connect it to a sketch in [p5.js](https://p5js.org/). Posenet allows for accurate skeleton tracking. In this tutorial, we'll use websockets to connect p5.js to RunwayML. Websockets are a great way to work with any input/output communication between RunwayML and the browser. This script continuously sends over an image from a browser base web camera as an input to RunwaymL. That input is queried on the model and the skeleton keypoints are sent back to the browser. We'll then be able to work with the skeleton keypoints in p5.js for creative output.
+In this tutorial we will use the Posenet model in RunwayML, and connect it to a sketch in [p5.js](https://p5js.org/). Posenet allows for accurate skeleton tracking. In this tutorial, we'll use websockets to connect p5.js to RunwayML. Websockets are a great way to work with any input/output communication between RunwayML and the browser. This script continuously sends over images from a browser-based web camera as an input to RunwaymL. That input is queried on the model and the skeleton keypoints are sent back to the browser. We'll then be able to work with the skeleton keypoints in p5.js for creative output.
 
 ### Requirements
 
@@ -30,7 +30,7 @@ You should then see an interface like the one pictured above. We'll be using the
 
 ![Skeleton tracking in P5.js with Runway, step 4](assets/images/tutorials/tutorial_p5_posenet/port.png)
 
-In the upper right hand corner, select **Network** and click on **Socket.io**. The most important step for this sketch is ensuring that the sketch is connecting to RunwayML and able to communicate with it. This communication happens via websockets. Be sure that the Socket.io server port in RunwayML matches the server port in the sketch. Here, we have set up RunwayML to communicate via port 3000 (image above), and have also specified port 3000 in our sketch. 
+In the upper right hand corner, select **Network** and click on **Socket.io**. The most important step for this sketch is ensuring that the sketch is connecting to RunwayML and able to communicate with it. This communication happens via websockets. Be sure that the Socket.io server port in RunwayML matches the server port in the sketch. Here, we have set up RunwayML to communicate via port 3000 (image above), and we have also specified port 3000 in our sketch. 
 
 ### Step 5
 
@@ -43,10 +43,10 @@ Next we'll want to run the code. The code can be found [at this link](https://gi
 Lets take a look at the code to get a sense of what's going on. The code will be in the `posenet.js` file inside of the root folder.
 
 # The Code in Detail (HTML):
-In your html, be sure to include the [p5.js library](https://p5js.org/download/), and the [Socket.io library](https://socket.io/). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout a nicer. In the body of the `index.html` page, we've added two buttons, a 'Stop' and 'Start' button that will give us further control in our sketch. We've also included a paragraph tag with an ID of 'status' to keep track of our connection to RunwayML and give visual feedback. Further, we've included a div tag with an ID for our sketch. We will attach our future sketch to this div, so that its positioned well on the page. Lastly, we've included a script tag for our sketch.
+In your html, be sure to include the [p5.js library](https://p5js.org/download/), and the [Socket.io library](https://socket.io/). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout nicer. In the body of the `index.html` page, we've added two buttons, a 'Stop' and 'Start' button that will give us further control in our sketch. We've also included a paragraph tag with an ID of 'status' to keep track of our connection to RunwayML and to give visual feedback. Further, we've included a div tag with an ID for our sketch. We will attach our future sketch to this div, so that it's positioned well on the page. Lastly, we've included a script tag for our sketch.
 
 # The Code in Detail (JS):
-The javascript code is commented line by line for your reference, there are a few important parts to pay attention to. 
+The javascript code is commented line by line for your reference. There are a few important parts to pay attention to. 
 
 First, we'll, set up socketio to connect to RunwayML and specify a connection on localhost (127.0.0.1) port 3000 in our sketch.
 
@@ -55,7 +55,7 @@ void setup () {
 var socket = io.connect('http://127.0.0.1:3000/');
 ```
 
-Next, we set up a function 'sendImage' to send the image from our webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending the a JSON object where the key ('image') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be call 'image' and is expecting a 'base 64 image' for its value.
+Next, we set up a function 'sendImage' to send the image from our webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending a json object where the key ('image') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be called 'image' and is expecting a 'base 64 image' for its value.
 
 ```js
    ...
@@ -69,7 +69,7 @@ Next, we set up a function 'sendImage' to send the image from our webcam to Runw
   }
 ```
 
-Lastly, we'll also set up a `newDrawing` funciton. This funciton will read in the results from RunwayML. These results will be in json format, and we'll expect a json object with two key value pairs, one for the number of poses, and another with the array of keypoints for each pose. Below, we'll parse the json, and get the keypoints. Then we'll loop over all of the keypoints for the pose, and draw an ellipse for each x and y value for each keypoint.
+Lastly, we'll also set up a `newDrawing` function. This function will read in the results from RunwayML. These results will be in json format, and we'll expect a json object with two key value pairs, one for the number of poses, and another with the array of keypoints for each pose. Below, we'll parse the json, and get the keypoints. Then we'll loop over all of the keypoints for the pose, and draw an ellipse for each x and y value for each keypoint.
 
 ```js
 function newDrawing(data){
