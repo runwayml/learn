@@ -1,6 +1,6 @@
 # Tutorial: AttnGAN with P5.js
 
-This tutorial will review how to connect an AttnGAN model in RunwayML to a sketch in [p5.js](https://p5js.org/). AttnGAN is a generative adversarial network model that takes in words or phrases, and outputs image like the words it's queried against. This model is great for creative image generation, and can be included to enhance our p5.js sketches. In this tutorial, we'll use HTTP to connect p5.js to RunwayML.
+This tutorial will review how to connect an AttnGAN model in RunwayML to a sketch in [p5.js](https://p5js.org/). AttnGAN is a generative adversarial network model that takes in words or phrases, and outputs images like the words it's queried against. This model is great for creative image generation, and can be included to enhance our p5.js sketches. In this tutorial, we'll use HTTP to connect p5.js to RunwayML.
 
 ### Requirements
 
@@ -36,25 +36,25 @@ In the upper right hand corner, select **Network** and click on **HTTP**. The mo
 
 ![AttnGan with P5.js with Runway, step 5](assets/images/tutorials/tutorial_p5_attngan/code.png)
 
-Next we'll want to run the code. The code can be found [at this link](https://github.com/runwayml/p5js/tree/master/AttnGAN). To run the code from terminal, `cd` into the folder and run `$ python -m SimpleHTTPServer 8001`  for python2  or  `python3 -m http.server 8001` if you are using python 3. Navigate to `localhost:8001` in your browser. Be sure to use the `8001` setting as python simple server will default to port 8000, which will conflict with RunwayML.
+Next we'll want to run the code. The code can be found [at this link](https://github.com/runwayml/p5js/tree/master/AttnGAN). To run the code from terminal, `cd` into the folder and run `$ python -m SimpleHTTPServer 8001`  for python 2  or  `python3 -m http.server 8001` if you are using python 3. Navigate to `localhost:8001` in your browser. Be sure to use the `8001` setting as python simple server will default to port 8000, which will conflict with RunwayML.
 
 ### Step 6
 
 Lets take a look at the code to get a sense of what's going on. The code will be in the `attngan.js` file inside of the root folder.
 
 # The Code in Detail (HTML):
-In your html, be sure to include the [p5.js library](https://p5js.org/download/), and the [p5.js DOM library](https://p5js.org/reference/#/libraries/p5.dom). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout a nicer. In the body of the `index.html` we've included a div with `id="input"`. We'll attach our text input box to this div in our sketch.
+In your html, be sure to include the [p5.js library](https://p5js.org/download/), and the [p5.js DOM library](https://p5js.org/reference/#/libraries/p5.dom). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout nicer. In the body of the `index.html` we've included a div with `id="input"`. We'll attach our text input box to this div in our sketch.
 
 # The Code in Detail (JS):
 We've commented the javascript code for your reference, but there are a few important parts to pay attention to. 
 
-First, we'll define the url we'd like to post to. RunwayML expects post request to `/query` on port 8000.
+First, we'll define the url we'd like to post to. RunwayML expects post requests to `/query` on port 8000.
 
 ```js
 let url = 'http://localhost:8000/query';
 ```
 
-Next, we'll define a input field to allow the user to input some text in our interface. We'll use `createInput` from the p5.js DOM library. We'll give this input a position on the page, and a callback function `sendText`, which we'll define later in our code. We'll also add a `form-control` class to  make it look nice, and we'll set the parent to `input`. Setting the parent to `input` will attach our input form to the div with `id="input"` that we've defined in the html. This will give us more control of where the form is on the page.
+Next, we'll define an input field to allow the user to input some text in our interface. We'll use `createInput` from the p5.js DOM library. We'll give this input a position on the page, and a callback function `sendText`, which we'll define later in our code. We'll also add a `form-control` class to  make it look nice, and we'll set the parent to `input`. Setting the parent to `input` will attach our input form to the div with `id="input"` that we've defined in the html. This will give us more control of where the form is on the page.
 
 ```js
     //create a text input with P5 Dom Library
@@ -89,4 +89,4 @@ If all works well, your sketch should look something like the image above! As yo
 
 ### Summary
 
-In this tutorial we reviewed how to set up AttnGAN and p5.js, and communicate to RunwayML via HTTP. From here, you should be able to use the output in interesting ways in your sketch! We're looking forward to seeing how you will extend this example!
+In this tutorial we reviewed how to set up AttnGAN and p5.js, and communicate to RunwayML via HTTP. From here, you should be able to use the output in interesting ways in your sketch. We're looking forward to seeing how you will extend this example!
