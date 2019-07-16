@@ -20,7 +20,7 @@ From there we can click the 'Add to Workspace' button in the upper right hand co
 
 ![Model Info](assets/images/tutorials/tutorial_processing_gpt2/info.png)
 
-In the workspace, click the 'Run Remotely' button, ensuring that the 'Remote GPU Enabled' toggle is turned on. Keep in mind that this model will require a GPU to run, and will cost credits. Click 'Preview' for the Output Source. We do not need to choose an Input Source, as we'll be sending images straight from our browser! In this tutorial, well be using HTTP to connect our P5js sketch with RunwayML. 
+In the workspace, click the 'Run Remotely' button, ensuring that the 'Remote GPU Enabled' toggle is turned on. Keep in mind that this model will require a GPU to run, and will cost credits. Click 'Preview' for the Output Source.
 
 
 ![Add to Workspace](assets/images/tutorials/tutorial_processing_gpt2/interface.png)
