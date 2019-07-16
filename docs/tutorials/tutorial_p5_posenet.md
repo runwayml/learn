@@ -55,7 +55,7 @@ void setup () {
 var socket = io.connect('http://127.0.0.1:3000/');
 ```
 
-Here we set up a function 'sendImage' to send the image from the users webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending the a JSON object where the key ('input') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be call 'input' and is expecting a 'base 64 image' for its value.
+Next, we set up a function 'sendImage' to send the image from our webcam to RunwayML via websockets. We should particularly note the `socket.emit` function and the variables it uses. Socket.emit takes two arguments, an input event into RunwayML and the data we would like to send. Here we are sending the a JSON object where the key ('image') is an image from the webcam. If we look at the RunwayML input specifications (image above) under the 'Network' tab and 'socket.io', we can see that Runway is expecting the key to be call 'image' and is expecting a 'base 64 image' for its value.
 
 ```js
    ...
