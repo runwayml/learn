@@ -12,7 +12,7 @@ This tutorial will review how to connect an AttnGAN model in RunwayML to a sketc
 
 ![AttnGan with P5.js with Runway, step 1](assets/images/tutorials/tutorial_p5_attngan/selection.png)
 
-Search for AttnGAN in RunwayML. The model should be under the 'Motion Capture' section of the interface. Select it.
+Search for AttnGAN in RunwayML. The model should be under the 'Image Generation' section of the interface. Select it.
 
 ### Step 2
 
@@ -48,7 +48,7 @@ In your html, be sure to include the [p5.js library](https://p5js.org/download/)
 # The Code in Detail (JS):
 We've commented the javascript code for your reference, but there are a few important parts to pay attention to. 
 
-The most important step for this sketch is ensuring that the sketch is connecting to RunwayML and able to communicate with it. We'll define the url we'd like to post to. RunwayML expects post request to `/query` on port 8000.
+First, we'll define the url we'd like to post to. RunwayML expects post request to `/query` on port 8000.
 
 ```js
 let url = 'http://localhost:8000/query';
