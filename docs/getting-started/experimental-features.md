@@ -15,6 +15,6 @@ Model chaining is a functionality inside Runway that allows you to use the outpu
 - Be sure to run all models before expecting the final output!
 
 ##### Learn More 👇🏽
-- Check out a few quick experiments
-- Check the release notes
-- Check the support page
+- [Check out a few quick experiments](https://docs.runwayml.com/#/how-to/chaining-models-together)
+- [Check the release notes](https://runwayml.com/release-notes)
+- [Check the support page](https://support.runwayml.com/en/articles/3140662-understanding-how-chaining-works)
