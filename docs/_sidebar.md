@@ -1,11 +1,17 @@
-* Getting started
+* 🚀 Getting started
     * [Introduction to Runway](/)
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
-    * [Brief intro to ML and AI](getting-started/intro-to-machine-learning.md)
     * [Models 101](getting-started/models-101.md)
+    * [Experimental Features 🧪](getting-started/experimental-features.md)
+    * [Brief intro to ML and AI](getting-started/intro-to-machine-learning.md)
 
-* Tutorials
+* 🤔 How-To
+    * [Import a Model](how-to/importing.md)
+    * [Interacting with Models over the Network](how-to/network.md)
+    * [Chaining Models Together](how-to/chaining-models-together.md)
+
+* 👩‍🏫 Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
     * [Captioning Images](tutorials/tutorial_im2txt.md)
     * [Colorizing Black & White Videos](tutorials/tutorial_colorizing_video.md)
@@ -16,12 +22,8 @@
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
 
-* How-To
-    * [Import a Model](how-to/importing.md)
-    * [Interacting with Models over the Network](how-to/network.md)
-    * [Chaining Models Together](how-to/chaining-models-together.md)
+* 🧶 Integrations
 
-* Integrations
     * [🔗 Arduino](https://github.com/runwayml/arduino)
     * [🔗 JavaScript](https://github.com/runwayml/javascript)
     * [🔗 Max/MSP](https://github.com/runwayml/maxmsp)
@@ -32,7 +34,7 @@
     * [🔗 TouchDesigner](https://github.com/runwayml/touchDesigner)
     * [🔗 Unity](https://github.com/runwayml/unity)
 
-* More
+* 🌏 More
     * [🔗 Main Website](https://runwayml.com/)
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
