@@ -9,6 +9,7 @@
 * 🤔 How-To
     * [Import a Model](how-to/importing.md)
     * [Interacting with Models over the Network](how-to/network.md)
+    * [Chaining Models Together](how-to/chaining-models-together.md)
 
 * 👩‍🏫 Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
@@ -22,6 +23,7 @@
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
 
 * 🧶 Integrations
+
     * [🔗 Arduino](https://github.com/runwayml/arduino)
     * [🔗 JavaScript](https://github.com/runwayml/javascript)
     * [🔗 Max/MSP](https://github.com/runwayml/maxmsp)
