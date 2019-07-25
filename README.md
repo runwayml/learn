@@ -43,7 +43,7 @@ The source code is hosted inside the [`docs`](https://github.com/runwayml/docs/t
 
 Every tutorial is named following the `tutorial_[NAME_OF_TUTORIAL].md` syntax. All other pages are listed individually.
 
-There's one global [`style`](https://github.com/runwayml/docs/blob/master/docs/style.css) file.
+There's one global [`style`](https://github.com/runwayml/docs/blob/master/docs/assets/css/style.css) file.
 
 ## Contributing
 
