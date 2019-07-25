@@ -103,7 +103,7 @@ function newDrawing(data){
 }
 ```
 
-#Running The Sketch
+# Running The Sketch
 
 ![Header](assets/images/tutorials/tutorial_p5_cyclegan/start_interface.png)
 
