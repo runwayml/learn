@@ -21,6 +21,10 @@
     * [Object Localization with COCO-SSD](tutorials/tutorial_cocossd.md)
     * [Contour Drawings with PhotoSketch](tutorials/tutorial_photosketch.md)
     * [Realistic Textures with ESRGAN](tutorials/tutorial_esrgan.md)
+    * [Using P5 with Photosketch](tutorials/tutorial_p5_photosketch.md)
+    * [Using P5 with CycleGAN](tutorials/tutorial_p5_cyclegan.md)
+    * [Generating Text with Processing and GPT2](tutorials/tutorial_processing_gpt2.md)
+    * [Using P5.js with AttnGAN](tutorials/tutorial_p5_attngan.md)
 
 * 🧶 Integrations
 
