@@ -10,6 +10,7 @@
     * [Import a Model](how-to/importing.md)
     * [Interacting with Models over the Network](how-to/network.md)
     * [Chaining Models Together](how-to/chaining-models-together.md)
+    * [Use your own GPU](how-to/local-gpu.md)
 
 * 👩‍🏫 Tutorials
     * [Playing with Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
