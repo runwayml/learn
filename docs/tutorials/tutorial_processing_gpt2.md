@@ -3,7 +3,7 @@
 
 ![Header](assets/images/tutorials/tutorial_processing_gpt2/header.png)
 
-This post covers how to create an interface in [processing](https://processing.org/), and use that interface to interact with a GPT-2 model in RunwayML. 
+This post covers how to create an interface in [Processing](https://processing.org/), and use that interface to interact with a GPT-2 model in RunwayML. 
 
 # GPT-2:
 GPT-2 is a model for generating long paragraphs of text. With GPT-2, one can condition the output of the model on some input text. The output from the model will then continue the text. For instance, if you prime the model with 'My name is matt and' the model will output something like ' I am a software developer...' etc.
