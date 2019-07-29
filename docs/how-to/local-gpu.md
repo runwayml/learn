@@ -30,9 +30,32 @@ Now that we've added the `graphics-drivers/ppa`, we can install the latest NVIDI
 
 Use your application launcher to open the `Software & Updates` program, then select the `Additional Drivers` section. After a few seconds, you should see several selectable options of the format `Using NVIDIA driver metapackage from nvidia-driver-XXX`. Select the drivers with the highest number replacing "XXX". At the time of this writing, that's `nvidia-driver-430`, but you should feel confident choosing a more recent driver if you prefer.
 
+![](assets/images/how-to/local-gpu/software-and-updates.png)
+
 Once you've made your selection, click `Apply Changes`. You should now restart your computer for the changes to take effect.
 
 Once your computer reboots, open a terminal and type `nvidia-smi`. You should see an ascii table is generated with a row for each NVIDIA graphics card you have attached to your machine. Once you see output similar to this, the NVIDIA drivers have been installed correctly and you can move on to the next step.
+
+```
+Mon Jul 29 18:19:40 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 430.26       Driver Version: 430.26       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1080    Off  | 00000000:01:00.0  On |                  N/A |
+|  0%   49C    P0    46W / 180W |   1119MiB /  8116MiB |      1%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1689      G   /usr/lib/xorg/Xorg                            40MiB |
+|    0      1736      G   /usr/bin/gnome-shell                          50MiB |
++-----------------------------------------------------------------------------+
+```
 
 ### Installing NVIDIA Docker
 
@@ -51,5 +74,21 @@ If all goes well you should see an ascii table similar to the one that you saw b
 ### Running Local GPU Models in Runway
 
 If the following steps went well, you should now be ready to run GPU models locally inside of Runway. You can chose the "LOCAL" run location and the "GPU" hardware type of any model by selecting the "Advanced Opitions" link in the workspace view. You will then be prompted to download the model, and once that's done, you can run the model locally on your own GPU!
+
+You can select Local GPU by clicking the `Advanced Options` link.
+
+<img src="assets/images/how-to/local-gpu/run-local-gpu-1.png" style="display: block; width: 50%; margin: auto"/>
+
+From there, select `LOCAL` as the `Run Option` and `GPU` as the `Hardware` option.
+
+<img src="assets/images/how-to/local-gpu/run-local-gpu-2.png" style="display: block; width: 50%; margin: auto"/>
+
+If you don't already have the GPU version of the model installed, you will be prompted to download and install it next.
+
+<img src="assets/images/how-to/local-gpu/run-local-gpu-3.png" style="display: block; width: 50%; margin: auto"/>
+
+Once the download is complete, you can run the model locally on your own GPU hardware!
+
+<img src="assets/images/how-to/local-gpu/run-local-gpu-4.png" style="display: block; width: 50%; margin: auto"/>
 
 ?> Whenever a model is running on your local GPU, you can use the `nvidia-smi` command to inspect the GPU memory allocation and processor utilization of each model process.
