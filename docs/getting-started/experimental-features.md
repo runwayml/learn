@@ -30,7 +30,7 @@ Model chaining is a functionality inside Runway that allows you to use the outpu
 
 ?> Local GPU is available as of beta version 0.8.0
 
-If you are running Linux and have an NVIDIA graphics card that supports CUDA, you can now run models using your own GPU hardware. This feature allows you to save money by running models on your own hardware for free! See the [support page](#) for a list of prerequisites required to get local GPU working and the [tutorial](https://docs.runwayml.com/#/how-to/local-gpu) to walk through installing them yourself if you don't already have them.
+If you are running Linux and have an NVIDIA graphics card that supports CUDA, you can now run models using your own GPU hardware. See the [support page](#) for a list of prerequisites required to get local GPU working and the [tutorial](https://docs.runwayml.com/#/how-to/local-gpu) to walk through installing them yourself if you don't already have them.
 
 ##### Learn More 👇🏽
 
