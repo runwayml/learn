@@ -6,13 +6,13 @@
 
 [![Runway Slack](https://img.shields.io/badge/slack-runwayml.slack.com-33b279.svg)](https://runwayml.slack.com/)
 
-This is the public documentation for [Runway](https://runwayml.com/). This includes technical references, the Runway API docs, tutorials and examples.
+This is the public page to learn about how to use [Runway](https://runwayml.com/). This includes technical references, the Runway API docs, tutorials and examples.
 
-The documentation is online at [http://docs.runwayml.com](http://docs.runwayml.com)
+The site is online at [http://learn.runwayml.com](http://learn.runwayml.com)
 
 ## Developing and running locally
 
-The documentation site is built with [docsify](https://docsify.js.org/#/).
+This site is built with [docsify](https://docsify.js.org/#/).
 
 To get started developing locally first install `docsify-cli` globally by running:
 
@@ -37,7 +37,7 @@ Listening at http://localhost:4000
 
 Check [docsify's quick start guide](https://docsify.js.org/#/quickstart) if you have any issues with the development.
 
-## Documentation Structure
+## Structure
 
 The source code is hosted inside the [`docs`](https://github.com/runwayml/docs/tree/master/docs) folder.
 
