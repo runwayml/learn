@@ -1,4 +1,4 @@
-<h3 class="Main__Title">Learn to use Runway.</h3>
+<h3 class="Main__Title">Learn to use Runway</h3>
 
 <p class="Main__Description">Runway is a platform that allows creators of all kinds to use machine learning in an intuitive way. Here you can find resources to get up and running with Runway.</p>
 
