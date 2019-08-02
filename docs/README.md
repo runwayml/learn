@@ -1,6 +1,6 @@
-<h3 class="Main__Title">Runway Documentation</h3>
+<h3 class="Main__Title">Learn to use Runway</h3>
 
-<p class="Main__Description">Runway is a platform that allows creators of all kinds to use machine learning in an intuitive way. In this documentation, we aim to help you get up and running with Runway.</p>
+<p class="Main__Description">Runway is a platform that allows creators of all kinds to use machine learning in an intuitive way. Here you can find resources to get up and running with Runway.</p>
 
 <div class="Main__Buttons">
     <a class="Main__Button" href='https://runwayml.com/download' target="_blank">Download Runway</a>
