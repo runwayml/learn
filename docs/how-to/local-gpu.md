@@ -11,9 +11,9 @@ In order to run models on your own GPU hardware, you must fulfill the following 
 1. You must be using Runway on Linux (Tested on Ubuntu 18.04)
 1. You must have an NVIDIA GPU that supports CUDA (see a full list of supported GPUs [here](https://www.geforce.com/hardware/technology/cuda/supported-gpus))
 1. You must have a recent version of the NVIDIA Linux drivers (Drivers can be downloaded from [NVIDIA's website directly](https://www.geforce.com/drivers) or from your package manager. You must have a driver version recent enough to support CUDA 9, 9.2, and 10. See this [version compatibility matrix](https://github.com/NVIDIA/nvidia-docker/wiki/CUDA#requirements) to make sure your drivers are up to date.)
-1. You must have [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker) installed
+1. You must have [`nvidia-docker2`](https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)) installed
 
-This tutorial assumes you've already completed steps 1 and 2. We'll walk you through installing the latest NVIDIA drivers for your graphics card as well as installing and configuring NVIDIA Docker so that local runway models can take advantage of your GPU hardware.
+This tutorial assumes you've already completed steps 1 and 2. We'll walk you through installing the latest NVIDIA drivers for your graphics card as well as installing and configuring `nvidia-docker2` so that local runway models can take advantage of your GPU hardware.
 
 In this tutorial, we'll be installing these dependencies on Ubuntu 18.04. If you are using a different distribution or version, the logical steps will still apply, but the detailed commands will be different.
 
@@ -37,7 +37,7 @@ Once you've made your selection, click `Apply Changes`. You should now restart y
 Once your computer reboots, open a terminal and type `nvidia-smi`. You should see an ascii table is generated with a row for each NVIDIA graphics card you have attached to your machine. Once you see output similar to this, the NVIDIA drivers have been installed correctly and you can move on to the next step.
 
 ```
-Mon Jul 29 18:19:40 2019       
+Mon Jul 29 18:19:40 2019
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 430.26       Driver Version: 430.26       CUDA Version: 10.2     |
 |-------------------------------+----------------------+----------------------+
@@ -47,7 +47,7 @@ Mon Jul 29 18:19:40 2019
 |   0  GeForce GTX 1080    Off  | 00000000:01:00.0  On |                  N/A |
 |  0%   49C    P0    46W / 180W |   1119MiB /  8116MiB |      1%      Default |
 +-------------------------------+----------------------+----------------------+
-                                                                               
+
 +-----------------------------------------------------------------------------+
 | Processes:                                                       GPU Memory |
 |  GPU       PID   Type   Process name                             Usage      |
@@ -57,16 +57,16 @@ Mon Jul 29 18:19:40 2019
 +-----------------------------------------------------------------------------+
 ```
 
-### Installing NVIDIA Docker
+### Installing `nvidia-docker2`
 
-The last dependency after you've installed the NVIDIA drivers is to install NVIDIA Docker. We recommend following the install instructions in the [README](https://github.com/NVIDIA/nvidia-docker) of the NVIDIA Docker package itself as the install method changes between releases.
+The last dependency after you've installed the NVIDIA drivers is to install `nvidia-docker2`. We recommend following the install instructions in the [README](https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)) of the `nvidia-docker2` package itself as the install method changes between releases.
 
-?> The install procedure for NVIDIA Docker differs significantly depending on whether your Docker version is greater than or equal to 19.03. Run `docker --version` to check your docker version, and if its below 19.03 either update it before installing NVIDIA Docker (recommended) or [follow these instructions](https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)) to install an older version of NVIDIA Docker.
+?> We do not yet support the *very recent* `nvidia-container-toolkit`, so be sure you install `nvidia-docker2`. We have plans to upgrade to the newer NVIDIA Docker Toolkit very soon!
 
-Once you'be installed NVIDIA Docker, run the following command to test that Docker containers can access your graphics card device using the `nvidia` runtime:
+Once you've installed `nvidia-docker2`, run the following command to test that Docker containers can access your graphics card device using the `nvidia` runtime:
 
 ```bash
-docker run --gpus all nvidia/cuda:9.0-base nvidia-smi
+docker run --runtime nvidia nvidia/cuda:9.0-base nvidia-smi
 ```
 
 If all goes well you should see an ascii table similar to the one that you saw before when you ran `nvidia-smi` manually after installing the NVIDIA drivers.
