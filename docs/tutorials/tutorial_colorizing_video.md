@@ -1,4 +1,4 @@
-# Tutorial: Colorizing Black & White Video's
+# Tutorial: Colorizing Black & White Videos
 
 In this tutorial, we will colorize frames of a black and white video using the [Colorful Image Colorization](https://arxiv.org/abs/1603.08511) model by Zhang et al. This model uses a deep neural network to generate a colorized version of a greyscale image.
 
