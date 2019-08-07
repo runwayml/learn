@@ -1,6 +1,6 @@
 # Tutorial: Style Transfer
 
-In this tutorial, we will the ["A Style-Aware Content Loss for Real-time HD Style Transfer"](https://arxiv.org/pdf/1807.10201.pdf) model to transfer the particular style of a painter to any image we want. This model is able to capture the more subtle style and nature of an artist by training on multiple paintings rather than a single one.
+In this tutorial, we will use the ["A Style-Aware Content Loss for Real-time HD Style Transfer"](https://arxiv.org/pdf/1807.10201.pdf) model to transfer the particular style of a painter to any image we want. This model is able to capture the more subtle style and nature of an artist by training on multiple paintings rather than a single one.
 
 ### Requirements
 
