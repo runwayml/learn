@@ -260,7 +260,7 @@ Once you have uploaded your file, you can now use that file with your model in R
 
 ![Import Model #11](assets/images/how-to/github-link/file-in-options.png)
 
-#### 8. Make your model public!
+#### 8. (Optional) Make your model public!
 
 Once you've successfully built and tested your model, and are satisfied with its results, you can make the model public, allowing anyone in the Runway community to use it and make projects with it! 
 
