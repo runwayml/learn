@@ -250,7 +250,7 @@ Once you've added a file option to your model and built your model successfully,
 
 ![Import Model #9](assets/images/how-to/github-link/model-files.png)
 
-(If you are seeing a "No File Options in Model" message, that means that you either have not added a `file` option or your model has not built successfully since you added the option. Check the "Versions" tab to see the status of your builds.)
+(If you are seeing a "No File Options in Model" message, that means that you either have not added a `file` option, or your model has not built successfully since you added the option. Check the "Versions" tab to see the status of your builds.)
 
 Click "Choose File..." and select the file you want to upload, provide a name for your file, and click "Upload File" to start the uploading process.
 
