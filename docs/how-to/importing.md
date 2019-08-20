@@ -11,6 +11,9 @@ Here are the steps involved in porting an ML model written in Python to Runway:
 3. Upload your code to a GitHub repository.
 4. Import your new model into Runway using your GitHub account.
 5. Push new commits to your GitHub repo to trigger new model versions to be built and published on Runway.
+6. Add additional information to your model.
+7. (Optional) Add files to your model.
+8. (Optional) Make your model public!
 
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
 
@@ -27,7 +30,7 @@ SqueezeNet is a neural network architecture used for computer vision tasks, opti
 Here's the code to classify a single local image (via a hard-coded path) with pre-trained SqueezeNet:
 
 ```python
-# model.py
+# runway_model.py
 import json
 from PIL import Image
 from torchvision import models, transforms
@@ -119,7 +122,7 @@ Behind the scenes, the Runway Python SDK uses the `@runway.command()` decorator 
 
 ##### Testing your `runway_model.py` locally
 
-Before we configure our build environment and publish our model to Runway, we should test it locally to make sure that it works as expected.
+Before you configure our build environment and publish our model to Runway, you should test it locally to make sure that it works as expected.
 
 ```bash
 ## Optionally create and activate a Python 3 virtual environment
@@ -138,7 +141,7 @@ Setting up model...
 Starting model server at http://0.0.0.0:8000...
 ```
 
-We can test the model's `/classify` command by `POST`ing an image and having the model classify its contents for us.
+You can test the model's `/classify` command by `POST`ing an image and having the model classify its contents for us.
 
 ```bash
 # Base64 encode an image and save the encoded version as an environment variable
@@ -159,11 +162,11 @@ You should see the model classify the image and return a class label in JSON lik
 {"label": "tabby, tabby cat"}
 ```
 
-Once you've confirmed your model works correctly locally, we can create a `runway.yml` config file before building the model remotely with Runway + GitHub.
+Once you've confirmed your model works correctly locally, you can create a `runway.yml` config file before building the model remotely with Runway + GitHub.
 
 #### 2. Write a `runway.yml` config file
 
-Next we need to write a config file that defines the environment, dependencies, and build steps required to build and run our model. This file is written in [YAML](https://learnxinyminutes.com/docs/yaml/), a human-readable superset of JSON. Below is an example of the `runway.yml` file for Squeezenet:
+Next you need to write a config file that defines the environment, dependencies, and build steps required to build and run our model. This file is written in [YAML](https://learnxinyminutes.com/docs/yaml/), a human-readable superset of JSON. Below is an example of the `runway.yml` file for Squeezenet:
 
 ```yaml
 python: 3.6
@@ -221,7 +224,7 @@ You can view model logs during or after a build to debug your model build proces
 
 Once a model version has been successfully built you can add it to a workspace. You can also add any successful model versions to your personal workspace by hovering over the model version check mark in the "Versions" panel until it becomes a "+" icon, and then selecting it. This allows you to test new model versions before making them the default model version that is published to all Runway users.
 
-## Model Information
+#### 6. Add information to your model
 
 Once you've imported your model, you can add additional information to help others understand the model. As the publisher of the model, you can do this from the model page using the **Edit Info** button. We recommend adding these fields for your model:
 
@@ -233,7 +236,44 @@ Once you've imported your model, you can add additional information to help othe
 * **LICENSE**: The license defining how the model can be used.
 * **Keywords**: A list of tags that can be used to find your model in Runway.
 * **Performance Notes**: How can users expect the model to perform on GPU or CPU environments?
-* **Code, Paper, and More**: A list of links to resources related to your model, such as source code, ArXiv papers, blog posts, or more.
+* **Code, Paper, and More**: A list of links to resources related to your model, such as source code, arXiv papers, blog posts, or more.
+
+#### 7. (Optional) Add files to your model
+
+Some models may require files that may be too large to include in the Github repository, such model checkpoints. Runway provides a space to upload large files to include with your model. 
+
+To upload a model file, you need to specify a setup option in `runway_model.py` that has the [`runway.file`](https://sdk.runwayml.com/en/latest/data_types.html#runway.data_types.file) data type. For instance, if your model code supports loading checkpoints in a Python pickle format (`.pkl`), you can add a setup option to your model for accepting pickle files in the following way:
+
+```python
+# runway_model.py
+@runway.setup(options={'checkpoint': runway.file(extension='.pkl')})
+def setup(opts):
+   checkpoint_path = opts['checkpoint']
+   model = load_model_from_checkpoint(checkpoint_path)
+   # ...
+```
+
+Once you've added a file option to your model and built your model successfully, you can upload files to associate with that option by selecting the "Files" tab in your model page and clicking "Upload File."
+
+![Import Model #9](assets/images/how-to/github-link/model-files.png)
+
+(If you are seeing a "No File Options in Model" message, that means that you either have not added a `file` option or your model has not built successfully since you added the option. Check the "Versions" tab to see the status of your builds.)
+
+Click "Choose File..." and select the file you want to upload, provide a name for your file, and click "Upload File" to start the uploading process.
+
+![Import Model #10](assets/images/how-to/github-link/model-file-dialog.png)
+
+Once you have uploaded your file, you can now link the file to your model when you use it with Runway. Add your model to your workspace, and your file should appear in Options on the right hand side:
+
+![Import Model #11](assets/images/how-to/github-link/file-in-options.png)
+
+#### 8. Make your model public!
+
+Once you've successfully built and tested your model, and are satisfied with its results, you can make the model public, allowing anyone in the Runway community to use it and make projects with it! 
+
+To make your model public, select the "Settings" tab in your model page, and click on the "Make Public" button.
+
+![Import Model #12](assets/images/how-to/github-link/make-public.png)
 
 ### Links
 
