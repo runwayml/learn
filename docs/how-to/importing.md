@@ -233,7 +233,7 @@ Once you've imported your model, you can add additional information to help othe
 
 #### 7. (Optional) Add files to your model
 
-Some models may require files that may be too large to include in the Github repository, such model checkpoints. Runway provides a space to upload large files to include with your model. 
+Some models may require files that are too large to include in the Github repository, such model checkpoints. Runway provides a space to upload large files to include with your model. 
 
 To upload a model file, you need to specify a setup option in `runway_model.py` that has the [`runway.file`](https://sdk.runwayml.com/en/latest/data_types.html#runway.data_types.file) data type. For instance, if your model code supports loading checkpoints in a Python pickle format (`.pkl`), you can add a setup option to your model for accepting pickle files in the following way:
 
