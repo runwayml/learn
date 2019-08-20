@@ -122,7 +122,7 @@ Behind the scenes, the Runway Python SDK uses the `@runway.command()` decorator 
 
 ##### Testing your `runway_model.py` locally
 
-Before you configure your build environment and add your model to Runway, you should test it locally to make sure that it works as expected. Runway provides a __Develop Mode__ for connecting directly to model servers in order to help you develop your model.
+Before you configure your build environment and add your model to Runway, you should test it locally to make sure that it works as expected. Using Runway's Develop Mode, you can connect directly to your model server in order to test your model before building it remotely.
 
 ```bash
 ## Optionally create and activate a Python 3 virtual environment
