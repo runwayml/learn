@@ -122,7 +122,7 @@ Behind the scenes, the Runway Python SDK uses the `@runway.command()` decorator 
 
 ##### Testing your `runway_model.py` locally
 
-Before you configure our build environment and publish our model to Runway, you should test it locally to make sure that it works as expected.
+Before you configure your build environment and add your model to Runway, you should test it locally to make sure that it works as expected. Runway provides a __Develop Mode__ for connecting directly to model servers in order to help you develop your model.
 
 ```bash
 ## Optionally create and activate a Python 3 virtual environment
@@ -138,29 +138,22 @@ You should see an output similar to this, indicating your model is running.
 
 ```
 Setting up model...
-Starting model server at http://0.0.0.0:8000...
+Starting model server at http://0.0.0.0:9000...
 ```
 
-You can test the model's `/classify` command by `POST`ing an image and having the model classify its contents for us.
+You can now open Runway, and click the "From Server" button under "Create New Model."
 
-```bash
-# Base64 encode an image and save the encoded version as an environment variable
-# to use in a POST request to the modelf
-curl -o cat.jpg "assets/images/how-to/import-model/cat.jpg"
-BASE64_IMAGE=$(base64 -i cat.jpg | xargs echo "data:image/jpeg;base64," | sed "s/ //" )
+![Click "From Server"](assets/images/how-to/github-link/from-server.png)
 
-# Make a POST request to the /classify command, receiving
-curl http://0.0.0.0:8000/classify \
-   -X POST \
-   -H "content-type: application/json" \
-   -d "{ \"photo\": \"${BASE64_IMAGE}\" }"
-```
+Choose a name for your workspace, and click "Create." 
 
-You should see the model classify the image and return a class label in JSON like so:
+After making sure that the Port under Server Options matches the port that your model server is running at, click "Connect" to connect to your model server.
 
-```
-{"label": "tabby, tabby cat"}
-```
+![Connect to model server](assets/images/how-to/github-link/dev-model-connect.png)
+
+You can now interact with your model using Runway. For example, try dragging an image in the Input area to see your model classify it:
+
+![Classify using your model server](assets/images/how-to/github-link/dev-model-classify.png)
 
 Once you've confirmed your model works correctly locally, you can create a `runway.yml` config file before building the model remotely with Runway + GitHub.
 
@@ -263,7 +256,7 @@ Click "Choose File..." and select the file you want to upload, provide a name fo
 
 ![Import Model #10](assets/images/how-to/github-link/model-file-dialog.png)
 
-Once you have uploaded your file, you can now link the file to your model when you use it with Runway. Add your model to your workspace, and your file should appear in Options on the right hand side:
+Once you have uploaded your file, you can now use that file with your model in Runway. Add your model to your workspace, and your file should appear in Options on the right hand side:
 
 ![Import Model #11](assets/images/how-to/github-link/file-in-options.png)
 
