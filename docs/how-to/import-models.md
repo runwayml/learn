@@ -217,11 +217,7 @@ You can view model logs during or after a build to debug your model build proces
 
 Once a model version has been successfully built you can add it to a workspace. You can also add any successful model versions to your personal workspace by hovering over the model version check mark in the "Versions" panel until it becomes a "+" icon, and then selecting it. This allows you to test new model versions before making them the default model version that is published to all Runway users.
 
-<<<<<<< HEAD:docs/how-to/import-models.md
-### Model Information
-=======
 #### 6. Add information to your model
->>>>>>> master:docs/how-to/importing.md
 
 Once you've imported your model, you can add additional information to help others understand the model. As the publisher of the model, you can do this from the model page using the **Edit Info** button. We recommend adding these fields for your model:
 
