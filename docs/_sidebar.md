@@ -1,15 +1,16 @@
-* 🚀 Getting started
+* 🚀 Getting Started
     * [Introduction to Runway](/)
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
+    * [Brief Intro to ML and AI](getting-started/intro-to-machine-learning.md)
     * [Models 101](getting-started/models-101.md)
     * [Experimental Features 🧪](getting-started/experimental-features.md)
-    * [Brief Intro to ML and AI](getting-started/intro-to-machine-learning.md)
 
 * 🤔 How-To
     * [Chain Models Together](how-to/chain-models-together.md)
     * [Import Models](how-to/import-models.md)
     * [Interact with Models over the Network](how-to/network.md)
+    * [Run Models Locally (With Docker)](how-to/run-models-locally.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
 
 * 👩‍🏫 Tutorials
