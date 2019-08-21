@@ -121,7 +121,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 | File       | Stream the model output into a file using supported formats         |
 
 
-4) **Options**: Each model has a set of options that you can change and update. These are often known as hyperparameters.
+4) **Options**: Each model has a set of options that you can change and update.
 
 5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](tutorials/tutorial_t2i.md).
 

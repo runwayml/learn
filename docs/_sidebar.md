@@ -7,9 +7,9 @@
     * [Brief Intro to ML and AI](getting-started/intro-to-machine-learning.md)
 
 * 🤔 How-To
+    * [Chain Models Together](how-to/chain-models-together.md)
     * [Import Models](how-to/import-models.md)
     * [Interact with Models over the Network](how-to/network.md)
-    * [Chain Models Together](how-to/chain-models-together.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
 
 * 👩‍🏫 Tutorials
@@ -27,16 +27,8 @@
     * [Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
     * [Text to Image (AttnGAN and p5.js)](tutorials/tutorial_p5_attngan.md)
 
-* 🧶 Integrations
-    * [🔗 Arduino](https://github.com/runwayml/arduino)
-    * [🔗 JavaScript](https://github.com/runwayml/javascript)
-    * [🔗 Max/MSP](https://github.com/runwayml/maxmsp)
-    * [🔗 OpenFrameworks](https://github.com/runwayml/openFrameworks)
-    * [🔗 P5.js](https://github.com/runwayml/p5js)
-    * [🔗 Processing](https://github.com/runwayml/processing)
-    * [🔗 Pure Data](https://github.com/runwayml/puredata)
-    * [🔗 TouchDesigner](https://github.com/runwayml/touchDesigner)
-    * [🔗 Unity](https://github.com/runwayml/unity)
+* 🎨 Gallery
+    * [Integrations and Community Projects](more/gallery.md)
 
 * 🌏 More
     * [🔗 Main Website](https://runwayml.com/)
@@ -46,5 +38,5 @@
     * [🔗 Runway Python SDK](https://sdk.runwayml.com/)
     * [🔗 Runway Model Template](https://github.com/runwayml/model-template)
     * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)
-    * [Contribute to Runway](more/contribute.md)
-    * [Join the Community](/?id=join-our-community)
+    * [Contribute to Runway](/?id=contribute-to-runway)
+    * [Join Our Community](/?id=join-our-community)
