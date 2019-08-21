@@ -2,8 +2,7 @@
     * [Introduction to Runway](/)
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
-    * [Brief Intro to ML and AI](getting-started/intro-to-machine-learning.md)
-    * [Models 101](getting-started/models-101.md)
+    * [Machine Learning Models](getting-started/models-101.md)
     * [Experimental Features 🧪](getting-started/experimental-features.md)
 
 * 🤔 How-To
@@ -36,6 +35,7 @@
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
     * [🔗 Github](https://github.com/runwayml)
+    * [🔗 YouTube](https://www.youtube.com/channel/UCUBqu_z5uP0AZhYtuyFZB3g/playlists)
     * [🔗 Runway Python SDK](https://sdk.runwayml.com/)
     * [🔗 Runway Model Template](https://github.com/runwayml/model-template)
     * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)

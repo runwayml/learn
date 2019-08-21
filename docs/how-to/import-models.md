@@ -15,7 +15,7 @@ Here are the steps involved in porting an ML model written in Python to Runway:
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
 
 
-### Tutorial: Adding SqueezeNet into Runway
+### Example: Adding SqueezeNet into Runway
 In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv.org/abs/1512.03385) computer vision model to Runway. We also provide a [Runway Model Template](https://github.com/runwayml/model-template) repository that contains boilerplate code for porting a new model.
 
 We recommend forking the [`runwayml/model-squeezenet`](https://github.com/runwayml/model-squeezenet) GitHub repository to your own GitHub user account so that you can follow along with the tutorial.
@@ -239,6 +239,6 @@ Once you've imported your model, you can add additional information to help othe
 
 For more information about how to port a new or existing model to Runway, check out these resources:
 
-* [Adding Models to RunwayML](https://www.youtube.com/playlist?list=PLj598ZXODDO_YUkKaBK9yBgIhOlPia_eL): Two-Part Video Series with Gene Kogan
-* [Runway Model SDK Docs](https://sdk.runwayml.com): Documentation for the Python SDK used to port models
-* [Runway Model Template](https://github.com/runwayml/model-template): A boilerplate model template that you can use as a starting point to port models
+* [Adding Models to RunwayML](https://www.youtube.com/playlist?list=PLj598ZXODDO_YUkKaBK9yBgIhOlPia_eL), a two-part video series with Gene Kogan
+* [Runway Model SDK Docs](https://sdk.runwayml.com), documentation for the Python SDK used to port models
+* [Runway Model Template](https://github.com/runwayml/model-template), a boilerplate model template that you can use as a starting point to port models

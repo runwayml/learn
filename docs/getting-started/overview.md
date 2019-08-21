@@ -1,6 +1,6 @@
 # Overview
 
-In this quick overview, we'll explain how Runway's interface works and how you can start using powerful machine learning models in just a few clicks without writing a single line code!
+In this quick overview, we explain Runway's interface and how you can start using powerful machine learning models in just a few clicks without writing a single line code!
 
 ### Start Screen
 

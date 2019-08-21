@@ -25,7 +25,7 @@ Click the **Run Remotely** button on the bottom right of the workspace view to s
 
 ![GAN, AttnGAN with Runway, step 3](assets/images/tutorials/tutorial_t2i/attn01.jpg)
 
-?> Most models can be run remotely using a cloud GPU or locally by downloading and running them on your own computer (this happens behind the scenes using Docker). In this tutorial, we'll run the model remotely. This [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost) but the model runs much faster, and we don't have to wait for several minutes for it to download.
+?> Models can be run remotely using a cloud GPU or locally by downloading and running them on your own computer ([this happens behind the scenes using Docker](how-to/run-models-locally.md)). In this tutorial, we'll run the model remotely. This [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost) but the model runs much faster, and we don't have to wait for several minutes for it to download.
 
 ### Select an Input and an Output
 
