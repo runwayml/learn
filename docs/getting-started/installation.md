@@ -4,7 +4,7 @@ Learn how to setup your new Runway account and get started using Runway now! ðŸš
 
 ![Runway Maker](/../assets/images/getting-started/laptopmaker.jpg)
 
-## Download Runway
+### Download Runway
 
 Get started by downloading the [latest release of Runway](https://runwayml.com/download). Once you you have downloaded Runway, follow the steps below to create your new account and get started using Runway.
 
@@ -12,7 +12,7 @@ Get started by downloading the [latest release of Runway](https://runwayml.com/d
 
 ?> Having trouble installing Runway on Linux? Check out this [Runway on Linux guide](https://support.runwayml.com/en/articles/3116268-runway-on-linux).
 
-## Create an Account
+### Create an Account
 
 Once you have downloaded the app, open Runway. If you haven't created an account yet click the **Create an account** button at the bottom of the login window.
 
@@ -60,7 +60,7 @@ After verifying your account you are good to go! If you log out of your account 
 
 ?> The app will auto-update every time there is a new update available. You will also see a message at the top right corner of the app if an update is ready. There's no need to manually download the app again to receive updates.
 
-## Running models locally
+### Running Models Locally
 
 At the core of Runway you will find machine learning models. Models can be used and run in Runway's cloud infrastructure or run locally on your computer.
 
@@ -120,7 +120,7 @@ If Docker is not installed, unavailable or not running you will see the followin
   <p>If Docker is not available, Runway will show a "Docker Unavailable" message in the bottom status bar.</p>
 </div>
 
-### Increase Docker memory limit
+### Increase Docker Memory Limit
 
 By default, Docker allocates a maximum of 2 GB of memory to run models. Some Runway models exceed that, which may lead to errors. To prevent that, you need to increase Docker's memory limit. Open Docker Preferences:
 

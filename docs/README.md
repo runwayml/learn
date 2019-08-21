@@ -13,13 +13,15 @@
 
 ### Getting Started
 
-Welcome! We are excited to have you here. If this is your first time using Runway, starting with our [installation guide](getting-started/installation) might be a good idea. Also, be sure to check our brief [intro to machine learning](getting-started/intro-to-machine-learning). Once you have installed Runway, learn  how to run and use model with the [tutorials guide](tutorials/tutorial_t2i).
+Welcome! We are excited to have you here. If this is your first time using Runway, starting with our [installation guide](getting-started/installation) might be a good idea. Also, be sure to check our brief [intro to machine learning](getting-started/intro-to-machine-learning). Once you have installed Runway, learn  how to run and use model with our [tutorials](tutorials/tutorial_im2txt).
 
-If you are interested in adding your own models to Runway visit the [model importing](how-to/importing) guide.
+If you are interested in adding your own models to Runway, visit the [model importing](how-to/import-models) guide.
 
-### Join our community
+### Join Our Community
 
-Runway has an active community of creators and contributors on [Slack](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc) and [GitHub](https://github.com/runwayml). We encourage everyone to:
+Runway has an active community of creators and contributors on [Slack](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc), [Twitter](https://twitter.com/runwayml), and [GitHub](https://github.com/runwayml).
+
+We encourage everyone to:
 
 * Share your projects and creations
 * Learn more about creative applications of machine learning
@@ -27,8 +29,8 @@ Runway has an active community of creators and contributors on [Slack](https://j
 * Form collaborations
 * Get involved in attending and/or running workshops
 
-If you want to contribute to the development of the project please visit our [GitHub organization](https://github.com/runwayml) and read the [Contributing Guide](more/contribute).
+If you want to contribute to the development of the project, please visit [GitHub](https://github.com/runwayml) and read the [Contributing Guide](more/contribute).
 
 ### Support
 
-If you encounter any problems or issues with the installation, please check out the [Support Center](https://support.runwayml.com/).
+If you encounter any problems or issues with the installation, please visit the [Support Center](https://support.runwayml.com/).

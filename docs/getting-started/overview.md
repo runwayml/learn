@@ -1,20 +1,20 @@
 # Overview
 
-In this quick overview, we will help you get familiar with Runway. We'll explain how the interface works and how you can start using powerful machine learning models with just a few clicks!
+In this quick overview, we will help you get familiar with Runway. We'll explain how the interface works and how you can start using powerful machine learning models with just a few clicks without writing a single line code!
 
-## Start Screen
+### Start Screen
 
 Every time you open Runway you will see the **Start Screen**. From here, you can choose to **Browse Models** or restore a **Workspace** from a previous session (read more on workspaces [below](#workspaces)).
 
 ![Runway Welcome View](assets/images/views/start-screen.png)
 
-## Models Directory
+### Model Directory
 
-Runway's Models Directory is a unique place to search, discover, publish, and install machine learning models. You can search for models with specific attributes, input types, creators, functionalities or by date added.
+Runway's Model Directory is a unique place to search, discover, publish, and install machine learning models. You can search for models with specific attributes, input types, creators, functionalities, or by date added.
 
 ![Models Directory](assets/images/views/model-directory.jpg)
 
-## Model View
+### Model View
 
 Every model in Runway has its own view once its selected from the Models Directory. Inside a model view you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
 
@@ -63,7 +63,7 @@ Settings for the model.
 
 <!-- tabs:end -->
 
-2) **Model Side Bar:** The model side-bar provides you further information.
+2) **Model Sidebar:** The model sidebar provides you further information.
 
 <!-- tabs:start -->
 
@@ -93,7 +93,7 @@ Links to external sites.
 
 <!-- tabs:end -->
 
-## Workspaces
+### Workspaces
 
 Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/models-101.md). **Workspaces** provides a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
 
@@ -125,8 +125,8 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](tutorials/tutorial_t2i.md).
 
-## Settings
+### Settings
 
-The **Settings** view has your account details, remaining credits, locally installed models and checkpoints as well and information about Runway.
+The **Settings** view has your account details, remaining credits, locally installed models, and checkpoints as well and information about Runway.
 
 ![Input/Output View](assets/images/views/settings.jpg)

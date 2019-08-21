@@ -1,8 +1,12 @@
-# Tutorial: Captioning Images
+# Tutorial: Caption Images (im2txt)
 
-Runway makes it really simple to use machine learning models to process your own photo albums, media libraries, and documents. This tutorial will guide you through generating captions for every image in a folder using the model im2txt and Runway's "Export to File" functionality.
+Runway makes it really simple to use machine learning models to process your own photo albums, media libraries, and documents. This tutorial will guide you through generating captions for every image in a folder using the model im2txt and Runway's **Export to File** functionality.
 
 ![still images](assets/images/tutorials/tutorial_im2txt/0_dataset.png)
+
+### Requirements
+- [Runway](https://runwayml.com/)
+- A folder with multiple images to caption
 
 ### Step 1
 
@@ -31,13 +35,13 @@ If you haven't installed **im2txt**, the bottom right button will prompt you to 
 
 ### Step 4
 
-Once the model has been installed we are ready to select the input and output for the model. For the input, that is the folder of images that we want to caption. First, select "File" from the Input Type dropdown.
+Once the model has been installed we are ready to select the input and output for the model. For the input, that is the folder of images that we want to caption. First, select **File** from the Input Type dropdown.
 
 ![step 4](assets/images/tutorials/tutorial_im2txt/6_select_file_input.png)
 
 ### Step 5
 
-Click "Import" and find the folder that you want to caption from your local filesystem.
+Click **Import** and find the folder that you want to caption from your local filesystem.
 
 ![step 5](assets/images/tutorials/tutorial_im2txt/7_click_import.png)
 ![select folder](assets/images/tutorials/tutorial_im2txt/8_select_folder.png)
@@ -54,13 +58,13 @@ Now that we have imported our image folder into Runway, it's time to specify whe
 
 ### Step 7
 
-We have selected our input folder, and our output destination, so we can finally run the model to process our images. Click "Run im2txt" and wait for a few seconds for the model to start.
+We have selected our input folder, and our output destination, so we can finally run the model to process our images. Click **Run im2txt** and wait for a few seconds for the model to start.
 
 ![step 7](assets/images/tutorials/tutorial_im2txt/10_run_model.png)
 
 ### Step 8
 
-Once the model has started running, the "Start Exporting" button will become active. Click the button to start processing your images one by one.
+Once the model has started running, the **Start Exporting** button will become active. Click the button to start processing your images one by one.
 
 ![step 8](assets/images/tutorials/tutorial_im2txt/11_start_exporting.png)
 
@@ -84,4 +88,4 @@ Open the CSV file to view all the captions predicted by the model!
 
 ### Summary
 
-This tutorial shows how to use an image captioning model, called im2txt, to generate captions for every image in a folder. You can use the same approach for other predictive models inside Runway.
+This tutorial shows how to use an image captioning model, called **im2txt**, to generate captions for every image in a folder. You can use the same approach for other predictive models inside Runway.

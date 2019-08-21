@@ -1,4 +1,4 @@
-# Tutorial: StyleGAN
+# Tutorial: Generate Images (StyleGAN)
 
 In this tutorial, we will generate synthetic images using a StyleGan implementation from the paper ["A Style-Based Generator Architecture for Generative Adversarial Networks"](https://arxiv.org/pdf/1812.04948.pdf). This model has different checkpoints we can use to generate and create synthetic images.
 
