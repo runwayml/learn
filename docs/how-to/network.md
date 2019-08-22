@@ -1,16 +1,16 @@
-# Interacting with Models over the Network
+# How-To: Interact with Models over the Network
 
 ?> This document assumes the reader is comfortable with basic scripting and computer networking concepts.
 
 In addition to interacting with models via the Runway App's UI, all Runway Models can also be controlled and manipulated with over the network. This is useful for getting data in and out of Runway, integrating Runway Models with other tools and workflows, or providing programmatic control of models through scripting. Each Runway Model exposes itself using three network ports on `localhost`: An **HTTP** port, a **Socket.IO** port, and a **OSC** port. All three servers are available for the duration of the time that the model is running. We've included support for these transport protocols to allow flexibility and convenience around how users interact with models; You are free to use any of these protocols as they all expose the same data and control capabilities.
 
-## The Network UI Panel
+### The Network UI Panel
 
 ![Network Panel](assets/images/how-to/network/network-panel-full.jpg)
 
 You can access the network panel on the right side of the UI while a model is running. There you will see a tab for each protocol where you can find the address, endpoints, and input/output schema of each model server. The ports are configured each time you launch a model and may change between model runs or when you restart the app. This is something we are planning to change in the future, but for now you should expect the network ports to change frequently.
 
-## Endpoints
+### Endpoints
 
 Each model server exposes several endpoints that you can use to interact with the model. The method of triggering these endpoints varies depending on the protocol that you are using, however, the basic functionality provided by each endpoint remains the same. We'll describe the basics of these endpoints next and then describe how you can use them for each network protocol below.
 
@@ -160,7 +160,7 @@ At the time of this writing there is no support for the `info` endpoint using th
 
 ?> OSC uses UDP datagrams as a transport layer so its very efficient, but has a chance to deliver packets out of order or not at all.
 
-## Code Examples
+### Code Examples
 
 Below are a few code snippets to get you started querying a model using HTTP and Socket.IO. These examples assume a model is running on port `8000` for HTTP and `3000` for Socket.IO, so be sure to update the port numbers accordingly.
 

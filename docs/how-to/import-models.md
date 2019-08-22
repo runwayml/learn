@@ -1,4 +1,4 @@
-# Importing Models into Runway
+# How-To: Import Models into Runway
 
 Runway models are platform-agnostic; models written in any framework/language can be used by Runway as long as the model can be made accessible via an HTTP server. This process, however, is easiest in Python where we provide an SDK for parsing the inputs to the model, serializing its outputs, and setting up the server environment.
 
@@ -17,9 +17,9 @@ Here are the steps involved in porting an ML model written in Python to Runway:
 
 Once you've imported your model into Runway using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through Runway.
 
-In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv.org/abs/1512.03385) computer vision model to Runway. We also provide a [Runway Model Template](https://github.com/runwayml/model-template) repository that contains boilerplate code for porting a new model.
 
-### Tutorial: Adding SqueezeNet into Runway
+### Example: Adding SqueezeNet into Runway
+In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv.org/abs/1512.03385) computer vision model to Runway. We also provide a [Runway Model Template](https://github.com/runwayml/model-template) repository that contains boilerplate code for porting a new model.
 
 We recommend forking the [`runwayml/model-squeezenet`](https://github.com/runwayml/model-squeezenet) GitHub repository to your own GitHub user account so that you can follow along with the tutorial.
 
@@ -122,7 +122,7 @@ Behind the scenes, the Runway Python SDK uses the `@runway.command()` decorator 
 
 ##### Testing your `runway_model.py` locally
 
-Before you configure your build environment and add your model to Runway, you should test it locally to make sure that it works as expected. Using Runway's Develop Mode, you can connect directly to your model server in order to test your model before building it remotely.
+Before you configure your build environment and add your model to Runway, you should test it locally to make sure that it works as expected. Using Runway's Develop Mode, you can connect directly to your model server in order to test your model before building it remotely. Open your command line and type:
 
 ```bash
 ## Optionally create and activate a Python 3 virtual environment
@@ -268,9 +268,10 @@ To make your model public, select the "Settings" tab in your model page, and cli
 
 ![Import Model #12](assets/images/how-to/github-link/make-public.png)
 
-### Links
+### More Resources
 
 For more information about how to port a new or existing model to Runway, check out these resources:
 
-* [Runway Model SDK Docs](https://sdk.runwayml.com): Documentation for the Python SDK used to port models
-* [Runway Model Template](https://github.com/runwayml/model-template): A boilerplate model template that you can use as a starting point to port models
+* [Adding Models to RunwayML](https://www.youtube.com/playlist?list=PLj598ZXODDO_YUkKaBK9yBgIhOlPia_eL), a two-part video series with Gene Kogan
+* [Runway Model SDK Docs](https://sdk.runwayml.com), documentation for the Python SDK used to port models
+* [Runway Model Template](https://github.com/runwayml/model-template), a boilerplate model template that you can use as a starting point to port models

@@ -1,11 +1,11 @@
-# Tutorial: Style Transfer
+# Tutorial: Image Style Transfer (Adaptive Style Transfer)
 
-In this tutorial, we will use the ["A Style-Aware Content Loss for Real-time HD Style Transfer"](https://arxiv.org/pdf/1807.10201.pdf) model to transfer the particular style of a painter to any image we want. This model is able to capture the more subtle style and nature of an artist by training on multiple paintings rather than a single one.
+In this tutorial, we will use the ["A Style-Aware Content Loss for Real-time HD Style Transfer"](https://arxiv.org/pdf/1807.10201.pdf) model to transfer the particular style of a painter to an image of our choosing. This model captures the subtle style and nature of an artist by training on multiple paintings rather than on a single one.
 
 ### Requirements
 
-- Runway
-- An image file.  
+- [Runway](https://runwayml.com/)
+- An image file  
 
 ### Step 1
 
@@ -34,7 +34,7 @@ If you haven't installed **Adaptive Style Transfer**, the bottom right button wi
 
 ### Step 4
 
-To run **Adaptive Style Transfer** you will need download a `Checkpoint` for every style. `Checkpoints` are specific `Artifacts` that contains the information needed to apply a specific type of style to an image.
+To run **Adaptive Style Transfer** you will need download a `Checkpoint` for every style. `Checkpoints` are specific `Artifacts` that contain the information needed to apply a specific type of style to an image.
 
 Search for the **Style Checkpoint** dropdown and pick the `Checkpoint` you want to use. In this case we will download and use the Van Gogh `Checkpoint`.
 

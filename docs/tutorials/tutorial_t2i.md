@@ -1,16 +1,19 @@
-# Tutorial: Playing with Text to Image (AttnGAN)
+# Tutorial: Text to Image (AttnGAN)
 
-Runway allows you to use and experiment with machine learning models without typing a single line of code. In this tutorial we will be using a model called [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://github.com/taoxugit/AttnGAN/) by Tao Xu et al. to **generate images based on text.**
+Runway allows you to use and experiment with machine learning models without typing a single line of code. In this tutorial we will be using a model called [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://github.com/taoxugit/AttnGAN/) by Tao Xu et al. to generate images based on text.
 
 ?> This tutorial was updated as of Runway v0.6.2. It may fall slightly out of date as new versions of Runway are published.
 
-### Select the AttnGAN model from the Model Directory
+### Requirements
+- [Runway](https://runwayml.com/)
+
+### Select the AttnGAN Model from the Model Directory
 
 Open the Runway app and select the **runway/AttnGAN** model from the Model Directory page. You can search "AttnGAN" if you don't see the model right away.
 
 ![GAN, AttnGAN with Runway, step 1](assets/images/tutorials/tutorial_t2i/01_model.jpg)
 
-### Create a Workspace and Add the AttnGAN Model
+### Add the AttnGAN to a New Workspace
 
 Add the model to a new workspace by selecting **Add to Workspace** and then **New Workspace** from the top right side of the app. This will create a new workspace that you can add multiple models to. In Runway, a workspace is a collection of models that you are using. A workspace can be thought of as a place to sketch out ideas or build out entire projects.
 
@@ -22,7 +25,7 @@ Click the **Run Remotely** button on the bottom right of the workspace view to s
 
 ![GAN, AttnGAN with Runway, step 3](assets/images/tutorials/tutorial_t2i/attn01.jpg)
 
-?> Most models can be run remotely using a cloud GPU or locally by downloading and running them on your own computer (this happens behind the scenes using Docker). In this tutorial, we'll run the model remotely. This [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost) but the model runs much faster, and we don't have to wait for several minutes for it to download.
+?> Models can be run remotely using a cloud GPU or locally by downloading and running them on your own computer ([this happens behind the scenes using Docker](how-to/run-models-locally.md)). In this tutorial, we'll run the model remotely. This [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost) but the model runs much faster, and we don't have to wait for several minutes for it to download.
 
 ### Select an Input and an Output
 

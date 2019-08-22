@@ -1,10 +1,10 @@
-# Running Models Using Your Own GPU
+# How-To: Use Your Own GPU (Linux Only)
 
 ?> This document assumes the reader is loosely familiar with installing software on Linux.
 
 Local GPU is here! If you are running Runway on Linux and have an NVIDIA graphics card that supports CUDA, you can now run models locally using your own GPU.
 
-## Prerequisites
+### Prerequisites
 
 In order to run models on your own GPU hardware, you must fulfill the following requirements:
 

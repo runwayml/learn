@@ -1,11 +1,11 @@
-# Tutorial: Contour Drawings with PhotoSketch
+# Tutorial: Contour Drawings (PhotoSketch)
 
 The [PhotoSketch model](https://arxiv.org/pdf/1901.00542.pdf) created by Li et al. allows you to infer contour drawings from images automatically.
 In this tutorial, we will use Runway to run PhotoSketch to create a real-time contour outline of your webcam stream. We will then send the resulting image via HTTP network to a simple web app built with JavaScript and [p5.js](http://p5js.org/)
 
 ### Requirements
-* Runway
-* A webcam or built-in camera
+- [Runway](https://runwayml.com/)
+- A webcam or built-in camera
 
 ### Step 1
 

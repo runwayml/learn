@@ -1,11 +1,10 @@
-# Tutorial: Colorizing Black & White Videos
+# Tutorial: Colorize Videos (Automatic-Colorization)
 
 In this tutorial, we will colorize frames of a black and white video using the [Colorful Image Colorization](https://arxiv.org/abs/1603.08511) model by Zhang et al. This model uses a deep neural network to generate a colorized version of a greyscale image.
 
 ### Requirements
-
-- Runway
-- A grayscale MP4 video
+* [Runway](https://runwayml.com/)
+* A grayscale MP4 video
 
 ### Step 1
 
@@ -72,7 +71,7 @@ After processing all the frames, Runway will save the final video in your defaul
 
 ![Colorizing images with Runway, step 9](assets/images/tutorials/tutorial_colorizing_video/10_file_saved.png)
 
-#### Results
+### Results
 
 <video width="320" height="240" controls>
   <source src="assets/images/tutorials/tutorial_colorizing_video/Man%20with%20a%20Movie%20Camera(Dziga%20Vertov,%201929).mp4" type="video/mp4">

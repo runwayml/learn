@@ -1,12 +1,12 @@
-# Tutorial: Image Classification with MobileNet
+# Tutorial: Image Classification (MobileNet)
 
 Runway enables fast and simple image classification using lightweight
 neural networks. This tutorial will show you how use the MobileNet
 model to identify the objects in an image folder.
 
 ### Requirements
-* Runway
-* A folder with multiple image files
+- [Runway](https://runwayml.com/)
+- A folder with multiple image files
 
 ### Step 1
 
@@ -34,7 +34,7 @@ Select **Output** > **Local**.
 Click on the button on the bottom right side of the app to run the
 model locally.
 
-![Run the Model](images/tutorial_mobilenet/04_start.png)
+![Run the Model](assets/images/tutorials/tutorial_mobilenet/04_start.png)
 
 ### Step 5
 
