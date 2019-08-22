@@ -17,5 +17,5 @@
 - [Runway-Max-MSP-examples](https://github.com/Gflei/Runway-Max-MSP-examples), a collection of Runway examples in Max/MSP by [Guy Fleisher](http://www.guyfleisher.com/)
 - [openpose_runwayml_video](https://github.com/yining1023/openpose_runwayml_video), an experiment to find poses and draw them in videos with openpose and Runway by [Yining Shi](https://1023.io/).
 - [Prototype2-OFX-runwayml-websocket](https://github.com/ioio-creative/Prototype2-OFX-runwayml-websocket), a prototype of a OFX Runway client by [IOIO Creative](http://ioiocreative.com/)
-- [Gaze Tracking in p5.js](https://lries.com/posts/gaze-tracking-runway-ml/, a simple sketch to run the gaze capture model with p5.js
+- [Gaze Tracking in p5.js](https://lries.com/posts/gaze-tracking-runway-ml/), a simple sketch to run the gaze capture model with p5.js
 - [“No Machine is an Island” at BBC](http://entretags.de/no-machine-is-an-island/), a physical installation that presents a conversation between two machines based on machine learning algorithms by [Larissa Pschetz](http://entretags.de/) and [Yuxi Liu](http://liuyuxi.xyz/)
