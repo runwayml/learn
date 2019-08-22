@@ -12,7 +12,7 @@
 * [Unity](https://github.com/runwayml/unity)
 
 ### 🦄 Community Projects
-- [ofxRunway](https://github.com/genekogan/ofxRunway). an openFrameworks client for Runway by [Gene Kogan](http://genekogan.com/)
+- [ofxRunway](https://github.com/genekogan/ofxRunway), an openFrameworks client for Runway by [Gene Kogan](http://genekogan.com/)
 - [runwayml-gazecapture](https://github.com/oveddan/runwayml-gazecapture), a repo that brings the pre-trained model from Eye Tracking into Runway by [Dan Oved](https://www.danioved.com/)
 - [Runway-Max-MSP-examples](https://github.com/Gflei/Runway-Max-MSP-examples), a collection of Runway examples in Max/MSP by [Guy Fleisher](http://www.guyfleisher.com/)
 - [openpose_runwayml_video](https://github.com/yining1023/openpose_runwayml_video), an experiment to find poses and draw them in videos with openpose and Runway by [Yining Shi](https://1023.io/).
