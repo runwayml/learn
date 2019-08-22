@@ -1,4 +1,4 @@
-# How-To: Run Models Locally (With Docker)
+# How-To: Run Models Locally
 
 At the core of Runway you will find machine learning models. Models can be used and run in Runway's cloud infrastructure or run locally on your computer.
 

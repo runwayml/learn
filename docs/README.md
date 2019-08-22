@@ -1,8 +1,8 @@
 <h3 class="Main__Title">Introduction to Runway</h3>
 
-<p class="Main__Description">Runway is a platform for creators of all kinds to use machine learning tools for their creative projects in an intuitive and easy way. Here you will find resources to get started with Runway quickly.</p>
+<p class="Main__Description">Runway is a platform for creators of all kinds to use machine learning tools in an intuitive and easy way. Here you will find resources to get started with Runway quickly.</p>
 
-Runway aims to make artificial intelligence (AI) and machine learning (ML) techniques accessible to creative practitioners from a wide range of disciplines. We define broadly define AI as a term that relates to computer systems that simulate intelligent behavior. Machine learning is an ever-growing field of research inside AI that uses statistical techniques to give computers the ability to learn or improve the performance of a given task without explicitly programming a sequence of instructions. With Runway, you can explore these artificial intelligence and machine learning capabilities without any coding experience.
+Runway aims to make artificial intelligence (AI) and machine learning (ML) techniques accessible to creative practitioners from a wide range of disciplines. With Runway, you can explore these artificial intelligence and machine learning capabilities with or without any coding experience.
 
 
 <div class="Main__Buttons">
