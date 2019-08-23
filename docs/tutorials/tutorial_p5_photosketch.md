@@ -1,5 +1,5 @@
 
-# Tutorial: Contour Drawings (PhotoSketch and p5.js)
+# Tutorial: Contour Drawings II (PhotoSketch and p5.js)
 
 ![Header](assets/images/tutorials/tutorial_p5_photosketch/header.png)
 
