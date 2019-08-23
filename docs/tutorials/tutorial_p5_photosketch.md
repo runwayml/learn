@@ -13,7 +13,7 @@ This post covers how to develop an interface with PhotoSketch and Runway. I'll c
 - A webcam or built-in camera
 
 ### Code
-Find the code for this tutorial [here](https://github.com/runwayml/p5js/tree/master/PhotoSketch).
+Find the code for this tutorial [here](https://github.com/runwayml/p5js/tree/master/PhotoSketch/PhotoSketch_Websockets).
 
 ### PhotoSketch
 PhotoSketch is what is known as a Generative Adversarial Network. The goal of Generative Adversarial Networks are to produce synthetic  images that look like images from the training set. That is, if you feed in images of dogs into a GANs, it should produce an unlimited variety of dog-like images. GANs accomplish this by attempting to learn the probability distribution of the training set.
