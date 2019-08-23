@@ -15,8 +15,8 @@
 * 👩‍🏫 Tutorials
     * [Caption Images (im2txt)](tutorials/tutorial_im2txt.md)
     * [Colorize Videos (Automatic-Colorizattion)](tutorials/tutorial_colorizing_video.md)
-    * [Contour Drawings (PhotoSketch)](tutorials/tutorial_photosketch.md)
-    * [Contour Drawings (PhotoSketch and p5.js)](tutorials/tutorial_p5_photosketch.md)
+    * [Contour Drawings I (PhotoSketch and p5.js)](tutorials/tutorial_photosketch.md)
+    * [Contour Drawings II (PhotoSketch and p5.js)](tutorials/tutorial_p5_photosketch.md)
     * [Generate Text (GPT2 and Processing)](tutorials/tutorial_processing_gpt2.md)
     * [Image Classification (MobileNet)](tutorials/tutorial_mobilenet.md)
     * [Image Style Transfer (Adaptive Style Transfer) ](tutorials/tutorial_style_transfer.md)
