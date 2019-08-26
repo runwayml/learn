@@ -1,5 +1,9 @@
 # Tutorial: Skeleton Tracking (PoseNet and Processing)
 
+<div id="video-container">
+<iframe width="560" height="515" src="https://www.youtube.com/embed/7btNir5L8Jc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Runway provides a simple visual interface for experimenting with a variety of machine learning models, but what happens when you want to use those models outside of Runway, in your own applications? This tutorial demonstrates how to perform skeleton tracking in a Processing sketch by communicating in real-time with a pose estimation model running inside Runway.
 
 ### Requirements

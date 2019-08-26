@@ -12,7 +12,9 @@ Runway aims to make artificial intelligence (AI) and machine learning (ML) techn
 
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.
 
-![Runway Screenshot](assets/images/views/home-screen.jpg)
+<div id="video-container">
+<iframe width="560" height="515" src="https://www.youtube.com/embed/7g5Dn60VFb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Getting Started
 

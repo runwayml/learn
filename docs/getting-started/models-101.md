@@ -2,6 +2,10 @@
 
 Runway is a platform for publishing open source, pre-trained machine learning models. What do we mean by the term **model**, and how can we use one in Runway?
 
+<div id="video-container">
+<iframe width="560" height="515" src="https://www.youtube.com/embed/J4FQGYI9gpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### What is a Model?
 
 The term model refers to the result of training a machine learning algorithm with a dataset. The algorithm finds patterns within the data and develops its own rules for how to represent—or model—those patterns to perform a specific task. These rules are not designed by humans, they are learned from the data on which the model is trained. 
@@ -13,6 +17,10 @@ People build models in different programming languages, with different framework
 It is important to note that models are trained on the data given to them, which means that they incoporate the biases of that data. Some trained models are ethically dubious and raise important questions about the social impact of algorithms in our society, such as models used to screen job applicants or to predict crime. 
 
 Reality is complex, and a model will never completely mimic real phenomena. But models can capture and reproduce the broad strokes of generalizable behavior. As you venture down the exciting path of machine learning, keep in mind the famous words of the great statistician George Box: "All models are wrong, but some are useful".
+
+<div id="video-container">
+<iframe width="560" height="515" src="https://www.youtube.com/embed/ePIRExcanjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Types of Models
 
@@ -29,6 +37,13 @@ Depending on the model, there are two ways to run models in Runway: locally, usi
 Try running your first model in Runway [here](tutorials/tutorial_t2i.md)!
 
 You can also import your own machine learning models for your creative projects. Visit our [model importing guide](how-to/import-models.md) to learn more.
+
+## Intro to Machine Learning Series
+Learn more about machine learning with this video series made by [Gene Kogan](http://genekogan.com/).
+
+<div id="video-container">
+<iframe width="560" height="515" src="https://www.youtube.com/embed/yoJWVSL1ST4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Model Licenses, Attributions, and Publishers
 
