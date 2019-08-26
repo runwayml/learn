@@ -9,6 +9,9 @@ This post covers how to create an interface in [Processing](https://processing.o
 - [Runway](https://runwayml.com/)
 - [Processing](https://processing.org/download/)
 
+### Code
+Find the code for this tutorial [here](https://github.com/runwayml/processing/tree/master/GPT2).
+
 ### GPT-2
 GPT-2 is a model for generating long paragraphs of text. With GPT-2, one can condition the output of the model on some input text. The output from the model will then continue the text. For instance, if you prime the model with 'My name is Matt and' the model will output something like 'I am a software developer...' etc.
 
