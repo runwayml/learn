@@ -13,7 +13,7 @@
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
 
 * 👩‍🏫 Tutorials
-    * [AI Rainbows (StyleGAN)](tutorials/tutorial_im2txt.md)
+    * [AI Rainbows (StyleGAN)](tutorials/tutorial_stylegan.md)
     * [Caption Images (im2txt)](tutorials/tutorial_im2txt.md)
     * [Colorize Videos (Automatic-Colorizattion)](tutorials/tutorial_colorizing_video.md)
     * [Contour Drawings I (PhotoSketch and p5.js)](tutorials/tutorial_photosketch.md)
