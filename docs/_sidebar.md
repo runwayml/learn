@@ -36,7 +36,7 @@
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
     * [🔗 Github](https://github.com/runwayml)
-    * [🔗 YouTube](https://www.youtube.com/channel/UCUBqu_z5uP0AZhYtuyFZB3g/playlists)
+    * [🔗 YouTube](https://www.youtube.com/c/runwayml)
     * [🔗 Runway Python SDK](https://sdk.runwayml.com/)
     * [🔗 Runway Model Template](https://github.com/runwayml/model-template)
     * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)
