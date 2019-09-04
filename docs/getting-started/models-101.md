@@ -38,7 +38,7 @@ Try running your first model in Runway [here](tutorials/tutorial_t2i.md)!
 
 You can also import your own machine learning models for your creative projects. Visit our [model importing guide](how-to/import-models.md) to learn more.
 
-## Intro to Machine Learning Series
+### Intro to Machine Learning Series
 Learn more about machine learning with this video series made by [Gene Kogan](http://genekogan.com/).
 
 <div id="video-container">
