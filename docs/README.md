@@ -7,7 +7,9 @@ Runway aims to make artificial intelligence (AI) and machine learning (ML) techn
 
 <div class="Main__Buttons">
     <a class="Main__Button" href='https://runwayml.com/download' target="_blank">Download Runway</a>
-    <a class="Main__Button"  href='/#/getting-started/overview'>Get Started</a>
+    |
+    <a class="Main__Button" href='https://runwayml.com/madewith' target="_blank">Community Projects</a>
+    <a class="Main__Button"  href='#' disabled>Plugins & Extensions</a>
 </div>
 
 > __Note__: Runway is beta software, so things are in flux! Expect features and documentation to change often.

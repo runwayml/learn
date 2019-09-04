@@ -250,6 +250,13 @@ p {
     color: #ececec;
 }
 
+@media screen and (max-width: 600px) {
+    .Main__Button {
+        display: block;
+        margin: 1em;
+    }
+}
+
 /* Bullet points instead of dashes in left sidebar menu sub-menu items */
 .app-sub-sidebar li::before {
     content: "•";
