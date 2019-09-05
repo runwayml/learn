@@ -30,7 +30,7 @@ Runway has an active community of creators and contributors on [Slack](https://j
 
 We encourage everyone to:
 
-* Share your [projects and creations](more/gallery.md)
+* Share your [projects](https://runwayml.com/madewith/)
 * Learn more about the creative applications of machine learning
 * Contribute tutorials, extensions, and models
 * Shape the future of Runway
