@@ -168,7 +168,7 @@ Below are a few code snippets to get you started querying a model using HTTP and
 
 ```bash
 # Query the model and receive its input immediately
-curl -X POST -d '{ "image": "<base 64 image>" }' http://localhost:8000/query
+curl -X POST -d '{ "image": "<base 64 image>" }' -H "Content-Type: application/json" http://localhost:8000/query
 ```
 
 ```bash
