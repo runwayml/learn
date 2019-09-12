@@ -11,7 +11,7 @@
     * [Interact with Models over the Network](how-to/network.md)
     * [Run Models Locally](how-to/run-models-locally.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
-    * [Create a web link to open a model](how-to/web-link.md)
+    * [Open Runway from the Browser](how-to/web-link.md)
 
 * 👩‍🏫 Tutorials
     * [AI Rainbows (StyleGAN)](tutorials/tutorial_stylegan.md)
