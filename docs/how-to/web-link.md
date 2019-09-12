@@ -17,7 +17,7 @@ Where `?model=genekogan/spade-landscapes` is the model to open. In this case, `g
 
 > If there no public model found RunwayML will open the model directory.
 
-You can also just trigger opening the app in the models directory:
+If you omit the `?model=<username>/<model_name>` format in the web link, the RunwayML app will open to the models directory.
 
 ```
 https://open-app.runwayml.com
