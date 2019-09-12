@@ -22,17 +22,17 @@ https://open-app.runwayml.com
 
 ## Creating a badge in GitHub
 
-[![Model Badge](https://open-app.runwayml.com/gh-badge.png)](https://open-app.runwayml.com/?model=genekogan/spade-landscapes)
+[![Model Badge](https://open-app.runwayml.com/gh-badge.svg)](https://open-app.runwayml.com/?model=genekogan/spade-landscapes)
 
 To create a badge in GitHub that will open RunwayML to your model, you can use the following badge template:
 
 ### Markdown Format:
 
 ```
-[![Model Badge](https://open-app.runwayml.com/gh-badge.png)](https://open-app.runwayml.com/?model=genekogan/spade-landscapes)
+[![Model Badge](https://open-app.runwayml.com/gh-badge.svg)](https://open-app.runwayml.com/?model=genekogan/spade-landscapes)
 ```
 
 ### HTML Format:
 ```
-<a href="https://open-app.runwayml.com/?model=genekogan/spade-landscapes" target="_blank"><img src="https://open-app.runwayml.com/gh-badge.png" width=120/></a>
+<a href="https://open-app.runwayml.com/?model=genekogan/spade-landscapes" target="_blank"><img src="https://open-app.runwayml.com/gh-badge.svg" width=120/></a>
 ```
