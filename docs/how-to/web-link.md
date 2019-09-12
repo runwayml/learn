@@ -1,6 +1,6 @@
 # Create a web link to a RunwayML model
 
-You can create very simple web links that will open the RunwayML app in a specific model. This is super helpful when creating tutorials, links in your workshops, embedding buttons on your website, and opening models directly from a GitHub repository.
+You can create simple web links that will open the RunwayML app to a specific model from a web browser. This is super helpful when creating tutorials, links in your workshops, embedding buttons on your website, and opening models directly from a GitHub repository.
 
 Learn how to create those links and embedded them in your websites here.
 
