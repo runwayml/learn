@@ -6,7 +6,7 @@ Learn how to create those links and embedded them in your websites here.
 
 # Creating a link
 
-If you [ported your own model](/how-to/import-models) or want to link to an exisiting model in Runway, all you need is **username** and the **model name**. To create a web link just follow the format:
+If you [ported your own model](/how-to/import-models) or want to link to an existing model in Runway, all you need is the **username** of the publisher and the **model name**. To create a web link just follow the format:
 
 
 ```
