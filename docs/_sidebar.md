@@ -9,9 +9,9 @@
     * [Chain Models Together](how-to/chain-models-together.md)
     * [Import Models](how-to/import-models.md)
     * [Interact with Models over the Network](how-to/network.md)
+    * [Open Runway from the Browser](how-to/web-link.md)
     * [Run Models Locally](how-to/run-models-locally.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
-    * [Open Runway from the Browser](how-to/web-link.md)
 
 * 👩‍🏫 Tutorials
     * [AI Rainbows (StyleGAN)](tutorials/tutorial_stylegan.md)
