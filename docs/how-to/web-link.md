@@ -29,7 +29,7 @@ To create a badge in GitHub that will open RunwayML to your model, you can use t
 ### Markdown Format:
 
 ```
-[![Model Badge](https://open-app.runwayml.com/gh-badge.svg)](https://open-app.runwayml.com/?model=genekogan/spade-landscapes)
+[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge.svg)](https://open-app.runwayml.com/?model=genekogan/spade-landscapes)
 ```
 
 ### HTML Format:
