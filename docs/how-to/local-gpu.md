@@ -61,7 +61,7 @@ Mon Jul 29 18:19:40 2019
 
 The last dependency after you've installed the NVIDIA drivers is to install `nvidia-docker2`. We recommend following the install instructions in the [README](https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)) of the `nvidia-docker2` package itself as the install method changes between releases.
 
-?> We do not yet support the *very recent* `nvidia-container-toolkit`, so be sure you install `nvidia-docker2`. We have plans to upgrade to the newer NVIDIA Docker Toolkit very soon!
+?> We do not yet support the *very recent* `nvidia-container-toolkit`, so be sure you install `nvidia-docker2`. We have plans to upgrade to the newer NVIDIA Docker Toolkit soon! In the meantime, it is perfectly fine to have both `nvidia-docker2` and `nvidia-container-toolkit` installed on the same machine, so you should feel confident in installing `nvidia-docker2` even if you already have the more recent `nvidia-container-toolkit` installed.
 
 Once you've installed `nvidia-docker2`, run the following command to test that Docker containers can access your graphics card device using the `nvidia` runtime:
 
