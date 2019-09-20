@@ -14,7 +14,7 @@ For example, a model may learn to detect a face in a video or image. In order to
 
 People build models in different programming languages, with different frameworks, and for different purposes, such as to recognize emotions, objects, people, body positions, hot-dogs, spam email, and unique sounds. There are models that generate photorealistic faces, captions, streets, building facades, human voices, and videos of airplanes morphing into cats. Some models detect cancer, malaria, and HIV. 
 
-It is important to note that models are trained on the data given to them, which means that they incoporate the biases of that data. Some trained models are ethically dubious and raise important questions about the social impact of algorithms in our society, such as models used to screen job applicants or to predict crime. 
+It is important to note that models are trained on the data given to them, which means that they incorporate the biases of that data. Some trained models are ethically dubious and raise important questions about the social impact of algorithms in our society, such as models used to screen job applicants or to predict crime. 
 
 Reality is complex, and a model will never completely mimic real phenomena. But models can capture and reproduce the broad strokes of generalizable behavior. As you venture down the exciting path of machine learning, keep in mind the famous words of the great statistician George Box: "All models are wrong, but some are useful".
 
