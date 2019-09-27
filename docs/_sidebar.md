@@ -33,6 +33,7 @@
     * [🔗 Main Website](https://runwayml.com/)
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
+    * [🔗 Slack](https://runwayml.com/joinslack)
     * [🔗 Github](https://github.com/runwayml)
     * [🔗 YouTube](https://www.youtube.com/runwayml)
     * [🔗 Runway Python SDK](https://sdk.runwayml.com/)
