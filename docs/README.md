@@ -26,7 +26,7 @@ If you are interested in adding your own models to Runway, visit the [model impo
 
 ### Join Our Community
 
-Runway has an active community of creators and contributors on [Slack](https://join.slack.com/t/runwayml/shared_invite/enQtNTE2MDg0ODY2MTAzLTc4ZGVkMzE2MjljYzM3ZDRlNjkyMjk4NDZjOWU1ZTRjOTA3N2Y1ZjFiNTJkZTAyMWE0MGZiZjdlMTA1NTdiMzc), [Twitter](https://twitter.com/runwayml), and [GitHub](https://github.com/runwayml).
+Runway has an active community of creators and contributors on [Slack](https://runwayml.com/joinslack), [Twitter](https://twitter.com/runwayml), and [GitHub](https://github.com/runwayml).
 
 We encourage everyone to:
 

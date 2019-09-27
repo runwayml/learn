@@ -4,7 +4,7 @@
   </p>
 </a>
 
-[![Runway Slack](https://img.shields.io/badge/slack-runwayml.slack.com-33b279.svg)](https://runwayml.slack.com/)
+[![Runway Slack](https://img.shields.io/badge/slack-runwayml.slack.com-33b279.svg)](https://runwayml.com/joinslack)
 
 This is the public page to learn about how to use [Runway](https://runwayml.com/). This includes technical references, the Runway API docs, tutorials and examples.
 
