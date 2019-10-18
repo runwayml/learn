@@ -29,17 +29,36 @@
     * [Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
     * [Text to Image (AttnGAN and p5.js)](tutorials/tutorial_p5_attngan.md)
 
+* 🎨 Create with RunwayML
+    * 🌱**Model Possibilities**
+        * Classify
+        * Transform
+        * Generate
+    * 🤝**Networking**
+        * Overview
+        * Processing
+        * p5.js
+        * Arduino
+        * More
+    * 🔌**Plugins**
+        * [Photoshop](https://github.com/runwayml/RunwayML-for-Photoshop)
+        * [Unity](https://github.com/runwayml/RunwayML-for-Unity)
+
+
+* 🚂 Train Models - coming soon!
+
+* 💼 Import Models
+    * [Runway Python SDK](https://sdk.runwayml.com/)
+    * [Runway Model Template](https://github.com/runwayml/model-template)
+
 * 🌏 More
     * [🔗 Main Website](https://runwayml.com/)
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
     * [🔗 Slack](https://runwayml.com/joinslack)
     * [🔗 Github](https://github.com/runwayml)
-    * [🔗 YouTube](https://www.youtube.com/runwayml)
-    * [🔗 Runway Python SDK](https://sdk.runwayml.com/)
-    * [🔗 Runway Model Template](https://github.com/runwayml/model-template)
+    * [🔗 Video Tutorials](https://www.youtube.com/runwayml)
     * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)
-    * [🔗 Plugins & Extensions](https://runwayml.com/plugins)
     * [🔗 Community Projects](https://runwayml.com/madewith)
     * [Contribute to Runway](/?id=contribute-to-runway)
     * [Join Our Community](/?id=join-our-community)
