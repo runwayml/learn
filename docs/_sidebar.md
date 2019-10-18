@@ -10,7 +10,7 @@
     * [Run Models Locally](how-to/run-models-locally.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
     * Import Models
-        * [Import Models](how-to/import-models.md)
+        * [Tutorial](how-to/import-models.md)
         * [Runway Python SDK](https://sdk.runwayml.com/)
         * [Runway Model Template](https://github.com/runwayml/model-template)
     * Train Models - coming soon!
