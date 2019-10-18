@@ -21,13 +21,13 @@
             * [Image Classification](tutorials/tutorial_mobilenet.md)
             * [Object Localization](tutorials/tutorial_cocossd.md)
         * Transform
-            * [Colorize Videos](tutorials/tutorial_colorizing_video.md)
+            * [Colorize B/W Videos](tutorials/tutorial_colorizing_video.md)
             * [Image Style Transfer](tutorials/tutorial_style_transfer.md)
             * [Upscale Images](tutorials/tutorial_esrgan.md)
-            * [Caption Images (im2txt)](tutorials/tutorial_im2txt.md)
         * Generate
             * [AI Rainbows](tutorials/tutorial_stylegan.md)
             * [Images from Text](tutorials/tutorial_t2i.md)
+            * [Text from Images](tutorials/tutorial_im2txt.md)
         * [Chain Models Together](how-to/chain-models-together.md)
     * 🤝**Networking**
         * [Overview](how-to/network.md)
