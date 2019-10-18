@@ -1,4 +1,4 @@
-# How-To: Interact with Models over the Network
+# Interacting with Models over the Network
 
 ?> This document assumes the reader is comfortable with basic scripting and computer networking concepts.
 
