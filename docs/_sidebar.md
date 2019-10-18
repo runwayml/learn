@@ -6,50 +6,43 @@
     * [Experimental Features 🧪](getting-started/experimental-features.md)
 
 * 🤔 How-To
-    * [Chain Models Together](how-to/chain-models-together.md)
-    * [Import Models](how-to/import-models.md)
-    * [Interact with Models over the Network](how-to/network.md)
     * [Open Runway from the Browser](how-to/web-link.md)
     * [Run Models Locally](how-to/run-models-locally.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
-
-* 👩‍🏫 Tutorials
-    * [AI Rainbows (StyleGAN)](tutorials/tutorial_stylegan.md)
-    * [Caption Images (im2txt)](tutorials/tutorial_im2txt.md)
-    * [Colorize Videos (Automatic-Colorizattion)](tutorials/tutorial_colorizing_video.md)
-    * [Contour Drawings I (PhotoSketch and p5.js)](tutorials/tutorial_photosketch.md)
-    * [Contour Drawings II (PhotoSketch and p5.js)](tutorials/tutorial_p5_photosketch.md)
-    * [Generate Text (GPT2 and Processing)](tutorials/tutorial_processing_gpt2.md)
-    * [Image Classification (MobileNet)](tutorials/tutorial_mobilenet.md)
-    * [Image Style Transfer (Adaptive Style Transfer)](tutorials/tutorial_style_transfer.md)
-    * [Image Translation (CycleGAN and p5.js)](tutorials/tutorial_p5_cyclegan.md)
-    * [Object Localization (COCO-SSD)](tutorials/tutorial_cocossd.md)
-    * [Realistic Textures (ESRGAN)](tutorials/tutorial_esrgan.md)
-    * [Skeleton Tracking (PoseNet and Processing)](tutorials/tutorial_posenet.md)
-    * [Text to Image (AttnGAN)](tutorials/tutorial_t2i.md)
-    * [Text to Image (AttnGAN and p5.js)](tutorials/tutorial_p5_attngan.md)
+    * Import Models
+        * [Import Models](how-to/import-models.md)
+        * [Runway Python SDK](https://sdk.runwayml.com/)
+        * [Runway Model Template](https://github.com/runwayml/model-template)
+    * Train Models - coming soon!
 
 * 🎨 Create with RunwayML
     * 🌱**Model Possibilities**
         * Classify
+            * [Image Classification](tutorials/tutorial_mobilenet.md)
+            * [Object Localization](tutorials/tutorial_cocossd.md)
         * Transform
+            * [Colorize Videos](tutorials/tutorial_colorizing_video.md)
+            * [Image Style Transfer](tutorials/tutorial_style_transfer.md)
+            * [Upscale Images](tutorials/tutorial_esrgan.md)
+            * [Caption Images (im2txt)](tutorials/tutorial_im2txt.md)
         * Generate
+            * [AI Rainbows](tutorials/tutorial_stylegan.md)
+            * [Images from Text](tutorials/tutorial_t2i.md)
+        * [Chain Models Together](how-to/chain-models-together.md)
     * 🤝**Networking**
-        * Overview
+        * [Overview](how-to/network.md)
         * Processing
+            * [Generate Text](tutorials/tutorial_processing_gpt2.md)
+            * [Skeleton Tracking](tutorials/tutorial_posenet.md)
         * p5.js
-        * Arduino
-        * More
+            * [Contour Drawings I](tutorials/tutorial_photosketch.md)
+            * [Contour Drawings II](tutorials/tutorial_p5_photosketch.md)
+            * [Images from Text](tutorials/tutorial_p5_attngan.md)
+            * [Image Translation](tutorials/tutorial_p5_cyclegan.md)
+        * More soon!
     * 🔌**Plugins**
         * [Photoshop](https://github.com/runwayml/RunwayML-for-Photoshop)
         * [Unity](https://github.com/runwayml/RunwayML-for-Unity)
-
-
-* 🚂 Train Models - coming soon!
-
-* 💼 Import Models
-    * [Runway Python SDK](https://sdk.runwayml.com/)
-    * [Runway Model Template](https://github.com/runwayml/model-template)
 
 * 🌏 More
     * [🔗 Main Website](https://runwayml.com/)
