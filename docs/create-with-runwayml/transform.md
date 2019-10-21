@@ -63,7 +63,7 @@ Semantic Image Synthesis
 
 
 ## Upscale Images
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [ESRGAN](https://open-app.runwayml.com/?model=runway/ESRGAN) | 4x | [Tutorial](tutorials/tutorial_esrgan.md) |
 | [Image-Super-Resolution](https://open-app.runwayml.com/?model=runway/Image-Super-Resolution) | 2x | |
