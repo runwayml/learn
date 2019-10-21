@@ -1,6 +1,6 @@
 # Generate
 
-The pre-trained models in this category generate synthetic output based the training data, such as photorealistic images and coherent text.
+The pre-trained models in this category can generate synthetic outputs based on specific training data, such as photorealistic images and coherent text.
 
 Note: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
