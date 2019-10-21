@@ -2,10 +2,10 @@
 
 The pre-trained models in this category provide options to transform your original content in various ways. Though some models below are described with "generative" qualities, all models here modify input to produce a transformed output.
 
-Note: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
+> **Note**: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Style Transfer
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [Adaptive Style Transfer](https://open-app.runwayml.com/?model=runway/Adaptive-Style-Transfer)| Repaint images in the styles of famous painters | [Tutorial](tutorials/tutorial_style_transfer.md) |
 | [AdaIN-Style-Transfer](https://open-app.runwayml.com/?model=reiinakano/AdaIN-Style-Transfer) | Real-time style transfer | | 
@@ -16,7 +16,7 @@ Note: models are added to the RunwayML app often, and this page does not necessa
 
 
 ## Image Translation
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [CycleGAN](https://open-app.runwayml.com/?model=reiinakano/CycleGAN) | Image-to-image translation without labeled data | |
 | [Pix2Pix](https://open-app.runwayml.com/?model=reiinakano/Pix2Pix) | Image-to-image translation with labeled data | |
@@ -27,7 +27,7 @@ Note: models are added to the RunwayML app often, and this page does not necessa
 ## Images → Semantic Image Maps
 Semantic Image Segmentation
 
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [DeepLab](https://open-app.runwayml.com/?model=genekogan/deeplab) | Extract semantic maps from objects in images | |
 | [DeepLabV3](https://open-app.runwayml.com/?model=runway/DeepLabV3) | Deep labeling for semantic image segmentation | |
@@ -37,7 +37,7 @@ Semantic Image Segmentation
 ## Semantic Image Maps → Images
 Semantic Image Synthesis
 
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [SPADE-COCO](https://open-app.runwayml.com/?model=runway/spade-coco) | Transform semantic image maps into images | |
 | [SPADE-FACE](https://open-app.runwayml.com/?model=sree_harsha/spade-face) | Transform semantic image maps into images of faces| |
@@ -45,7 +45,7 @@ Semantic Image Synthesis
 
 
 ## Image Editing
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [DeepFill](https://open-app.runwayml.com/?model=runway/DeepFill) | Remove objects from photos | |
 | [DeRaindrop](https://open-app.runwayml.com/?model=zaid/DeRaindrop) | Remove raindrops from photos| |

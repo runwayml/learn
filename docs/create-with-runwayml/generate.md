@@ -2,22 +2,22 @@
 
 The pre-trained models in this category can generate synthetic outputs based on specific training data, such as photorealistic images and coherent text.
 
-Note: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
+> **Note**: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Generate Images from Text
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [AttnGAN](https://open-app.runwayml.com/?model=runway/AttnGAN) | Turn text descriptions of scenes into synthesized images | [Tutorial](tutorials/tutorial_t2i.md) |
 
 
 ## Generate Text from Images
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [im2txt](https://open-app.runwayml.com/?model=runway/im2txt) | Generate sentence descriptions of images | [Tutorial](tutorials/tutorial_im2txt.md) |
 
 
 ## Generate Text
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [GPT-2](https://open-app.runwayml.com/?model=runway/GPT-2) | Generate paragraphs of text from a prompt | |
 | [OpenGPT-2](https://open-app.runwayml.com/?model=runway/OpenGPT-2) | Replication effort of GPT-2's largest model (1.5B parameters) | |
@@ -26,7 +26,7 @@ Note: models are added to the RunwayML app often, and this page does not necessa
 
 
 ## Synthesize Images
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [BigGAN](https://open-app.runwayml.com/?model=runway/BigGAN) | Generate images from 1,000 different categories | |
 | [DeepPrivacy](https://open-app.runwayml.com/?model=anastasis/DeepPrivacy) | DeepPrivacy: A Generative Adversarial Network for Face Anonymization | |
