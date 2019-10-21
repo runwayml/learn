@@ -69,7 +69,7 @@ Semantic Image Synthesis
 | [Image-Super-Resolution](https://open-app.runwayml.com/?model=runway/Image-Super-Resolution) | 2x | |
 
 ## 2D Masking
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [MaskRCNN](https://open-app.runwayml.com/?model=runway/MaskRCNN) | Cut out objects from images | |
 | [Human-Segmentation](https://open-app.runwayml.com/?model=runway/Human-Segmentation) | Segment humans from images and videos | |
