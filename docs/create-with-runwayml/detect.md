@@ -22,7 +22,7 @@
 ## Face/Body Tracking
 📽 [How to Use Motion Capture Models](https://www.youtube.com/watch?v=3q-HUG3C6IE)
 
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [3D Dense Face Alignment](https://open-app.runwayml.com/?model=matthewbay/3ddfa) | 3D face alignment | |
 | [Face-Landmarks](https://open-app.runwayml.com/?model=runway/face-landmarks) | Detect features on images of faces |  |
