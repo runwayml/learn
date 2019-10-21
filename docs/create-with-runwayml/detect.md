@@ -2,7 +2,7 @@
 
  The pre-trained models in this category identify and label content. You'll find examples here for detecting objects, places, and people in real-time.
  
- Note: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
+> **Note**: models are added to the RunwayML app often, and this page does not necessarily represent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Classify
 📽 [How to Run Your First Image Classifier](https://www.youtube.com/watch?v=yoJWVSL1ST4)<br>
