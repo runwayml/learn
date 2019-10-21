@@ -1,4 +1,4 @@
-# Applications
+# Integrations
 
 ## Processing
 * [Generate Text](tutorials/tutorial_processing_gpt2.md)

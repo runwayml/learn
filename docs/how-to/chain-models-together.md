@@ -1,6 +1,6 @@
 # How-To: Chain Models Together
 
-Runway makes it possible to use the output of one model as the input to another
+RunwayML makes it possible to use the output of one model as the input to another
 directly in the application interface.  Using this feature, you can make
 powerful workflows that chain together multiple models with minimal fuss and
 without writing any code.
@@ -11,7 +11,7 @@ own model chains from scratch.
 
 ## Data Types
 
-Before showing how to set up a model chain in Runway, it's important to note
+Before showing how to set up a model chain in RunwayML, it's important to note
 that *you can only chain two models together if the first model's output data
 type exactly matches the second model's input data type.* The data types that a
 model uses as its input and output are shown in the Characteristics info box in
@@ -23,19 +23,19 @@ the Model View for the model in question.
 </div>
 
 If the data types don't match between two models, you won't be given the option
-in the Runway interface to connect them. It's possible that you'll find two
-models that don't work together in the Runway app even though it *seems* like
+in the RunwayML interface to connect them. It's possible that you'll find two
+models that don't work together in the RunwayML app even though it *seems* like
 they should.  If this happens, [let us know](https://support.runwayml.com/en/)!
 We're working hard to make all of the models chaining friendly.
 
-You can read more about the kinds of data types that Runway supports in [the
+You can read more about the kinds of data types that RunwayML supports in [the
 SDK documentation](https://sdk.runwayml.com/en/latest/).
 
 ## Example 1: The Depths of Imaginary Bedrooms
 
 As a simple example of model chaining, let's consider chaining together
 StyleGAN and DenseDepth. The StyleGAN model generates images from a latent
-space, given an input vector. (In the Runway application's input area, you can
+space, given an input vector. (In the RunwayML application's input area, you can
 "explore" this latent space as an image grid.) The DenseDepth model estimates
 3D depth for a 2D image, showing that depth map as a monochrome image (darker
 areas indicate parts of the source image that are nearer to the camera).
@@ -52,11 +52,11 @@ Normally, if you wanted to estimate depth for images that you generated with
 StyleGAN, you'd have to first export those images to a folder on your hard
 drive, then upload those images to DenseDepth as a second step. However,
 because the output data type of StyleGAN matches the input data type of
-DenseDepth, the Runway application facilitates "chaining" the output of the
+DenseDepth, the RunwayML application facilitates "chaining" the output of the
 first model to the input of the second, saving you a little bit of work (and
 hard drive space).
 
-So let's build this chain in the application! To get started, open Runway and
+So let's build this chain in the application! To get started, open RunwayML and
 use the Browse Models interface to add the StyleGAN model and the DenseDepth
 model to a new workspace. When you're done adding the models, the workspace
 should look like this:
@@ -67,7 +67,7 @@ should look like this:
 
 To create the chain, first select the DenseDepth model in the left-hand
 sidebar. At the top of the Input area, you can select the source for the image
-data that the Runway application will send to the model. The Camera option uses
+data that the RunwayML application will send to the model. The Camera option uses
 your webcam, and the File option reads image data from a file on your hard
 drive. You should see a third option to the right of Camera and File that
 reads "Model Output." This option lets you select other models in the workspace
@@ -134,7 +134,7 @@ area of the AttnGAN model.
 
 ## Next Steps
 
-You now have the knowledge you need to connect models together in the Runway.
+You now have the knowledge you need to connect models together in the RunwayML.
 We hope you find this feature useful! Now that you know the basics, here are
 some other model combinations you might try:
 
@@ -144,7 +144,7 @@ some other model combinations you might try:
 * Create a feedback loop with SPADE-COCO and DeepLab to produce infinite
   hallucinogenic imagery
 
-Note that all of Runway's other features are still available when using
+Note that all of RunwayML's other features are still available when using
 model chains, such as the ability to work with entire directories of images,
 exporting data to CSV/JSON, the network interfaces, etc. Have fun!
 

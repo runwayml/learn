@@ -1,6 +1,8 @@
 # Transform
 
-description coming soon
+The pre-trained models in this category provide options to transform your original content in various ways. Though some models below are described with "generative" qualities, all models here modify input to produce a transformed output.
+
+Note: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Style Transfer
 | Model | Description |  |
@@ -50,6 +52,7 @@ Semantic Image Synthesis
 | [Deep-Portrait-Image-Relighting](https://open-app.runwayml.com/?model=sree_harsha/Deep-Portrait-Image-Relighting) | Generate relighted image by using a single portrait image and a target lighting | |
 | [Edge-connect](https://open-app.runwayml.com/?model=zaid/edge-connect) | Generative Image Inpainting with Adversarial Edge Learning | |
 | [Image-Inpainting-GMCMM](https://open-app.runwayml.com/?model=anastasis/Image-Inpainting-GMCNN) | Image Inpainting via Generative Multi-column Convolutional Neural Networks | |
+| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings |  |
 
 
 ## Colorize B/W Media
@@ -75,12 +78,10 @@ Semantic Image Synthesis
 ## 3D Modeling
 | Model | Description |  |
 | :--- | :---| :--- |
+| [3D Dense Face Alignment](https://open-app.runwayml.com/?model=matthewbay/3ddfa) | 3D face alignment | |
+| [DenseDepth](https://open-app.runwayml.com/?model=runway/DenseDepth) | Predict depth from 2D images|  |
 | [DensePose](https://open-app.runwayml.com/?model=runway/DensePose) | Detect humans in 2D images and turn them into 3D surface models | |
 
 
-## Additional
-| Model | Description |  |
-| :--- | :---| :--- |
-| [DenseDepth](https://open-app.runwayml.com/?model=runway/DenseDepth) | Predict depth from 2D images|  |
-| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings |  |
+
 
