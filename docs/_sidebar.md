@@ -6,7 +6,7 @@
     * [Experimental Features 🧪](getting-started/experimental-features.md)
 
 * 🤔 How-To
-    * [Open Runway from the Browser](how-to/web-link.md)
+    * [Open RunwayML from Browser](how-to/web-link.md)
     * [Run Models Locally](how-to/run-models-locally.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
     * Import Models
@@ -16,32 +16,15 @@
     * Train Models - coming soon!
 
 * 🎨 Create with RunwayML
-    * 🌱**Model Possibilities**
-        * Classify
-            * [Image Classification](tutorials/tutorial_mobilenet.md)
-            * [Object Localization](tutorials/tutorial_cocossd.md)
-        * Transform
-            * [Colorize B/W Videos](tutorials/tutorial_colorizing_video.md)
-            * [Image Style Transfer](tutorials/tutorial_style_transfer.md)
-            * [Upscale Images](tutorials/tutorial_esrgan.md)
-        * Generate
-            * [AI Rainbows](tutorials/tutorial_stylegan.md)
-            * [Images from Text](tutorials/tutorial_t2i.md)
-            * [Text from Images](tutorials/tutorial_im2txt.md)
+    * 🌱 **Model Possibilities**
+        * [Detect](create-with-runwayml/detect.md)
+        * [Transform](create-with-runwayml/transform.md)
+        * [Generate](create-with-runwayml/generate.md)
         * [Chain Models Together](how-to/chain-models-together.md)
-    * 🤝**Networking**
+    * 🤝 **Networking**
         * [Overview](how-to/network.md)
-        * Processing
-            * [Generate Text](tutorials/tutorial_processing_gpt2.md)
-            * [Skeleton Tracking](tutorials/tutorial_posenet.md)
-            * [RunwayML Library](https://github.com/runwayml/processing-library)
-        * p5.js
-            * [Contour Drawings I](tutorials/tutorial_photosketch.md)
-            * [Contour Drawings II](tutorials/tutorial_p5_photosketch.md)
-            * [Images from Text](tutorials/tutorial_p5_attngan.md)
-            * [Image Translation](tutorials/tutorial_p5_cyclegan.md)
-        * More soon!
-    * 🔌**Plugins**
+        * [Applications](networking/applications.md)
+    * 🔌 **Plugins**
         * [Photoshop](https://github.com/runwayml/RunwayML-for-Photoshop)
         * [Unity](https://github.com/runwayml/RunwayML-for-Unity)
 

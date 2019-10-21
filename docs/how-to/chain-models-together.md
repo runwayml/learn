@@ -9,7 +9,7 @@ This document will guide you through a few sample use cases of model chains.
 When you're done reading, you'll have all the know-how you need to build your
 own model chains from scratch.
 
-### Data Types
+## Data Types
 
 Before showing how to set up a model chain in Runway, it's important to note
 that *you can only chain two models together if the first model's output data
@@ -31,7 +31,7 @@ We're working hard to make all of the models chaining friendly.
 You can read more about the kinds of data types that Runway supports in [the
 SDK documentation](https://sdk.runwayml.com/en/latest/).
 
-### Example 1: The Depths of Imaginary Bedrooms
+## Example 1: The Depths of Imaginary Bedrooms
 
 As a simple example of model chaining, let's consider chaining together
 StyleGAN and DenseDepth. The StyleGAN model generates images from a latent
@@ -89,7 +89,7 @@ input area of DenseDepth shows the image you just selected in StyleGAN, and the
 output area has the DenseDepth output inferred from the StyleGAN image.
 Success!
 
-### Example 2: Reconstructing Drawings with Segmentations, im2txt and AttnGAN
+## Example 2: Reconstructing Drawings with Segmentations, im2txt and AttnGAN
 
 Chaining two models isn't cool. You know what's cool? Chaining *three* models.
 Or more!
@@ -132,7 +132,7 @@ area of the AttnGAN model.
 <img src="assets/images/how-to/chaining-models-together/spade-pizza-im2txt.gif" alt="screen recording showing reconstructed pizza">
 </div>
 
-### Next Steps
+## Next Steps
 
 You now have the knowledge you need to connect models together in the Runway.
 We hope you find this feature useful! Now that you know the basics, here are
