@@ -23,7 +23,7 @@
         * [Chain Models Together](how-to/chain-models-together.md)
     * 🤝 **Networking**
         * [Overview](how-to/network.md)
-        * [Integrations](networking/integrations.md)
+        * [Examples](networking/examples.md)
     * 🔌 **Plugins**
         * [Photoshop](https://github.com/runwayml/RunwayML-for-Photoshop)
         * [Unity](https://github.com/runwayml/RunwayML-for-Unity)
