@@ -8,7 +8,7 @@
 📽 [How to Run Your First Image Classifier](https://www.youtube.com/watch?v=yoJWVSL1ST4)<br>
 📽 [How Neural Networks See the World](https://www.youtube.com/watch?v=MElaCVugavw)
 
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [COCO-SD](https://open-app.runwayml.com/?model=runway/coco-ssd) | Detect bounding boxes from 90 different object categories | [Tutorial](tutorials/tutorial_cocossd.md) |
 | [DenseCAP](https://open-app.runwayml.com/?model=genekogan/densecap) | Generate sentence descriptions of regions in an image | |
