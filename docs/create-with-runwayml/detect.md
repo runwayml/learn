@@ -33,6 +33,6 @@
 ## OCR
 Optical Character Recognition
 
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [cnOCR](https://open-app.runwayml.com/?model=danielsinclair/cnocr) | Chinese text recognition | |
