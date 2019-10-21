@@ -56,7 +56,7 @@ Semantic Image Synthesis
 
 
 ## Colorize B/W Media
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [Automatic-Colorization](https://open-app.runwayml.com/?model=runway/Automatic-Colorization)| Colorize black and white images and videos | [Tutorial](tutorials/tutorial_colorizing_video.md)|
 | [DeOldify](https://open-app.runwayml.com/?model=reiinakano/DeOldify) | Colorize and restore old images | |
