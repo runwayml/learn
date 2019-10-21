@@ -76,7 +76,7 @@ Semantic Image Synthesis
 
 
 ## 3D Modeling
-| Model | Description |  |
+| Model | Description | More |
 | :--- | :---| :--- |
 | [3D Dense Face Alignment](https://open-app.runwayml.com/?model=matthewbay/3ddfa) | 3D face alignment | |
 | [DenseDepth](https://open-app.runwayml.com/?model=runway/DenseDepth) | Predict depth from 2D images|  |
