@@ -4,7 +4,7 @@ Runway facilitates object detection and identification in images and video.
 In this tutorial, we will use COCO-SSD to find and label the elements shown in a movie.
 
 ### Requirements
-- [Runway](https://runwayml.com/)
+- [RunwayML](https://runwayml.com/)
 - A video that features everyday items
 
 ### Step 1
@@ -37,7 +37,7 @@ the model locally.
 
 ### Step 5
 
-Play and navigate the movie using Runway's built-in player. The output
+Play and navigate the movie using RunwayML's built-in player. The output
 will show bounding boxes and labels for each detected object. Other
 **File** and **Network** outputs allow you to export the output data
 for external use.

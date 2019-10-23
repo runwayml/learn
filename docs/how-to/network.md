@@ -2,7 +2,7 @@
 
 ?> This document assumes the reader is comfortable with basic scripting and computer networking concepts.
 
-In addition to interacting with models via the Runway App's UI, all Runway Models can also be controlled and manipulated with over the network. This is useful for getting data in and out of Runway, integrating Runway Models with other tools and workflows, or providing programmatic control of models through scripting. Each Runway Model exposes itself using three network ports on `localhost`: An **HTTP** port, a **Socket.IO** port, and a **OSC** port. All three servers are available for the duration of the time that the model is running. We've included support for these transport protocols to allow flexibility and convenience around how users interact with models; You are free to use any of these protocols as they all expose the same data and control capabilities.
+In addition to interacting with models via RunwayML's user interaface (UI), all RunwayML models can be controlled and manipulated with over the network. This is useful for getting data in and out of RunwayML, integrating RunwayML models with other tools and workflows, or providing programmatic control of models through scripting. Each RunwayML model exposes itself using three network ports on `localhost`: An **HTTP** port, a **Socket.IO** port, and a **OSC** port. All three servers are available for the duration of the time that the model is running. We've included support for these transport protocols to allow flexibility and convenience around how users interact with models. You are free to use any of these protocols as they all expose the same data and control capabilities.
 
 ## The Network UI Panel
 
@@ -12,20 +12,18 @@ You can access the network panel on the right side of the UI while a model is ru
 
 ## Endpoints
 
-Each model server exposes several endpoints that you can use to interact with the model. The method of triggering these endpoints varies depending on the protocol that you are using, however, the basic functionality provided by each endpoint remains the same. We'll describe the basics of these endpoints next and then describe how you can use them for each network protocol below.
+Each model server exposes several endpoints that you can use to interact with the model. The method of triggering these endpoints varies depending on the protocol that you are using, however, the basic functionality provided by each endpoint remains the same. We'll describe the basics of these endpoints next, and then describe how you can use them for each network protocol below.
 
 There are four basic endpoints shared between all protocols:
 
 * `query` (write): Send data to a running model
 * `data` (read): Receive the output from a `query` if it succeeded
 * `error` (read): Receive an error message from a `query` if it failed
-* `info` (read): Get metadata about what type of data the running model is expecting as input and output
+* `info` (read): Get metadata about the type of data the running model is expecting as input and output
 
 You'll notice that `query` is the only endpoint where data is sent to the model server (indicated above as "write"). All other endpoints are marked "read", meaning they output data back to the connected client instead of accepting input.
 
-### Errors (`error`)
-
-The `error` endpoint can be monitored to receive errors from you model if and when they may occur.
+The `error` endpoint can be monitored to receive errors from your model if and when they may occur.
 
 ```json
 {
@@ -43,7 +41,7 @@ In this guide, we'll use the `im2txt` model as an example. This model accepts an
 }
 ```
 
-?> Each model will expect a different type of input and produce a different type of output. You can see each model's data type specification in the Network Panel. Be sure you are sending and receiving the right type of data for each model you are interfacing with.
+?> Each model will expect a different type of input and produce a different type of output. You can see each model's data type specification in the Network Panel. Be sure you are sending and receiving the right type of data for each model in which you are interacting.
 
 ## Outputs (`data`)
 
@@ -70,7 +68,7 @@ When the `im2txt` model receives an input image via `query`, it processes it and
 
 ## Data Types (`info`)
 
-Each Runway Model accepts different types of inputs and outputs for each command it supports. If you're not sure what type of data your model is expecting, or would like your script to programmatically interpret a model's data types at runtime, you can use the `info` endpoint. This endpoint will return a JSON object illustrating the input and output data types the model expects.
+Each RunwayML model accepts different types of inputs and outputs for each command it supports. If you're not sure what type of data your model is expecting, or would like your script to programmatically interpret a model's data types at runtime, you can use the `info` endpoint. This endpoint will return a JSON object illustrating the input and output data types the model expects.
 
 ```json
 {
@@ -118,7 +116,7 @@ HTTP is perhaps the simplest way to interact a model via the network. It stands 
 
 ### Socket.IO
 
-[Socket.IO](https://socket.io/) is an event-based protocol that wraps WebSockets: a bidirectional data streaming protocol that allows servers to push data directly to clients without them having to request it. It's implemented in JavaScript with libraries available for both the Browser and Node.js (see the Socket.IO example code snippet below). The main difference between interacting with a model via Socket.IO vs HTTP is that `data` and `error` events are emitted after a `query` instead of returning the results of the query immediately via an HTTP response. This is useful if you'd like to monitor a model's output stream without necessarily sending it an input query: perhaps you are doing that manually via the Runway app or another script or Runway integration.
+[Socket.IO](https://socket.io/) is an event-based protocol that wraps WebSockets: a bidirectional data streaming protocol that allows servers to push data directly to clients without them having to request it. It's implemented in JavaScript with libraries available for both the Browser and Node.js (see the Socket.IO example code snippet below). The main difference between interacting with a model via Socket.IO vs HTTP is that `data` and `error` events are emitted after a `query` instead of returning the results of the query immediately via an HTTP response. This is useful if you'd like to monitor a model's output stream without necessarily sending it an input query: perhaps you are doing that manually via the RunwayML app or another script or RunwayML integration.
 
 * `EMIT query`: This endpoint is used to send input data to a model. Because Socket.IO is an event-based protocol, you must listen to the `data` and `error` events to receive the results of a model query you've emitted the `query` event.
 * `LISTEN data`: Receive the output generated by a `query` event if it was successful.
@@ -138,15 +136,15 @@ socket.on('data', (output) => {
 
 ### Open Sound Control (OSC)
 
-[OSC](http://opensoundcontrol.org/spec-1_0) is an event-based protocol similar to Socket.IO. It's not as common as the other two protocols but it has achieved popularity with real-time creative software for processing sound, image, or other arbitrary data over a network. We have [a collection of examples](https://github.com/runwayml/processing) for integrating Runway with [Processing](https://processing.org/) that use the [oscP5 library](http://www.sojamo.de/libraries/oscP5/). OSC acts as a way to exchange data from one app or hardware instrument to another, similar to MIDI.
+[OSC](http://opensoundcontrol.org/spec-1_0) is an event-based protocol similar to Socket.IO. It's not as common as the other two protocols but it has achieved popularity with real-time creative software for processing sound, image, or other arbitrary data over a network. We have [a collection of examples](https://github.com/runwayml/processing) for integrating RunwayML with [Processing](https://processing.org/) that use the [oscP5 library](http://www.sojamo.de/libraries/oscP5/). OSC acts as a way to exchange data from one app or hardware instrument to another, similar to MIDI.
 
 ![OSC Example Screenshot](assets/images/how-to/network/osc-example.jpg)
 
-Above is a screenshot illustrating Runway sending its output to a Processing sketch via OSC.
+Above is a screenshot illustrating RunwayML sending its output to a Processing sketch via OSC.
 
 Every model will create, by default, an OSC server that you can connect to.
 
-To connect to a model via OSC, you first need to create an OSC client and then send a message with the address `/server/connect` to Runway's OSC server at the port displayed within the app in order to start receiving data from Runway. Take a look at a working example with [PoseNet and Processing](https://github.com/runwayml/processing/blob/master/posenet/posenet.pde). Be sure to update the variable `runwayPort` to the port displayed in the app in your OSC code!
+To connect to a model via OSC, you first need to create an OSC client and then send a message with the address `/server/connect` to RunwayML's OSC server at the port displayed within the app in order to start receiving data from RunwayML. Take a look at a working example with [PoseNet and Processing](https://github.com/runwayml/processing/blob/master/posenet/posenet.pde). Be sure to update the variable `runwayPort` to the port displayed in the app in your OSC code!
 
 OSC events are addressed to the following endpoints:
 
@@ -160,7 +158,7 @@ At the time of this writing there is no support for the `info` endpoint using th
 
 ?> OSC uses UDP datagrams as a transport layer so its very efficient, but has a chance to deliver packets out of order or not at all.
 
-## Code Examples
+## Code Samples
 
 Below are a few code snippets to get you started querying a model using HTTP and Socket.IO. These examples assume a model is running on port `8000` for HTTP and `3000` for Socket.IO, so be sure to update the port numbers accordingly.
 

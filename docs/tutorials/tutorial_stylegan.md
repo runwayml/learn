@@ -1,6 +1,8 @@
 # Tutorial: Generate AI Rainbows (StyleGAN)
 
-In this challenge, Dan Shiffman from the [Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw), uses the StyleGAN machine learning model available in RunwayML to generate rainbows and then send them to the browser with p5.js! This challenge is based on the live coding talk from the 2019 Eyeo Festival.
+🎉 Community Contribution from [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
+
+In this challenge, Daniel Shiffman from [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw), uses the StyleGAN machine learning model available in RunwayML to generate rainbows and then send them to the browser with p5.js! This challenge is based on the live coding talk from the 2019 Eyeo Festival.
 
 
 <div id="video-container">
