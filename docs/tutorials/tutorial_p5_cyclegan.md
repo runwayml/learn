@@ -1,12 +1,14 @@
 
 # Tutorial: Image Translation (CycleGAN and p5.js)
 
+🎉Community Contribution by [maybay21](https://github.com/maybay21)
+
 ![Header](assets/images/tutorials/tutorial_p5_cyclegan/header.png)
 
-This tutorial covers how to create an interface in [p5.js](https://p5js.org/download/), and use that interface to interact with a CycleGAN Model in Runway. You can find the code for this tutorial [here](https://github.com/runwayml/p5js/tree/master/CycleGAN).
+This tutorial covers how to create an interface in [p5.js](https://p5js.org/download/), and use that interface to interact with a CycleGAN Model in RunwayML. You can find the code for this tutorial [here](https://github.com/runwayml/p5js/tree/master/CycleGAN).
 
 ### Requirements
-- [Runway](https://runwayml.com/)
+- [RunwayML](https://runwayml.com/)
 - [p5.js](https://p5js.org/download/)
 - [p5.dom](https://p5js.org/reference/#/libraries/p5.dom)
 - [Bootstrap](https://getbootstrap.com/)
@@ -25,27 +27,27 @@ Learning the probability distribution of the generated data distribution from th
 Where CycleGAN differs from Pix2Pix or other conditional GANs is that it doesn't require a 1 to 1 mapping between images. If you look at Pix2Pix examples, you'll see that the model requires a strictly similar representation between the image pairs. With CycleGAN however, we can just feed in a bunch of pictures of zebras and horses in no particular order and the network will "learn" the translation. No image pairs are needed. This is done through the use of a cycle consisten loss function used in the network.
 
 ### Select the Model
-To set up the CycleGAN model in Runway, click on the **Browse Model** button on the upper-left corner of the interface. Search for CycleGAN in the searchbar at the top of the interface, and select it. This will take you to a page with further information about the model. 
+To set up the CycleGAN model in RunwayML, click on the **Browse Model** button on the upper-left corner of the interface. Search for CycleGAN in the searchbar at the top of the interface, and select it. This will take you to a page with further information about the model. 
 
 ![Select Model](assets/images/tutorials/tutorial_p5_cyclegan/selection.png)
 
-From there we can click the **Add to Workspace** button in the upper right hand corner and select **New Workspace**. Runway will suggest a name for your workspace. Feel free to change the name or use the one provided and click **Create**. 
+From there we can click the **Add to Workspace** button in the upper right hand corner and select **New Workspace**. RunwayML will suggest a name for your workspace. Feel free to change the name or use the one provided and click **Create**. 
 
 ![Model Info](assets/images/tutorials/tutorial_p5_cyclegan/info.png)
 
-In the workspace, click the **Run Remotely** button, ensuring that the **Remote GPU Enabled** toggle is turned on. Keep in mind that this model will require a GPU to run, and will cost credits. Click **Preview** for the Output Source. We do not need to choose an Input Source, as we'll be sending images straight from our browser! In this tutorial, well be using HTTP to connect our p5.js sketch with Runway. 
+In the workspace, click the **Run Remotely** button, ensuring that the **Remote GPU Enabled** toggle is turned on. Keep in mind that this model will require a GPU to run, and will cost credits. Click **Preview** for the Output Source. We do not need to choose an Input Source, as we'll be sending images straight from our browser! In this tutorial, well be using HTTP to connect our p5.js sketch with RunwayML. 
 
 
 ![Add to Workspace](assets/images/tutorials/tutorial_p5_cyclegan/interface.png)
 
 ### What the Code Does
-Well be using [p5.js](https://p5js.org) to communicate to Runway. P5.js is a Javascript-based creative coding framework. Our code for this tutorial can be found [here](https://github.com/runwayml/p5js/tree/master/CycleGAN). By bringing the output into the browser and the p5.js ecosystem, it will give us the flexibility to use the output from the model for other creative purposes. In this example we'll use the HTTP to connect with Runway. 
+Well be using [p5.js](https://p5js.org) to communicate to RunwayML. P5.js is a Javascript-based creative coding framework. Our code for this tutorial can be found [here](https://github.com/runwayml/p5js/tree/master/CycleGAN). By bringing the output into the browser and the p5.js ecosystem, it will give us the flexibility to use the output from the model for other creative purposes. In this example we'll use the HTTP to connect with RunwayML. 
 
 ### How the Code Works
-HTTP are one of the many ways we can transfer data from our code into Runway. In this tutorial, we'll be posting an image as an input via a `POST` request. That input is queried on the model and the output is sent back to the browser.
+HTTP are one of the many ways we can transfer data from our code into RunwayML. In this tutorial, we'll be posting an image as an input via a `POST` request. That input is queried on the model and the output is sent back to the browser.
 
 ### The Code in Detail (HTML)
-In your HTML, be sure to include the [p5.js library](https://p5js.org/download/) and [p5.js dom library](https://p5js.org/reference/#/libraries/p5.dom). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout a little nicer. In the body of the `index.html` page we'll add a button to allow our sketch to post the image to Runway. Further, we'll include a div tag with an ID for our sketch. This will attach our future sketch to this div, so that its positioned well on the page. Lastly, we'll include a script tag for our sketch.
+In your HTML, be sure to include the [p5.js library](https://p5js.org/download/) and [p5.js dom library](https://p5js.org/reference/#/libraries/p5.dom). In this example, I have also included [Bootstrap](https://getbootstrap.com/) (optional) to make the layout a little nicer. In the body of the `index.html` page we'll add a button to allow our sketch to post the image to RunwayML. Further, we'll include a div tag with an ID for our sketch. This will attach our future sketch to this div, so that its positioned well on the page. Lastly, we'll include a script tag for our sketch.
 
 ### The Code in Detail (JavaScript)
 The JavaScript code is commented line by line for your reference, there are 3 important parts to pay attention to.  
@@ -55,7 +57,7 @@ The JavaScript code is commented line by line for your reference, there are 3 im
 ![Port Address](assets/images/tutorials/tutorial_p5_cyclegan/port.png)
 
 
-The most important step for this sketch is ensuring that the sketch is connecting to Runway and able to communicate with it. Here, we have set up Runway to communicated via port 8000 (image above), and specify port 8000 in our sketch.
+The most important step for this sketch is ensuring that the sketch is connecting to RunwayML and able to communicate with it. Here, we have set up RunwayML to communicated via port 8000 (image above), and specify port 8000 in our sketch.
 
 ```js
 let url = 'http://localhost:8000/query';
@@ -82,7 +84,7 @@ function handleFile(file) {
 ### Part 3
 ![Input Requirements](assets/images/tutorials/tutorial_p5_cyclegan/input.png)
 
-We'll set up a function that makes a post request to Runway, with the image that we've selected. First we'll load the pixels of our image with **loadPixels** and then we'll convert the image to a base64 image with `img.canvas.toDataURL`. Runway is expecting data in JSON format, where the key is **image** and the value is the data of the image we'd like to send. We'll make a variable `postData` with these specifications. Lastly, p5.js has a function **httpPost** that allows us to make our POST request to Runway. We'll use the url specified above, and pass in the JSON data to be posted. The returned data will call our `newDrawing` function, overviewed in the next section.
+We'll set up a function that makes a post request to RunwayML, with the image that we've selected. First we'll load the pixels of our image with **loadPixels** and then we'll convert the image to a base64 image with `img.canvas.toDataURL`. RunwayML is expecting data in JSON format, where the key is **image** and the value is the data of the image we'd like to send. We'll make a variable `postData` with these specifications. Lastly, p5.js has a function **httpPost** that allows us to make our POST request to RunwayML. We'll use the url specified above, and pass in the JSON data to be posted. The returned data will call our `newDrawing` function, overviewed in the next section.
 ```js
 function sendImage() {
     img.loadPixels();
@@ -100,7 +102,7 @@ function sendImage() {
 
 ![Output Requirements](assets/images/tutorials/tutorial_p5_photosketch/output.png)
 
-Now that we've posted out data to Runway and recieved a response, we'll need to take that data and convert it into an image. We'll create a function called `newDrawing` that takes in this data. Next we'll say "if there is data, and that data has an key called **image**, created an image out of that data with `createImg`". The `createImg` function is part of the p5.js DOM library. Please be sure not to confuse `createImg` with `createImage`, as they do different things. The `createImg` function will create an image out of our data and put that image on the DOM with an <img> HTML tag. We can specify the height, width and position of our image with the `attribute` and `position` functions below.
+Now that we've posted out data to RunwayML and recieved a response, we'll need to take that data and convert it into an image. We'll create a function called `newDrawing` that takes in this data. Next we'll say "if there is data, and that data has an key called **image**, created an image out of that data with `createImg`". The `createImg` function is part of the p5.js DOM library. Please be sure not to confuse `createImg` with `createImage`, as they do different things. The `createImg` function will create an image out of our data and put that image on the DOM with an <img> HTML tag. We can specify the height, width and position of our image with the `attribute` and `position` functions below.
 
 ```js  
 function newDrawing(data){
@@ -125,4 +127,4 @@ We can run the sketch by changing directory into our sketch and running `python 
 
 
 ### Next Steps
-This tutorial showed how to communicate with Runway from p5.js using HTTP. How could we extend it? Try using different image/model combinations to see what you can come up with. What happens if you send over your own drawings rather than images? While we use CycleGAN in the tutorial, every other model in Runway also accepts in data via HTTP. Try changing the input/output keys in the code and then running this code with Pix2Pix, Photosketch, Style Transfer, or any other model in Runway!
+This tutorial showed how to communicate with RunwayML from p5.js using HTTP. How could we extend it? Try using different image/model combinations to see what you can come up with. What happens if you send over your own drawings rather than images? While we use CycleGAN in the tutorial, every other model in RunwayML also accepts in data via HTTP. Try changing the input/output keys in the code and then running this code with Pix2Pix, Photosketch, Style Transfer, or any other model in RunwayML!

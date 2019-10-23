@@ -1,7 +1,7 @@
 
 # Tutorial: Realistic Textures (ESRGAN)
 
-Runway incorporates the ESRGAN model to enable image super-resolution. This tutorial shows how to enhance low-resolution images to generate a high-resolution texture without unpleasant artifacts.
+RunwayML incorporates the ESRGAN model to enable image super-resolution. This tutorial shows how to enhance low-resolution images to generate a high-resolution texture without unpleasant artifacts.
 
 ### Requirements
 * [Runway](https://runwayml.com/)

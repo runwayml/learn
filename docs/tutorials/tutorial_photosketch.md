@@ -1,10 +1,12 @@
 # Tutorial: Contour Drawings I (PhotoSketch and p5.js)
 
+🎉Community Contribution by [JP Yepez](https://www.jpyepez.com)
+
 The [PhotoSketch model](https://arxiv.org/pdf/1901.00542.pdf) created by Li et al. allows you to infer contour drawings from images automatically.
-In this tutorial, we will use Runway to run PhotoSketch to create a real-time contour outline of your webcam stream. We will then send the resulting image via HTTP network to a simple web app built with JavaScript and [p5.js](http://p5js.org/)
+In this tutorial, we will use RunwayML to run PhotoSketch to create a real-time contour outline of your webcam stream. We will then send the resulting image via HTTP network to a simple web app built with JavaScript and [p5.js](http://p5js.org/)
 
 ### Requirements
-- [Runway](https://runwayml.com/)
+- [RunwayML](https://runwayml.com/)
 - [p5.js](https://p5js.org/download/)
 - [p5.dom](https://p5js.org/reference/#/libraries/p5.dom)
 - A webcam or built-in camera
@@ -50,7 +52,7 @@ switch on. Click on **Run Remotely** when your app is ready.
 
 ### Step 6
 
-Our **ColoringBook** example for p5.js receives the PhotoSketch drawing from Runway and displays it on the canvas, where you can color or draw on it using the mouse cursor.
+Our **ColoringBook** example for p5.js receives the PhotoSketch drawing from RunwayML and displays it on the canvas, where you can color or draw on it using the mouse cursor.
 
 To get started, navigate to the [example repository](https://github.com/runwayml/p5js).
 
@@ -68,7 +70,7 @@ Once the repository folder is ready, navigate to `PhotoSketch/ColoringBook/` and
 
 ### Step 7
 
-Make sure PhotoSketch is running in Runway and check if the **Port** value matches Runway's HTTP Server from **Step 5** (e.g. `8001`). Press the PhotoSketch button until you receive an image you like.
+Make sure PhotoSketch is running in RunwayML and check if the **Port** value matches RunwayML's HTTP Server from **Step 5** (e.g. `8001`). Press the PhotoSketch button until you receive an image you like.
 
 ![Success](assets/images/tutorials/tutorial_photosketch/07_success.png)
 

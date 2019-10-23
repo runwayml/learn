@@ -1,5 +1,9 @@
 # How-To: Chain Models Together
 
+
+🎉Community Contribution by [Allison Parrish](https://www.decontextualize.com), Something in Residence 2019 <br>
+
+
 ## Overview
 
 RunwayML makes it possible to use the output of one model as the input to another
