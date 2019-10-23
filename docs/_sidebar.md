@@ -9,10 +9,7 @@
     * [Open RunwayML from Browser](how-to/web-link.md)
     * [Run Models Locally](how-to/run-models-locally.md)
     * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
-    * Import Models
-        * [Tutorial](how-to/import-models.md)
-        * [Runway Python SDK](https://sdk.runwayml.com/)
-        * [Runway Model Template](https://github.com/runwayml/model-template)
+    * [Import Models](how-to/import-models.md)
     * Train Models - coming soon!
 
 * 🎨 Create with RunwayML
@@ -32,7 +29,7 @@
     * [🔗 Main Website](https://runwayml.com/)
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
-    * [🔗 Slack](https://runwayml.com/joinslack)
+    * [🔗 Join Our Slack](https://runwayml.com/joinslack)
     * [🔗 Github](https://github.com/runwayml)
     * [🔗 Video Tutorials](https://www.youtube.com/runwayml)
     * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)

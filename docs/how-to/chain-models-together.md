@@ -1,5 +1,7 @@
 # How-To: Chain Models Together
 
+## Overview
+
 RunwayML makes it possible to use the output of one model as the input to another
 directly in the application interface.  Using this feature, you can make
 powerful workflows that chain together multiple models with minimal fuss and
@@ -31,7 +33,7 @@ We're working hard to make all of the models chaining friendly.
 You can read more about the kinds of data types that RunwayML supports in [the
 SDK documentation](https://sdk.runwayml.com/en/latest/).
 
-## Example 1: The Depths of Imaginary Bedrooms
+## Tutorial 1: The Depths of Imaginary Bedrooms
 
 As a simple example of model chaining, let's consider chaining together
 StyleGAN and DenseDepth. The StyleGAN model generates images from a latent
@@ -89,7 +91,7 @@ input area of DenseDepth shows the image you just selected in StyleGAN, and the
 output area has the DenseDepth output inferred from the StyleGAN image.
 Success!
 
-## Example 2: Reconstructing Drawings with Segmentations, im2txt and AttnGAN
+## Tutorial 2: Reconstructing Drawings with Segmentations, im2txt and AttnGAN
 
 Chaining two models isn't cool. You know what's cool? Chaining *three* models.
 Or more!
