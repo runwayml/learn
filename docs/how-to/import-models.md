@@ -18,13 +18,13 @@ Here are the steps involved in porting an ML model written in Python to RunwayML
 
 Once you've imported your model into RunwayML using your GitHub account, each `git push` will trigger the latest version of your code to be built and optionally deployed publicly through RunwayML.
 
-## Tutorial 1: Add Models to RunwayML
-This is a a two-part video series with Gene Kogan:
+## Tutorial 1: Adding Models to RunwayML
+This is a [two-part video series](https://www.youtube.com/playlist?list=PLj598ZXODDO_YUkKaBK9yBgIhOlPia_eL) with Gene Kogan:
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/m5EhZR9SFvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Tutorial 2: Import the SqueezeNet Model
+## Tutorial 2: Importing the SqueezeNet Model
 In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv.org/abs/1512.03385) computer vision model to RunwayML. We also provide a [RunwayML Model Template](https://github.com/runwayml/model-template) repository that contains boilerplate code for porting a new model.
 
 We recommend forking the [`runwayml/model-squeezenet`](https://github.com/runwayml/model-squeezenet) GitHub repository to your own GitHub user account so that you can follow along with the tutorial.
@@ -275,9 +275,9 @@ To make your model public, select the "Settings" tab in your model page, and cli
 ![Import Model #12](assets/images/how-to/github-link/make-public.png)
 
 ## RunwayML Python SDK
-Developer documentation for the Python SDK to port models: [RunwayML Model SDK Docs](https://sdk.runwayml.com)
+Developer documentation for the Python SDK to import models: [RunwayML Model SDK Docs](https://sdk.runwayml.com)
 
 ## RunwayML Model Template
-A boilerplate model template that you can use as a starting point to port models: [RunwayML Model Template](https://github.com/runwayml/model-template)
+A boilerplate model template that you can use as a starting point to import models: [RunwayML Model Template](https://github.com/runwayml/model-template)
 
 

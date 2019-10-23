@@ -29,7 +29,7 @@
     * [🔗 Main Website](https://runwayml.com/)
     * [🔗 Support](https://support.runwayml.com/)
     * [🔗 Your Account](https://account.runwayml.com/)
-    * [🔗 Slack](https://runwayml.com/joinslack)
+    * [🔗 Join Our Slack](https://runwayml.com/joinslack)
     * [🔗 Github](https://github.com/runwayml)
     * [🔗 Video Tutorials](https://www.youtube.com/runwayml)
     * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)
