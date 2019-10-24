@@ -12,6 +12,8 @@
 
 **Resources**: [RunwayML + Arduino Code Repository](https://github.com/runwayml/arduino) and [Learn Arduino](https://www.arduino.cc/)
 
+
+
 ## JavaScript
 **HTTP**
 * [Noise2D Image Synthesizer with SPADE-COCO](https://github.com/runwayml/javascript/tree/master/SPADE-COCO/Noise2DSynth), an example by [JP Yepez](https://www.jpyepez.com) 🎉
@@ -22,22 +24,22 @@
 
 **Resources**: [RunwayML + JavaScript Code Repository](https://github.com/runwayml/javascript)
 
+
+
 ## openFrameworks
 **OSC**
 * [Generate Text from Images with im2txt](https://github.com/runwayml/openFrameworks/tree/master/im2txt), an example by [George Profenza](http://sensori.al/) 🎉 
 
-**Resources**: [RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks)
+**Resources**: [RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks) and [Learn openFrameworks](https://openframeworks.cc)
 
-## Processing
-**HTTP**
-* [HTTP Examples](https://github.com/runwayml/processing-library/tree/master/examples/HTTP) from the [RunwayML Library for Processing](https://github.com/runwayml/processing-library) by [George Profenza](http://sensori.al/) 🎉 
 
-**OSC**
-* [Generate Text with GPT-2](tutorials/tutorial_processing_gpt2.md), a tutorial by RunwayML
-* [Skeleton Tracking with PoseNet](tutorials/tutorial_posenet.md), tutorials by RunwayML and [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉
-* [OSC Examples](https://github.com/runwayml/processing-library/tree/master/examples/OSC) from the [RunwayML Library for Processing](https://github.com/runwayml/processing-library) by [George Profenza](http://sensori.al/) 🎉 
 
-**Resources**: [Learn Processing](https://processing.org/)
+## OpenRNDR
+**Socket.IO**
+* [Skeleton Tracking with PoseNet](https://github.com/runwayml/OpenRNDR)
+
+**Resources**: [RunwayML + OpenRNDR Code Repository](https://github.com/runwayml/OpenRNDR) and [Learn OpenRNDR](https://openrndr.org)
+
 
 
 ## p5.js
@@ -55,12 +57,31 @@
 
 **Resources**: [RunwayML + p5.js Code Repository](https://github.com/runwayml/p5js/blob/master/README.md) and [Learn p5.js](https://p5js.org/)
 
+
+
+## Processing
+**HTTP**
+* [HTTP Examples](https://github.com/runwayml/processing-library/tree/master/examples/HTTP) from the [RunwayML Library for Processing](https://github.com/runwayml/processing-library) by [George Profenza](http://sensori.al/) 🎉 
+
+**OSC**
+* [Generate Text with GPT-2](tutorials/tutorial_processing_gpt2.md), a tutorial by RunwayML
+* [Skeleton Tracking with PoseNet](tutorials/tutorial_posenet.md), tutorials by RunwayML and [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉
+* [OSC Examples](https://github.com/runwayml/processing-library/tree/master/examples/OSC) from the [RunwayML Library for Processing](https://github.com/runwayml/processing-library) by [George Profenza](http://sensori.al/) 🎉 
+
+**Resources**: [RunwayML Library for Processing](https://github.com/runwayml/processing-library) and [Learn Processing](https://processing.org/)
+
+
+## Pure Data
+**HTTP**
+* [Skeleton Tracking with PoseNet](https://github.com/runwayml/puredata/tree/master/posenet), a tutorial by [Joel Matthys](http://joel.matthysmusic.com) 🎉
+
+**Resources**: [RunwayML + Pure Data Code Repository](https://github.com/runwayml/puredata) and [Learn Pure Data](https://puredata.info)
+
+
+
 ## TouchDesigner
 **HTTP**
 * [Image Classification with MobileNet](https://github.com/runwayml/touchDesigner/tree/master/MobileNet/TDClassifier), an example by [JP Yepez](https://www.jpyepez.com) 🎉
 * [Upscale Images and Enhance Textures with ESRGAN](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures), an example by [JP Yepez](https://www.jpyepez.com) 🎉
 
-**Resources**: [RunwayML + TouchDesigner Code Repository](https://github.com/runwayml/touchDesigner)
-
-
-## More soon!
+**Resources**: [RunwayML + TouchDesigner Code Repository](https://github.com/runwayml/touchDesigner) and [Learn TouchDesigner](https://derivative.ca)
