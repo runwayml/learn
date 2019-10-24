@@ -3,7 +3,7 @@
 The pre-trained models in this category provide options to transform your original content in various ways. Though some models below are described with "generative" qualities, all models here modify input to produce a transformed output. Visit our [gallery of projects](https://runwayml.com/madewith/) for ideas about how to use these models.
 
 
-> **Note**: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
+> **Note**: Models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Style Transfer
 | Model | Description | [Networking Examples Available](https://learn.runwayml.com/#/networking/examples) |

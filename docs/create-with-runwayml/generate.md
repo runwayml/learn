@@ -3,7 +3,7 @@
 The pre-trained models in this category can generate synthetic outputs based on specific training data, such as photorealistic images and coherent text. Visit our [gallery of projects](https://runwayml.com/madewith/) for ideas about how to use these models.
 
 
-> **Note**: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
+> **Note**: Models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Generate Images from Text
 | Model | Description | [Networking Examples Available](https://learn.runwayml.com/#/networking/examples) |
