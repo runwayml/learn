@@ -10,7 +10,8 @@
 * [Send Text to AttnGAN to Create Images from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_text_attnGan), a tutorial by [Bérenger Recoules](http://b2renger.github.io/) 🎉
 * [Send Vectors to BigGAN from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_vector_BigGan), a tutorial by [Bérenger Recoules](http://b2renger.github.io/) 🎉
 
-**Resources**: [RunwayML + Arduino Code Repository](https://github.com/runwayml/arduino) and [Learn Arduino](https://www.arduino.cc/)
+[RunwayML + Arduino Code Repository](https://github.com/runwayml/arduino)<br>
+[Learn Arduino](https://www.arduino.cc/)
 
 
 
@@ -22,15 +23,23 @@
 * [Generate Text from Webcam Images with im2txt](https://github.com/runwayml/javascript/tree/master/im2txt/sendWebcam)
 * [Receive Text from the im2txt Model](https://github.com/runwayml/javascript/tree/master/im2txt/receivesOnly)
 
-**Resources**: [RunwayML + JavaScript Code Repository](https://github.com/runwayml/javascript)
+[RunwayML + JavaScript Code Repository](https://github.com/runwayml/javascript)
 
+
+## Max/MSP
+**OSC**
+* [Receive Text from the im2txt Model](https://github.com/runwayml/maxmsp/tree/master/im2txt/receiveCamera), an example by [aarón montoya-moraga](montoyamoraga.io) 🎉
+
+[RunwayML + Max/MSP Code Repository](https://github.com/runwayml/maxmsp)<br>
+[Learn Max/MSP](https://cycling74.com)
 
 
 ## openFrameworks
 **OSC**
 * [Generate Text from Images with im2txt](https://github.com/runwayml/openFrameworks/tree/master/im2txt), an example by [George Profenza](http://sensori.al/) 🎉 
 
-**Resources**: [RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks) and [Learn openFrameworks](https://openframeworks.cc)
+[RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks)<br>
+[Learn openFrameworks](https://openframeworks.cc)
 
 
 
@@ -38,7 +47,8 @@
 **Socket.IO**
 * [Skeleton Tracking with PoseNet](https://github.com/runwayml/OpenRNDR)
 
-**Resources**: [RunwayML + OpenRNDR Code Repository](https://github.com/runwayml/OpenRNDR) and [Learn OpenRNDR](https://openrndr.org)
+[RunwayML + OpenRNDR Code Repository](https://github.com/runwayml/OpenRNDR)<br>
+[Learn OpenRNDR](https://openrndr.org)
 
 
 
@@ -55,7 +65,8 @@
 * [Image Fast Style Transfer with Webcam](https://github.com/runwayml/p5js/tree/master/FastStyleTransfer), example by [maybay21](https://github.com/maybay21) 🎉
 * [Image Translation with CycleGAN](https://github.com/runwayml/p5js/tree/master/CycleGAN/CycleGAN_Websockets) by [maybay21](https://github.com/maybay21) 🎉
 
-**Resources**: [RunwayML + p5.js Code Repository](https://github.com/runwayml/p5js/blob/master/README.md) and [Learn p5.js](https://p5js.org/)
+[RunwayML + p5.js Code Repository](https://github.com/runwayml/p5js/blob/master/README.md)<br>
+[Learn p5.js](https://p5js.org/)
 
 
 
@@ -68,14 +79,16 @@
 * [Skeleton Tracking with PoseNet](tutorials/tutorial_posenet.md), tutorials by RunwayML and [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉
 * [OSC Examples](https://github.com/runwayml/processing-library/tree/master/examples/OSC) from the [RunwayML Library for Processing](https://github.com/runwayml/processing-library) by [George Profenza](http://sensori.al/) 🎉 
 
-**Resources**: [RunwayML Library for Processing](https://github.com/runwayml/processing-library) and [Learn Processing](https://processing.org/)
+[RunwayML Library for Processing](https://github.com/runwayml/processing-library)<br>
+[Learn Processing](https://processing.org/)
 
 
 ## Pure Data
 **HTTP**
 * [Skeleton Tracking with PoseNet](https://github.com/runwayml/puredata/tree/master/posenet), a tutorial by [Joel Matthys](http://joel.matthysmusic.com) 🎉
 
-**Resources**: [RunwayML + Pure Data Code Repository](https://github.com/runwayml/puredata) and [Learn Pure Data](https://puredata.info)
+[RunwayML + Pure Data Code Repository](https://github.com/runwayml/puredata)<br>
+[Learn Pure Data](https://puredata.info)
 
 
 
@@ -84,4 +97,5 @@
 * [Image Classification with MobileNet](https://github.com/runwayml/touchDesigner/tree/master/MobileNet/TDClassifier), an example by [JP Yepez](https://www.jpyepez.com) 🎉
 * [Upscale Images and Enhance Textures with ESRGAN](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures), an example by [JP Yepez](https://www.jpyepez.com) 🎉
 
-**Resources**: [RunwayML + TouchDesigner Code Repository](https://github.com/runwayml/touchDesigner) and [Learn TouchDesigner](https://derivative.ca)
+[RunwayML + TouchDesigner Code Repository](https://github.com/runwayml/touchDesigner)<br>
+[Learn TouchDesigner](https://derivative.ca)
