@@ -22,6 +22,11 @@
 
 **Resources**: [RunwayML + JavaScript Code Repository](https://github.com/runwayml/javascript)
 
+## openFrameworks
+**OSC**
+* [Generate Text from Images with im2txt](https://github.com/runwayml/openFrameworks/tree/master/im2txt), an example by [George Profenza](http://sensori.al/) 🎉 
+
+**Resources**: [RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks)
 
 ## Processing
 **HTTP**
@@ -50,6 +55,12 @@
 
 **Resources**: [RunwayML + p5.js Code Repository](https://github.com/runwayml/p5js/blob/master/README.md) and [Learn p5.js](https://p5js.org/)
 
+## TouchDesigner
+**HTTP**
+* [Image Classification with MobileNet](https://github.com/runwayml/touchDesigner/tree/master/MobileNet/TDClassifier), an example by [JP Yepez](https://www.jpyepez.com) 🎉
+* [Upscale Images and Enhance Textures with ESRGAN](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures), an example by [JP Yepez](https://www.jpyepez.com) 🎉
+
+**Resources**: [RunwayML + TouchDesigner Code Repository](https://github.com/runwayml/touchDesigner)
 
 
 ## More soon!
