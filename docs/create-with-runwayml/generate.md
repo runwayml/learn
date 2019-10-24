@@ -14,7 +14,7 @@ The pre-trained models in this category can generate synthetic outputs based on 
 ## Generate Text from Images
 | Model | Description | [Networking Examples Available](https://learn.runwayml.com/#/networking/examples) |
 | :--- | :---| :--- |
-| [im2txt](https://open-app.runwayml.com/?model=runway/im2txt) | Generate sentence descriptions of images ([Tutorial](tutorials/tutorial_im2txt.md)) | JavaScript, Max/MSP, openFrameworks, Processing |
+| [im2txt](https://open-app.runwayml.com/?model=runway/im2txt) | Generate sentence descriptions of images ([Tutorial](tutorials/tutorial_im2txt.md)) | JavaScript, Max/MSP, openFrameworks, p5.js, Processing |
 
 
 ## Generate Text

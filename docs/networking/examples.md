@@ -24,14 +24,14 @@ This page provides a collection of tutorials and code examples to help you get s
 
 **Socket.IO**
 * [Generate Text from Webcam Images with im2txt](https://github.com/runwayml/javascript/tree/master/im2txt/sendWebcam)
-* [Receive Text from the im2txt Model](https://github.com/runwayml/javascript/tree/master/im2txt/receivesOnly)
+* [Receive Text from im2txt](https://github.com/runwayml/javascript/tree/master/im2txt/receivesOnly)
 
 [RunwayML + JavaScript Code Repository](https://github.com/runwayml/javascript)
 
 
 ## Max/MSP
 **OSC**
-* [Receive Text from the im2txt Model](https://github.com/runwayml/maxmsp/tree/master/im2txt/receiveCamera), an example by [Aarón Montoya-Moraga](montoyamoraga.io) 🎉
+* [Receive Text from im2txt](https://github.com/runwayml/maxmsp/tree/master/im2txt/receiveCamera), an example by [Aarón Montoya-Moraga](montoyamoraga.io) 🎉
 
 [RunwayML + Max/MSP Code Repository](https://github.com/runwayml/maxmsp)<br>
 [Learn Max/MSP](https://cycling74.com)

@@ -53,7 +53,7 @@ Semantic Image Synthesis
 | [Deep-Portrait-Image-Relighting](https://open-app.runwayml.com/?model=sree_harsha/Deep-Portrait-Image-Relighting) | Generate relighted image by using a single portrait image and a target lighting | |
 | [Edge-connect](https://open-app.runwayml.com/?model=zaid/edge-connect) | Generative Image Inpainting with Adversarial Edge Learning | Processing |
 | [Image-Inpainting-GMCMM](https://open-app.runwayml.com/?model=anastasis/Image-Inpainting-GMCNN) | Image Inpainting via Generative Multi-column Convolutional Neural Networks | Processing|
-| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings | openFrameworks Addon, Processing |
+| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings | openFrameworks Addon, p5.js, Processing |
 
 
 ## Colorize B/W Media
