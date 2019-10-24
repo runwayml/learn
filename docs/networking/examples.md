@@ -61,7 +61,7 @@ This page provides a collection of tutorials and code examples to help you get s
 
 ## p5.js
 **HTTP**
-* [Create Animated Image Transitions with StyleGAN](https://heartbeat.fritz.ai/animated-stylegan-image-transitions-with-runwayml-57a2e20db80f), a tutorial by [Mike Heavers](https://mikeheavers.com/) 🎉
+* [Create Animated Image Transitions with StyleGAN](https://heartbeat.fritz.ai/animated-stylegan-image-transitions-with-runwayml-57a2e20db80f), tutorial by [Mike Heavers](https://mikeheavers.com/) 🎉
 * [Create Contour Drawings I with PhotoSketch (Coloring Book)](tutorials/tutorial_photosketch.md), tutorial by [JP Yepez](https://www.jpyepez.com) 🎉
 * [Image Translation with CycleGAN](tutorials/tutorial_p5_cyclegan.md), tutorial by [Matthew Kenney](http://matthewkenney.site/) 🎉
 * [Generate Images from Text with AttnGAN](tutorials/tutorial_p5_attngan.md), tutorial by [Matthew Kenney](http://matthewkenney.site/) 🎉
