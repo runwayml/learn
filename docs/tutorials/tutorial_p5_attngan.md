@@ -1,6 +1,6 @@
 # Tutorial: Text to Image (AttnGAN and p5.js)
 
-🎉Community Contribution by [maybay21](https://github.com/maybay21)
+🎉Community Contribution by [Matthew Kenney](http://matthewkenney.site/)
 
 This tutorial will review how to connect an AttnGAN model in RunwayML to a sketch in [p5.js](https://p5js.org/). AttnGAN is a generative adversarial network model that takes in words or phrases, and outputs images like the words it's queried against. This model is great for creative image generation, and can be included to enhance our p5.js sketches. In this tutorial, we'll use HTTP to connect p5.js to RunwayML.
 

@@ -28,7 +28,7 @@
 
 ## Max/MSP
 **OSC**
-* [Receive Text from the im2txt Model](https://github.com/runwayml/maxmsp/tree/master/im2txt/receiveCamera), an example by [aarón montoya-moraga](montoyamoraga.io) 🎉
+* [Receive Text from the im2txt Model](https://github.com/runwayml/maxmsp/tree/master/im2txt/receiveCamera), an example by [Aarón Montoya-Moraga](montoyamoraga.io) 🎉
 
 [RunwayML + Max/MSP Code Repository](https://github.com/runwayml/maxmsp)<br>
 [Learn Max/MSP](https://cycling74.com)
@@ -37,6 +37,9 @@
 ## openFrameworks
 **OSC**
 * [Generate Text from Images with im2txt](https://github.com/runwayml/openFrameworks/tree/master/im2txt), an example by [George Profenza](http://sensori.al/) 🎉 
+
+**ofxRunway Addon**
+* [Multiple Models Examples](https://github.com/genekogan/ofxRunway) from [Gene Kogan]() 🎉
 
 [RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks)<br>
 [Learn openFrameworks](https://openframeworks.cc)
@@ -55,15 +58,15 @@
 ## p5.js
 **HTTP**
 * [Create Contour Drawings I with PhotoSketch (Coloring Book)](tutorials/tutorial_photosketch.md), a tutorial by [JP Yepez](https://www.jpyepez.com) 🎉
-* [Image Translation with CycleGAN](tutorials/tutorial_p5_cyclegan.md), a tutorial by [maybay21](https://github.com/maybay21) 🎉
-* [Generate Images from Text with AttnGAN](tutorials/tutorial_p5_attngan.md), a tutorial by [maybay21](https://github.com/maybay21) 🎉 
+* [Image Translation with CycleGAN](tutorials/tutorial_p5_cyclegan.md), a tutorial by [Matthew Kenney](http://matthewkenney.site/) 🎉
+* [Generate Images from Text with AttnGAN](tutorials/tutorial_p5_attngan.md), a tutorial by [Matthew Kenney](http://matthewkenney.site/) 🎉
 * [Generate Text from Images with im2text](im2txt/), a tutorial by [Yining Shi](https://1023.io) 🎉
-* [Generate Text with GPT-2](https://github.com/runwayml/p5js/tree/master/GPT2), example by [maybay21](https://github.com/maybay21) 🎉
+* [Generate Text with GPT-2](https://github.com/runwayml/p5js/tree/master/GPT2), example by [Matthew Kenney](http://matthewkenney.site/) 🎉
 
 **Socket.IO**
-* [Create Contour Drawings II with PhotoSketch (Coloring Book)](tutorials/tutorial_p5_photosketch.md), a tutorial by [maybay21](https://github.com/maybay21) 🎉
-* [Image Fast Style Transfer with Webcam](https://github.com/runwayml/p5js/tree/master/FastStyleTransfer), example by [maybay21](https://github.com/maybay21) 🎉
-* [Image Translation with CycleGAN](https://github.com/runwayml/p5js/tree/master/CycleGAN/CycleGAN_Websockets) by [maybay21](https://github.com/maybay21) 🎉
+* [Create Contour Drawings II with PhotoSketch (Coloring Book)](tutorials/tutorial_p5_photosketch.md), a tutorial by [Matthew Kenney](http://matthewkenney.site/) 🎉
+* [Image Fast Style Transfer with Webcam](https://github.com/runwayml/p5js/tree/master/FastStyleTransfer), example by [Matthew Kenney](http://matthewkenney.site/) 🎉
+* [Image Translation with CycleGAN](https://github.com/runwayml/p5js/tree/master/CycleGAN/CycleGAN_Websockets) by [[Matthew Kenney](http://matthewkenney.site/) 🎉
 
 [RunwayML + p5.js Code Repository](https://github.com/runwayml/p5js/blob/master/README.md)<br>
 [Learn p5.js](https://p5js.org/)

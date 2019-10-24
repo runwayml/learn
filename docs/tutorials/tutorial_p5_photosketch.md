@@ -1,7 +1,7 @@
 
 # Tutorial: Contour Drawings II (PhotoSketch and p5.js)
 
-🎉Community Contribution by [maybay21](https://github.com/maybay21)
+🎉Community Contribution by [Matthew Kenney](http://matthewkenney.site/)
 
 ![Header](assets/images/tutorials/tutorial_p5_photosketch/header.png)
 
