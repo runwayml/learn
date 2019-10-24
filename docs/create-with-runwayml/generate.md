@@ -2,6 +2,8 @@
 
 The pre-trained models in this category can generate synthetic outputs based on specific training data, such as photorealistic images and coherent text.
 
+🎉Community Contribution or Project
+
 > **Note**: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Generate Images from Text
@@ -34,4 +36,4 @@ The pre-trained models in this category can generate synthetic outputs based on 
 | [GLOW](https://open-app.runwayml.com/?model=genekogan/glow]) | Change facial expressions, hair color, smile, beard, age and more in images of faces | |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis | |
 | [Progressive-Growing-of-GANs](https://open-app.runwayml.com/?model=cris/Progressive-Growing-of-GANs) | Generate faces | |
-| [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) | Generate photorealistic images of faces, landscapes, and more | [Tutorial](tutorials/tutorial_stylegan.md)<br>[Interactive Example](https://experiments.runwayml.com/portrait_swap/) |
+| [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) | Generate photorealistic images of faces, landscapes, and more | [Tutorial](tutorials/tutorial_stylegan.md) 🎉<br>[Interactive Example I](https://experiments.runwayml.com/portrait_swap/)<br>[Interactive Example II](https://experiments.runwayml.com/synthetic_postcard/)|

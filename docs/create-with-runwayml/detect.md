@@ -1,6 +1,8 @@
 # Detect
 
  The pre-trained models in this category identify and label content. You'll find examples here for detecting objects, places, and people in real-time.
+
+ 🎉Community Contribution or Project
  
 > **Note**: models are added to the RunwayML app often, and this page does not necessarily represent the full list. Contributions, demos, and tutorials are welcome here!
 
@@ -25,7 +27,7 @@
 | Model | Description | More |
 | :--- | :---| :--- |
 | [3D Dense Face Alignment](https://open-app.runwayml.com/?model=matthewbay/3ddfa) | 3D face alignment | |
-| [Face-Landmarks](https://open-app.runwayml.com/?model=runway/face-landmarks) | Detect features on images of faces |  |
+| [Face-Landmarks](https://open-app.runwayml.com/?model=runway/face-landmarks) | Detect features on images of faces | [Example](https://dev.to/vbaknation/using-runwayml-to-create-a-lip-sync-animation-4dbf) 🎉|
 | [OpenPifPaf](https://open-app.runwayml.com/?model=alexandre01/openpifpaf-pose) | Perform human pose estimation in crowded images |  |
 | [PoseNet](https://open-app.runwayml.com/?model=runway/posenet) | Perform real-time skeletal tracking of one or more people |  |
 

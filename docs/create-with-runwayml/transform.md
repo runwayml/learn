@@ -2,6 +2,8 @@
 
 The pre-trained models in this category provide options to transform your original content in various ways. Though some models below are described with "generative" qualities, all models here modify input to produce a transformed output.
 
+🎉Community Contribution or Project
+
 > **Note**: models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!
 
 ## Style Transfer
@@ -9,7 +11,7 @@ The pre-trained models in this category provide options to transform your origin
 | :--- | :---| :--- |
 | [Adaptive Style Transfer](https://open-app.runwayml.com/?model=runway/Adaptive-Style-Transfer)| Repaint images in the styles of famous painters | [Tutorial](tutorials/tutorial_style_transfer.md) |
 | [AdaIN-Style-Transfer](https://open-app.runwayml.com/?model=reiinakano/AdaIN-Style-Transfer) | Real-time style transfer | | 
-| [Arbitrary-Style-Transfer](https://open-app.runwayml.com/?model=runway/Arbitrary-Image-Stylization) | Real-time style transfer | |
+| [Arbitrary-Style-Transfer](https://open-app.runwayml.com/?model=runway/Arbitrary-Image-Stylization) | Real-time style transfer | [Example](http://lenka.hamos.sk/2019/07/25/blackmetal-x-gans/) 🎉 |
 | [Fast Photo Style](https://open-app.runwayml.com/?model=reiinakano/FastPhotoStyle) | A Closed-form Solution to Photorealistic Image Stylization | |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | |
 | [Style2paints](https://open-app.runwayml.com/?model=zaid/style2paints) | Automatic Sketch Colorization | |
@@ -20,7 +22,7 @@ The pre-trained models in this category provide options to transform your origin
 | :--- | :---| :--- |
 | [CycleGAN](https://open-app.runwayml.com/?model=reiinakano/CycleGAN) | Image-to-image translation without labeled data | |
 | [Pix2Pix](https://open-app.runwayml.com/?model=reiinakano/Pix2Pix) | Image-to-image translation with labeled data | |
-| [Pix2PixHD-Facemarks2Portrait](https://open-app.runwayml.com/?model=yining/pix2pixHD-Facemarks2Portrait) | Generate a portrait image from a face landmarks image | |
+| [Pix2PixHD-Facemarks2Portrait](https://open-app.runwayml.com/?model=yining/pix2pixHD-Facemarks2Portrait) | Generate a portrait image from a face landmarks image | [Interactive Example](https://experiments.runwayml.com/synthetic_postcard/)|
 | [UGATIT](https://open-app.runwayml.com/?model=runway/UGATIT) | Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | |
 
 
@@ -29,7 +31,7 @@ Semantic Image Segmentation
 
 | Model | Description | More |
 | :--- | :---| :--- |
-| [DeepLab](https://open-app.runwayml.com/?model=genekogan/deeplab) | Extract semantic maps from objects in images | |
+| [DeepLab](https://open-app.runwayml.com/?model=genekogan/deeplab) | Extract semantic maps from objects in images | [Example](http://lenka.hamos.sk/2019/07/25/blackmetal-x-gans/) 🎉 |
 | [DeepLabV3](https://open-app.runwayml.com/?model=runway/DeepLabV3) | Deep labeling for semantic image segmentation | |
 | [Face-Parser](https://open-app.runwayml.com/?model=anastasis/Face-Parser) | A pretrained model for parsing facial components from an image | |
 
@@ -41,7 +43,7 @@ Semantic Image Synthesis
 | :--- | :---| :--- |
 | [SPADE-COCO](https://open-app.runwayml.com/?model=runway/spade-coco) | Transform semantic image maps into images | [Example](https://aiweirdness.com/post/185617397117/this-neural-net-makes-my-sketches-real) |
 | [SPADE-FACE](https://open-app.runwayml.com/?model=sree_harsha/spade-face) | Transform semantic image maps into images of faces| |
-| [SPADE-Landmarks](https://open-app.runwayml.com/?model=genekogan/SPADE-Landscapes) | Transform semantic image maps into landscape images | |
+| [SPADE-Landmarks](https://open-app.runwayml.com/?model=genekogan/SPADE-Landscapes) | Transform semantic image maps into landscape images | [Example](http://lenka.hamos.sk/2019/07/25/blackmetal-x-gans/) 🎉 |
 
 
 ## Image Editing
