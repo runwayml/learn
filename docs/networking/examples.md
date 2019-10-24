@@ -1,4 +1,4 @@
-# Examples
+# Networking Examples
 
 
 🎉Community Contribution
@@ -11,6 +11,17 @@
 * [Send Vectors to BigGAN from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_vector_BigGan), a tutorial by [Bérenger Recoules](http://b2renger.github.io/) 🎉
 
 **Resources**: [RunwayML + Arduino Code Repository](https://github.com/runwayml/arduino) and [Learn Arduino](https://www.arduino.cc/)
+
+## JavaScript
+**HTTP**
+* [Noise2D Image Synthesizer with SPADE-COCO](https://github.com/runwayml/javascript/tree/master/SPADE-COCO/Noise2DSynth), an example by [JP Yepez](https://www.jpyepez.com) 🎉
+
+**Socket.IO**
+* [Generate Text from Webcam Images with im2txt](https://github.com/runwayml/javascript/tree/master/im2txt/sendWebcam)
+* [Receive Text from the im2txt Model](https://github.com/runwayml/javascript/tree/master/im2txt/receivesOnly)
+
+**Resources**: [RunwayML + JavaScript Code Repository](https://github.com/runwayml/javascript)
+
 
 ## Processing
 **HTTP**

@@ -7,7 +7,7 @@ The pre-trained models in this category can generate synthetic outputs based on 
 ## Generate Images from Text
 | Model | Description | More |
 | :--- | :---| :--- |
-| [AttnGAN](https://open-app.runwayml.com/?model=runway/AttnGAN) | Turn text descriptions of scenes into synthesized images | [Tutorial](tutorials/tutorial_t2i.md) |
+| [AttnGAN](https://open-app.runwayml.com/?model=runway/AttnGAN) | Turn text descriptions of scenes into synthesized images | [Tutorial](tutorials/tutorial_t2i.md)<br>[Interactive Example](https://experiments.runwayml.com/generative_engine/) |
 
 
 ## Generate Text from Images
@@ -30,8 +30,8 @@ The pre-trained models in this category can generate synthetic outputs based on 
 | :--- | :---| :--- |
 | [BigGAN](https://open-app.runwayml.com/?model=runway/BigGAN) | Generate images from 1,000 different categories | |
 | [DeepPrivacy](https://open-app.runwayml.com/?model=anastasis/DeepPrivacy) | DeepPrivacy: A Generative Adversarial Network for Face Anonymization | |
-| [Few-Shot-Face-Translation-GAN](https://open-app.runwayml.com/?model=anastasis/Few-Shot-Face-Translation-GAN) | Face-swapping | |
+| [Few-Shot-Face-Translation-GAN](https://open-app.runwayml.com/?model=anastasis/Few-Shot-Face-Translation-GAN) | Face-swapping | [Interactive Example](https://experiments.runwayml.com/portrait_swap/)|
 | [GLOW](https://open-app.runwayml.com/?model=genekogan/glow]) | Change facial expressions, hair color, smile, beard, age and more in images of faces | |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis | |
 | [Progressive-Growing-of-GANs](https://open-app.runwayml.com/?model=cris/Progressive-Growing-of-GANs) | Generate faces | |
-| [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) | Generate photorealistic images of faces, landscapes, and more | [Tutorial](tutorials/tutorial_stylegan.md) |
+| [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) | Generate photorealistic images of faces, landscapes, and more | [Tutorial](tutorials/tutorial_stylegan.md)<br>[Interactive Example](https://experiments.runwayml.com/portrait_swap/) |

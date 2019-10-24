@@ -39,7 +39,7 @@ Semantic Image Synthesis
 
 | Model | Description | More |
 | :--- | :---| :--- |
-| [SPADE-COCO](https://open-app.runwayml.com/?model=runway/spade-coco) | Transform semantic image maps into images | |
+| [SPADE-COCO](https://open-app.runwayml.com/?model=runway/spade-coco) | Transform semantic image maps into images | [Example](https://aiweirdness.com/post/185617397117/this-neural-net-makes-my-sketches-real) |
 | [SPADE-FACE](https://open-app.runwayml.com/?model=sree_harsha/spade-face) | Transform semantic image maps into images of faces| |
 | [SPADE-Landmarks](https://open-app.runwayml.com/?model=genekogan/SPADE-Landscapes) | Transform semantic image maps into landscape images | |
 
