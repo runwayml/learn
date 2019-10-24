@@ -51,7 +51,8 @@ This page provides a collection of tutorials and code examples to help you get s
 
 ## OpenRNDR
 **Socket.IO**
-* [Skeleton Tracking with PoseNet](https://github.com/runwayml/OpenRNDR), an example by [Ryan Bateman](http://boat.horse/) 🎉
+* [Face Tracking with Face-Landmarks](https://github.com/runwayml/OpenRNDR/blob/master/src/main/kotlin/facedetect.kt), an example by [Ryan Bateman](http://boat.horse/) 🎉
+* [Skeleton Tracking with PoseNet](https://github.com/runwayml/OpenRNDR/blob/master/src/main/kotlin/posenet.kt), an example by [Ryan Bateman](http://boat.horse/) 🎉
 
 [RunwayML + OpenRNDR Code Repository](https://github.com/runwayml/OpenRNDR)<br>
 [Learn OpenRNDR](https://openrndr.org)
@@ -105,6 +106,9 @@ This page provides a collection of tutorials and code examples to help you get s
 **HTTP**
 * [Image Classification with MobileNet](https://github.com/runwayml/touchDesigner/tree/master/MobileNet/TDClassifier), an example by [JP Yepez](https://www.jpyepez.com) 🎉
 * [Upscale Images and Enhance Textures with ESRGAN](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures), an example by [JP Yepez](https://www.jpyepez.com) 🎉
+
+**OSC**
+* [Face Tracking with PoseNet](https://github.com/BarakChamo/TD_PoseNet), an example by [Barak Chamo](https://barakchamo.com/) 🎉
 
 [RunwayML + TouchDesigner Code Repository](https://github.com/runwayml/touchDesigner)<br>
 [Learn TouchDesigner](https://derivative.ca)
