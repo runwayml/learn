@@ -18,7 +18,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [MaskRCNN](https://open-app.runwayml.com/?model=runway/MaskRCNN) | Cut out objects from images | Processing |
 | [MobileNet](https://open-app.runwayml.com/?model=runway/mobilenet) | Classify images in real-time ([Tutorial](tutorials/tutorial_mobilenet.md)) | Processing, TouchDesigner  | 
 | [Places365](https://open-app.runwayml.com/?model=matthewbay/places365) | Identify places (bedroom, dining room, mall, etc.)|  |
-| [YOLACT](https://open-app.runwayml.com/?model=zaid/yolact) | Identify and segment objects in real-time | |
+| [YOLACT](https://open-app.runwayml.com/?model=zaid/yolact) | Identify and segment objects in real-time | Processing |
 | [Visual-Importance](https://open-app.runwayml.com/?model=runway/visual-importance) | Detect important areas in an image | Processing |
 
 
