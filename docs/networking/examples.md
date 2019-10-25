@@ -1,6 +1,6 @@
 # Networking Examples
 
-You can interact with models in RunwayML from creative coding and design environments through three networking protocols: HTTP, WebSockets (using Socket.IO), and Open Sound Control (OSC). Here's an [overview](https://learn.runwayml.com/#/how-to/network) of how it works. 
+You can interact with models in RunwayML from creative coding and design applications through three networking protocols: HTTP, WebSockets (using Socket.IO), and Open Sound Control (OSC). Here's an [overview](https://learn.runwayml.com/#/how-to/network) of how it works. 
 
 This page provides tutorials and code examples to help you get started with your own machine learning projects using these networking protocols. Visit our [gallery](https://runwayml.com/madewith/) for more inspiration. Additional projects, tutorials, and code examples are welcome!
 
