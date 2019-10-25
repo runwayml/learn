@@ -274,6 +274,10 @@ To make your model public, select the "Settings" tab in your model page, and cli
 
 ![Import Model #12](assets/images/how-to/github-link/make-public.png)
 
+## Tutorial 3: Importing the Progressive Growing of GANs (PGAN) Model
+
+This tutorial is posted on the RunwayML Medium blog: [Porting a machine learning model from GitHub to Runway in 5 minutes](https://medium.com/runwayml/porting-a-machine-learning-model-from-github-to-runway-in-5-minutes-555c5c9310af)
+
 ## RunwayML Python SDK
 Developer documentation for the Python SDK to import models: [RunwayML Model SDK Docs](https://sdk.runwayml.com)
 
