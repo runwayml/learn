@@ -3,7 +3,6 @@
     * [Installation](getting-started/installation.md)
     * [Overview](getting-started/overview.md)
     * [Machine Learning Models](getting-started/models-101.md)
-    * [Experimental Features 🧪](getting-started/experimental-features.md)
 
 * 🤔 How-To
     * [Open RunwayML from Browser](how-to/web-link.md)
