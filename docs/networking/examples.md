@@ -66,7 +66,7 @@ This page provides tutorials and code examples to help you get started with your
 * [Image Translation with CycleGAN](tutorials/tutorial_p5_cyclegan.md), tutorial by [Matthew Kenney](http://matthewkenney.site/) 🎉
 * [Generate AI Rainbows with StyleGAN](tutorials/tutorial_stylegan.md), tutorial by [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉
 * [Generate Images from Text with AttnGAN](tutorials/tutorial_p5_attngan.md), tutorial by [Matthew Kenney](http://matthewkenney.site/) 🎉
-* [Generate Text from Images with im2text](im2txt/), tutorial by [Yining Shi](https://1023.io) 🎉
+* [Generate Text from Images with im2text](https://github.com/runwayml/p5js/tree/master/im2txt), tutorial by [Yining Shi](https://1023.io) 🎉
 * [Generate Text with GPT-2](https://github.com/runwayml/p5js/tree/master/GPT2), example by [Matthew Kenney](http://matthewkenney.site/) 🎉
 
 
