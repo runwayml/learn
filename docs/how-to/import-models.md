@@ -1,4 +1,4 @@
-# Import Models into RunwayML
+# Add Models to RunwayML
 
 ## Overview
 RunwayML models are platform-agnostic; models written in any framework/language can be used by RunwayML as long as the model can be made accessible via an HTTP server. This process, however, is easiest in Python where we provide an SDK for parsing the inputs to the model, serializing its outputs, and setting up the server environment.
@@ -284,5 +284,8 @@ Developer documentation for the Python SDK to import models: [RunwayML Model SDK
 ## RunwayML Model Template
 A boilerplate model template that you can use as a starting point to import models: [RunwayML Model Template](https://github.com/runwayml/model-template)
 
-Related [Support Resource](https://support.runwayml.com/en/articles/3037632-add-your-own-models)
+
+
+---
+Related Technical Support Resource: [Add Your Own Models](https://support.runwayml.com/en/articles/3037632-add-your-own-models)
 

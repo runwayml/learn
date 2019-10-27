@@ -1,24 +1,22 @@
 <h3 class="Main__Title">Introduction to RunwayML</h3>
 
-<p class="Main__Description">RunwayML is a platform for creators of all kinds to use machine learning tools in intuitive ways without any coding experience. Find resources here to get started with RunwayML quickly.</p>
+<p class="Main__Description">RunwayML is a platform for creators of all kinds to use machine learning tools in intuitive ways without any coding experience. Find resources here to start creating with RunwayML quickly.</p>
 
 ## Welcome!
-We are excited to have you here. RunwayML aims to make machine learning (ML) techniques accessible to creative practitioners from a wide range of disciplines. 
+👋 We are excited to have you here. RunwayML aims to make machine learning (ML) techniques accessible to creative practitioners from a wide range of disciplines. If this is your first time visiting RunwayML, start with our [installation guide](getting-started/installation). 
 
-If this is your first time visiting RunwayML, start with our [installation guide](getting-started/installation). 
+After installing, learn how to browse and run machine learning models inside of RunwayML with our [introductory guide to using models](how-to/use-models) -- no coding required. 
 
-After installing, learn how to browse and run machine learning models inside RunwayML with our [introductory guide to using models](how-to/use-models)--no coding required! 
-
-RunwayML also connects to [creative programming environments](networking/examples) and integrates with software applications as a [plugin](https://runwayml.com/integrations).
+RunwayML also connects to a variety of [creative programming environments](networking/examples) and integrates with software applications as a [plugin](https://runwayml.com/integrations).
 
 ## What is Machine Learning?
-Machine learning is an area of research within the field of artifical intelligence (AI), and RunwayML is a platform for publishing open source, pre-trained machine learning models. The term model refers to the result of training a machine learning algorithm with a dataset. A machine learning algorithm find patterns within the data and develops its own rules for how to represent—or model—those patterns to perform a specific task. These rules are not designed by humans; they are learned from the data on which the model is trained.
+🤖 Machine learning is an area of research within the field of artifical intelligence (AI), and RunwayML is a platform for publishing open source, pre-trained machine learning models. The term model refers to the result of training a machine learning algorithm with a dataset. A machine learning algorithm find patterns within the data and develops its own rules for how to represent—or model—those patterns to perform a specific task. These rules are not designed by humans; they are learned from the data on which the model is trained.
 
 People build models in different programming languages, with different frameworks, and for different purposes, such as to recognize spam email, classify objects, edit images and video, and capture motion. There are models that generate photorealistic faces, image captions, streets, building facades, human voices, and produce videos of airplanes morphing into cats. Some models detect cancer, malaria, and HIV.
 
-It is important to note that models are trained on the data given to them, which means that they incorporate the biases of that data. For creators who build datasets from their own work, machine learning provides a way to augment and extend their creative practices. But some trained models are ethically dubious and raise important questions about the social impact of algorithms in our society, such as models used to screen job applicants or to predict crime.
+It is important to note that models are trained on the data given to them, which means that they incorporate the biases of that data. For creators who build datasets from their own work, machine learning provides ways to augment and extend their creative practices. But some trained models are ethically dubious and raise important questions about the social impact of algorithms in our society, such as models used to screen job applicants or to predict crime.
 
-Reality is complex, and a model will never completely mimic real phenomena. As you venture down the exciting path of machine learning, keep in mind the famous words of the great statistician George Box: "All models are wrong, but some are useful".
+Reality is complex, and a model will never completely mimic real phenomena. As you venture down the exciting path of machine learning, keep in mind the famous words of the great statistician George Box: "[All models are wrong, but some are useful](https://en.wikipedia.org/wiki/All_models_are_wrong)".
 
 Interested in adding your own models to RunwayML? Please visit our [model importing guide](how-to/import-models).
 
