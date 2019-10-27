@@ -154,4 +154,4 @@ Note that all of RunwayML's other features are still available when using
 model chains, such as the ability to work with entire directories of images,
 exporting data to CSV/JSON, the network interfaces, etc. Have fun!
 
-Related [Support Resource](https://support.runwayml.com/en/articles/3140662-understanding-how-chaining-works)
+Related Technical Support Resource: [Understanding How Chaining Works](https://support.runwayml.com/en/articles/3140662-understanding-how-chaining-works)

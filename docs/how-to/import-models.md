@@ -284,4 +284,5 @@ Developer documentation for the Python SDK to import models: [RunwayML Model SDK
 ## RunwayML Model Template
 A boilerplate model template that you can use as a starting point to import models: [RunwayML Model Template](https://github.com/runwayml/model-template)
 
+Related [Support Resource](https://support.runwayml.com/en/articles/3037632-add-your-own-models)
 
