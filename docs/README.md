@@ -9,6 +9,7 @@ After installing, learn how to browse and run machine learning models inside of 
 
 RunwayML also connects to a variety of [creative programming environments](networking/examples) and integrates with software applications as a [plugin](https://runwayml.com/integrations).
 
+
 ## What is Machine Learning?
 🤖 Machine learning is an area of research within the field of artifical intelligence (AI), and RunwayML is a platform for publishing open source, pre-trained machine learning models. The term model refers to the result of training a machine learning algorithm with a dataset. A machine learning algorithm find patterns within the data and develops its own rules for how to represent—or model—those patterns to perform a specific task. These rules are not designed by humans; they are learned from the data on which the model is trained.
 
