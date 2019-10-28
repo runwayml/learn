@@ -3,8 +3,8 @@
     * [Installation](getting-started/installation.md)
 
 * 🤔 How-To
-    * [Use Models]()
-        * [Run Models Locally](how-to/run-models-locally.md)
+    * [Use Models](how-to/use-models.md)
+        <!-- * [Run Models Locally](how-to/run-models-locally.md) -->
         * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
     * [Add Models](how-to/import-models.md)
     * [Persist Models - coming soon!]()
@@ -33,7 +33,7 @@
 
 * 👉 Help
     * [Your Account](https://account.runwayml.com/)
-    * [Technical Support](https://support.runwayml.com/)
+    * [Troubleshooting](https://support.runwayml.com/)
 
     <!-- * [🔗 Main Website](https://runwayml.com/) -->
     <!-- * [🔗 Video Tutorials](https://www.youtube.com/runwayml) -->

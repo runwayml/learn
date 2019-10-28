@@ -1,6 +1,6 @@
 # Generate Media
 
-You can use models directly of inside the RunwayML app or interact with models through [network protocols](https://learn.runwayml.com/#/how-to/network). The pre-trained models in this category generate synthetic outputs based on specific training data, such as photorealistic images and coherent text. Visit our [gallery of projects](https://runwayml.com/madewith/) for ideas about how to use these models.
+You can use models directly of inside the RunwayML app or interact with models through [network protocols](https://learn.runwayml.com/#/how-to/network). The pre-trained models in this category generate synthetic outputs based on specific training data, such as photorealistic images and coherent text. Visit this [RunwayML Experiments](https://runwayml.com/madewith/) for ideas about how to use these models.
 
 
 ?> **Note**: Models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome here!

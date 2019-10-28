@@ -71,7 +71,7 @@ There's no need to manually download the app again to update the software. If a 
 
 If you ever experience an issue with the auto-update feature, or you get stuck on a bad release, uninstall your current version of RunwayML and [download the latest version from our website](http://runwayml.com/download).
 
-## Connectivity Issues
+### Connectivity Issues
 🌐 Using RunwayML requires an active internet connection. 
 
 If you are experiencing any connectivity issues, please check that your firewall is configured to allow RunwayML.
