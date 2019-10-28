@@ -7,6 +7,7 @@
     * [Add Models](how-to/import-models.md)
     * [Persist Models - coming soon!]()
     * [Open Models from Links](how-to/web-link.md)
+    * [Video Tutorials](https://www.youtube.com/runwayml)
 
 * 🎨 Create with RunwayML
     * 🌱 **Model Possibilities**
@@ -32,8 +33,4 @@
 * 👉 Help
     * [Your Account](/your-account.md)
     * [Troubleshooting](https://support.runwayml.com/)
-
-    <!-- * [🔗 Video Tutorials](https://www.youtube.com/runwayml) -->
-    
-    
     
