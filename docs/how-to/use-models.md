@@ -1,12 +1,14 @@
 # Use Models in RunwayML
 
 ## Overview
-RunwayML is a platform for publishing and creating with open source [machine learning models](/?id=what-is-machine-learning). There are many types of machine learning models. For creative purposes, we can start to categorize them into three broad types: models that identify objects and people, models that transform content, and models that generate new media from the training data. 
+RunwayML is a platform for publishing and creating with pre-trained, open source [machine learning models](/?id=what-is-machine-learning). There are many types of machine learning models. For creative purposes, we can start to categorize them into three broad types: models that identify objects and people, models that transform content, and models that generate new media from the training data. 
 
 This guide will cover:
 * How to find models in RunwayML 
 * How to find their published attributes
-* How to set them up, run them, and stop them 
+* How to set them up, run them, and stop them inside of the app -- no coding required!
+
+You can also interact with models through [network protocols](how-to/network) from a variety of [creative programming environments](networking/examples). 
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/J4FQGYI9gpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -49,7 +51,7 @@ A **Workspace**, pictured in the left sidebar below, is a place to collect and o
 ![Input/Output View](assets/images/views/io.jpg)
 
 
-## Step 4: Set Input
+## Step 4: Set the Input
 When a model is running, it accepts input and produces an output. Different types of models accept different types of input. The Input section allows you to change the type of input used for a specific model. Supported inputs include:
 
 | Input     | Supported Types | Description  |
@@ -58,7 +60,7 @@ When a model is running, it accepts input and produces an output. Different type
 | Text       | Text            | Free-from text input                              |
 | File       | All Types       | Use a supported file type indicated i the app for that model                        |
 
-## Step 5: Set Output
+## Step 5: Set the Output
 The Output section allows you to change the type of input used for a specific model. Different types of models produce different types of outpout. Supported outputs include:
 
 | Output     | Description
@@ -77,7 +79,7 @@ Related Technical Support Resource: [Output Image Dimensions](https://support.ru
 Each model has a set of options, located in the right sidebar, that you can modify. These options will vary depending on the model. Sometimes options must be set *before* selecting the type of model input.  
 
 
-## Step 7: Run a Model
+## Step 7: Run the Model
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/db1USOwbRPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -118,7 +120,7 @@ Related Technical Support Resources:
 * [Redeeming Coupon Codes](https://support.runwayml.com/en/articles/3047429-redeeming-coupon-codes)
 
 
-## Step 8: Stop a Model
+## Step 8: Stop the Model
 **Manually Stop Models:** Click the **Stop button** in the bottom right corner of the app. 
 
 **Automatic Stop:** Please note that we stop all running models after 10 minutes of inactivity. 

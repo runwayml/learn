@@ -2,6 +2,18 @@
 
 <p class="Main__Description">RunwayML is a platform for creators of all kinds to use machine learning tools in intuitive ways without any coding experience. Find resources here to start creating with RunwayML quickly.</p>
 
+<br>
+<br>
+<div class="Main__Buttons">
+    <a class="Main__Button" href='https://runwayml.com/download' target="_blank">Download RunwayML</a>
+    |
+    <a class="Main__Button" href='https://runwayml.com/madewith' target="_blank">Community Projects</a>
+    |
+    <a class="Main__Button"  href='https://runwayml.com/integrations'>Plugins & Extensions</a>
+</div>
+<br>
+<br>
+
 ## Welcome!
 👋 We are excited to have you here. RunwayML aims to make machine learning (ML) techniques accessible to creative practitioners from a wide range of disciplines. If this is your first time visiting RunwayML, start with our [installation guide](getting-started/installation). 
 

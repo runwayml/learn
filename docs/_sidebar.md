@@ -30,7 +30,7 @@
     * [Projects Made with RunwayML](https://runwayml.com/madewith)
 
 * 👉 Help
-    * [Your Account](https://account.runwayml.com/)
+    * [Your Account](/your-account.md)
     * [Troubleshooting](https://support.runwayml.com/)
 
     <!-- * [🔗 Video Tutorials](https://www.youtube.com/runwayml) -->
