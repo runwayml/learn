@@ -1,12 +1,12 @@
-# Open Runway from the Browser
+# Open RunwayML from the Browser
 
 You can create simple web links that will open the RunwayML app to a specific model from a web browser. This is super helpful when creating tutorials, links in your workshops, embedding buttons on your website, and opening models directly from a GitHub repository.
 
 This tutorial will teach you how to create those links and embed them in your website.
 
-## Creating a link
+## Step 1: Create a Link
 
-If you [ported your own model](/how-to/import-models) or want to link to an existing model in Runway, all you need is the **username** of the publisher and the **model name**. To create a web link just follow the format:
+If you [ported your own model](/how-to/import-models) or want to link to an existing model in RunwayML, all you need is the **username** of the publisher and the **model name**. To create a web link just follow the format:
 
 ```
 https://open-app.runwayml.com/?model=genekogan/spade-landscapes
@@ -20,7 +20,7 @@ If you omit the `?model=<username>/<model_name>` format in the web link, the Run
 https://open-app.runwayml.com
 ```
 
-## Creating a badge in GitHub
+## Step 2: Create a Badge in GitHub
 
 [![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge.svg)](https://open-app.runwayml.com/?model=genekogan/spade-landscapes)
 

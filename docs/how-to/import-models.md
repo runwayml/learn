@@ -1,4 +1,4 @@
-# Import Models into RunwayML
+# Add Models to RunwayML
 
 ## Overview
 RunwayML models are platform-agnostic; models written in any framework/language can be used by RunwayML as long as the model can be made accessible via an HTTP server. This process, however, is easiest in Python where we provide an SDK for parsing the inputs to the model, serializing its outputs, and setting up the server environment.
@@ -29,7 +29,7 @@ In this tutorial, we will demonstrate how to port the [SqueezeNet](https://arxiv
 
 We recommend forking the [`runwayml/model-squeezenet`](https://github.com/runwayml/model-squeezenet) GitHub repository to your own GitHub user account so that you can follow along with the tutorial.
 
-### 1. Create a `runway_model.py` model server file
+### Step 1. Create a `runway_model.py` model server file
 
 SqueezeNet is a neural network architecture used for computer vision tasks, optimized for mobile/embedded devices. [PyTorch](https://github.com/pytorch/vision) includes an implementation of SqueezeNet pre-trained on ImageNet that can be used out-of-the-box for object recognition.
 
@@ -163,7 +163,7 @@ You can now interact with your model using RunwayML. For example, try dragging a
 
 Once you've confirmed your model works correctly locally, you can create a `runway.yml` config file before building the model remotely with RunwayML + GitHub.
 
-### 2. Write a `runway.yml` config file
+### Step 2. Write a `runway.yml` config file
 
 Next you need to write a config file that defines the environment, dependencies, and build steps required to build and run our model. This file is written in [YAML](https://learnxinyminutes.com/docs/yaml/), a human-readable superset of JSON. Below is an example of the `runway.yml` file for Squeezenet:
 
@@ -189,11 +189,11 @@ runway-python
   <b>NOTE:</b> The <code>runway-python</code> module must always be installed via the <code>build_steps</code>. Failing to install this required dependency via the <code>runway.yml</code> file will cause all model builds to fail.
 </p>
 
-### 3. Upload your code to a GitHub repository
+### Step 3. Upload your code to a GitHub repository
 
 Once your model has a `runway_model.py` and `runway.yml` config file it's time to upload your repository to GitHub. If you forked the `runway/model-squeezenet` repo at the beginning of this tutorial, you should already have a `git remote` that points to the forked repository on your GitHub user account. If you instead cloned the repo, or you started creating a model from scratch instead of using the `runwayml/model-squeezenet` repo, you should publish your code to GitHub as an open source repository now. For the remainder of this tutorial, we will assume the repository being ported is located at `https://github.com/YOUR_USERNAME/runway-model-tutorial`.
 
-### 4. Import the model
+### Step 4. Import the model
 
 Once you've pushed your model to GitHub, it's time to import your model in the RunwayML. Open RunwayML and select the _Create New Model From GitHub_ button on the lower left.
 
@@ -207,7 +207,7 @@ Back in RunwayML, select the repository that contains your RunwayML model; `runw
 
 ![Import Model #4](assets/images/how-to/github-link/github-03.png)
 
-### 5. Push a new commit to trigger a build
+### Step 5. Push a new commit to trigger a build
 
 Once you've imported your model to RunwayML, you must push a new commit to GitHub to trigger a model build. When you do so, RunwayML will clone the code from your repository and use its `runway.yml` file to build a Docker image from your model. Each new commit pushed to the `master` branch of GitHub repository linked to a model will trigger a new model version to be built by RunwayML. Select the "Versions" tab in your model page to view all builds, past and present.
 
@@ -223,7 +223,7 @@ You can view model logs during or after a build to debug your model build proces
 
 Once a model version has been successfully built you can add it to a workspace. You can also add any successful model versions to your personal workspace by hovering over the model version check mark in the "Versions" panel until it becomes a "+" icon, and then selecting it. This allows you to test new model versions before making them the default model version that is published to all RunwayML users.
 
-### 6. Add information to your model
+### Step 6. Add information to your model
 
 Once you've imported your model, you can add additional information to help others understand the model. As the publisher of the model, you can do this from the model page using the **Edit Info** button. We recommend adding these fields for your model:
 
@@ -237,7 +237,7 @@ Once you've imported your model, you can add additional information to help othe
 * **Performance Notes**: How can users expect the model to perform on GPU or CPU environments?
 * **Code, Paper, and More**: A list of links to resources related to your model, such as source code, arXiv papers, blog posts, or more.
 
-### 7. (Optional) Add files to your model
+### Step 7. (Optional) Add files to your model
 
 Some models may require files that are too large to include in the Github repository, such model checkpoints. RunwayML provides a space to upload large files to include with your model. 
 
@@ -266,7 +266,7 @@ Once you have uploaded your file, you can now use that file with your model in R
 
 ![Import Model #11](assets/images/how-to/github-link/file-in-options.png)
 
-### 8. (Optional) Make your model public!
+### Step 8. (Optional) Make your model public!
 
 Once you've successfully built and tested your model, and are satisfied with its results, you can make the model public, allowing anyone in the RunwayML community to use it and make projects with it! 
 
@@ -284,4 +284,8 @@ Developer documentation for the Python SDK to import models: [RunwayML Model SDK
 ## RunwayML Model Template
 A boilerplate model template that you can use as a starting point to import models: [RunwayML Model Template](https://github.com/runwayml/model-template)
 
+
+
+---
+Related Technical Support Resource: [Add Your Own Models](https://support.runwayml.com/en/articles/3037632-add-your-own-models)
 

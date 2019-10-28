@@ -1,22 +1,22 @@
 * 🚀 Getting Started
-    * [Introduction to Runway](/)
+    * [Introduction to RunwayML](/)
     * [Installation](getting-started/installation.md)
-    * [Overview](getting-started/overview.md)
-    * [Machine Learning Models](getting-started/models-101.md)
 
 * 🤔 How-To
-    * [Open RunwayML from Browser](how-to/web-link.md)
-    * [Run Models Locally](how-to/run-models-locally.md)
-    * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
-    * [Import Models](how-to/import-models.md)
-    * Train Models - coming soon!
+    * [Use Models](how-to/use-models.md)
+    * [Add Models](how-to/import-models.md)
+    * [Persist Models - coming soon!]()
+    * [Open Models from Links](how-to/web-link.md)
+    * [Video Tutorials](https://www.youtube.com/runwayml)
 
 * 🎨 Create with RunwayML
     * 🌱 **Model Possibilities**
-        * [Detect](create-with-runwayml/detect.md)
-        * [Transform](create-with-runwayml/transform.md)
-        * [Generate](create-with-runwayml/generate.md)
-        * [Chain Models Together](how-to/chain-models-together.md)
+        <!-- * [Overview]() -->
+        * [Detect Objects](create-with-runwayml/detect.md)
+        * [Transform Content](create-with-runwayml/transform.md)
+        * [Generate Media](create-with-runwayml/generate.md)
+        * [Chain Models](how-to/chain-models-together.md)
+        * [Train Models - coming soon!]() 
     * 🤝 **Networking**
         * [Overview](how-to/network.md)
         * [Examples](networking/examples.md)
@@ -24,14 +24,13 @@
         * [Photoshop](https://github.com/runwayml/RunwayML-for-Photoshop)
         * [Unity](https://github.com/runwayml/RunwayML-for-Unity)
 
-* 🌏 More
-    * [🔗 Main Website](https://runwayml.com/)
-    * [🔗 Support](https://support.runwayml.com/)
-    * [🔗 Your Account](https://account.runwayml.com/)
-    * [🔗 Join Our Slack](https://runwayml.com/joinslack)
-    * [🔗 Github](https://github.com/runwayml)
-    * [🔗 Video Tutorials](https://www.youtube.com/runwayml)
-    * [🔗 Runway on Linux](https://support.runwayml.com/en/articles/3116268-runway-on-linux)
-    * [🔗 Community Projects](https://runwayml.com/madewith)
-    * [Contribute to Runway](/?id=contribute-to-runway)
+* 🌏 Community
     * [Join Our Community](/?id=join-our-community)
+    * [Contribute](/?id=contribute)
+    * [Code of Conduct](/?id=code-of-conduct)
+    * [Projects Made with RunwayML](https://runwayml.com/madewith)
+
+* 👉 Help
+    * [Your Account](/your-account.md)
+    * [Troubleshooting](https://support.runwayml.com/)
+    

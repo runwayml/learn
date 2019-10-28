@@ -7,19 +7,19 @@ In this quick overview, we explain Runway's interface and how you can start usin
 </div>
 
 
-### Start Screen
+## Start Screen
 
 Every time you open Runway you will see the **Start Screen**. From here, you can choose to **Browse Models** or restore a **Workspace** from a previous session (read more on workspaces [below](#workspaces)).
 
 ![Runway Welcome View](assets/images/views/start-screen.png)
 
-### Model Directory
+## Model Directory
 
 Runway's Model Directory is a unique place to search, discover, publish, and install machine learning models. You can search for models with specific attributes, input types, creators, functionalities, or by date added.
 
 ![Models Directory](assets/images/views/model-directory.jpg)
 
-### Model View
+## Model View
 
 Every model in Runway has its own view once its selected from the Models Directory. Inside a model view you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
 
@@ -33,36 +33,36 @@ The Tabs Sections allows you to quickly switch between different elements of a m
 
 <!-- tabs:start -->
 
-#### **Overview**
+### **Overview**
 
 The Overview tabs provides you with a quick overview and description of the model. This is a place to specify and learn more about what the model does and how it works. If you are the owner of the model you are able to edit this information directly from the view.
 
-#### **Versions 🔒**
+### **Versions 🔒**
 
 When you add models to Runway via our [GitHub integration](/how-to/importing?id=connect-to-github) and push updates to your repository, Runway builds a new version of your model every time. In this version tab, you can see a list of all your versions, switch between different version of the model and select your default version.
 
 Take a look at the [Model SDK](https://sdk.runwayml.com/en/latest/) to learn more about model versioning.
 
-#### **Files 🔒 **
+### **Files 🔒 **
 
 You can associate checkpoints, files, and other related files relating a model, such as models weights. In order to activate the Files tab, you'll need to define a `category` type in the `runway_model.py`, ie: `category(choices=["day", "night"])`. [Check the category type in the SDK](https://sdk.runwayml.com/en/latest/data_types.html?highlight=choices#data-types) for more information.
 
-#### **Gallery**
+### **Gallery**
 
 A image gallery where you can associate images to your model.
 
 
-#### **Templates **
+### **Templates **
 
 A quick start template guide for models. (Coming soon!)
 
 
-#### **License**
+### **License**
 
 The model license.
 
 
-#### **Settings 🔒 **
+### **Settings 🔒 **
 
 Settings for the model.
 
@@ -72,33 +72,33 @@ Settings for the model.
 
 <!-- tabs:start -->
 
-#### **Publishers**
+### **Publishers**
 
 The user who added the model to Runway.
 
-#### **Attributions**
+### **Attributions**
 
 The designers, developers, researchers and institutions that created the model.
 
-#### **Characteristics**
+### **Characteristics**
 
 A resume table with information about the model.
 
-#### **Keywords**
+### **Keywords**
 
 Keywords describing the model.
 
-#### **Performance Notes**
+### **Performance Notes**
 
 How the model performs (inference time, etc).
 
-#### **Code, Paper and More**
+### **Code, Paper and More**
 
 Links to external sites.
 
 <!-- tabs:end -->
 
-### Workspaces
+## Workspaces
 
 Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/models-101.md). **Workspaces** provides a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
 
@@ -130,7 +130,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 5) **Run/Stop & Install**: This button will allow you to start and stop your models. Learn more about [running a model](tutorials/tutorial_t2i.md).
 
-### Settings
+## Settings
 
 The **Settings** view has your account details, remaining credits, locally installed models, and checkpoints as well and information about Runway.
 
