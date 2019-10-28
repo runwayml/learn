@@ -12,7 +12,7 @@ This guide will cover:
 <iframe width="560" height="515" src="https://www.youtube.com/embed/J4FQGYI9gpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Step 1: Find Models
+## Step 1: Find a Model
 Use RunwayML's **Model Directory** to search for and discover machine learning models with specific attributes, functionalities, or by the names of those who published the models on the platform. 
 
 <div id="video-container">
@@ -43,13 +43,13 @@ Models published on the RunwayML platform include the following information on t
 ![versions](assets/images/views/model.jpg)
 
 
-## Step 3: Add Models to Workspaces
+## Step 3: Add Model to Workspace
 A **Workspace**, pictured in the left sidebar below, is a place to collect and organize models. By adding models to workspaces and grouping them together, perhaps by project or theme, you can experiment and create in ways logical to you.
 
 ![Input/Output View](assets/images/views/io.jpg)
 
 
-## Step 4: Set Inputs
+## Step 4: Set Input
 When a model is running, it accepts input and produces an output. Different types of models accept different types of input. The Input section allows you to change the type of input used for a specific model. Supported inputs include:
 
 | Input     | Supported Types | Description  |
@@ -58,7 +58,7 @@ When a model is running, it accepts input and produces an output. Different type
 | Text       | Text            | Free-from text input                              |
 | File       | All Types       | Use a supported file type indicated i the app for that model                        |
 
-## Step 5: Set Outputs
+## Step 5: Set Output
 The Output section allows you to change the type of input used for a specific model. Different types of models produce different types of outpout. Supported outputs include:
 
 | Output     | Description
@@ -77,7 +77,7 @@ Related Technical Support Resource: [Output Image Dimensions](https://support.ru
 Each model has a set of options, located in the right sidebar, that you can modify. These options will vary depending on the model. Sometimes options must be set *before* selecting the type of model input.  
 
 
-## Step 7: Run Models
+## Step 7: Run a Model
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/db1USOwbRPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -94,6 +94,7 @@ Related Technical Support Resources:
 * [Changing Where Local Models are Downloaded](https://support.runwayml.com/en/articles/3203817-changing-where-local-models-are-downloaded)
 * [Deleting Local Models](https://support.runwayml.com/en/articles/3077861-deleting-local-models)
 * [Docker Errors. Having trouble with Docker? Here are few tips.](https://support.runwayml.com/en/articles/3069033-docker-errors)
+* [Running Docker without sudo](https://support.runwayml.com/en/articles/3359183-running-docker-without-sudo)
 
 
 
@@ -101,8 +102,9 @@ Related Technical Support Resources:
 If you are running RunwayML on Linux, follow this guide to [use your own GPU hardware](how-to/local-gpu). 
 
 Related Technical Support Resources: 
-* [Local GPU](https://support.runwayml.com/en/articles/3140813-local-gpu)
+* [Local GPU (Linux Only)](https://support.runwayml.com/en/articles/3140813-local-gpu)
 * [Deleting Local Models](https://support.runwayml.com/en/articles/3077861-deleting-local-models)
+* [Docker Errors. Having trouble with Docker? Here are few tips.](https://support.runwayml.com/en/articles/3069033-docker-errors)
 * [Running Docker without sudo](https://support.runwayml.com/en/articles/3359183-running-docker-without-sudo)
 
 
@@ -116,7 +118,7 @@ Related Technical Support Resources:
 * [Redeeming Coupon Codes](https://support.runwayml.com/en/articles/3047429-redeeming-coupon-codes)
 
 
-## Step 8: Stop Models
+## Step 8: Stop a Model
 **Manually Stop Models:** Click the **Stop button** in the bottom right corner of the app. 
 
 **Automatic Stop:** Please note that we stop all running models after 10 minutes of inactivity. 
