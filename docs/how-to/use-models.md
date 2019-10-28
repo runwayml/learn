@@ -90,7 +90,7 @@ Depending on the model, there are several ways to run models in RunwayML:
 ### Run Models with Local CPU
 To run models locally, you need to download and install them individually. Some **local** models require you to install Docker. Docker CE is a free and open-source software. Follow the steps in this guide to [Install Docker](how-to/run-models-locally.md) to run models locally.
 
-?> __Note:__ You do not need Docker to run models remotely! 
+?> You do not need Docker to run models remotely! 
 
 Related Technical Support Resources:
 * [Changing Where Local Models are Downloaded](https://support.runwayml.com/en/articles/3203817-changing-where-local-models-are-downloaded)
