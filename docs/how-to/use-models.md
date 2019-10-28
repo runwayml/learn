@@ -1,20 +1,18 @@
 # Use Models in RunwayML
 
 ## Overview
-RunwayML is a platform for publishing and creating with open source [machine learning models](/?id=what-is-machine-learning). 
-
-There are many types of machine learning models. For creative purposes, we can start to categorize them into three broad types: models that identify objects or people, models that transform content, and models that generate new media from the training data. 
+RunwayML is a platform for publishing and creating with open source [machine learning models](/?id=what-is-machine-learning). There are many types of machine learning models. For creative purposes, we can start to categorize them into three broad types: models that identify objects and people, models that transform content, and models that generate new media from the training data. 
 
 This guide will cover:
-* how to find models to use in RunwayML 
-* how to find their published attributes
-* how to set them up, run them, and stop them 
+* How to find models in RunwayML 
+* How to find their published attributes
+* How to set them up, run them, and stop them 
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/J4FQGYI9gpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Find Models
+## Step 1: Find Models
 Use RunwayML's **Model Directory** to search for and discover machine learning models with specific attributes, functionalities, or by the names of those who published the models on the platform. 
 
 <div id="video-container">
@@ -22,8 +20,8 @@ Use RunwayML's **Model Directory** to search for and discover machine learning m
 </div>
 
 
-## Model Information
-Models published on the RunwayML platform include the following information on their overview pages. If you [add a model](how-to/import-models) to RunwayML, you have access to sections that are private ( 🔒) and not public to other users.
+## Step 2: Model Information
+Models published on the RunwayML platform include the following information on their overview pages, accessible by clicking **Learn More** in the Model Directory. If you [add a model](how-to/import-models) to RunwayML, you have access to sections that are private ( 🔒) and not public to other users.
 
 | Attribute| Description | 
 | :--- | :--- | 
@@ -45,101 +43,53 @@ Models published on the RunwayML platform include the following information on t
 ![versions](assets/images/views/model.jpg)
 
 
-## Workspaces
+## Step 3: Add Models to Workspaces
 A **Workspace**, pictured in the left sidebar below, is a place to collect and organize models. By adding models to workspaces and grouping them together, perhaps by project or theme, you can experiment and create in ways logical to you.
 
 ![Input/Output View](assets/images/views/io.jpg)
 
 
-## Model Inputs
-The Input section allows you to change the type of input used for a specific model. Supported inputs include:
+## Step 4: Set Inputs
+When a model is running, it accepts input and produces an output. Different types of models accept different types of input. The Input section allows you to change the type of input used for a specific model. Supported inputs include:
 
 | Input     | Supported Types | Description  |
 |------------|-----------------| ------------------|
-| Camera     | image           | Use frames from the webcam stream as input        |
-| Text       | text            | Free-from text input                              |
-| File       | all types       | Use a supported file type                         |
+| Camera     | Image           | Use frames from the webcam stream (video) as input        |
+| Text       | Text            | Free-from text input                              |
+| File       | All Types       | Use a supported file type indicated i the app for that model                        |
 
-## Model Outputs
-The Output section allows you to change the type of input used for a specific model. 
-
-Supported outputs include:
+## Step 5: Set Outputs
+The Output section allows you to change the type of input used for a specific model. Different types of models produce different types of outpout. Supported outputs include:
 
 | Output     | Description
 |------------|---------------|
-| Local      | Preview the model output inside Runway                              |
-| File       | Stream the model output into a file using supported formats         |
+| Local      | Preview the output inside of the app                              |
+| File       | Stream the output into a file using supported formats indicated in the app for that model        |
 
-?> Every model in RunwayML is licensed for a specific type of use.  Some of the models' outputs may be restricted to non-commercial purposes. Be sure to check the model's license on its overview page.
+?> __Check the Model's License:__ Every model in RunwayML is licensed for a specific type of use.  Some of the models' outputs may be restricted to non-commercial purposes. Be sure to check the model's license on its overview page.
 
-Currently, we don't offer control over the size of the images output from models. This is because each model imposes its own restrictions on image sizes. These restrictions are largely due to the current state-of-the-art algorithms that process images using machine learning. (But you can use the ESRGAN image-upscaling model to synthetically upscale the output by 4X.)
+?> __Image Output Size:__ Currently, we don't offer control over the size of the images output from models. This is because each model imposes its own restrictions on image sizes. These restrictions are largely due to the current state-of-the-art algorithms that process images using machine learning. (But you can use the ESRGAN model to upscale images by 4X.)
 
 Related Technical Support Resource: [Output Image Dimensions](https://support.runwayml.com/en/articles/3069430-output-image-dimensions)
 
 
-## Model Options
-Each model has a set of options that you can change and update.
+## Step 6: Adjust Options
+Each model has a set of options, located in the right sidebar, that you can modify. These options will vary depending on the model. Sometimes options must be set *before* selecting the type of model input.  
 
 
-## Run Models
-Depending on the model, there are several ways to run models in RunwayML: 
-1. [Run Models with Local CPU](how-to/use-models?id=run-models-with-local-cpu)
-1. [Run Models with Local GPU (Linux Only)](how-to/use-models?id=run-models-with-local-gpu-linux-only)
-1. [Run Models with Remote GPU](/how-to/use-models?id=run-models-with-remote-gpu) in RunwayML's cloud infrastructure
-
+## Step 7: Run Models
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/db1USOwbRPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+Depending on the model, there are several ways to run models in RunwayML:
+
 ### Run Models with Local CPU
-To run models locally, you need to download and install them individually. 
+To run models locally, you need to download and install them individually. Some **local** models require you to install Docker. Docker CE is a free and open-source software. Follow the steps in this guide to [Install Docker](how-to/run-models-locally.md) to run models locally.
 
-Some **local** models require you to install [Docker](https://www.docker.com/). Docker CE is a free and open-source software. You **do not** need Docker to run models remotely! If you need to install Docker, here are the steps:
+?> __Note:__ You do not need Docker to run models remotely! 
 
-#### **Step 1: Download and install Docker from the following links:** 
-* [Mac](https://download.docker.com/mac/stable/Docker.dmg)
-* [Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
-* [Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-
-?> Docker for Windows requires Microsoft Hyper-V, which is supported only in the Pro, Enterprise, or Education editions of Windows. If you don't have a Pro, Enterprise ,or Education Windows edition then you will not be able to install Docker, and you can only run some RunwayML models. 
-
-#### **Step 2: Once Docker is installed and running, you should see the following:**
-
-**On Mac**: a Docker icon in the top status bar. This indicates that Docker is running and accessible from Runway. Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac) installation guide on Mac if you are having any issues.
-
-<div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-mac.png" alt="Docker Icon mac" >
-  <p>A whale in the top status bar indicates that Docker is running.</p>
-</div>
-
-**On Windows**: a Docker icon in the bottom notifications area. This indicates that Docker is running and accessible from RunwayML. If you encounter any issues with Docker on Windows, please check that your Windows Firewall is not affecting Docker. Also, be sure that Windows has at least one Share Drive with Docker. Please refer to [this official Docker](https://docs.docker.com/docker-for-windows/) installation guide on Windows if you continue to have any issues.
-
-<div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-windows.png" alt="Docker Icon mac" >
-  <p>Docker icon in the Notifications area or System tray. </p>
-</div>
-
-**On Linux**: verify if docker is installed and running with the following command: `docker --help`
-
-#### **Step 3: RunwayML will notify you if Docker is running or not:**
- In the bottom status bar inside RunwayML, look for a whale icon and a message that that Docker is available:
-
-<div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-available-Runway.png" alt="Docker Icon mac" >
-  <p>A whale icon in the bottom status bar inside RunwayML.</p>
-</div>
-
-If Docker is not installed, unavailable, or not running you will see the following message:
-
-<div class="Img-Small">
-  <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-unavailable-Runway.png" alt="Docker Icon mac" >
-  <p>If Docker is not available, RunwayML will show a "Docker Unavailable" message in the bottom status bar.</p>
-</div>
-
-?> **Increase Docker's Memory Limit:** Several models require a significant amount of memory in order to run properly. By default, Docker allocates a maximum of 2 GB of memory to run models. Some RunwayML models exceed that, which may lead to errors. Without enough memory models, may misbehave or fail silently without a helpful error message. To prevent that, you need to increase Docker's memory limit. Follow the steps in this related technical support article: [Docker Errors. Having trouble with Docker? Here are few tips.](https://support.runwayml.com/en/articles/3069033-docker-errors)
-
----
 Related Technical Support Resources:
 * [Changing Where Local Models are Downloaded](https://support.runwayml.com/en/articles/3203817-changing-where-local-models-are-downloaded)
 * [Deleting Local Models](https://support.runwayml.com/en/articles/3077861-deleting-local-models)
@@ -148,9 +98,8 @@ Related Technical Support Resources:
 
 
 ### Run Models with Local GPU (Linux Only)
+If you are running RunwayML on Linux, follow this guide to [use your own GPU hardware](how-to/local-gpu). 
 
-
----
 Related Technical Support Resources: 
 * [Local GPU](https://support.runwayml.com/en/articles/3140813-local-gpu)
 * [Deleting Local Models](https://support.runwayml.com/en/articles/3077861-deleting-local-models)
@@ -158,9 +107,8 @@ Related Technical Support Resources:
 
 
 ### Run Models with Remote GPU
-Running a model with remote GPU [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but the model runs much faster than when using your computer's local CPU.
+Running a model with Remote GPU [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but the model runs much faster than when using your computer's local CPU. Some models are only available for Remote GPU and not available to download locally.
 
----
 Related Technical Support Resources: 
 * [Remote GPU](https://support.runwayml.com/en/articles/3059347-remote-gpu)
 * [How Much Does RunwayML Cost?](https://support.runwayml.com/en/articles/3000086-how-much-does-runwayml-cost)
@@ -168,7 +116,13 @@ Related Technical Support Resources:
 * [Redeeming Coupon Codes](https://support.runwayml.com/en/articles/3047429-redeeming-coupon-codes)
 
 
-## Stop Models
+## Step 8: Stop Models
+**Manually Stop Models:** Click the **Stop button** in the bottom right corner of the app. 
 
----
-Related Technical Support Resources: [Stopping Your Model](https://support.runwayml.com/en/articles/3037580-stopping-your-models)
+**Automatic Stop:** Please note that we stop all running models after 10 minutes of inactivity. 
+
+**Stop All Running Models in Your Settings:** If you're not able to stop a model with the Stop button, you can use the **Stop All Running Models** in your Settings view. 
+
+**Quitting The App While Models Are Running:** If you quit RunwayML while a model is running, you will be prompted to confirm your action. You can then choose to continue running your models or quit the app and stop all running models. 
+
+Related Technical Support Resource: [Stopping Your Model](https://support.runwayml.com/en/articles/3037580-stopping-your-models)

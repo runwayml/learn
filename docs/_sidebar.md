@@ -4,15 +4,13 @@
 
 * 🤔 How-To
     * [Use Models](how-to/use-models.md)
-        <!-- * [Run Models Locally](how-to/run-models-locally.md) -->
-        * [Use Your Own GPU (Linux Only)](how-to/local-gpu.md)
     * [Add Models](how-to/import-models.md)
     * [Persist Models - coming soon!]()
     * [Open Models from Links](how-to/web-link.md)
 
 * 🎨 Create with RunwayML
     * 🌱 **Model Possibilities**
-        * [Overview]()
+        <!-- * [Overview]() -->
         * [Detect Objects](create-with-runwayml/detect.md)
         * [Transform Content](create-with-runwayml/transform.md)
         * [Generate Media](create-with-runwayml/generate.md)
