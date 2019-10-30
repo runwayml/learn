@@ -52,14 +52,19 @@ This page provides tutorials and code examples to help you get started with your
 
 
 ## openFrameworks
+**HTTP**
+
+| Model | Description | Type | Source
+| :--- | :---| :--- | :--- |
+| [Multiple Models](https://github.com/genekogan/ofxRunway) | ofxRunway Addon  | Addon  | [Gene Kogan](https://genekogan.com) 🎉 | 
+
+
 **OSC**
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
 | im2txt | [Generate Text from Images](https://github.com/runwayml/openFrameworks/tree/master/im2txt) | Example | [George Profenza](http://sensori.al/) 🎉 | 
  
-
-**ofxRunway Addon**: [Multiple Models](https://github.com/genekogan/ofxRunway) from [Gene Kogan]() 🎉
 
 [RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks)<br>
 [Learn openFrameworks](https://openframeworks.cc)
@@ -113,7 +118,7 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| [Multiple HTTP Examples](https://github.com/runwayml/processing-library/tree/master/examples/HTTP) | [RunwayML Library for Processing](https://github.com/runwayml/processing-library) | Library  | [George Profenza](http://sensori.al/) 🎉 |
+| [Multiple HTTP Examples](https://github.com/runwayml/processing-library/tree/master/examples/HTTP) | [RunwayML Library for Processing](https://github.com/runwayml/processing-library) | Examples  | [George Profenza](http://sensori.al/) 🎉 |
  
 
 **OSC**
@@ -121,7 +126,7 @@ This page provides tutorials and code examples to help you get started with your
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
 | GPT-2 | [Generate Text](tutorials/tutorial_processing_gpt2.md) | Tutorial | RunwayML | 
-| [Multiple OSC Examples](https://github.com/runwayml/processing-library/tree/master/examples/OSC) | [RunwayML Library for Processing](https://github.com/runwayml/processing-library) | Library | [George Profenza](http://sensori.al/) 🎉 | 
+| [Multiple OSC Examples](https://github.com/runwayml/processing-library/tree/master/examples/OSC) | [RunwayML Library for Processing](https://github.com/runwayml/processing-library) | Examples | [George Profenza](http://sensori.al/) 🎉 | 
 | PoseNet | [Skeleton Tracking](tutorials/tutorial_posenet.md) | Tutorials | RunwayML and [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉 | 
 
 
