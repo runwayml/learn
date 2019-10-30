@@ -88,7 +88,7 @@ This page provides tutorials and code examples to help you get started with your
 | AttnGAN | [Generate Images from Text](tutorials/tutorial_p5_attngan.md) | Tutorial |[Matthew Kenney](http://matthewkenney.site/) 🎉  |
 | CycleGAN | [Image Translation](tutorials/tutorial_p5_cyclegan.md) | Tutorial | [JP Yepez](https://www.jpyepez.com) 🎉 |
 | GPT-2 | [Generate Text](https://github.com/runwayml/p5js/tree/master/GPT2) | Example | [Matthew Kenney](http://matthewkenney.site/) 🎉 |
-| im2text | [Generate Text from Images](https://github.com/runwayml/p5js/tree/master/im2txt) | Tutorial | [Yining Shi](https://1023.io) 🎉 |
+| im2text | [Generate Text from Images](https://github.com/runwayml/p5js/tree/master/im2txt) | Example | [Yining Shi](https://1023.io) 🎉 |
 | PhotoSketch | [Create Contour Drawings I with PhotoSketch](tutorials/tutorial_photosketch.md) | Tutorial  |  [JP Yepez](https://www.jpyepez.com) 🎉 |
 | StyleGAN | [Create Animated Image Transitions](https://heartbeat.fritz.ai/animated-stylegan-image-transitions-with-runwayml-57a2e20db80f) |  Tutorial | [Mike Heavers](https://mikeheavers.com/) 🎉  |
 | StyleGAN | [Generate AI Rainbows](tutorials/tutorial_stylegan.md) | Tutorial  |  [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉 |
