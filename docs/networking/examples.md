@@ -146,7 +146,7 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| ESRGAN | [Upscale Images and Enhance Textures](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures) | Example | [JP Yepez](https://www.jpyepez.com) | 
+| ESRGAN | [Upscale Images and Enhance Textures](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures) | Example | [JP Yepez](https://www.jpyepez.com) 🎉| 
 | MobileNet | [Image Classification](https://github.com/runwayml/touchDesigner/tree/master/MobileNet/TDClassifier) | Example | [JP Yepez](https://www.jpyepez.com) 🎉 | 
 
 
