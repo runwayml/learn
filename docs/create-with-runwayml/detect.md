@@ -12,7 +12,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples|
 | :--- | :---| :--- |
 | [COCO-SD](https://open-app.runwayml.com/?model=runway/coco-ssd) | Detect bounding boxes from 90 different object categories ([Tutorial](tutorials/tutorial_cocossd.md)) | [Processing](networking/examples?id=processing) |
-| [DenseCAP](https://open-app.runwayml.com/?model=genekogan/densecap) | Generate sentence descriptions of regions in an image | [openFrameworks Addon](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing) |
+| [DenseCAP](https://open-app.runwayml.com/?model=genekogan/densecap) | Generate sentence descriptions of regions in an image | [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing) |
 | [Facial-Recognition](https://open-app.runwayml.com/?model=runway/face-recognition) | Detect faces in images | [Processing](networking/examples?id=processing) |
 | [Human-Segmentation](https://open-app.runwayml.com/?model=runway/Human-Segmentation) | Segment humans from images and videos | |
 | [MaskRCNN](https://open-app.runwayml.com/?model=runway/MaskRCNN) | Cut out objects from images | [Processing](networking/examples?id=processing) |
