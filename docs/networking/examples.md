@@ -86,7 +86,7 @@ This page provides tutorials and code examples to help you get started with your
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
 | AttnGAN | [Generate Images from Text](tutorials/tutorial_p5_attngan.md) | tutorial |[Matthew Kenney](http://matthewkenney.site/) 🎉  |
-| CycleGAN | [Image Translation](tutorials/tutorial_p5_cyclegan.md) | tutorial | JP Yepez](https://www.jpyepez.com) 🎉 |
+| CycleGAN | [Image Translation](tutorials/tutorial_p5_cyclegan.md) | tutorial | [JP Yepez](https://www.jpyepez.com) 🎉 |
 | GPT-2 | [Generate Text](https://github.com/runwayml/p5js/tree/master/GPT2) | example | [Matthew Kenney](http://matthewkenney.site/) 🎉 |
 | im2text | [Generate Text from Images](https://github.com/runwayml/p5js/tree/master/im2txt) | tutorial | [Yining Shi](https://1023.io) 🎉 |
 | PhotoSketch | [Create Contour Drawings I with PhotoSketch](tutorials/tutorial_photosketch.md) | tutorial  |  [JP Yepez](https://www.jpyepez.com) 🎉 |
