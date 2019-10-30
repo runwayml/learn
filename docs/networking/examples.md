@@ -14,7 +14,7 @@ This page provides tutorials and code examples to help you get started with your
 | :--- | :---| :--- | :--- |
 | AttnGAN | [Send Text to Create Images from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_text_attnGan) | Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 | 
 | BigGAN | [Send Vectors from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_vector_BigGan) |Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 | 
-| AE-Lagging-Encoder-Poetry |[Receive Data to a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/receive_text_vae_lagging_encoder_poetry)  | Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 | 
+| VAE-Lagging-Encoder-Poetry |[Receive Data to a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/receive_text_vae_lagging_encoder_poetry)  | Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 | 
 
 [RunwayML + Arduino Code Repository](https://github.com/runwayml/arduino)<br>
 [Learn Arduino](https://www.arduino.cc/)
