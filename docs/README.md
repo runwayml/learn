@@ -36,7 +36,7 @@ Reality is complex, and a model will never completely mimic real phenomena. As y
 
 Interested in adding your own models to RunwayML? Please visit our [model importing guide](how-to/import-models).
 
-## Public Beta Software
+## Beta Software
 RunwayML is public beta software, which means that we are actively developing the application. Expect features and documentation to change often. 
 
 👂**We want to hear from you!** We aim to build inclusive and accessible tools, and we need to hear from everyone. While we are actively developing RunwayML, we think is important to listen and understand from our users as often as we can. Please leave us a note, feedback, or suggestion via [Slack](https://runwayml.com/joinslack) or email us at [feedback@runwayml.com](mailto:feedback@runwayml.com) 
