@@ -15,6 +15,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Arbitrary-Style-Transfer](https://open-app.runwayml.com/?model=runway/Arbitrary-Image-Stylization) | Real-time style transfer |[Processing](networking/examples?id=processing)  |
 | [Fast Photo Style](https://open-app.runwayml.com/?model=reiinakano/FastPhotoStyle) | A Closed-form Solution to Photorealistic Image Stylization |[Processing](networking/examples?id=processing) |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks Addon](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
 | [Style2paints](https://open-app.runwayml.com/?model=zaid/style2paints) | Automatic Sketch Colorization |[Processing](networking/examples?id=processing) |
 
 
@@ -68,6 +69,7 @@ Semantic Image Synthesis
 ## Upscale Images
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
+| [Fast-SRGAN](https://open-app.runwayml.com/?model=anastasis/Fast-SRGAN) | Real-time Super Resolution | |     
 | [ESRGAN](https://open-app.runwayml.com/?model=runway/ESRGAN) | 4x ([Tutorial](tutorials/tutorial_esrgan.md))| [openFrameworks Addon](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing), [TouchDesigner](networking/examples?id=touchdesigner) |
 | [Image-Super-Resolution](https://open-app.runwayml.com/?model=runway/Image-Super-Resolution) | 2x |[Processing](networking/examples?id=processing) |
 
