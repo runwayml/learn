@@ -14,7 +14,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [AdaIN-Style-Transfer](https://open-app.runwayml.com/?model=reiinakano/AdaIN-Style-Transfer) | Real-time style transfer | [Processing](networking/examples?id=processing)| 
 | [Arbitrary-Style-Transfer](https://open-app.runwayml.com/?model=runway/Arbitrary-Image-Stylization) | Real-time style transfer |[Processing](networking/examples?id=processing)  |
 | [Fast Photo Style](https://open-app.runwayml.com/?model=reiinakano/FastPhotoStyle) | A Closed-form Solution to Photorealistic Image Stylization |[Processing](networking/examples?id=processing) |
-| [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks Addon](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
 | [Style2paints](https://open-app.runwayml.com/?model=zaid/style2paints) | Automatic Sketch Colorization |[Processing](networking/examples?id=processing) |
 
@@ -23,7 +23,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [CycleGAN](https://open-app.runwayml.com/?model=reiinakano/CycleGAN) | Image-to-image translation without labeled data | [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing)|
-| [Pix2Pix](https://open-app.runwayml.com/?model=reiinakano/Pix2Pix) | Image-to-image translation with labeled data | [openFrameworks Addon](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing)|
+| [Pix2Pix](https://open-app.runwayml.com/?model=reiinakano/Pix2Pix) | Image-to-image translation with labeled data | [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing)|
 | [Pix2PixHD-Facemarks2Portrait](https://open-app.runwayml.com/?model=yining/pix2pixHD-Facemarks2Portrait) | Generate a portrait image from a face landmarks image ([Interactive Example](https://experiments.runwayml.com/synthetic_postcard/)) |[Processing](networking/examples?id=processing) |
 | [UGATIT](https://open-app.runwayml.com/?model=runway/UGATIT) | Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | [Processing](networking/examples?id=processing) |
 
@@ -56,7 +56,7 @@ Semantic Image Synthesis
 | [Deep-Portrait-Image-Relighting](https://open-app.runwayml.com/?model=sree_harsha/Deep-Portrait-Image-Relighting) | Generate relighted image by using a single portrait image and a target lighting | |
 | [Edge-connect](https://open-app.runwayml.com/?model=zaid/edge-connect) | Generative Image Inpainting with Adversarial Edge Learning | [Processing](networking/examples?id=processing) |
 | [Image-Inpainting-GMCMM](https://open-app.runwayml.com/?model=anastasis/Image-Inpainting-GMCNN) | Image Inpainting via Generative Multi-column Convolutional Neural Networks | [Processing](networking/examples?id=processing)|
-| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings | [openFrameworks Addon](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 
 
 ## Colorize B/W Media
@@ -70,7 +70,7 @@ Semantic Image Synthesis
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [Fast-SRGAN](https://open-app.runwayml.com/?model=anastasis/Fast-SRGAN) | Real-time Super Resolution | |     
-| [ESRGAN](https://open-app.runwayml.com/?model=runway/ESRGAN) | 4x ([Tutorial](tutorials/tutorial_esrgan.md))| [openFrameworks Addon](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing), [TouchDesigner](networking/examples?id=touchdesigner) |
+| [ESRGAN](https://open-app.runwayml.com/?model=runway/ESRGAN) | 4x ([Tutorial](tutorials/tutorial_esrgan.md))| [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing), [TouchDesigner](networking/examples?id=touchdesigner) |
 | [Image-Super-Resolution](https://open-app.runwayml.com/?model=runway/Image-Super-Resolution) | 2x |[Processing](networking/examples?id=processing) |
 
 ## 2D Masking
