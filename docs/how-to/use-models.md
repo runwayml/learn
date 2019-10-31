@@ -8,7 +8,7 @@ This guide will cover:
 * How to find their published attributes
 * How to set them up, run them, and stop them inside of the app -- no coding required!
 
-You can also interact with models through [network protocols](how-to/network) from a variety of [creative programming environments](networking/examples). 
+You can also interact with models through [network protocols](how-to/network) from a variety of [creative programming and design environments](networking/examples). 
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/J4FQGYI9gpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
