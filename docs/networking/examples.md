@@ -114,6 +114,9 @@ This page provides tutorials and code examples to help you get started with your
 
 
 ## Processing
+
+📽 [Watch How to Install and Use the RunwayML Library for Processing](https://www.youtube.com/watch?v=zGdOKaLOjck&list=PLj598ZXODDO_oWYAiO5c0Ac05IyrPUG8t&index=6&t=0s)
+
 **HTTP**
 
 | Model | Description | Type | Source
