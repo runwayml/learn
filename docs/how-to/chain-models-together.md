@@ -1,4 +1,4 @@
-# How-To: Chain Models Together
+# Chain Models Together
 
 
 🎉 Community Contribution by [Allison Parrish](https://www.decontextualize.com), Something in Residence 2019 <br>

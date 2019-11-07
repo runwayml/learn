@@ -5,12 +5,12 @@
 * 🤔 How-To
     * [Use Models](how-to/use-models.md)
     * [Add Models](how-to/import-models.md)
-    * [Persist Models - coming soon!]()
+    <!-- * [Persist Models - coming soon!]() -->
     * [Open Models from Links](how-to/web-link.md)
     * [Video Tutorials](https://www.youtube.com/runwayml)
 
-* 🎨 Create with RunwayML
-    * 🌱 **Model Possibilities**
+* 🎨 Create with Models
+    * 🌱 **Possibilities**
         <!-- * [Overview]() -->
         * [Detect Objects](create-with-runwayml/detect.md)
         * [Transform Content](create-with-runwayml/transform.md)
