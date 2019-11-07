@@ -1,4 +1,4 @@
-# Open RunwayML from the Browser
+# Link to Models in RunwayML
 
 You can create simple web links that will open the RunwayML app to a specific model from a web browser. This is super helpful when creating tutorials, links in your workshops, embedding buttons on your website, and opening models directly from a GitHub repository.
 

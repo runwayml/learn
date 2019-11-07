@@ -1,15 +1,16 @@
 * 🚀 Getting Started
-    * [Introduction to RunwayML](/)
+    * [Introduction](/)
     * [Installation](getting-started/installation.md)
 
 * 🤔 How-To
     * [Use Models](how-to/use-models.md)
+    * [Run Models](how-to/run-models.md)
     * [Add Models](how-to/import-models.md)
     <!-- * [Persist Models - coming soon!]() -->
-    * [Open Models from Links](how-to/web-link.md)
+    * [Link to Models](how-to/web-link.md)
     * [Video Tutorials](https://www.youtube.com/runwayml)
 
-* 🎨 Create with Models
+* 🎨 Create
     * 🌱 **Possibilities**
         <!-- * [Overview]() -->
         * [Detect Objects](create-with-runwayml/detect.md)
@@ -17,7 +18,7 @@
         * [Generate Media](create-with-runwayml/generate.md)
         * [Chain Models](how-to/chain-models-together.md)
         * [Train Models - coming soon!]() 
-    * 🤝 **Networking**
+    * 🤝 **Connect to Models**
         * [Overview](how-to/network.md)
         * [Examples](networking/examples.md)
     * 🔌 **Plugins**
