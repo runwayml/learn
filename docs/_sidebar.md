@@ -11,7 +11,7 @@
     * [Video Tutorials](https://www.youtube.com/runwayml)
 
 * 🎨 Create
-    * 🌱 **Possibilities**
+    * 🌱 **Model Possibilities**
         <!-- * [Overview]() -->
         * [Detect Objects](create-with-runwayml/detect.md)
         * [Transform Content](create-with-runwayml/transform.md)

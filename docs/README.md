@@ -7,7 +7,7 @@
 <div class="Main__Buttons">
     <a class="Main__Button" href='https://runwayml.com/download' target="_blank">Download RunwayML</a>
     |
-    <a class="Main__Button" href='https://runwayml.com/madewith' target="_blank">Community Projects</a>
+    <a class="Main__Button" href='https://runwayml.com/madewith' target="_blank">Projects Made with RunwayML</a>
     |
     <a class="Main__Button"  href='https://runwayml.com/integrations'>Plugins & Extensions</a>
 </div>
@@ -19,7 +19,7 @@
 
 After installing, learn how to browse and run machine learning models inside of RunwayML with our [introductory guide to using models](how-to/use-models) -- no coding required. 
 
-RunwayML also connects to a variety of [creative programming environments](networking/examples) and integrates with software applications as a [plugin](https://runwayml.com/integrations).
+RunwayML also connects to a variety of [creative programming and design environments](networking/examples) and integrates with software applications as a [plugin](https://runwayml.com/integrations).
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/7g5Dn60VFb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
