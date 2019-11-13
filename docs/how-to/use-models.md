@@ -85,7 +85,7 @@ Each model has a set of options, located in the right sidebar, that you can modi
 <iframe width="560" height="515" src="https://www.youtube.com/embed/db1USOwbRPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-The easiest way to run a model is with a fast GPU-enabled computer in RunwayML's cloud infrastructure, or **Remote GPU**. This [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but models run much faster than when using your computer's local CPU. Some models are only available for Remote GPU and not available to download locally.
+The easiest way to run a model is with a fast GPU-enabled computer in RunwayML's cloud infrastructure, or **Remote GPU**. This [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but models run much faster than when using your computer's local CPU. Many models are only available for Remote GPU and not available to download locally.
 
 Related Technical Support Resources: 
 * [Remote GPU](https://support.runwayml.com/en/articles/3059347-remote-gpu)
