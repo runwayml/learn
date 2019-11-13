@@ -1,7 +1,6 @@
 # Transform Content
 
-You can use models directly of inside the RunwayML app or interact with models through [network protocols](https://learn.runwayml.com/#/how-to/network). The pre-trained models in this category provide options to transform your original content in various ways. Though some models below are described with *generative* qualities, all models here modify input to produce a transformed output. Visit [RunwayML Experiments](https://runwayml.com/madewith/) for ideas about how to use these models.
-
+You can use models directly of inside the RunwayML app or interact with models through [network protocols](https://learn.runwayml.com/#/how-to/network). The pre-trained models in this category provide options to transform your original content in various ways. Though some models are listed with *generative* attributes, all models here modify input to produce a transformed output. Visit [Projects Made with RunwayML](https://runwayml.com/madewith/) for ideas about how to use these models.
 
 ?> Models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome!
 
