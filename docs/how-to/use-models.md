@@ -85,12 +85,19 @@ Each model has a set of options, located in the right sidebar, that you can modi
 <iframe width="560" height="515" src="https://www.youtube.com/embed/db1USOwbRPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Depending on the model, there are several ways to run models in RunwayML:
-* **Run Models with Local CPU.** To run models locally, you need to download and install them individually. Some models require you to install Docker, a free and open-source software. If you need to install Docker, [follow these steps](http://localhost:4000/#/how-to/run-models?id=overview).
-* **Run Models with Local GPU (Linux Only).** If you are running RunwayML on Linux, follow this guide to [use your own GPU hardware](http://localhost:4000/#/how-to/run-models?id=local-gpu-linux-only). 
-* **Run Models with Remote GPU.** Running a model with Remote GPU [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but the model runs much faster than when using your computer's local CPU. Some models are only available for Remote GPU and not available to download locally.
+The easiest way to run a model is with a fast GPU-enabled computer in RunwayML's cloud infrastructure, or **Remote GPU**. This [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but models run much faster than when using your computer's local CPU. Some models are only available for Remote GPU and not available to download locally.
 
- Additional requirements for each option are provided in [this guide](http://localhost:4000/#/how-to/run-models).
+Related Technical Support Resources: 
+* [Remote GPU](https://support.runwayml.com/en/articles/3059347-remote-gpu)
+* [How Much Does RunwayML Cost?](https://support.runwayml.com/en/articles/3000086-how-much-does-runwayml-cost)
+* [Adding Credits](https://support.runwayml.com/en/articles/2984968-adding-credits)
+* [Redeeming Coupon Codes](https://support.runwayml.com/en/articles/3047429-redeeming-coupon-codes)
+
+
+Advanced Options:
+*  **Run Models with Local CPU:** To run models locally, you need to download and install them individually. Some models require you to install Docker, a free and open-source software. If you need to install Docker, [follow these steps](http://localhost:4000/#/how-to/advanced-options?id=overview).
+* **Run Models with Local GPU (Linux Only):** If you are running RunwayML on Linux, follow this guide to [use your own GPU hardware](http://localhost:4000/#/how-to/advanced-options?id=local-gpu-linux-only). 
+
 
 ## Step 8: Stop the Model
 **Manually Stop Models:** Click the **Stop button** in the bottom right corner of the app. 

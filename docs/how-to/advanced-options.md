@@ -1,9 +1,9 @@
-# Run Models in RunwayML
+# Advanced Options in RunwayML
 
 ## Overview
-If you're just getting started, check out our guide on how to [Use Models](https://learn.runwayml.com/#/how-to/use-models) for information on finding models in RunwayML, setting them up, running them, and stopping them inside of the app -- no coding required!
+This guide provides additional information about requirements for running models on your computer's local CPU and local GPU (Linux only). (Curious about the difference between a CPU and a GPU? Here's a [video from Mythbusters](https://www.youtube.com/watch?v=-P28LKWTzrI) that demonstrates the distinction.)
 
-This guide provides additional information about requirements for running models on your computer's local CPU, local GPU (Linux only), and on a remote GPU. (Curious about the difference between a CPU and a GPU? Here's a [video from Mythbusters](https://www.youtube.com/watch?v=-P28LKWTzrI) that demonstrates the distinction.)
+If you're just getting started, check out our guide on how to [Use Models](https://learn.runwayml.com/#/how-to/use-models) for information on finding models in RunwayML, setting them up, running them with [Remote GPU](http://localhost:4000/#/how-to/use-models?id=step-7-run-the-model), and stopping them inside of the app -- no coding or extra steps required!
 
 ## Local CPU
 To run models locally on your computer, you need to download and install them individually. Some local models require you to install Docker. Docker CE is free and open-source software. **You do not need Docker to run models [remotely](http://localhost:4000/#/how-to/run-models?id=remote-gpu)!** 
@@ -154,14 +154,3 @@ Related Technical Support Resources:
 * [Deleting Local Models](https://support.runwayml.com/en/articles/3077861-deleting-local-models)
 * [Docker Errors. Having trouble with Docker? Here are few tips.](https://support.runwayml.com/en/articles/3069033-docker-errors)
 * [Running Docker without sudo](https://support.runwayml.com/en/articles/3359183-running-docker-without-sudo)
-
-
-
-## Remote GPU
-Running a model with fast GPU-enabled computer in RunwayML's cloud infrastructure, or Remote GPU, [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but the model runs much faster than using your computer's local CPU. Some models are only available for Remote GPU and not available to download locally.
-
-Related Technical Support Resources: 
-* [Remote GPU](https://support.runwayml.com/en/articles/3059347-remote-gpu)
-* [How Much Does RunwayML Cost?](https://support.runwayml.com/en/articles/3000086-how-much-does-runwayml-cost)
-* [Adding Credits](https://support.runwayml.com/en/articles/2984968-adding-credits)
-* [Redeeming Coupon Codes](https://support.runwayml.com/en/articles/3047429-redeeming-coupon-codes)

@@ -4,10 +4,10 @@
 
 * 🤔 How-To
     * [Use Models](how-to/use-models.md)
-    * [Run Models](how-to/run-models.md)
     * [Add Models](how-to/import-models.md)
     <!-- * [Persist Models - coming soon!]() -->
     * [Link to Models](how-to/web-link.md)
+    * [Advanced Options](how-to/advanced-options.md)
     * [Video Tutorials](https://www.youtube.com/runwayml)
 
 * 🎨 Create
