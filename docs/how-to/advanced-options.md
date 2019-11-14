@@ -3,10 +3,10 @@
 ## Overview
 This guide provides additional information about requirements for running models on your computer's local CPU and local GPU (Linux only). (Curious about the difference between a CPU and a GPU? Here's a [video from Mythbusters](https://www.youtube.com/watch?v=-P28LKWTzrI) that demonstrates the distinction.)
 
-If you're just getting started, check out our guide on how to [Use Models](https://learn.runwayml.com/#/how-to/use-models) for information on finding models in RunwayML, setting them up, running them with [Remote GPU](http://localhost:4000/#/how-to/use-models?id=step-7-run-the-model), and stopping them inside of the app -- no coding or extra steps required!
+If you're just getting started, check out our guide on how to [Use Models](https://learn.runwayml.com/#/how-to/use-models) for information on finding models in RunwayML, setting them up, running them with [Remote GPU](https://learn.runwayml.com/#/how-to/use-models?id=step-7-run-the-model), and stopping them inside of the app -- no coding or extra steps required!
 
 ## Local CPU
-To run models locally on your computer, you need to download and install them individually. Some local models require you to install Docker. Docker CE is free and open-source software. **You do not need Docker to run models [remotely](http://localhost:4000/#/how-to/run-models?id=remote-gpu)!** 
+To run models locally on your computer, you need to download and install them individually. Some local models require you to install Docker. Docker CE is free and open-source software. **You do not need Docker to run models [remotely](https://learn.runwayml.com/#/how-to/use-models?id=step-7-run-the-model)!** 
 
 If you need to install Docker, here are the steps:
 
