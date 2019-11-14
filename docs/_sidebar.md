@@ -17,7 +17,7 @@
         * [Transform Content](create/transform.md)
         * [Generate Media](create/generate.md)
         * [Chain Models](how-to/chain-models-together.md)
-        * [Train Models]() 
+        * [Train Models](create/train-models.md) 
     * 🤝 **Connect to Models**
         * [Overview](how-to/network.md)
         * [Examples](networking/examples.md)
