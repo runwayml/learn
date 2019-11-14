@@ -13,11 +13,11 @@
 * 🎨 Create
     * 🌱 **Model Possibilities**
         <!-- * [Overview]() -->
-        * [Detect Objects](create-with-runwayml/detect.md)
-        * [Transform Content](create-with-runwayml/transform.md)
-        * [Generate Media](create-with-runwayml/generate.md)
+        * [Detect Objects](create/detect.md)
+        * [Transform Content](create/transform.md)
+        * [Generate Media](create/generate.md)
         * [Chain Models](how-to/chain-models-together.md)
-        * [Train Models - coming soon!]() 
+        * [Train Models]() 
     * 🤝 **Connect to Models**
         * [Overview](how-to/network.md)
         * [Examples](networking/examples.md)
