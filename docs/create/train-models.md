@@ -1,10 +1,11 @@
 # Train Your Own Models
 
-requesting feedback:
+first draft requesting feedback:
 even though this is written at a high level, look for clarity and technical accuracy
 subscription information (what's the final plan?)
 resulting checkpoints will only be visible to the user, yes? What if people don't want theirs to be public? e.g Helena Sarin
-* somethings are repeated because I don't expect everyone to read this document straight through
+somethings are repeated because I don't expect everyone to read this document straight through
+some of my questions might be related to what I see as part of the RunwayML organization
 
 ## Overview
 In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, now you can you train your own models directly inside of the app! This guide will walk you through the steps, but first, here's a quick FAQ to provide some context. 
@@ -45,10 +46,13 @@ To train your own generative image model, you need to create a dataset of images
 Here are some strategies* for creating and inflating datasets from existing bodies of work:
 * If you don't have digital copies, take photographs of your work
 * Duplicate and rotate the images
-* Flip images horizontally and vertically
+* Flip images horizontally and vertically*
 * Create new images that are zoomed out and zoomed in
 * Generate images from frames of your videos
+* If you're comfortable with creative coding tool like Processing or p5.js for example (there are many others, too!) can you automatically generate images? 
 * << What else...? >>
+
+@Anastasis and @Alejandro, I saw that you were discussing this as a pre-processing step
 
 *A model will learn all the visual features of the given dataset. If you create a dataset of dogs and some of them are upsidedown, then expect that your model might generate upsidedown dogs or dog-like creatures with a combination of both upsidedown and rightsideup characteristics. You may or may not want that.
 
@@ -63,23 +67,11 @@ If you're just curious to try the training process, RunwayML also provides some 
 ## Step 2: Prepare the Dataset
 Now that you have a dataset of hundreds or thousands of images, here are some additional items to note:
 
-* To train an generative image model, the images in your dataset must be square. This is a constraint of StyleGAN, the pre-trained model on which your model will be trained. This technique is called Transfer Learning (link to abbove).
+* To train an generative image model, the images in your dataset must be square. This is a constraint of StyleGAN, the pre-trained model on which your model will be trained (link to abbove). RunwayML provides an option to automatically crop your images (see Step 5), but for more precision, you might consider cropping them yourself. 
 
+* Are any images corrupted? On indication might be that an image is all black or glitched.
 
-* Do you have any images that are corrupted? On indication might that an image is all black or glitched.
-
-
-
-
-RunwayML provides an option to automatically crop your images
-
-
-Crop happens because you select it
-Choose crop
-Then resizing happens
-
-Ideally if square that would be better
-
+* recommendations for naming files -- unacceptable characters, etc?
 
 
 ## Step 3: Start Training Experiment
@@ -101,25 +93,26 @@ Select one of the public datasets << if they're public, then we should be good d
 ## Step 5: Choose Training Options
 There are several options to set before you begin training your model. 
 
-### Choose a starting model
+### Pick a Pre-Trained Model
 First, you will be prompted to select a Pre-Trained Model on which to train your own model. Your model will be trained on top of another generative image model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) using a technique called Transfer Learning (link to above). Not only does this greatly reduce the amount of training time, it also lowers the amount of images that you need to train your own model. 
 
-StyleGAN was originally trained on 70K images of faces from Flickr, which is why Flickr Faces HQ is listed as the first option. This is not the original StyleGAN dataset; this is the model that resulted from learning all the features in the Flickr dataset. (You can learn more about StyleGAN and how it was trained from the links posted on model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN).)
+StyleGAN was originally trained on 70K images of faces from Flickr, which is why Flickr Faces HQ is listed as the first option. This is not the original StyleGAN dataset; this is the model that resulted from learning all the features in the Flickr dataset and can generate new faces from what it learned. (You can learn more about StyleGAN and how it was trained from the links posted on model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN).)
 
 Additional models have already been trained on top of the Flickr Faces HQ, and these Pre-Trained models, also known as Checkpoints, are available for you to select as an alternative starting point. 
 
 Your choice of a Pre-Trained model from which to start your training will impact the following:
-* Output Size: The size of the images your model can make (1024 x 1024 pixels, 512 x 512, 256 x 256 << <-- do we have any that create 256x256? ALSO, how will users know which models are which?? >> RunwayML provides several models to upscale the size of images (link to these).
-* Speed: Using pre-trained models that generate larger image sizes will take more time than starting with one of the other models. 
-* Content: If you are training a model on a dataset of fantastical cartoon characters, you might choose start with pre-trained model of cats or dogs as opposed to bedrooms or cars to create a model that generates images with more cohesive forms and greater fidelity. Or not! Explre the options for different outcomes. 
+* Content: If you are training a model on a dataset of fantastical cartoon characters, you might select a pre-trained model of cats or dogs as opposed to bedrooms or cars to create a model that generates images with more cohesive forms and greater fidelity. Or not! Have fun exploring the options for different outcomes. 
+* Output Size: The size of the images your model can make (1024x1024 pixels, 512x512 pixels, and 256x256 pixels << How will users know which models are which?? >> RunwayML provides several models to upscale the size of images (link to these).
+* Speed: Using pre-trained models that generate larger image sizes will take more time than starting with one of the other models the produces smaller images sizes. 
 
 To view all the pre-trained model options, click Change:
-<< again, will all of the models previously trained show up? what if users do not want theirs to be available to the entire community? E.g. If was Helena Sarin, I might not want others to use my artwork / models. >>
+
+Will all of the models previously trained show up? Am I only seeing these because I'm part of the Runway org? What if users do not want theirs to be available to the entire community? E.g. If was Helena Sarin, I might not want others to use my artwork / models. >>
 
 << insert GIF here! >>
 
 ### Choose a Crop Option 
-Images must be in square format. This is a constraint of StyleGAN, the pre-trained model on which your model will be trained. 
+Images must be in square format. This is a constraint of StyleGAN, the pre-trained model on which your model will be trained (link to above).
 
 If your images are not square, your options:
 * No crop: Each image will be resized to fit the 1:1 square aspect ratio and black borders will be added accordingly. 
@@ -129,27 +122,31 @@ If your images are not square, your options:
 << insert GIF here! >>
 
 ## Set the Number of Training Steps
-A good starting point is 5000, but you 
+During each Training Step, the model learns a little bit more about the visual patterns, or features, it finds in the dataset. 
 
-more steps = is likedly to yield a model that can synthesis images with more definitive visual forms
+Determining an effective number of training steps is a bit of a moving target. Too few and your model might not be able to synthesize images with coherent visual forms that are reminiscent of those in the original dataset. Too many and your model will stop improving and not learning anything new. 
 
-After training completesk you will have a change to review the progress 
+The maximum number of Training Steps you can set is 25,000, but a good starting point is 5000 steps. After training completes, you can review the model's learning progress at various steps.
 
-Click Start Training.
+Click Start Training to continue.
+
+<< insert image here! >>
+
 
 ## Step 6: Train Your Model
+At the start of the training process, all your images will be pre-processed, cropped and resized. After this completes, an estimated amount of training time will post under the ETA status on the right. 
 
-estimated wait time
-time of training depends on a combination of several factors
-checkpoints saved every 500 Training Steps.
+The actual training process occurs on a Remote GPU in RunwayML's cloud infrastructure and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
+
+Versions of your model will be saved every 500 Training Steps, also known as Checkpoints. 
+
 
 ## Step 7: Review
-When training completes, you can review the progress over the number of Training Steps. 
+When training completes, you can review the progress at various Training Steps. 
 
 Click Next 
 
 ## Step 8: Use Your Model!
-When trainin
 
 Add your Model to a Workspace
 When you do, the StyleGAN model will be added to a Workspace. To use your particular model, select in the list of Checklists from options in right pane of the app, and click Run Remotely << notes about cost, including links to subscription plan options >>. 
@@ -157,7 +154,6 @@ When you do, the StyleGAN model will be added to a Workspace. To use your partic
 All the possible images that you model can create will appear in the top window pane. 
 
 << Watch this vide from Gene Kogan to learn more about the archicture of a generative model like this and how it works blah blah blah >> 
-
 
 
  to augment and extend the style and subject matter of your creative practice
