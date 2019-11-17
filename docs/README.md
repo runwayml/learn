@@ -17,13 +17,13 @@
 ## Welcome!
 👋 We are excited to have you here. RunwayML aims to make machine learning (ML) techniques accessible to students, creative practitioners from a wide range of disciplines, and anyone curious about the topic. If this is your first time visiting RunwayML, start with our [installation guide](getting-started/installation). 
 
-After installing, learn how to browse and run machine learning models inside of RunwayML with our [introductory guide to using models](how-to/use-models) -- no coding required. 
+After installing RunwayML, learn how to browse and run machine learning models with our [introductory guide to using models](how-to/use-models)—no coding required. 
 
 RunwayML also connects to a variety of [creative programming and design environments](networking/examples) and integrates with software applications as a [plugin](https://runwayml.com/integrations).
 
 Interested in adding your own models to RunwayML? Please visit our [model importing guide](how-to/import-models).
 
-You can also [train your own models](create/train-models).
+Are you an illustrator, painter, photographer, architect, set designer, graphic designer, fashion designer, textile artist, asemic writer, musician who reads sheet music, or someone who works with or is inspired by visible marks in some form? You can also [train your own models](create/train-models) to automatically generate images and quickly iterate through visual ideas.
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/7g5Dn60VFb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
