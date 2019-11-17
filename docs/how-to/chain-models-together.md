@@ -144,11 +144,10 @@ You now have the knowledge you need to connect models together in the RunwayML.
 We hope you find this feature useful! Now that you know the basics, here are
 some other model combinations you might try:
 
-* Use MaskRCNN to mask out the backgrounds of images and then send them to
-  PhotoSketch to make line drawings
-* Use the output of im2txt as a "seed" for GPT-2 text generation
+* Use MaskRCNN to mask out the backgrounds of images and then send them to PhotoSketch to make line drawings.
+* Use the output of im2txt as a "seed" for GPT-2 text generation.
 * Create a feedback loop with SPADE-COCO and DeepLab to produce infinite
-  hallucinogenic imagery
+  hallucinogenic imagery.
 
 Note that all of RunwayML's other features are still available when using
 model chains, such as the ability to work with entire directories of images,

@@ -29,7 +29,9 @@ Because your model is the result of retraining the StyleGAN model using the Tran
 Here are the steps to get started...
 
 ## Step 1: Create a Dataset
-To train your own generative image model, you need to create a dataset from a collection of images in a folder on your computer. Images similar in content and style will produce a model that is better able to synthesize images that are reminiscent of the originals. This offers great potential for augmenting and extending creative work, especially as a tool for iterating on visual ideas. A model trained from a varied collection of images that you never deleted from your mobile phone, however, is not likely to perform as well.
+
+### What?
+To train your own generative image model, you need to create a dataset from a collection of images in a folder on your computer. Images similar in content and style will produce a model that is better able to synthesize images that are reminiscent of the originals. This offers great potential for augmenting and extending creative work, especially as a tool for quickly iterating through visual ideas. A model trained from a varied collection of images that you never deleted from your mobile phone, however, is not likely to perform as well.
 
 ### How much? 
 RunwayML Training Experiments will accept individual datasets that total less than 5GB in combined file size and less than 25K images in total number. That's a lot, we know. Generally, the more data you collect, the better your model will be at generating synthetic images that look like they came from your original dataset, but a starting recommendation is to gather around 500-5,000 images. Some users, however, have been pleased with the results of a model trained on as few as 300 images.
@@ -132,8 +134,8 @@ Make sure that your account has enough credits, otherwise your training experime
 Click **Next** to continue.
 
 ## Step 6: Use Your Model
-Your model is now ready to run and you  can explore all the possible images it can generate. How exciting! What will you discover?!
+Your model is now ready to run and you can explore all the possible images it can generate. How exciting! What will you discover?!
 
-Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. To use your particular model, select it from Checkpoints listed on the right, and click **Run Remotely**. 
+Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. To use your particular model, select it from the Checkpoints listed on the right, and click **Run Remotely**. 
 
-?> 📽 To learn more about how generative models work, including StyleGAN, watch another [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan.
+?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan.
