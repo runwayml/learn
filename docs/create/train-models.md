@@ -1,80 +1,69 @@
 # Train Your Own Models
 
-first draft requesting feedback:
-even though this is written at a high level, look for clarity and technical accuracy
-subscription information (what's the final plan?)
-resulting checkpoints will only be visible to the user, yes? What if people don't want theirs to be public? e.g Helena Sarin
-somethings are repeated because I don't expect everyone to read this document straight through
-some of my questions might be related to what I see as part of the RunwayML organization
-
 ## Overview
-In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, now you can you train your own models directly inside of the app! This guide will walk you through the steps, but first, here's a quick FAQ to provide some context. 
+In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can now train your own models directly inside of the app! This guide will walk you through the steps of training a model, but first, here's a quick FAQ to provide some context to help you get started.
 
-### What's a model?
-Generally speaking, a model is a network of machine learning algorithms that has learned patterns within a given dataset. Instead of being explicitly programmed, it develops its own parameters for how to represent--or model--those patterns to make predictions about new data (such as to detect objects in a video) or generate completely new content that mimics the original data on which it was trained (such as synthesize images from a collection of paintings). 
+### What is a model and what does it mean to train one?
+Generally speaking, a model is a machine learning algorithm that has learned patterns within a given dataset. Instead of being explicitly programmed, it develops its own parameters for how to represent—or model—those patterns to make predictions about new data (such as to detect objects in a video) or generate completely new content that mimics the original data on which it was trained (such as synthesizing images from a collection of paintings). 
 
-### What does it mean to train a model?
-Training is the process of providing a machine learning algorithm with data and creating the conditions for the algorithms to learn patterns, also known as features, within that data. RunwayML makes training very easy: all you need to do is to supply your own data (although we have some available for you to try) and determine the number of steps the algorithm should take to learn the features. For a technical demonstration of the visual patterns a machine learning model might learn, watch Gene Kogan's video, [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
+Training is the process of providing a machine learning algorithm with data to learn patterns in the form of features. RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps the algorithm should take to learn the features. During each step, the algorithm adjusts its values to output better results. For a technical demonstration of the visual patterns a machine learning model might learn, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
 
 ### What kind of model can I train in RunwayML?
-Model training is an experimental feature 🧪in RunwayML, and at the time of this writing (November 2019), you can only train a generative model for synthesizing brand new images. Support for additional model types will be added in the future. 
+Model training is an experimental feature 🧪in RunwayML, and at the time of this writing (November 2019), you can only train a generative model for synthesizing images. Support for additional model types will be added in the future. 
 
 ### What kind of data do I need?
-To train a generative image model, you need a collection of images. Suggestions for the amount, as well as considerations for how to source and prepare those images are below.
+To train a generative image model, you need a collection of images. Suggestions for the amount, as well as considerations for how to source and prepare those images are below. RunwayML also provides some public datasets to try.
 
 ### How long will it take to train my model?
-The time to train a model depends on a combination of many factors, including but not limited to the type of data (in this case, you'll be using images as opposed to words or sounds), the amount of training data, the size of the data files, and the number of training steps. 
+The time it takes to train a model depends on a combination of many factors, including but not limited to the type of machine learning algorithm (there are algorithms of varying complexity for images, words, or sounds) and the number of training steps. 
 
-To train your own generative image model, RunwayML greatly reduces the amount of training time by using using a technique called Transfer Learning. With this technique, your model will be trained on top of another generative image model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN). StyleGAN was trained on a massive amount of images (70K!), and transfer learning leverages all of the features it learned from the original data to speed up the process of learning new patterns from your image dataset. Not only does this greatly reduce the amount of training time, it also lowers the amount of images that you need to train your own model. You can learn more about StyleGAN and how it was trained from the links posted on model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN). 
+RunwayML greatly reduces the amount of training time needed to train your own generative image model by using using a technique called transfer learning. With this technique, your model will be trained on top of another generative image model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN). StyleGAN was trained on a massive amount of images (70,000!), and transfer learning leverages all of the features it learned from the original data to speed up the process of learning new patterns from your image dataset. Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. You can learn more about StyleGAN and how it was trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN). 
 
-Even with Transfer Learning, it's not unusual for training to last at least several hours. 
+Even with transfer learning, it's not unusual for training to last at least several hours. 
 
 ### What can I do with my newly-trained model?
-During training, your model learns an incredible amount of new visual features that now can be combined to generate an seemingly infinite number of new images. Because it was trained on top of the StyleGAN model using the Transfer Learning technique (see above), your model will appear under the list of Checkpoints when you add StyleGAN to a workspace. The space of all possible new images that your model can create is called the latent space, which you can explore when you run StyleGAN with your model's checkpoint selected. Happy image making!
+During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model can be used to generate an infinite number of synethetic images that appear as if they came from the dataset itself. 
+
+Because it was trained on top of the StyleGAN model using the transfer learning technique (see above), your model will appear under the list of checkpoints when you add StyleGAN to a workspace. The space of all possible new images that your model can create is called the latent space, which you can explore when you select your model's checkpoint and [run StyleGAN](https://learn.runwayml.com/#/how-to/use-models?id=step-7-run-the-model). Happy image making!
 
 Here are the steps to get started...
 
 ## Step 1: Create a Dataset
-To train your own generative image model, you need to create a dataset of images in a folder on your computer.
+To train your own generative image model, you need to create a dataset from a collection of images in a folder on your computer. Images similar in content and style will produce a model that is better able to synthesize images that are reminiscent of the originals. This offers great potential for augmenting and extending creative work, especially as a tool for iterating on visual ideas. A model trained from a varied collection of images that you never deleted from your mobile phone, however, is not likely to perform as well.
 
-<< Add note on content, consistency, variety >>
+### How much? 
+RunwayML Training Experiments will accept individual datasets that total less than 5GB in combined file size and less than 25K images in total number. That's a lot, we know. Generally, the more data you collect, the better your model will be at generating synthetic images that look like they came from your original dataset, but a starting recommendation is to gather around 500-5,000 images. Some users, however, have been pleased with the results of a model trained on as few as 300 images.
 
-**How much?** RunwayML Training Experiments will accept individual datasets that total less than 5GB in combined file size and less than 25K images in total number. That's a lot, we know. Generally, the more data you collect, the more your model might generate a greater variety of visual outcomes, but a starting recommendation is to gather around 500-5000K images. Some users, however, have been pleased with the results of a model trained on as few as 200 images.
+### From where?
+Are you an illustrator, painter, photographer, architect, graphic designer, fashion designer, textile artist, [asemic writer](https://en.wikipedia.org/wiki/Asemic_writing), musician who reads sheet music, or someone who works with visual marks in some form? Then you likely already have a good amount of visual material on which to train a generative image model.
 
-**From where?** Are you a painter, photographer, doodler, architect, graphic designer, [asemic writer](https://en.wikipedia.org/wiki/Asemic_writing), musician who reads sheet music, or someone who works with visual marks in some form? Then you likely already have a good amount of visual material on which to train a generative image model.
-
-Here are some strategies* for creating and inflating datasets from existing bodies of work:
-* If you don't have digital copies, take photographs of your work
-* Duplicate and rotate the images
-* Flip images horizontally and vertically*
-* Create new images that are zoomed out and zoomed in
-* Generate images from frames of your videos
-* If you're comfortable with creative coding tool like Processing or p5.js for example (there are many others, too!) can you automatically generate images? 
-* << What else...? >>
-
-@Anastasis and @Alejandro, I saw that you were discussing this as a pre-processing step
+Here are some strategies* for creating (or inflating) datasets from existing bodies of work:
+* If you don't have digital copies, take photographs of your work!
+* Duplicate and rotate the images.
+* Flip images horizontally and vertically.
+* Create new images that are zoomed out and zoomed in.
+* Generate images from frames of your videos.
+* If you're comfortable with creative coding tools like [Processing](https://processing.org/) or [p5.js](https://p5js.org/) for example (there are many others, too!), can you automatically generate images? 
+* Those comfortable with programming might also use tools for scraping (automatically extracting) images from websites.
 
 *A model will learn all the visual features of the given dataset. If you create a dataset of dogs and some of them are upsidedown, then expect that your model might generate upsidedown dogs or dog-like creatures with a combination of both upsidedown and rightsideup characteristics. You may or may not want that.
 
-If you source images from online, be sure to consider the following questions:
-* Are the images copyright-protected? What are the terms of use?
-* If the images contain people, were the individuals notified about how their images would be used and did they give consent? 
-* Do the images adhere to RunwayML's [Code of Conduct](https://runwayml.com/coc)?
+?>If you source images from online, be sure to consider the following questions:<br>
+• What are the images' terms of use? <br>
+• If you intend to scrape images, is that technique in keeping with the website's terms of service? <br>
+• If the images contain people, were the individuals notified about how their images would be used and did they give consent? <br>
+• Do the images adhere to RunwayML's [Code of Conduct](https://runwayml.com/coc)?
 
-If you're just curious to try the training process, RunwayML also provides some public datasets to use when you set up a Training Experiment. Skip ahead to Step 3.
+If you're just curious to try the training process, RunwayML also provides some public datasets to use when you create a Training Experiment.
 
+### How should I prepare my dataset?
+Once you have a dataset of hundreds or thousands of images, here are some additional items to note:
 
-## Step 2: Prepare the Dataset
-Now that you have a dataset of hundreds or thousands of images, here are some additional items to note:
-
-* To train an generative image model, the images in your dataset must be square. This is a constraint of StyleGAN, the pre-trained model on which your model will be trained (link to abbove). RunwayML provides an option to automatically crop your images (see Step 5), but for more precision, you might consider cropping them yourself. 
-
-* Are any images corrupted? On indication might be that an image is all black or glitched.
-
-* recommendations for naming files -- unacceptable characters, etc?
+* Are any images corrupted? On indication might be that an image is all black, glitched, or cannot be opened.
+* To train an generative image model, the images in your dataset must be square. This is a constraint of StyleGAN, the pre-trained model on which your model will be trained (see above). RunwayML provides an option to automatically crop your images when you start a Training Experiment (see Step 4).
 
 
-## Step 3: Start Training Experiment
+## Step 2: Create a Training Experiment
 Launch RunwayML and click either “Browse Models” or “Open Workspaces” to dismiss the starting screen << what is this window called? >> and select **Training Experiments** on the far left navigation.
 
 << insert GIF here! >>
@@ -84,13 +73,13 @@ Currently, Training Experiments are only available with the StyleGAN model. Clic
 << insert GIF here! >>
 
 
-## Step 4: Select a Dataset
+## Step 3: Select the Dataset
 Select one of the public datasets << if they're public, then we should be good digital citizens and list their sources  >> or, to use your own data, simply click the + button or drag your folder of images onto the app. When the data finishes uploading, click Next.
 
 << insert GIF here! >>
 
 
-## Step 5: Choose Training Options
+## Step 4: Choose Training Options
 There are several options to set before you begin training your model. 
 
 ### Pick a Pre-Trained Model

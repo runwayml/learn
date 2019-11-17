@@ -1,6 +1,6 @@
 <h3 class="Main__Title">Introduction to RunwayML</h3>
 
-<p class="Main__Description">RunwayML is a platform for creators of all kinds to use machine learning tools in intuitive ways without any coding experience. These resources will help you start creating with RunwayML quickly.</p>
+<p class="Main__Description">RunwayML is a platform for creators of all kinds to use machine learning tools in intuitive ways without any coding experience. These resources will help you start get started.</p>
 
 <br>
 <br>
@@ -15,7 +15,7 @@
 <br>
 
 ## Welcome!
-👋 We are excited to have you here. RunwayML aims to make machine learning (ML) techniques accessible to students, creative practitioners from a wide range of disciplines, and anyone curious about machine learning. If this is your first time visiting RunwayML, start with our [installation guide](getting-started/installation). 
+👋 We are excited to have you here. RunwayML aims to make machine learning (ML) techniques accessible to students, creative practitioners from a wide range of disciplines, and anyone curious about the topic. If this is your first time visiting RunwayML, start with our [installation guide](getting-started/installation). 
 
 After installing, learn how to browse and run machine learning models inside of RunwayML with our [introductory guide to using models](how-to/use-models) -- no coding required. 
 
