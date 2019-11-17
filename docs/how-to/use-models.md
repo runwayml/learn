@@ -114,8 +114,8 @@ Related Technical Support Resource: [Stopping Your Model](https://support.runway
 
 ## Next Steps
 There are many ways to interact with and create with RunwayML models. Here are a few things to try now:
-*  Explore all the model options! RunwayML provides access to many types of models that perform a variety of tasks, such as to [detect objects](create/detect), [transform content](create/transform), and [generate media](create/generate). 
+*  Explore all of the model options! RunwayML provides access to many types of models that perform a variety of tasks, such as to [detect objects](create/detect), [transform content](create/transform), and [generate media](create/generate). 
 * Try [chaining models together](how-to/chain-models-together).
 * Create with models using a variety of [creative programming and design applications](networking/examples).
-* Use RunwayML as a [plugin](https://runwayml.com/integrations) inside Photoshop and Unity.
+* Use RunwayML as a [plugin](https://runwayml.com/integrations) inside of Photoshop and Unity.
 
