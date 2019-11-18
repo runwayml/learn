@@ -23,7 +23,7 @@ RunwayML also connects to a variety of [creative programming and design environm
 
 Interested in adding your own models to RunwayML? Please visit our [model importing guide](how-to/import-models).
 
-Are you an illustrator, painter, photographer, architect, set designer, graphic designer, fashion designer, textile artist, asemic writer, musician who reads sheet music, or someone who works with or is inspired by visible marks in some form? You can also [train your own models](create/train-models) to automatically generate images and quickly iterate through visual ideas.
+You can also [train your own models](create/train-models) to automatically generate images!
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/7g5Dn60VFb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
