@@ -128,15 +128,15 @@ At the start of the training process, all your images will be pre-processed and 
 
 <img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
-During training and after it completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video.
+During training and after it completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video. Click **Next** to continue after the training process concludes. 
 
-<< insert training complete image here! >>
+<img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
 
 ## Step 6: Use Your Model
 Your model is now ready to run and you can explore all the possible images it can generate. How exciting! What will you discover?!
 
-Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. To use your particular model, select it from the Checkpoints listed on the right, and click **Run Remotely**. 
+Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. A new Workspace will be created during this step if you do not already have one. To use your particular model, select it from the Checkpoints listed on the right, set the model's input to **Vector**, the output to **Preview**, and click **Run Remotely**. 
 
-<< insert GIF here! >>
+<img src="assets/images/create/train-models/trainingReview.jpg" alt="screen grab showing training review">
 
 ?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan.
