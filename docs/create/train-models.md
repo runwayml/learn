@@ -24,7 +24,7 @@ Even with Transfer Learning, it's not unusual for training to last at least seve
 ### What can I do with my newly-trained model?
 During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model can be used to generate an infinite number of synethetic images that appear as if they came from the dataset itself. 
 
-Because your model is the result of retraining the StyleGAN model using the Transfer Learning technique (see above), your model will appear under the list of checkpoints when you add StyleGAN to a workspace. The space of all possible new images that your model can create is called the latent space, which you can explore when you select your model's checkpoint and [run StyleGAN](how-to/use-models?id=step-7-run-the-model). Happy image making!
+Because your model is the result of retraining the StyleGAN model using the Transfer Learning technique (see above), your model will appear under the list of checkpoints when you add StyleGAN to a workspace. The space of all new possible images that your model can create is called the latent space, which you can explore when you select your model's checkpoint and [run StyleGAN](how-to/use-models?id=step-7-run-the-model). Happy image making!
 
 Here are the steps to get started...
 
@@ -76,66 +76,67 @@ Currently, Training Experiments are only available with the StyleGAN model. Clic
 ## Step 3: Select the Dataset
 Select one of the public datasets or, to use your own data, simply click the **+ button** or drag your folder of images onto the app. Your dataset will then be compressed and uploaded. This can take a while, but when it finishes, click **Next**.
 
-<< insert GIF here! >>
+<img src="assets/images/create/train-models/selectDataset.gif" alt="screen recording showing how to select a dataset">
 
 
 ## Step 4: Select Training Options
 There are several options to consider before you begin training your model. 
 
 ### Pick a Pre-Trained Model
-First, select a Pre-Trained Model on which to train your own model. Training your model retrains the [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) model on your own dataset using a technique called Transfer Learning (see above). Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. 
+Start by selecting a Pre-Trained Model. Training your model actually retrains the [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) model on your own dataset using a technique called Transfer Learning (see above). Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. 
 
-StyleGAN was originally trained on 70,000 images of faces from Flickr, which is why Flickr Faces HQ is listed as the first option. StyleGAN has been retrained on a number of other datasets, and these additional Pre-Trained Models, also known as Checkpoints, are available for you to select as an alternative starting point. (You can learn more about StyleGAN and how it was trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN).)
+StyleGAN was originally trained on 70,000 images of faces from Flickr, which is why Flickr Faces HQ is listed as the first option. StyleGAN has been retrained on a number of other datasets, and these additional Pre-Trained Models, also known as Checkpoints, are available to select as an alternative starting point. (You can learn more about StyleGAN and how it was trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN).)
 
 
 Your choice of a Pre-Trained Model from which to start your training will impact the following:
-* **Content**: If you are training a model on a dataset of fantastical cartoon characters, you might select a Pre-Trained Model of cats or dogs as opposed to bedrooms or cars to create a model that generates images with more cohesive forms and greater fidelity. Or not! Have fun exploring the options for different outcomes. In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. But there are can be interesting outcomes from training a model that is significantly different than your dataset, especially midway through the training process.
+* **Content**: If you are training a model on a dataset of fantastical cartoon characters, you might select a Pre-Trained Model of cats or dogs as opposed to bedrooms or cars to create a model that generates images with more cohesive forms and greater fidelity. Or not! Have fun exploring the options for different outcomes. In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. But there are can be unexpected visual outcomes from training a model that is significantly different than your dataset, especially midway through the training process.
 * **Output Size**: The Pre-Trained Models generate images at 1024x1024 pixels, 512x512 pixels, or 256x256 pixels, and the one you choose will impact the size of the images that your model will make once training is complete. The default Pre-Trained model option, Flickr Faces HQ, is the only model that outputs images at 1024x1024 pixels. (If you prefer to pick Pre-Trained Model for the content, but the output size is too small, know that RunwayML provides several models to quickly [upscale images](create/transform?id=upscale-images), and you can easily [chain](how-to/chain-models-together) your newly-trained model to one of those.)
-* **Training Time**: Using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produces smaller images sizes. Estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps (learn more below). If your account does not have enough credits, your Training Experiment might stop before training completes.
+* **Training Time**: Using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produces smaller images sizes. Estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). Note that if your account does not have enough credits, your Training Experiment might stop before training completes.
 
 To view all the Pre-Trained Model options, click **Change**:
 
-
-<< insert GIF here! >>
+<img src="assets/images/create/train-models/setPreTrainedModel.gif" alt="screen recording showing how to select a dataset">
 
 ### Choose a Crop Option 
 Images must be in square format. This is a constraint of StyleGAN, the pre-trained model that will be used to train your model.
 
 If your images are not square, these are your options:
-* **No crop**: Each image will be resized to fit the 1:1 square aspect ratio and black borders will be added accordingly. 
 * **Center**: This is a good choice if the subject of your images usually appears in the center.
 * **Random**: This is a good choice if the subject of your images can appear anywhere in the frame.
+* **No crop**: Each image will be resized to fit the 1:1 square aspect ratio. 
 
-<< insert GIF here! >>
+<img src="assets/images/create/train-models/cropOptions.jpg" alt="screen grabs of three different crop options">
 
 ### Set the Training Steps
-During each Training Step, the model learns a little bit more about the visual patterns, or features, it finds in the dataset. 
+During each Training Step, the model learns a little bit more about the visual patterns, or features, it finds in your dataset. 
 
 Determining an effective number of training steps is a bit of a moving target. Too few and your model might not be able to synthesize images with coherent visual forms that are reminiscent of those in the original dataset. Too many and your model will stop improving, not learning anything new, and possibly produce worse images.
 
 The maximum number of Training Steps you can set is 25,000, but a good starting point is 5,000 steps. After training completes, you can review the model's learning progress at various steps. 
 
-The higher the number of Training Steps, the longer it will take to train your model. Estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps. If your account does not have enough credits, your Training Experiment might stop before training completes.
+The higher the number of Training Steps, the longer it will take to train your model. Estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough credits, your Training Experiment might stop before training completes.
 
 Enter the **number of Training Steps** and click **Start Training** to continue.
 
-<< insert image here! >>
+<img src="assets/images/create/train-models/trainingSteps.png" alt="screen grab of 5000 training steps" width=40%>
 
 
 ## Step 5: Train Your Model
-At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA status** on the right. 
+At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. Make sure that your account has enough credits for the estimated training time, otherwise your training experiment will stop.
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
 
-When training completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video.
+<img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
-Make sure that your account has enough credits, otherwise your training experiment will stop.
+During training and after it completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video.
 
-Click **Next** to continue.
+<< insert training complete image here! >>
 
 ## Step 6: Use Your Model
 Your model is now ready to run and you can explore all the possible images it can generate. How exciting! What will you discover?!
 
 Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. To use your particular model, select it from the Checkpoints listed on the right, and click **Run Remotely**. 
+
+<< insert GIF here! >>
 
 ?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan.

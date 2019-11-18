@@ -22,34 +22,26 @@ Download Docker from the following links:
 
 **On Mac**: a Docker icon in the top status bar. This indicates that Docker is running and accessible from Runway. Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac) installation guide on Mac if you are having any issues.
 
-<!-- <div class="Img-Small"> -->
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-mac.png" alt="Docker Icon mac" >
   <p>A whale in the top status bar indicates that Docker is running.</p>
-<!-- </div> -->
 
 **On Windows**: a Docker icon in the bottom notifications area. This indicates that Docker is running and accessible from RunwayML. If you encounter any issues with Docker on Windows, please check that your Windows Firewall is not affecting Docker. Also, be sure that Windows has at least one Share Drive with Docker. Please refer to [this official Docker](https://docs.docker.com/docker-for-windows/) installation guide on Windows if you continue to have any issues.
 
-<!-- <div class="Img-Small"> -->
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-windows.png" alt="Docker Icon mac" >
   <p>Docker icon in the Notifications area or System tray. </p>
-<!-- </div> -->
 
 **On Linux**: verify if Docker is installed and running with the following command: `docker --help`
 
 ### **Step 3: Check RunwayML for Docker's Status**
  In the bottom status bar inside RunwayML, look for a whale icon and a message that that Docker is available:
 
-<!-- <div class="Img-Small"> -->
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-available-Runway.png" alt="Docker Icon mac" >
   <p>A whale icon in the bottom status bar inside RunwayML.</p>
-<!-- </div> -->
 
 If Docker is not installed, unavailable, or not running you will see the following message:
 
-<!-- <div class="Img-Small"> -->
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-unavailable-Runway.png" alt="Docker Icon mac" >
   <p>If Docker is not available, RunwayML will show a "Docker Unavailable" message in the bottom status bar.</p>
-<!-- </div> -->
 
 ### **Step 4: Increase Docker's Memory Limit (optional)** 
 Several models require a significant amount of memory in order to run properly. By default, Docker allocates a maximum of 2 GB of memory to run models. Some RunwayML models exceed that, which may lead to errors. Without enough memory models, may misbehave or fail silently without a helpful error message. To prevent that, you need to increase Docker's memory limit. Follow the steps in this related technical support article: [Docker Errors. Having trouble with Docker? Here are few tips.](https://support.runwayml.com/en/articles/3069033-docker-errors)
