@@ -135,7 +135,7 @@ During training and after it completes, you can review the progress at various T
 ## Step 6: Use Your Model
 Your model is now ready to run and you can explore all the possible images it can generate. How exciting! What will you discover?!
 
-Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. A new Workspace will be created during this step if you do not already have one. To use your particular model, select it from the Checkpoints listed on the right, set the model's input to **Vector**, the output to **Preview**, and click **Run Remotely**. 
+Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. A new Workspace will be created during this step if you do not already have one. To use your particular model, select it from the Checkpoints listed on the right, set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)**. 
 
 <img src="assets/images/create/train-models/trainingReview.jpg" alt="screen grab showing training review">
 
