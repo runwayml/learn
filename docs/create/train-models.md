@@ -1,4 +1,9 @@
 # Train Your Own Models
+<br>
+
+?>The Training Experiments feature is currently available to small group of beta testers. Please contact us if you are interested in testing and providing feedback on this new feature.
+
+🚧 This page is under active development as RunwayML beta testers provide feedback on the training process. 
 
 ## Overview
 In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can now train your own models! This guide will walk you through the steps of training a model, but first, here's a quick FAQ to provide some context to help you get started.
@@ -6,7 +11,7 @@ In addition to publishing open source, pre-trained machine learning models in th
 ### What is a model and what does it mean to train one?
 Generally speaking, a model is a machine learning algorithm that has learned patterns within a given dataset. Instead of being explicitly programmed, it develops its own parameters for how to represent—or model—those patterns to make predictions about new data (such as to detect objects in a video) or generate completely new content that mimics the original data on which it was trained (such as synthesize images from a collection of paintings). 
 
-Training is the process of providing a machine learning algorithm with dataset to learn patterns in the form of features. RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps the algorithm should take to learn the features. During each step, the algorithm adjusts its values to output better results. For a technical demonstration of the visual patterns a machine learning model might learn, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
+Training is the process of providing a machine learning algorithm with dataset to learn patterns in the form of features. RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps that the algorithm should take to learn the features. During each step, the model learns a little bit more about the features in your dataset. For a demonstration of the visual patterns a machine learning model might find, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
 
 ### What kind of model can I train?
 Model training is an experimental feature 🧪in RunwayML, and at the time of this writing (November 2019), you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
@@ -22,7 +27,7 @@ RunwayML greatly reduces the amount of training time needed to train your own ge
 Even with Transfer Learning, it's not unusual for training to last at least several hours. 
 
 ### What can I do with my newly-trained model?
-During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model can be used to generate an infinite number of synethetic images that appear as if they came from the dataset itself. 
+During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model can be used to generate a seemingly infinite number of synethetic images that appear as if they came from the dataset itself. 
 
 Because your model is the result of retraining the StyleGAN model using the Transfer Learning technique (see above), your model will appear under the list of checkpoints when you add StyleGAN to a workspace. The space of all new possible images that your model can create is called the latent space, which you can explore when you select your model's checkpoint and [run StyleGAN](how-to/use-models?id=step-7-run-the-model). Happy image making!
 
@@ -74,7 +79,7 @@ Currently, Training Experiments are only available with the StyleGAN model. Clic
 
 
 ## Step 3: Select the Dataset
-Select one of the public datasets or, to use your own data, simply click the **+ button** or drag your folder of images onto the app. Your dataset will then be compressed and uploaded. This can take a while, but when it finishes, click **Next**.
+Select one of the public datasets or, to use your own data, simply click the **+ button** or drag in your folder of images. Your dataset will then be compressed and uploaded. This can take a while, but when it finishes, click **Next**.
 
 <img src="assets/images/create/train-models/selectDataset.gif" alt="screen recording showing how to select a dataset">
 
@@ -89,16 +94,22 @@ StyleGAN was originally trained on 70,000 images of faces from Flickr, which is 
 
 
 Your choice of a Pre-Trained Model from which to start your training will impact the following:
-* **Content**: If you are training a model on a dataset of fantastical cartoon characters, you might select a Pre-Trained Model of cats or dogs as opposed to bedrooms or cars to create a model that generates images with more cohesive forms and greater fidelity. Or not! Have fun exploring the options for different outcomes. In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. But there are can be unexpected visual outcomes from training a model that is significantly different than your dataset, especially midway through the training process.
-* **Output Size**: The Pre-Trained Models generate images at 1024x1024 pixels, 512x512 pixels, or 256x256 pixels, and the one you choose will impact the size of the images that your model will make once training is complete. The default Pre-Trained model option, Flickr Faces HQ, is the only model that outputs images at 1024x1024 pixels. (If you prefer to pick Pre-Trained Model for the content, but the output size is too small, know that RunwayML provides several models to quickly [upscale images](create/transform?id=upscale-images), and you can easily [chain](how-to/chain-models-together) your newly-trained model to one of those.)
-* **Training Time**: Using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produces smaller images sizes. Estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). Note that if your account does not have enough credits, your Training Experiment might stop before training completes.
+* **Content**: 
+    * If you are training a model on a dataset of fantastical cartoon characters, you might select a Pre-Trained Model of cats or dogs as opposed to bedrooms or cars to create a model that generates images with more cohesive forms and greater fidelity. 
+    * Or not! Have fun exploring the options for different results: there are can be unexpected visual outcomes from training a model that is significantly different from your dataset, especially midway through the training process.
+* **Output Size**: 
+    * The Pre-Trained Models generate images at 1024x1024 pixels, 512x512 pixels, or 256x256 pixels, and the one you choose will impact the size of the images that your model will make once training is complete. The default Pre-Trained model option, Flickr Faces HQ, is the only model that outputs images at 1024x1024 pixels. 
+    * If you prefer to pick Pre-Trained Model for the content, but the output size is too small, know that RunwayML provides several models to quickly [upscale images](create/transform?id=upscale-images), and you can easily [chain](how-to/chain-models-together) your newly-trained model to one of those when you run it in a Workspace.
+* **Training Time**: 
+    * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
+    * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). Note that if your account does not have enough [credits](https://runwayml.com/pricing), your Training Experiment will stop before training completes.
 
 To view all the Pre-Trained Model options, click **Change**:
 
 <img src="assets/images/create/train-models/setPreTrainedModel.gif" alt="screen recording showing how to select a dataset">
 
 ### Choose a Crop Option 
-Images must be in square format. This is a constraint of StyleGAN, the pre-trained model that will be used to train your model.
+Images must be in a square format. This is a constraint of StyleGAN, the pre-trained model that will be used to train your model.
 
 If your images are not square, these are your options:
 * **Center**: This is a good choice if the subject of your images usually appears in the center.
@@ -110,11 +121,11 @@ If your images are not square, these are your options:
 ### Set the Training Steps
 During each Training Step, the model learns a little bit more about the visual patterns, or features, it finds in your dataset. 
 
-Determining an effective number of training steps is a bit of a moving target. Too few and your model might not be able to synthesize images with coherent visual forms that are reminiscent of those in the original dataset. Too many and your model will stop improving, not learning anything new, and possibly produce worse images.
+Determining an effective number of training steps is a bit of a moving target. Too few and your model might not be able to synthesize images with coherent visual forms that are reminiscent of those in the original dataset. Too many and your model will stop improving, not learning anything new, and possibly produce worse images or images look the same.
 
-The maximum number of Training Steps you can set is 25,000, but a good starting point is 5,000 steps. After training completes, you can review the model's learning progress at various steps. 
+The maximum number of Training Steps is 25,000, but a good starting point is 5,000. During and after training, you can review the model's learning progress at various steps. 
 
-The higher the number of Training Steps, the longer it will take to train your model. Estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough credits, your Training Experiment might stop before training completes.
+The higher the number of Training Steps, the longer it will take to train your model. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough [credits](https://runwayml.com/pricing), your Training Experiment will stop before training completes.
 
 Enter the **number of Training Steps** and click **Start Training** to continue.
 
@@ -122,21 +133,23 @@ Enter the **number of Training Steps** and click **Start Training** to continue.
 
 
 ## Step 5: Train Your Model
-At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. Make sure that your account has enough credits for the estimated training time, otherwise your training experiment will stop.
+At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. Make sure that your account has enough [credits](https://runwayml.com/pricing) for the estimated training time, otherwise your training experiment will stop.
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
 
 <img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
-During training and after it completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video. Click **Next** to continue after the training process concludes. 
+During training and after it completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video. Click **Next** to continue when the training process concludes. 
 
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
 
 ## Step 6: Use Your Model
-Your model is now ready to run and you can explore all the possible images it can generate. How exciting! What will you discover?!
+Your model is now ready to run, and you can explore all the possible images it can generate. How exciting! What will you discover?!
 
 Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. A new Workspace will be created during this step if you do not already have one. To use your particular model, select it from the Checkpoints listed on the right, set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)**. 
 
 <img src="assets/images/create/train-models/trainingReview.jpg" alt="screen grab showing training review">
 
-?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan.
+?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan. 
+
+?> 📽 To learn even more about StyleGAN, follow up with this [Coding Traing tutorial](https://www.youtube.com/watch?v=vEetoBuHj8g) from Daniel Shiffman.
