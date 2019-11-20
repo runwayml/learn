@@ -23,7 +23,7 @@ RunwayML also connects to a variety of [creative programming and design environm
 
 Interested in adding your own models to RunwayML? Please visit our [model importing guide](how-to/import-models).
 
-You can also [train your own models](create/train-models) to automatically generate images!
+You can also [train your own models](create/train-models) to generate images!
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/7g5Dn60VFb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
