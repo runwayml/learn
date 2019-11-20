@@ -26,7 +26,7 @@ RunwayML greatly reduces the amount of training time needed to train your own ge
 
 Even with Transfer Learning, it's not unusual for training to last at least several hours. 
 
-?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
+?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
 
 ### What can I do with my newly-trained model?
 During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model can be used to generate a seemingly infinite number of synethetic images that appear as if they came from the dataset itself. 
@@ -109,7 +109,7 @@ Your choice of a Pre-Trained Model from which to start your training will impact
     * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
     * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). 
     
-?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
+?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
 
 To view all the Pre-Trained Model options, click **Change**:
 
@@ -144,7 +144,7 @@ At the start of the training process, all your images will be pre-processed and 
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
 
-?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
+?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
 
 <img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
