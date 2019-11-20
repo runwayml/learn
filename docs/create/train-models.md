@@ -26,7 +26,7 @@ RunwayML greatly reduces the amount of training time needed to train your own ge
 
 Even with Transfer Learning, it's not unusual for training to last at least several hours. 
 
-?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in your RunwayML [User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://runwayml.com/pricing). 
+?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
 
 ### What can I do with my newly-trained model?
 During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model can be used to generate a seemingly infinite number of synethetic images that appear as if they came from the dataset itself. 
@@ -107,7 +107,7 @@ Your choice of a Pre-Trained Model from which to start your training will impact
     * If you prefer to pick Pre-Trained Model for the content, but the output size is too small, know that RunwayML provides several models to quickly [upscale images](create/transform?id=upscale-images), and you can easily [chain](how-to/chain-models-together) your newly-trained model to one of those when you run it in a Workspace.
 * **Training Time**: 
     * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
-    * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). Note that if your account does not have enough [credits](https://runwayml.com/pricing), your Training Experiment will stop before training completes.
+    * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). Note that if your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes.
 
 To view all the Pre-Trained Model options, click **Change**:
 
@@ -130,7 +130,7 @@ Determining an effective number of training steps is a bit of a moving target. T
 
 The maximum number of Training Steps is 25,000, but a good starting point is 5,000. During and after training, you can review the model's learning progress at various steps. 
 
-The higher the number of Training Steps, the longer it will take to train your model. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough [credits](https://runwayml.com/pricing), your Training Experiment will stop before training completes.
+The higher the number of Training Steps, the longer it will take to train your model. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes.
 
 Enter the **number of Training Steps** and click **Start Training** to continue.
 
@@ -138,11 +138,11 @@ Enter the **number of Training Steps** and click **Start Training** to continue.
 
 
 ## Step 5: Train Your Model
-At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. Make sure that your account has enough [credits](https://runwayml.com/pricing) for the estimated training time, otherwise your training experiment will stop.
+At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. Make sure that your account has enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) for the estimated training time, otherwise your training experiment will stop.
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
 
-?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in your RunwayML [User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://runwayml.com/pricing). 
+?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
 
 <img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
