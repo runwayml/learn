@@ -153,16 +153,13 @@ During training and after it completes, you can review the progress at various T
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
 
 ## Step 6: Use Your Model
-Hooray! Your model is now ready to run, and you can explore all the possible images it can generate. What will you discover?!
-
-Click **Save to My Models**. When you do, you will be taken to an overview page of your model. 
+Hooray! Your model is now ready to use. Click **Save to My Models**. When you do, you will be taken to an overview page of your model. 
 
 <img src="assets/images/create/train-models/trainingSave.jpg" alt="screen grab showing training review">
 
-From there, add your new model to a Workspace to use it. A new Workspace will be created during this step if you do not already have one. To use your particular model, select it from the Checkpoints listed on the right, set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)**. 
+To run your model, click **Add to Workspace**. A new Workspace will be created during this step if you do not already have one. Set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)** to explore all the possible images it can generate. What will you discover?!
 
-
-
+<img src="assets/images/create/train-models/runningModel.gif" alt="screen grab showing training review">
 
 ?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan. 
 
