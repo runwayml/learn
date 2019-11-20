@@ -1,7 +1,7 @@
 # Train Your Own Models
 <br>
 
-?>The Training Experiments Beta feature is currently available to small group of beta testers. Please contact us if you are interested in testing and providing feedback on this new feature.
+?>The feature to train your own models is currently available to small group of beta testers. Please contact us if you are interested in testing and providing feedback on this new feature.
 
 🚧 This page is under active development as RunwayML beta testers provide feedback on the training process. 
 
