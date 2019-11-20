@@ -4,17 +4,16 @@
 [Sign in](https://account.runwayml.com/) to your RunwayML account.
 
 ## Upgrade Your RunwayML Plan
-If you are a Training Experiments beta tester, access to Training Experiments is limited to a total five hours of training time. Upgrade to the **Creator Plan** in your RunwayML [User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://runwayml.com/pricing). 
+If you are a Training Experiments beta tester, access to Training Experiments is limited to five hours total of training time. Subscribe to the **Creator Plan** in your RunwayML [User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://runwayml.com/pricing). 
 
-The Creator Plan also includes $10 in free credits, 25% bonus on new credit purchases, 8GB of active storage to save your datasets, and access to additional features as they are released. To upgrade your Free Plan to the Creator Plan, visit the RunwayML User Dashboard](https://account.runwayml.com/).
+The Creator Plan also includes $10 in free credits, 25% bonus on new credit purchases, 8GB of active storage to save your datasets, and access to additional features as they are released. To upgrade your Free Plan to the Creator Plan, visit the RunwayML [User Dashboard](https://account.runwayml.com/).
 
 ## Add Credits
 To add credits to your account:
 1. Visit the RunwayML [User Dashboard](https://account.runwayml.com/) and log in with your account credentials.* 
-1. Select **Billing** and then click **Add Payment Method**.
-1. Once you have added your payment method, you can add new credits to your RunwayML account by clicking the **Add Funds** button. 
+1. Select **Credits** to add your payment method and purchase additional credits.
 
-RunwayML credits correspond directly to U.S. dollars and cents and can be used to run models on our remote cloud GPU infrastructure. Credits may also be used for additional RunwayML services in the future.
+RunwayML credits correspond directly to U.S. dollars and cents and can be used to run models on our remote cloud GPU infrastructure. Credits may also be used for additional RunwayML services in the future. Receipts for credit purchases will be sent to your email address.
 
 ## Redeem a Coupon Code
 To redeem a coupon code:
