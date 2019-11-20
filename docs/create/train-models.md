@@ -107,7 +107,9 @@ Your choice of a Pre-Trained Model from which to start your training will impact
     * If you prefer to pick Pre-Trained Model for the content, but the output size is too small, know that RunwayML provides several models to quickly [upscale images](create/transform?id=upscale-images), and you can easily [chain](how-to/chain-models-together) your newly-trained model to one of those when you run it in a Workspace.
 * **Training Time**: 
     * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
-    * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes.
+    * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). 
+    
+?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
 
 To view all the Pre-Trained Model options, click **Change**:
 
@@ -142,7 +144,7 @@ At the start of the training process, all your images will be pre-processed and 
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
 
-?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
+?> If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) to train for more than five hours. With or without the Creator Plan, training time still uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
 
 <img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
@@ -151,11 +153,16 @@ During training and after it completes, you can review the progress at various T
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
 
 ## Step 6: Use Your Model
-Your model is now ready to run, and you can explore all the possible images it can generate. How exciting! What will you discover?!
+Hooray! Your model is now ready to run, and you can explore all the possible images it can generate. What will you discover?!
 
-Click **Run Your Model in a Workspace**. When you do, the StyleGAN model will be added to a Workspace. A new Workspace will be created during this step if you do not already have one. To use your particular model, select it from the Checkpoints listed on the right, set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)**. 
+Click **Save to My Models**. When you do, you will be taken to an overview page of your model. 
 
-<img src="assets/images/create/train-models/trainingReview.jpg" alt="screen grab showing training review">
+<img src="assets/images/create/train-models/trainingSave.jpg" alt="screen grab showing training review">
+
+From there, add your new model to a Workspace to use it. A new Workspace will be created during this step if you do not already have one. To use your particular model, select it from the Checkpoints listed on the right, set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)**. 
+
+
+
 
 ?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan. 
 
