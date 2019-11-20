@@ -3,6 +3,9 @@
 ## Sign In
 [Sign in](https://account.runwayml.com/) to your RunwayML account.
 
+## Upgrade Your RunwayML Plan
+Subscribe to the Creator Plan for access Training Experiments Beta, $10 in free credits, 25% bonus on new credits purchases, 8GB of active storage to save your datasets, and access to additional new features as they are released. To upgrade your Free Plan to the Creator Plan, visit the RunwayML User Dashboard](https://account.runwayml.com/).
+
 ## Add Credits
 To add credits to your account:
 1. Visit the RunwayML [User Dashboard](https://account.runwayml.com/) and log in with your account credentials.* 

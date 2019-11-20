@@ -1,7 +1,7 @@
 # Train Your Own Models
 <br>
 
-?>The Training Experiments feature is currently available to small group of beta testers. Please contact us if you are interested in testing and providing feedback on this new feature.
+?>The Training Experiments Beta feature is currently available to small group of beta testers. Please contact us if you are interested in testing and providing feedback on this new feature.
 
 🚧 This page is under active development as RunwayML beta testers provide feedback on the training process. 
 
@@ -25,6 +25,8 @@ The time it takes to train a model depends on a combination of many factors, inc
 RunwayML greatly reduces the amount of training time needed to train your own generative image model by using using a technique called Transfer Learning. With this technique, an existing pre-trained model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN), is retrained on your dataset. StyleGAN was trained on a massive amount of images (70,000!), and Transfer Learning leverages all of the features it learned from the original data to speed up the process of learning features in your image dataset. Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. You can learn more about StyleGAN and how it was orginally trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN). 
 
 Even with Transfer Learning, it's not unusual for training to last at least several hours. 
+
+?> Without a [RunwayML Creator Plan], access to Training Experiments is limited to a total five hours of training time. Please upgrade to the Creator Plan to train more than five hours. With or without the Creator Plan, training time still uses [credits](https://runwayml.com/pricing). 
 
 ### What can I do with my newly-trained model?
 During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model can be used to generate a seemingly infinite number of synethetic images that appear as if they came from the dataset itself. 
@@ -79,7 +81,10 @@ Currently, Training Experiments are only available with the StyleGAN model. Clic
 
 
 ## Step 3: Select the Dataset
-Select one of the public datasets or, to use your own data, simply click the **+ button** or drag in your folder of images. Your dataset will then be compressed and uploaded. This can take a while, but when it finishes, click **Next**.
+Select one of the public datasets or, to use your own data, simply click the **+ button** or drag in your folder of images. 
+Your dataset will then be compressed and uploaded. This can take a while, but when it finishes, click **Next**.
+
+?> Any dataset you upload will be private to your account. 
 
 <img src="assets/images/create/train-models/selectDataset.gif" alt="screen recording showing how to select a dataset">
 
