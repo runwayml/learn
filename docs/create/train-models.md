@@ -130,13 +130,13 @@ During each Training Step, the model learns a little bit more about the visual p
 
 Determining an effective number of training steps is a bit of a moving target. Too few and your model might not be able to synthesize images with coherent visual forms that are reminiscent of those in the original dataset. Too many and your model will stop improving, not learning anything new, and possibly produce worse images or images look the same.
 
-The maximum number of Training Steps is 25,000, but a good starting point is 5,000. During and after training, you can review the model's learning progress at various steps. 
+The maximum number of Training Steps is 25,000, but a good starting point is 3,000. During and after training, you can review the model's learning progress at various steps. 
 
 The higher the number of Training Steps, the longer it will take to train your model. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes.
 
 Enter the **number of Training Steps** and click **Start Training** to continue.
 
-<img src="assets/images/create/train-models/trainingSteps.png" alt="screen grab of 5000 training steps" width=40%>
+<img src="assets/images/create/train-models/trainingSteps.png" alt="screen grab of 3000 training steps" width=40%>
 
 
 ## Step 5: Train Your Model
