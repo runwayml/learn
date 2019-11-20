@@ -11,7 +11,7 @@ In addition to publishing open source, pre-trained machine learning models in th
 ### What is a model and what does it mean to train one?
 Generally speaking, a model is a machine learning algorithm that has learned patterns within a given dataset. Instead of being explicitly programmed, it develops its own parameters for how to represent—or model—those patterns to make predictions about new data (such as to detect objects in a video) or generate completely new content that mimics the original data on which it was trained (such as synthesize images from a collection of paintings). 
 
-Training is the process of providing a machine learning algorithm with dataset to learn patterns in the form of features. RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps that the algorithm should take to learn the features. During each step, the model learns a little bit more about the features in your dataset. For a demonstration of the visual patterns a machine learning model might find, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
+Training is the process of providing a machine learning algorithm with dataset to learn patterns in the form of [features](https://en.wikipedia.org/wiki/Feature_(machine_learning)). RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps that the algorithm should take to learn the features. During each step, the model learns a little bit more about the features in your dataset. For a demonstration of the visual patterns a machine learning model might find, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
 
 ### What kind of model can I train?
 Model training is an experimental feature 🧪in RunwayML, and at the time of this writing (November 2019), you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
@@ -22,7 +22,7 @@ To train a generative image model, you need a collection of images. Suggestions 
 ### How long will it take to train my model?
 The time it takes to train a model depends on a combination of many factors, including but not limited to the type of machine learning algorithm (there are algorithms of varying complexity for working with images, words, or sounds) and the number of training steps. 
 
-RunwayML greatly reduces the amount of training time needed to train your own generative image model by using using a technique called Transfer Learning. With this technique, an existing pre-trained model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN), is retrained on your dataset. StyleGAN was trained on a massive amount of images (70,000!), and Transfer Learning leverages all of the features it learned from the original data to speed up the process of learning features in your image dataset. Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. You can learn more about StyleGAN and how it was orginally trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN). 
+RunwayML greatly reduces the amount of training time needed to train your own generative image model by using using a technique called [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning). With this technique, an existing pre-trained model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN), is retrained on your dataset. StyleGAN was trained on a massive amount of images (70,000!), and Transfer Learning leverages all of the [features](https://en.wikipedia.org/wiki/Feature_(computer_vision)) it learned from the original data to speed up the process of learning features in your image dataset. Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. You can learn more about StyleGAN and how it was orginally trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN). 
 
 Even with Transfer Learning, it's not unusual for training to last at least several hours. 
 
@@ -153,7 +153,7 @@ During training and after it completes, you can review the progress at various T
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
 
 ## Step 6: Use Your Model
-Hooray! Your model is now ready to use. Click **Save to My Models**. When you do, you will be taken to an overview page of your model. 
+Hooray! Your model is now ready to use. Click **Save to My Models**. When you do, you will be taken to your model's overview page.
 
 <img src="assets/images/create/train-models/trainingSave.jpg" alt="screen grab showing training review">
 
