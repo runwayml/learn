@@ -22,9 +22,9 @@ To train a generative image model, you need a collection of images. Suggestions 
 ### How long will it take to train my model?
 The time it takes to train a model depends on a combination of many factors, including but not limited to the type of machine learning algorithm (there are algorithms of varying complexity for working with images, words, or sounds) and the number of training steps. 
 
-RunwayML greatly reduces the amount of training time needed to train your own generative image model by using using a technique called [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning). With this technique, an existing pre-trained model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) is retrained on your dataset. StyleGAN was trained on a massive amount of images (70,000!), and Transfer Learning leverages all of the [image features](https://en.wikipedia.org/wiki/Feature_(computer_vision)) it learned from the original data to speed up the process of learning features in your image dataset. Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. You can learn more about StyleGAN and how it was orginally trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN). 
+RunwayML greatly reduces the amount of time needed to train your own generative image model by using using a technique called [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning). With this technique, an existing pre-trained model called [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) is retrained on your dataset. StyleGAN was trained on a massive amount of images (70,000!), and Transfer Learning leverages all of the [image features](https://en.wikipedia.org/wiki/Feature_(computer_vision)) it learned from the original data to speed up the process of learning features in your image dataset. Not only does this greatly reduce training time, it also reduces the number of images that you need to train your own model. You can learn more about StyleGAN and how it was orginally trained from the links posted on the model's [overview page](https://open-app.runwayml.com/?model=runway/StyleGAN). 
 
-Even with Transfer Learning, it's not unusual for training to last at least several hours. 
+Even with Transfer Learning, it's not unusual for training to take at least several hours. 
 
 ?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
 
@@ -39,7 +39,7 @@ Here are the steps to get started...
 To train your own generative image model, you need to create a dataset from a collection of images in a folder on your computer. Images similar in content and style will produce a model that is better able to synthesize images that are reminiscent of those in the original dataset. This offers great potential for augmenting and extending creative work, especially as a tool for quickly iterating through visual ideas. A model trained from a varied collection of images that you never deleted from your mobile phone, however, is not likely to perform as well.
 
 ### How much? 
-RunwayML Training Experiments will accept individual datasets that total less than 5GB in combined file size and less than 25K images in total number. That's a lot, we know. Generally, the more data you collect, the better your model will be at generating synthetic images that look like they came from your original dataset, but a starting recommendation is to gather around 500-5,000 images. Some users, however, have been pleased with the results of a model trained on as few as 300 images.
+RunwayML Training Experiments will accept individual datasets that total less than 5GB in combined file size and less than 25,000 images in total number. That's a lot, we know. Generally, the more data you collect, the better your model will be at generating synthetic images that look like they came from your original dataset, but a starting recommendation is to gather around 500-5,000 images. Some users, however, have been pleased with the results of a model trained on as few as 300 images.
 
 ### From where?
 Are you an illustrator, painter, photographer, architect, set designer, graphic designer, fashion designer, textile artist, [asemic writer](https://en.wikipedia.org/wiki/Asemic_writing), musician who reads sheet music, or someone who works with or is inspired by visible marks in some form? Then you likely already have a good amount of visual material on which to train a generative image model.
@@ -61,7 +61,7 @@ Here are some strategies* for creating (or inflating) datasets from existing bod
 • If the images contain people, were the individuals notified about how their images would be used and did they give consent? <br>
 • Do the images adhere to RunwayML's [Code of Conduct](https://runwayml.com/coc)?
 
-If you're just curious to try the training process, RunwayML also provides some public datasets to use when you create a Training Experiment.
+If you're just curious to try the training process, RunwayML also provides some public datasets to use when you create a Training Experiment. The images in these datasets were sourced from Flickr and in the public domain.
 
 ### How should I prepare my dataset?
 Once you have a dataset of hundreds or thousands of images, here are some additional items to note:
@@ -73,14 +73,14 @@ Once you have a dataset of hundreds or thousands of images, here are some additi
 ## Step 2: Create a Training Experiment
 Launch RunwayML and click **Train a Model** from the splash screen. The training directory is also available from the left navigation. 
 
-Currently, Training Experiments are only available with the StyleGAN model. Click to **Start Experiment**, give it a title, and then click **Create**.
+Currently, Training Experiments are only available with the StyleGAN model. Click to **Start Training**, give it a title, and then click **Create**.
 
 <img src="assets/images/create/train-models/startTrainingExperiment.gif" alt="screen recording showing how to start a training experiment">
 
 
 ## Step 3: Select the Dataset
 Select one of the public datasets or, to use your own data, simply click the **+ button** or drag in your folder of images. 
-Your dataset will then be compressed and uploaded. This can take a while, but when it finishes, click **Next**.
+Your dataset will then be compressed and uploaded. This can take a while, but click **Next** when it finishes. 
 
 ?> Any dataset you upload will be private to your account. 
 
