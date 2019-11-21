@@ -47,7 +47,6 @@ Are you an illustrator, painter, photographer, architect, set designer, graphic 
 Here are some strategies* for creating (or inflating) datasets from existing bodies of work:
 * If you don't have digital copies, take photographs of your work!
 * Duplicate and rotate the images.
-* Flip images horizontally and vertically.
 * Create new images that are zoomed out and zoomed in.
 * Generate images from frames of your videos.
 * If you're comfortable with creative coding tools like [Processing](https://processing.org/) or [p5.js](https://p5js.org/) (there are many others, too!), can you automatically generate images? 
