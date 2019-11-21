@@ -1,7 +1,7 @@
 # Train Your Own Models
 <br>
 
-?>The feature to train your own models is currently available to small group of beta testers. Please contact us if you are interested in testing and providing feedback on this new feature.
+?>The feature to train your own models is currently available to small group of beta testers. Please [contact us](https://runwayml.com/training-access) if you are interested in testing and providing feedback on this new feature.
 
 🚧 This page is under active development as RunwayML beta testers provide feedback on the training process. 
 
@@ -153,13 +153,18 @@ During training and after it completes, you can review the progress at various T
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
 
 ## Step 6: Use Your Model
-Hooray! Your model is now ready to use. Click **Save to My Models**. When you do, you will be taken to your model's overview page.
+Hooray! Your model is now ready to use. Click **Save to My Models**. 
 
 <img src="assets/images/create/train-models/trainingSave.jpg" alt="screen grab showing training review">
 
+
+You will be taken to your model's overview page. On the overview page, click **Settings** for options to **Make Model Public** (this is permanent), **Rename Model**, or **Delete Model**. 
+
+<img src="assets/images/create/train-models/modelOverview.jpg" alt="screen grab showing model settings">
+
 To run your model, click **Add to Workspace**. A new Workspace will be created during this step if you do not already have one. Set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)** to explore all the possible images it can generate. What will you discover?!
 
-<img src="assets/images/create/train-models/runningModel.gif" alt="screen grab showing training review">
+<img src="assets/images/create/train-models/runningModel.gif" alt="screen grab showing adding model to workdpace">
 
 ?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan. 
 
