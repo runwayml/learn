@@ -6,7 +6,7 @@
 🚧 This page is under active development as RunwayML beta testers provide feedback on the training process. 
 
 ## Overview
-In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can now train your own models! This guide will walk you through the steps of training a model, but first, here's a quick FAQ to provide some context to help you get started.
+In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can train your own models. This guide will walk you through the steps of training a model, but first, here's a quick FAQ to provide some context.
 
 ### What is a model and what does it mean to train one?
 Generally speaking, a model is a machine learning algorithm that has learned patterns within a given dataset. Instead of being explicitly programmed, it develops its own parameters for how to represent—or model—those patterns to make predictions about new data (such as to detect objects in a video) or generate completely new content that mimics the original data on which it was trained (such as synthesize images from a collection of paintings). 
