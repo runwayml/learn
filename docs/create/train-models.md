@@ -17,7 +17,7 @@ Training is the process of providing a machine learning algorithm with dataset t
 Model training is an experimental feature 🧪in RunwayML, and at the time of this writing (November 2019), you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
 
 ### What kind of dataset do I need?
-To train a generative image model, you need a collection of images. Suggestions for the amount, as well as considerations for how to source and prepare those images are below. RunwayML also provides some public datasets to try.
+To train a generative image model, you need a collection of images. Suggestions for the amount, as well as considerations for how to source and prepare those images are below. RunwayML also provides datasets of public domain images from Flickr to try.
 
 ### How long will it take to train my model?
 The time it takes to train a model depends on a combination of many factors, including but not limited to the type of machine learning algorithm (there are algorithms of varying complexity for working with images, words, or sounds) and the number of training steps. 
@@ -152,16 +152,17 @@ During training and after it completes, you can review the progress at various T
 
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
 
-## Step 6: Use Your Model
-Hooray! Your model is now ready to use. Click **Save to My Models**. 
+## Step 6: Save Your Model
+Your model is now ready to use. Click **Save to My Models**. 
 
 <img src="assets/images/create/train-models/trainingSave.jpg" alt="screen grab showing training review">
 
 
-You will be taken to your model's overview page. On the overview page, click **Settings** for options to **Make Model Public** on the RunwayML platform (this is permanent), **Rename Model**, or **Delete Model**. 
+You will be taken to your model's overview page. On the overview page, click **Settings** for options to **Make Model Public** for anybody to used on the RunwayML platform (this is permanent), **Rename Model**, or **Delete Model**. 
 
 <img src="assets/images/create/train-models/modelOverview.jpg" alt="screen grab showing model settings">
 
+## Step 7: Run Your Model
 To run your model, click **Add to Workspace**. A new Workspace will be created during this step if you do not already have one. Set the model's input to **Vector**, the output to **Preview**, and click **[Run Remotely](how-to/use-models?id=step-7-run-the-model)** to explore all the possible images it can generate. What will you discover?!
 
 <img src="assets/images/create/train-models/runningModel.gif" alt="screen grab showing adding model to workdpace">
