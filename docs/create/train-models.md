@@ -155,7 +155,10 @@ Your model is now ready to use. Click **Save to My Models**.
 <img src="assets/images/create/train-models/trainingSave.jpg" alt="screen grab showing training review">
 
 
-You will be taken to your model's overview page. On the overview page, click **Settings** for options to **Make Model Public** for anybody to use in the RunwayML platform (this is permanent unless you delete your model), **Rename Model**, or **Delete Model**. 
+You will be taken to your model's overview page. Here click **Settings** for options to:
+*  **Make Model Public** for anybody to use in the RunwayML platform (this is permanent unless you delete your model)
+* **Rename Model**
+* **Delete Model** (you can always return to your **Training Experiment** to re-save your model) 
 
 <img src="assets/images/create/train-models/modelOverview.jpg" alt="screen grab showing model settings">
 
