@@ -50,7 +50,7 @@ Here are some strategies* for creating (or inflating) datasets from existing bod
 * Create new images that are zoomed out and zoomed in.
 * Generate images from frames of your videos.
 * If you're comfortable with creative coding tools like [Processing](https://processing.org/) or [p5.js](https://p5js.org/) (there are many others, too!), can you automatically generate images? 
-* If you're technically-inclined, there are also use tools for scraping (automatically extracting) images from websites.
+* If you're technically-inclined, there are also tools for scraping (automatically extracting) images from websites.
 
 *A model will learn all the visual features of the given dataset. If you create a dataset of dogs and some of them are upsidedown, then expect that your model might generate upsidedown dogs or dog-like creatures with a combination of both upsidedown and rightsideup characteristics. You may or may not want that.
 
