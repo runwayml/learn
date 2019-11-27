@@ -56,7 +56,8 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| [Multiple Models](https://github.com/genekogan/ofxRunway) | ofxRunway Addon  | Addon  | [Gene Kogan](https://genekogan.com) 🎉 | 
+| [Multiple Models](https://github.com/genekogan/ofxRunway) | ofxRunway Addon (v1)  | Addon  | [Gene Kogan](https://genekogan.com) 🎉 | 
+| [Multiple Models](https://github.com/runwayml/ofxRunway) | ofxRunway Addon (v2)  | Addon  | [Roy Macdonald](https://github.com/roymacdonald/) 🎉 | 
 
 
 **OSC**
