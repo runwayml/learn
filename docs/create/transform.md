@@ -68,9 +68,10 @@ Semantic Image Synthesis
 ## Upscale Images
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
-| [Fast-SRGAN](https://open-app.runwayml.com/?model=anastasis/Fast-SRGAN) | Real-time Super Resolution | |     
 | [ESRGAN](https://open-app.runwayml.com/?model=runway/ESRGAN) | 4x ([Tutorial](tutorials/tutorial_esrgan.md))| [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing), [TouchDesigner](networking/examples?id=touchdesigner) |
+| [Fast-SRGAN](https://open-app.runwayml.com/?model=anastasis/Fast-SRGAN) | Real-time Super Resolution | |  
 | [Image-Super-Resolution](https://open-app.runwayml.com/?model=runway/Image-Super-Resolution) | 2x |[Processing](networking/examples?id=processing) |
+| [SRFBN](https://open-app.runwayml.com/?model=anastasis/Fast-SRGAN) | 2x, 3x, and 4x | |  
 
 ## 2D Masking
 | Model | Description | Networking Examples |
