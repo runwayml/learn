@@ -52,12 +52,13 @@ Semantic Image Synthesis
 ## Image Editing
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
+| [BDCN](https://open-app.runwayml.com/?model=sree_harsha/BDCN) | An edge detection model that turns images into contour drawings | |
 | [DeepFill](https://open-app.runwayml.com/?model=runway/DeepFill) | Remove objects from photos | [Processing](networking/examples?id=processing)|
 | [DeRaindrop](https://open-app.runwayml.com/?model=zaid/DeRaindrop) | Remove raindrops from photos| [Processing](networking/examples?id=processing)|
 | [Deep-Portrait-Image-Relighting](https://open-app.runwayml.com/?model=sree_harsha/Deep-Portrait-Image-Relighting) | Generate relighted image by using a single portrait image and a target lighting | |
 | [Edge-connect](https://open-app.runwayml.com/?model=zaid/edge-connect) | Generative Image Inpainting with Adversarial Edge Learning | [Processing](networking/examples?id=processing) |
 | [Image-Inpainting-GMCMM](https://open-app.runwayml.com/?model=anastasis/Image-Inpainting-GMCNN) | Image Inpainting via Generative Multi-column Convolutional Neural Networks | [Processing](networking/examples?id=processing)|
-| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch) | An edge detection model that turns images into contour drawings | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 
 
 ## Colorize B/W Media
