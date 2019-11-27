@@ -28,6 +28,9 @@ Even with Transfer Learning, it's not unusual for training to take at least seve
 
 ?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
 
+### How many Training Experiments can I run at a time?
+The default limit is five concurrent sessions. We can increase the limit upon request. Just send an email to [support@runwayml.com](mailto:support@runwayml.com).
+
 ### What can I do with my newly-trained model?
 During training, your model learns to produce new images that look like the ones in your dataset. When training is complete, the model will generate a seemingly infinite number of synthetic images that appear as if they came from the dataset itself. The space of all new possible images that your model can create is called the latent space, which you can explore when you [run your model](how-to/use-models?id=step-7-run-the-model). Happy image making!
 
