@@ -15,6 +15,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Fast Photo Style](https://open-app.runwayml.com/?model=reiinakano/FastPhotoStyle) | A Closed-form Solution to Photorealistic Image Stylization |[Processing](networking/examples?id=processing) |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
+| [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
 | [Style2paints](https://open-app.runwayml.com/?model=zaid/style2paints) | Automatic Sketch Colorization |[Processing](networking/examples?id=processing) |
 
 
