@@ -12,7 +12,8 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Adaptive Style Transfer](https://open-app.runwayml.com/?model=runway/Adaptive-Style-Transfer)  | Repaint images in the styles of famous painters ([Tutorial](tutorials/tutorial_style_transfer.md))|[Processing](networking/examples?id=processing) |
 | [AdaIN-Style-Transfer](https://open-app.runwayml.com/?model=reiinakano/AdaIN-Style-Transfer) | Real-time style transfer | [Processing](networking/examples?id=processing)| 
 | [Arbitrary-Style-Transfer](https://open-app.runwayml.com/?model=runway/Arbitrary-Image-Stylization) | Real-time style transfer |[Processing](networking/examples?id=processing)  |
-| [Fast Photo Style](https://open-app.runwayml.com/?model=reiinakano/FastPhotoStyle) | A Closed-form Solution to Photorealistic Image Stylization |[Processing](networking/examples?id=processing) |
+| [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
+| [CartoonGAN](https://open-app.runwayml.com/?model=sree_harsha/CartoonGAN) | Transform photos of real-world scenes into cartoon style images | |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
 | [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
