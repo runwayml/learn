@@ -36,6 +36,7 @@ Semantic Image Segmentation
 | [DeepLab](https://open-app.runwayml.com/?model=genekogan/deeplab) | Extract semantic maps from objects in images | [Processing](networking/examples?id=processing) |
 | [DeepLabV3](https://open-app.runwayml.com/?model=runway/DeepLabV3) | Deep labeling for semantic image segmentation | [Processing](networking/examples?id=processing) |
 | [Face-Parser](https://open-app.runwayml.com/?model=anastasis/Face-Parser) | A pretrained model for parsing facial components from an image | [Processing](networking/examples?id=processing) |
+| [Unsupervised-Segmentation](https://open-app.runwayml.com/?model=anastasis/Unsupervised-Segmentation) | The model assigns labels to pixels that denote the cluster to which the pixel belongs, however no training images nor ground truth labels of pixels are given beforehand.  |  |
 
 
 ## Semantic Image Maps → Images
