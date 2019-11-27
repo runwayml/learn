@@ -12,9 +12,11 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Adaptive Style Transfer](https://open-app.runwayml.com/?model=runway/Adaptive-Style-Transfer)  | Repaint images in the styles of famous painters ([Tutorial](tutorials/tutorial_style_transfer.md))|[Processing](networking/examples?id=processing) |
 | [AdaIN-Style-Transfer](https://open-app.runwayml.com/?model=reiinakano/AdaIN-Style-Transfer) | Real-time style transfer | [Processing](networking/examples?id=processing)| 
 | [Arbitrary-Style-Transfer](https://open-app.runwayml.com/?model=runway/Arbitrary-Image-Stylization) | Real-time style transfer |[Processing](networking/examples?id=processing)  |
-| [Fast Photo Style](https://open-app.runwayml.com/?model=reiinakano/FastPhotoStyle) | A Closed-form Solution to Photorealistic Image Stylization |[Processing](networking/examples?id=processing) |
+| [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
+| [CartoonGAN](https://open-app.runwayml.com/?model=sree_harsha/CartoonGAN) | Transform photos of real-world scenes into cartoon style images | |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
+| [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
 | [Style2paints](https://open-app.runwayml.com/?model=zaid/style2paints) | Automatic Sketch Colorization |[Processing](networking/examples?id=processing) |
 
 
@@ -35,6 +37,7 @@ Semantic Image Segmentation
 | [DeepLab](https://open-app.runwayml.com/?model=genekogan/deeplab) | Extract semantic maps from objects in images | [Processing](networking/examples?id=processing) |
 | [DeepLabV3](https://open-app.runwayml.com/?model=runway/DeepLabV3) | Deep labeling for semantic image segmentation | [Processing](networking/examples?id=processing) |
 | [Face-Parser](https://open-app.runwayml.com/?model=anastasis/Face-Parser) | A pretrained model for parsing facial components from an image | [Processing](networking/examples?id=processing) |
+| [Unsupervised-Segmentation](https://open-app.runwayml.com/?model=anastasis/Unsupervised-Segmentation) | The model assigns labels to pixels that denote the cluster to which the pixel belongs, however no training images nor ground truth labels of pixels are given beforehand.  |  |
 
 
 ## Semantic Image Maps → Images
@@ -50,12 +53,15 @@ Semantic Image Synthesis
 ## Image Editing
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
+| [BDCN](https://open-app.runwayml.com/?model=sree_harsha/BDCN) | An edge detection model that turns images into contour drawings | |
 | [DeepFill](https://open-app.runwayml.com/?model=runway/DeepFill) | Remove objects from photos | [Processing](networking/examples?id=processing)|
 | [DeRaindrop](https://open-app.runwayml.com/?model=zaid/DeRaindrop) | Remove raindrops from photos| [Processing](networking/examples?id=processing)|
 | [Deep-Portrait-Image-Relighting](https://open-app.runwayml.com/?model=sree_harsha/Deep-Portrait-Image-Relighting) | Generate relighted image by using a single portrait image and a target lighting | |
 | [Edge-connect](https://open-app.runwayml.com/?model=zaid/edge-connect) | Generative Image Inpainting with Adversarial Edge Learning | [Processing](networking/examples?id=processing) |
+| [EnlightenGAN](https://open-app.runwayml.com/?model=sree_harsha/EnlightenGAN) | Enhance the lighting on your image | |
 | [Image-Inpainting-GMCMM](https://open-app.runwayml.com/?model=anastasis/Image-Inpainting-GMCNN) | Image Inpainting via Generative Multi-column Convolutional Neural Networks | [Processing](networking/examples?id=processing)|
-| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch]) | Turn images into contour drawings | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch) | An edge detection model that turns images into contour drawings | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [RIDNet](https://open-app.runwayml.com/?model=sree_harsha/RIDNet) | A model for denoising photograghs | |
 
 
 ## Colorize B/W Media
@@ -68,9 +74,10 @@ Semantic Image Synthesis
 ## Upscale Images
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
-| [Fast-SRGAN](https://open-app.runwayml.com/?model=anastasis/Fast-SRGAN) | Real-time Super Resolution | |     
 | [ESRGAN](https://open-app.runwayml.com/?model=runway/ESRGAN) | 4x ([Tutorial](tutorials/tutorial_esrgan.md))| [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing), [TouchDesigner](networking/examples?id=touchdesigner) |
+| [Fast-SRGAN](https://open-app.runwayml.com/?model=anastasis/Fast-SRGAN) | Real-time Super Resolution | |  
 | [Image-Super-Resolution](https://open-app.runwayml.com/?model=runway/Image-Super-Resolution) | 2x |[Processing](networking/examples?id=processing) |
+| [SRFBN](https://open-app.runwayml.com/?model=sree_harsha/SRFBN) | 2x, 3x, and 4x | |  
 
 ## 2D Masking
 | Model | Description | Networking Examples |
