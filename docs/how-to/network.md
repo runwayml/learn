@@ -240,7 +240,7 @@ from http.client import HTTPConnection
 data = { "image": "data:image/jpeg;base64,..." }
 
 modelPort = 8000
-conn = HTTPConnection("localhost:" + modelPort)
+conn = HTTPConnection("localhost:" + str(modelPort))
 conn.request("POST", "/query", json.dumps(data),  { 'Content-type': 'application/json' })
 response = conn.getresponse()
 
