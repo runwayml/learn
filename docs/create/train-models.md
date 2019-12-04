@@ -61,7 +61,7 @@ Here are some strategies* for creating (or inflating) datasets from existing bod
 • What are the images' terms of use? <br>
 • If you intend to scrape images, is that technique in keeping with the website's terms of service? <br>
 • If the images contain people, were the individuals notified about how their images would be used and did they give consent? <br>
-• Do the images adhere to RunwayML's [Code of Conduct](https://runwayml.com/coc)?
+• Do the images adhere to RunwayML's [Acceptable Use Policy](https://runwayml.com/legal/use-policy/) and [Code of Conduct](https://runwayml.com/coc)?
 
 If you're just curious to try the training process, RunwayML also provides some public datasets to use when you create a Training Experiment. The images in these datasets were sourced from Flickr and in the public domain.
 
