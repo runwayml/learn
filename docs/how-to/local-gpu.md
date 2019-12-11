@@ -2,13 +2,13 @@
 
 ?> This document assumes the reader is loosely familiar with installing software on Linux.
 
-Local GPU is here! If you are running Runway on Linux and have an NVIDIA graphics card that supports CUDA, you can now run models locally using your own GPU.
+Local GPU is here! If you are running RunwayML on Linux and have an NVIDIA graphics card that supports CUDA, you can now run models locally using your own GPU.
 
 ### Prerequisites
 
 In order to run models on your own GPU hardware, you must fulfill the following requirements:
 
-1. You must be using Runway on Linux (Tested on Ubuntu 18.04)
+1. You must be using RunwayML on Linux (Tested on Ubuntu 18.04)
 1. You must have an NVIDIA GPU that supports CUDA (see a full list of supported GPUs [here](https://www.geforce.com/hardware/technology/cuda/supported-gpus))
 1. You must have a recent version of the NVIDIA Linux drivers (Drivers can be downloaded from [NVIDIA's website directly](https://www.geforce.com/drivers) or from your package manager. You must have a driver version recent enough to support CUDA 9, 9.2, and 10. See this [version compatibility matrix](https://github.com/NVIDIA/nvidia-docker/wiki/CUDA#requirements) to make sure your drivers are up to date.)
 1. You must have [`nvidia-docker2`](https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)) installed
@@ -71,9 +71,9 @@ docker run --runtime nvidia nvidia/cuda:9.0-base nvidia-smi
 
 If all goes well you should see an ascii table similar to the one that you saw before when you ran `nvidia-smi` manually after installing the NVIDIA drivers.
 
-### Running Local GPU Models in Runway
+### Running Local GPU Models in RunwayML
 
-If the following steps went well, you should now be ready to run GPU models locally inside of Runway. You can choose the "LOCAL" run location and the "GPU" hardware type of any model by selecting the "Advanced Options" link in the workspace view of Runway. You will then be prompted to download the model, and once that's done, you can run the model locally on your own GPU!
+If the following steps went well, you should now be ready to run GPU models locally inside of RunwayML. You can choose the "LOCAL" run location and the "GPU" hardware type of any model by selecting the "Advanced Options" link in the workspace view of RunwayML. You will then be prompted to download the model, and once that's done, you can run the model locally on your own GPU!
 
 You can select Local GPU by clicking the `Advanced Options` link.
 

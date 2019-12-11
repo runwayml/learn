@@ -1,6 +1,6 @@
 # Experimental Features 🧪
 
-Runway is currently in beta. This means that we are actively developing the application and things are constantly changing. But one of the cool things about being in beta is that you get to try new experimental features often!
+RunwayML is currently in beta. This means that we are actively developing the application and things are constantly changing. But one of the cool things about being in beta is that you get to try new experimental features often!
 
 This page contains descriptions of our current experimental features and details on how to use them.
 
@@ -13,7 +13,7 @@ This page contains descriptions of our current experimental features and details
 
 ?> Chaining is available as of beta version 0.7.0
 
-Model chaining is a functionality inside Runway that allows you to use the output of one model as the input of another one, effectively chaining them together. This becomes very helpful when you want to create a continuous pipeline of processing for a given input, allowing you to explore an even more extensive and comprehensive set of creative workflows.
+Model chaining is a functionality inside RunwayML that allows you to use the output of one model as the input of another one, effectively chaining them together. This becomes very helpful when you want to create a continuous pipeline of processing for a given input, allowing you to explore an even more extensive and comprehensive set of creative workflows.
 
 ##### Things to Keep in Mind 🧠
 

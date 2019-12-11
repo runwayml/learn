@@ -1,6 +1,6 @@
 # Machine Learning Models
 
-Runway is a platform for publishing open source, pre-trained machine learning models. What do we mean by the term **model**, and how can we use one in Runway?
+RunwayML is a platform for publishing open source, pre-trained machine learning models. What do we mean by the term **model**, and how can we use one in RunwayML?
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/J4FQGYI9gpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,11 +30,11 @@ There are many types of machine learning models. To start, we can categorize mod
 - **Generate**: These models generate synthetic outputs based its training data, such as photorealistic images, coherent text, and music.
 - **Transform**: These models transform or modify a given input and some examples include automatic language translation as well as image stylization and colorization techniques.
 
-### Using Models in Runway
+### Using Models in RunwayML
 
-Depending on the model, there are two ways to run models in Runway: locally, using your computer's CPU, or with a remote GPU in Runway's cloud infrastructure. To run a model on your computer, you'll need to download it and also install Docker. Visit our guide to learn how to [Run Models Locally (With Docker)](how-to/run-models-locally.md). Running a model with remote GPU [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but the model runs much faster (and we don't have to wait several minutes for it to download).
+Depending on the model, there are two ways to run models in RunwayML: locally, using your computer's CPU, or with a remote GPU in RunwayML's cloud infrastructure. To run a model on your computer, you'll need to download it and also install Docker. Visit our guide to learn how to [Run Models Locally (With Docker)](how-to/run-models-locally.md). Running a model with remote GPU [uses credits](https://support.runwayml.com/credits-and-plans/how-much-does-runway-cost), but the model runs much faster (and we don't have to wait several minutes for it to download).
 
-Try running your first model in Runway [here](tutorials/tutorial_t2i.md)!
+Try running your first model in RunwayML [here](tutorials/tutorial_t2i.md)!
 
 You can also import your own machine learning models for your creative projects. Visit our [model importing guide](how-to/import-models.md) to learn more.
 
@@ -47,6 +47,6 @@ Learn more about machine learning with this video series made by [Gene Kogan](ht
 
 ### Model Licenses, Attributions, and Publishers
 
-Every model in Runway is licensed for a specific type of use. Please do check before using them! Some of the models' outputs may be restricted to non-commercial purposes. You can learn more about the license on a model's overview page in its 'License' tab.
+Every model in RunwayML is licensed for a specific type of use. Please do check before using them! Some of the models' outputs may be restricted to non-commercial purposes. You can learn more about the license on a model's overview page in its 'License' tab.
 
 ![Licensing](assets/images/model_101/licensing_attributes.png)

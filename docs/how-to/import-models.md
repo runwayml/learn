@@ -128,7 +128,7 @@ Behind the scenes, the RunwayML Python SDK uses the `@runway.command()` decorato
 
 #### Testing your `runway_model.py` locally
 
-Before you configure your build environment and add your model to RunwayML, you should test it locally to make sure that it works as expected. Using Runway's Develop Mode, you can connect directly to your model server in order to test your model before building it remotely. Open your command line and type:
+Before you configure your build environment and add your model to RunwayML, you should test it locally to make sure that it works as expected. Using RunwayML's Develop Mode, you can connect directly to your model server in order to test your model before building it remotely. Open your command line and type:
 
 ```bash
 ## Optionally create and activate a Python 3 virtual environment
@@ -276,7 +276,7 @@ To make your model public, select the "Settings" tab in your model page, and cli
 
 ## Tutorial 3: Importing the Progressive Growing of GANs (PGAN) Model
 
-This tutorial is posted on the RunwayML Medium blog: [Porting a machine learning model from GitHub to Runway in 5 minutes](https://medium.com/runwayml/porting-a-machine-learning-model-from-github-to-runway-in-5-minutes-555c5c9310af)
+This tutorial is posted on the RunwayML Medium blog: [Porting a machine learning model from GitHub to RunwayML in 5 minutes](https://medium.com/runwayml/porting-a-machine-learning-model-from-github-to-runway-in-5-minutes-555c5c9310af)
 
 ## RunwayML Python SDK
 Developer documentation for the Python SDK to import models: [RunwayML Model SDK Docs](https://sdk.runwayml.com)

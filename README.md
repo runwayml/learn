@@ -4,9 +4,9 @@
   </p>
 </a>
 
-[![Runway Slack](https://img.shields.io/badge/slack-runwayml.slack.com-33b279.svg)](https://runwayml.com/joinslack)
+[![RunwayML Slack](https://img.shields.io/badge/slack-runwayml.slack.com-33b279.svg)](https://runwayml.com/joinslack)
 
-This is the public page to learn about how to use [Runway](https://runwayml.com/). This includes technical references, the Runway API docs, tutorials and examples.
+This is the public page to learn about how to use [RunwayML](https://runwayml.com/). This includes technical references, the RunwayML API docs, tutorials and examples.
 
 The site is online at [http://learn.runwayml.com](http://learn.runwayml.com)
 

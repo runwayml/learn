@@ -1,6 +1,6 @@
 # Overview
 
-In this quick overview, we explain Runway's interface and how you can start using powerful machine learning models in just a few clicks without writing a single line code!
+In this quick overview, we explain RunwayML's interface and how you can start using powerful machine learning models in just a few clicks without writing a single line code!
 
 <div id="video-container">
 <iframe width="560" height="515" src="https://www.youtube.com/embed/db1USOwbRPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -9,19 +9,19 @@ In this quick overview, we explain Runway's interface and how you can start usin
 
 ## Start Screen
 
-Every time you open Runway you will see the **Start Screen**. From here, you can choose to **Browse Models** or restore a **Workspace** from a previous session (read more on workspaces [below](#workspaces)).
+Every time you open RunwayML you will see the **Start Screen**. From here, you can choose to **Browse Models** or restore a **Workspace** from a previous session (read more on workspaces [below](#workspaces)).
 
-![Runway Welcome View](assets/images/views/start-screen.png)
+![RunwayML Welcome View](assets/images/views/start-screen.png)
 
 ## Model Directory
 
-Runway's Model Directory is a unique place to search, discover, publish, and install machine learning models. You can search for models with specific attributes, input types, creators, functionalities, or by date added.
+RunwayML's Model Directory is a unique place to search, discover, publish, and install machine learning models. You can search for models with specific attributes, input types, creators, functionalities, or by date added.
 
 ![Models Directory](assets/images/views/model-directory.jpg)
 
 ## Model View
 
-Every model in Runway has its own view once its selected from the Models Directory. Inside a model view you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
+Every model in RunwayML has its own view once its selected from the Models Directory. Inside a model view you can learn more about the model, authors, specifications and characteristics, examples, license, and more.
 
 ![versions](assets/images/views/model.jpg)
 
@@ -29,7 +29,7 @@ Each model view is compromised of two main sections:
 
 1) **Tabs Section**
 
-The Tabs Sections allows you to quickly switch between different elements of a model. If you port a model to Runway, you'll have access to sections that are private ( 🔒) and not public to other users. The current Tabs Sections include:
+The Tabs Sections allows you to quickly switch between different elements of a model. If you port a model to RunwayML, you'll have access to sections that are private ( 🔒) and not public to other users. The current Tabs Sections include:
 
 <!-- tabs:start -->
 
@@ -39,7 +39,7 @@ The Overview tabs provides you with a quick overview and description of the mode
 
 ### **Versions 🔒**
 
-When you add models to Runway via our [GitHub integration](/how-to/importing?id=connect-to-github) and push updates to your repository, Runway builds a new version of your model every time. In this version tab, you can see a list of all your versions, switch between different version of the model and select your default version.
+When you add models to RunwayML via our [GitHub integration](/how-to/importing?id=connect-to-github) and push updates to your repository, RunwayML builds a new version of your model every time. In this version tab, you can see a list of all your versions, switch between different version of the model and select your default version.
 
 Take a look at the [Model SDK](https://sdk.runwayml.com/en/latest/) to learn more about model versioning.
 
@@ -74,7 +74,7 @@ Settings for the model.
 
 ### **Publishers**
 
-The user who added the model to Runway.
+The user who added the model to RunwayML.
 
 ### **Attributions**
 
@@ -100,7 +100,7 @@ Links to external sites.
 
 ## Workspaces
 
-Runway is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/models-101.md). **Workspaces** provides a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
+RunwayML is logically organized in a hierarchy of **Workspaces** and [**Models**](getting-started/models-101.md). **Workspaces** provides a way to logically group models used into the same project. For example, a creator working on an interactive dance performance may create a workspace containing two models that she would like to use for her piece: OpenPose for detecting the dancers’ movements and WaveNet for generating a score for the dance.
 
 A **Workspace** is a collection of models. In a **Workspace** you can organize your models by theme, hierarchy, or however else you like.
 
@@ -122,7 +122,7 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 | Output     | Description
 |------------|---------------------------------------------------------------------|
-| Local      | Preview the model output inside Runway                              |
+| Local      | Preview the model output inside RunwayML                              |
 | File       | Stream the model output into a file using supported formats         |
 
 
@@ -132,6 +132,6 @@ A **Workspace** is a collection of models. In a **Workspace** you can organize y
 
 ## Settings
 
-The **Settings** view has your account details, remaining credits, locally installed models, and checkpoints as well and information about Runway.
+The **Settings** view has your account details, remaining credits, locally installed models, and checkpoints as well and information about RunwayML.
 
 ![Input/Output View](assets/images/views/settings.jpg)

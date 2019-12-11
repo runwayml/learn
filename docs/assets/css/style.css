@@ -10,14 +10,17 @@
 
 a:visited{
     text-decoration: none !important;
+    text-transform: none !important;
 }
 
 a:active{
     text-decoration: none !important;
+    text-transform: none !important;
 }
 
 a:hover{
     text-decoration: none !important;
+    text-transform: none !important;
 }
 
 
@@ -37,6 +40,7 @@ a:hover{
     display: flex;
     padding: 0 4em;
     font-family: 'GraphikRegular', 'sans-serif' !important;
+    z-index: 999;
 }
 .Menu__Top__LogoContainer {
     -webkit-box-flex: 1;
@@ -153,6 +157,30 @@ p {
     text-align: left;
     margin-left: 1rem;
 }
+
+.sidebar-toggle{
+    position: sticky !important;
+    top: 5px;
+    z-index: 9999;
+}
+
+.sidebar-toggle .sidebar-toggle-button:hover{
+    padding: 0;
+    background: transparent;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    body.close .sidebar-toggle{
+        transition: background-color 1s;
+        position: sticky !important;
+        top: 25px;
+        z-index: 9999;
+        padding: 10px;
+        background: transparent;
+    }
+}
+
 
 .content {
     padding-top: 80px;

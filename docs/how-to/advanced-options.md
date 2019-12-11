@@ -20,7 +20,7 @@ Download Docker from the following links:
 
 ### **Step 2: Verify that Docker is Installed and Running**
 
-**On Mac**: a Docker icon in the top status bar. This indicates that Docker is running and accessible from Runway. Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac) installation guide on Mac if you are having any issues.
+**On Mac**: a Docker icon in the top status bar. This indicates that Docker is running and accessible from RunwayML. Please refer to [this official Docker](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac) installation guide on Mac if you are having any issues.
 
   <img src="https://runway.nyc3.digitaloceanspaces.com/documentation/docker-bar-mac.png" alt="Docker Icon mac" >
   <p>A whale in the top status bar indicates that Docker is running.</p>

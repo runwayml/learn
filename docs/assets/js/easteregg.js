@@ -9,6 +9,6 @@ console.log(`
 
 
 Howdy console explorer 👋, thanks for taking a poke around our source code!
-Use the coupon code UNDERTHEHULL to redeem $10 in Runway credits via the Billing page at:
+Use the coupon code UNDERTHEHULL to redeem $10 in RunwayML credits via the Billing page at:
   https://account.runwayml.com
 `)

@@ -78,7 +78,7 @@ Next, we'll define the port for our sketch to listen to. To receive the text bac
   properties.setSRSP(OscProperties.ON);
   oscP5 = new OscP5(this, properties);
 
-  // Use the localhost and the port 57100 that we define in Runway
+  // Use the localhost and the port 57100 that we define in RunwayML
   myBroadcastLocation = new NetAddress(runwayHost, runwayPort);
 
 ```
