@@ -5,7 +5,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 
 ?> Models are added to the RunwayML app often, and this page does not necessarily respresent the full list. Contributions, demos, and tutorials are welcome!
 
-📽[Watch How Generative Models Work](https://www.youtube.com/watch?v=f-cCpVGoxhY&t=5s)
+📽[Watch Our Intro to Generative Models Video Series](https://www.youtube.com/playlist?list=PLj598ZXODDO_S1GrkKGr5TP35qzOyi1df)
 
 ## Generate Images from Text
 | Model | Description | Networking Examples |
