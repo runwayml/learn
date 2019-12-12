@@ -62,6 +62,7 @@ Semantic Image Synthesis
 | [Image-Inpainting-GMCMM](https://open-app.runwayml.com/?model=anastasis/Image-Inpainting-GMCNN) | Image Inpainting via Generative Multi-column Convolutional Neural Networks | [Processing](networking/examples?id=processing)|
 | [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch) | An edge detection model that turns images into contour drawings | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [RIDNet](https://open-app.runwayml.com/?model=sree_harsha/RIDNet) | A model for denoising photograghs | |
+| [TF-A2RL](https://open-app.runwayml.com/?model=sree_harsha/TF-A2RL) | Aesthetic image cropping | |
 
 
 ## Colorize B/W Media
