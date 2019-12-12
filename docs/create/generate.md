@@ -28,7 +28,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [vae-lagging-encoder-poetry](https://open-app.runwayml.com/?model=aparrish/vae-lagging-encoder-poetry) | Gutenberg Poetry Variational Autoencoder | [Arduino](networking/examples?id=arduino) |
 
 
-## Synthesize Images
+## Generate Images
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [BigGAN](https://open-app.runwayml.com/?model=runway/BigGAN) | Generate images from 1,000 different categories | [Arduino](networking/examples?id=arduino), [Processing](networking/examples?id=processing) |
@@ -39,3 +39,14 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis | |
 | [Progressive-Growing-of-GANs](https://open-app.runwayml.com/?model=cris/Progressive-Growing-of-GANs) | Generate faces | [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing) |
 | [StyleGAN](https://open-app.runwayml.com/?model=runway/StyleGAN) | Generate photorealistic images of faces, landscapes, and more ([Interactive Example I](https://experiments.runwayml.com/portrait_swap/), [Interactive Example II](https://experiments.runwayml.com/synthetic_postcard/)) | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+
+
+### Generative Image Models Trained on StyleGAN
+👉Learn how to [train your own generative image model](https://learn.runwayml.com/#/create/train-models).
+
+| Model | Description | Networking Examples |
+| :--- | :---| :--- |
+| [Ascinte_Seated](https://open-app.runwayml.com/?model=eryksalvaggio/Ascinte_Seated) | A model trained on the photographic prints of Romanian photographer, Costică Acsinte | |
+| [Comic_Gen](https://open-app.runwayml.com/?model=JuanEgea/Comic_Gen) | Generate Montero-style comics | |
+| [Pottery](https://open-app.runwayml.com/?model=claraharguindey/Pottery) | Generate photorealistic images of pottery | |
+| [Seascapes](https://open-app.runwayml.com/?model=claraharguindey/seascapes) | Generate photorealistic images of seascapes | |

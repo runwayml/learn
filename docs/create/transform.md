@@ -12,8 +12,8 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Adaptive Style Transfer](https://open-app.runwayml.com/?model=runway/Adaptive-Style-Transfer)  | Repaint images in the styles of famous painters ([Tutorial](tutorials/tutorial_style_transfer.md))|[Processing](networking/examples?id=processing) |
 | [AdaIN-Style-Transfer](https://open-app.runwayml.com/?model=reiinakano/AdaIN-Style-Transfer) | Real-time style transfer | [Processing](networking/examples?id=processing)| 
 | [Arbitrary-Style-Transfer](https://open-app.runwayml.com/?model=runway/Arbitrary-Image-Stylization) | Real-time style transfer |[Processing](networking/examples?id=processing)  |
-| [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
 | [CartoonGAN](https://open-app.runwayml.com/?model=sree_harsha/CartoonGAN) | Transform photos of real-world scenes into cartoon style images | |
+| [Dynamic-Style-Transfer](https://open-app.runwayml.com/?model=sree_harsha/Dynamic-Style-Transfer) | Tune style dynamically without re-training in real time | |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
 | [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
@@ -62,6 +62,7 @@ Semantic Image Synthesis
 | [Image-Inpainting-GMCMM](https://open-app.runwayml.com/?model=anastasis/Image-Inpainting-GMCNN) | Image Inpainting via Generative Multi-column Convolutional Neural Networks | [Processing](networking/examples?id=processing)|
 | [PhotoSketch](https://open-app.runwayml.com/?model=runway/PhotoSketch) | An edge detection model that turns images into contour drawings | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [RIDNet](https://open-app.runwayml.com/?model=sree_harsha/RIDNet) | A model for denoising photograghs | |
+| [TF-A2RL](https://open-app.runwayml.com/?model=sree_harsha/TF-A2RL) | Aesthetic image cropping | |
 
 
 ## Colorize B/W Media
