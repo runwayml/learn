@@ -11,13 +11,14 @@ You can use models directly of inside the RunwayML app or interact with models t
 
 | Model | Description | Networking Examples|
 | :--- | :---| :--- |
-| [COCO-SD](https://open-app.runwayml.com/?model=runway/coco-ssd) | Detect bounding boxes from 90 different object categories ([Tutorial](tutorials/tutorial_cocossd.md)) | [Processing](networking/examples?id=processing) |
+| [COCO-SD](https://open-app.runwayml.com/?model=runway/coco-ssd) | Detect 90 different object categories with bounding boxes ([Tutorial](tutorials/tutorial_cocossd.md)) | [Processing](networking/examples?id=processing) |
 | [DenseCAP](https://open-app.runwayml.com/?model=genekogan/densecap) | Generate sentence descriptions of regions in an image | [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing) |
 | [Facial-Recognition](https://open-app.runwayml.com/?model=runway/face-recognition) | Detect faces in images | [Processing](networking/examples?id=processing) |
 | [Human-Segmentation](https://open-app.runwayml.com/?model=runway/Human-Segmentation) | Segment humans from images and videos | |
 | [MaskRCNN](https://open-app.runwayml.com/?model=runway/MaskRCNN) | Cut out objects from images | [Processing](networking/examples?id=processing) |
 | [MobileNet](https://open-app.runwayml.com/?model=runway/mobilenet) | Classify images in real-time ([Tutorial](tutorials/tutorial_mobilenet.md)) | [Processing](networking/examples?id=processing), [TouchDesigner](networking/examples?id=touchdesigner)  | 
 | [Places365](https://open-app.runwayml.com/?model=matthewbay/places365) | Identify places (bedroom, dining room, mall, etc.)|  |
+| [PSENet](https://open-app.runwayml.com/?model=sree_harsha/PSENet) | Detect text with bounding boxes | |
 | [YOLACT](https://open-app.runwayml.com/?model=zaid/yolact) | Identify and segment objects in real-time | [Processing](networking/examples?id=processing) |
 | [Visual-Importance](https://open-app.runwayml.com/?model=runway/visual-importance) | Detect important areas in an image | [Processing](networking/examples?id=processing) |
 
