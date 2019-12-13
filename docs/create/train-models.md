@@ -135,19 +135,16 @@ Determining an effective number of training steps is a bit of a moving target. T
 
 The maximum number of Training Steps is 25,000, but a good starting point is 3,000. During and after training, you can review the model's learning progress at various steps. 
 
-The higher the number of Training Steps, the longer it will take to train your model. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes.
+The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. Make sure that your account has enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) for the number of training steps (use the **Estimated Cost Calculator**), otherwise your training experiment will stop and save itself before training completes. Enter the **number of Training Steps** and click **Start Training** to continue.
 
-Enter the **number of Training Steps** and click **Start Training** to continue.
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
 
 <img src="assets/images/create/train-models/trainingSteps.png" alt="screen grab of 3000 training steps" width=40%>
 
-
 ## Step 5: Train Your Model
-At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. Make sure that your account has enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) for the estimated training time, otherwise your training experiment will stop.
+At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. 
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
-
-?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
 
 ?> If your account does not have enough credits, your Training Experiment will stop and save itself before reaching the set number of training steps. To resume training: [update](https://learn.runwayml.com/#/getting-started/installation?id=updating-runwayml) to the latest version of RunwayML, add [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) to your account, select your Training Experiment from the list of Completed Experiments (notice the number of steps it completed in the Model Review Card), and click **Continue Training**. This will create a new training experiment using your original experiment as the pre-trained “base” model. From there, enter the additional number training steps, and click **Start Training**.
 
@@ -156,6 +153,8 @@ At the start of the training process, all your images will be pre-processed and 
 During training and after it completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video. Click **Next** to continue when the training process concludes. 
 
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
+
+?> **Want to train your model for more steps?** Select your Training Experiment from the list of Completed Experiments and click **Continue Training**. This will create a new training experiment using your original experiment as the pre-trained “base” model. From there, enter the additional number training steps, and click **Start Training**.
 
 ## Step 6: Save Your Model
 Your model is now ready to use. Click **Save to My Models**. 
