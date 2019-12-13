@@ -26,7 +26,7 @@ RunwayML greatly reduces the amount of time needed to train your own generative 
 
 Even with Transfer Learning, it's not unusual for training to take at least several hours. 
 
-?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
 
 ### How many Training Experiments can I run at a time?
 The default limit is five concurrent sessions. We can increase the limit upon request. Just send an email to [support@runwayml.com](mailto:support@runwayml.com).
@@ -109,7 +109,10 @@ Your choice of a Pre-Trained Model from which to start your training will impact
     * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
     * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). 
     
-?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
+
+?> If your account does not have enough credits, your Training Experiment will stop and save itself before reaching the set number of training steps. To resume training: [update](https://learn.runwayml.com/#/getting-started/installation?id=updating-runwayml) to the latest version of RunwayML, add [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) to your account, select your Training Experiment from the list of Completed Experiments (notice the number of steps it completed in the Model Review Card), and click **Continue Training**. This will create a new training experiment using your original experiment as the pre-trained “base” model. From there, enter the additional number training steps, and click **Start Training**.
+
 
 To view all the Pre-Trained Model options, click **Change**:
 
@@ -144,7 +147,9 @@ At the start of the training process, all your images will be pre-processed and 
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
 
-?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
+
+?> If your account does not have enough credits, your Training Experiment will stop and save itself before reaching the set number of training steps. To resume training: [update](https://learn.runwayml.com/#/getting-started/installation?id=updating-runwayml) to the latest version of RunwayML, add [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) to your account, select your Training Experiment from the list of Completed Experiments (notice the number of steps it completed in the Model Review Card), and click **Continue Training**. This will create a new training experiment using your original experiment as the pre-trained “base” model. From there, enter the additional number training steps, and click **Start Training**.
 
 <img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
