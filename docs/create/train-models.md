@@ -14,7 +14,7 @@ Generally speaking, a model is a machine learning algorithm that has learned pat
 Training is the process of providing a machine learning algorithm with a dataset to learn patterns in the form of [features](https://en.wikipedia.org/wiki/Feature_(machine_learning)). RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps that the algorithm should take to learn the features. During each step, the model learns a little bit more about the features in your dataset. For a demonstration of the visual patterns a machine learning model might find, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
 
 ### What kind of model can I train?
-Model training is an experimental feature 🧪in RunwayML, and at the time of this writing (November 2019), you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
+Model training is an experimental feature 🧪in RunwayML, and at this time, you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
 
 ### What kind of dataset do I need?
 To train a generative image model, you need a collection of images. Suggestions for the amount, as well as considerations for how to source and prepare those images are below. RunwayML also provides datasets of public domain images from Flickr to try.
@@ -109,11 +109,6 @@ Your choice of a Pre-Trained Model from which to start your training will impact
     * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
     * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). 
     
-?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
-
-?> If your account does not have enough credits, your Training Experiment will stop and save itself before reaching the set number of training steps. To resume training: [update](https://learn.runwayml.com/#/getting-started/installation?id=updating-runwayml) to the latest version of RunwayML, add [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) to your account, select your Training Experiment from the list of Completed Experiments (notice the number of steps it completed in the Model Review Card), and click **Continue Training**. This will create a new training experiment using your original experiment as the pre-trained “base” model. From there, enter the additional number training steps, and click **Start Training**.
-
-
 To view all the Pre-Trained Model options, click **Change**:
 
 <img src="assets/images/create/train-models/setPreTrainedModel.gif" alt="screen recording showing how to select a dataset">
