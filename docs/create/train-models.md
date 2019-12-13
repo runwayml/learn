@@ -14,7 +14,7 @@ Generally speaking, a model is a machine learning algorithm that has learned pat
 Training is the process of providing a machine learning algorithm with a dataset to learn patterns in the form of [features](https://en.wikipedia.org/wiki/Feature_(machine_learning)). RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps that the algorithm should take to learn the features. During each step, the model learns a little bit more about the features in your dataset. For a demonstration of the visual patterns a machine learning model might find, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
 
 ### What kind of model can I train?
-Model training is an experimental feature 🧪in RunwayML, and at the time of this writing (November 2019), you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
+Model training is an experimental feature 🧪in RunwayML, and at this time, you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
 
 ### What kind of dataset do I need?
 To train a generative image model, you need a collection of images. Suggestions for the amount, as well as considerations for how to source and prepare those images are below. RunwayML also provides datasets of public domain images from Flickr to try.
@@ -26,7 +26,7 @@ RunwayML greatly reduces the amount of time needed to train your own generative 
 
 Even with Transfer Learning, it's not unusual for training to take at least several hours. 
 
-?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). 
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits and should subscribe to train additional models. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
 
 ### How many Training Experiments can I run at a time?
 The default limit is five concurrent sessions. We can increase the limit upon request. Just send an email to [support@runwayml.com](mailto:support@runwayml.com).
@@ -109,8 +109,6 @@ Your choice of a Pre-Trained Model from which to start your training will impact
     * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
     * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). 
     
-?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
-
 To view all the Pre-Trained Model options, click **Change**:
 
 <img src="assets/images/create/train-models/setPreTrainedModel.gif" alt="screen recording showing how to select a dataset">
@@ -132,25 +130,26 @@ Determining an effective number of training steps is a bit of a moving target. T
 
 The maximum number of Training Steps is 25,000, but a good starting point is 3,000. During and after training, you can review the model's learning progress at various steps. 
 
-The higher the number of Training Steps, the longer it will take to train your model. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes.
+The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. Make sure that your account has enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) for the number of training steps (use the **Estimated Cost Calculator**), otherwise your training experiment will stop and save itself before training completes. Enter the **number of Training Steps** and click **Start Training** to continue.
 
-Enter the **number of Training Steps** and click **Start Training** to continue.
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). But if you’re just getting started with this feature, then you have options to try it without using any of your credits. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps without using credits and should subscribe to train additional models. You can **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/).
 
 <img src="assets/images/create/train-models/trainingSteps.png" alt="screen grab of 3000 training steps" width=40%>
 
-
 ## Step 5: Train Your Model
-At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. Make sure that your account has enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) for the estimated training time, otherwise your training experiment will stop.
+At the start of the training process, all your images will be pre-processed and prepared for training. After this completes, an estimated amount of training time will post under the **ETA Approx** status on the right. 
 
 ?> The training process occurs on a Remote GPU in RunwayML's cloud infrastructure, and it's not unsual for the process to take several hours. During this time, it's okay to use other features in RunwayML, close the application, or even turn off your computer and check back later. 
 
-?> If you are a Training Experiments beta tester and you have a Free Plan, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in the [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited training access. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). If your account does not have enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), your Training Experiment will stop before training completes. 
+?> If your account does not have enough credits, your Training Experiment will stop and save itself before reaching the set number of training steps. To resume training: [update](https://learn.runwayml.com/#/getting-started/installation?id=updating-runwayml) to the latest version of RunwayML, add [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) to your account, select your Training Experiment from the list of Completed Experiments (notice the number of steps it completed in the Model Review Card), and click **Continue Training**. This will create a new training experiment using your original experiment as the pre-trained “base” model. From there, enter the additional number training steps, and click **Start Training**.
 
 <img src="assets/images/create/train-models/trainingProcess.jpg" alt="screen grab from model training in progress">
 
 During training and after it completes, you can review the progress at various Training Steps, save a sample image from a particular step, as well as export a progress video. Click **Next** to continue when the training process concludes. 
 
 <img src="assets/images/create/train-models/trainingEnded.jpg" alt="screen grab showing when training has ended">
+
+?> **Want to train your model for more steps?** Select your Training Experiment from the list of Completed Experiments and click **Continue Training**. This will create a new training experiment using your original experiment as the pre-trained “base” model. From there, enter the additional number training steps, and click **Start Training**.
 
 ## Step 6: Save Your Model
 Your model is now ready to use. Click **Save to My Models**. 
@@ -170,6 +169,6 @@ To run your model, click **Add to Workspace**. A new Workspace will be created d
 
 <img src="assets/images/create/train-models/runningModel.gif" alt="screen grab showing adding model to workdpace">
 
-?> 📽 To learn more about how generative models work, including StyleGAN, watch this [quick video](https://www.youtube.com/watch?v=f-cCpVGoxhY) from Gene Kogan. 
+?> 📽 To learn more about how generative models work, including StyleGAN, watch this [video series](https://www.youtube.com/playlist?list=PLj598ZXODDO_S1GrkKGr5TP35qzOyi1df) from Gene Kogan. 
 
 ?> 📽 To learn even more about StyleGAN, follow up with this [Coding Traing tutorial](https://www.youtube.com/watch?v=vEetoBuHj8g) from Daniel Shiffman.
