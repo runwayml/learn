@@ -48,5 +48,6 @@ You can use models directly of inside the RunwayML app or interact with models t
 | :--- | :---| :--- |
 | [Ascinte_Seated](https://open-app.runwayml.com/?model=eryksalvaggio/Ascinte_Seated) | A model trained on the photographic prints of Romanian photographer, Costică Acsinte | |
 | [Comic_Gen](https://open-app.runwayml.com/?model=JuanEgea/Comic_Gen) | Generate Montero-style comics | |
+| [Kids-Self-Portrait-GAN](https://open-app.runwayml.com/?model=thedofl/Kids-Self-Portrait-GAN) | An experiment using self portraits from kids | |
 | [Pottery](https://open-app.runwayml.com/?model=claraharguindey/Pottery) | Generate photorealistic images of pottery | |
 | [Seascapes](https://open-app.runwayml.com/?model=claraharguindey/seascapes) | Generate photorealistic images of seascapes | |
