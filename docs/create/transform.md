@@ -24,6 +24,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [CycleGAN](https://open-app.runwayml.com/?model=reiinakano/CycleGAN) | Image-to-image translation without labeled data | [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing)|
+| [DeepDream](https://open-app.runwayml.com/?model=anastasis/DeepDream) | Enhance and hallucinate patterns in images | |
 | [Pix2Pix](https://open-app.runwayml.com/?model=reiinakano/Pix2Pix) | Image-to-image translation with labeled data | [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing)|
 | [Pix2PixHD-Facemarks2Portrait](https://open-app.runwayml.com/?model=yining/pix2pixHD-Facemarks2Portrait) | Generate a portrait image from a face landmarks image ([Interactive Example](https://experiments.runwayml.com/synthetic_postcard/)) |[Processing](networking/examples?id=processing) |
 | [UGATIT](https://open-app.runwayml.com/?model=runway/UGATIT) | Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | [Processing](networking/examples?id=processing) |
