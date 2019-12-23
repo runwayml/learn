@@ -23,6 +23,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [GPT-2](https://open-app.runwayml.com/?model=runway/GPT-2) | Generate paragraphs of text from a prompt |[p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [DistilGPT2](https://open-app.runwayml.com/?model=mhagiwara/DistilGPT2) | Generate paragraphs of text from a prompt using a distilled version of GPT-2 | |
 | [OpenGPT-2](https://open-app.runwayml.com/?model=runway/OpenGPT-2) | Replication effort of GPT-2's largest model (1.5B parameters) |[Processing](networking/examples?id=processing) |
 | [universal-sentence-encoder-xling-runway](https://open-app.runwayml.com/?model=aparrish/universal-sentence-encoder-xling-runway) | Encodes sentences to fixed-length vectors | |
 | [vae-lagging-encoder-poetry](https://open-app.runwayml.com/?model=aparrish/vae-lagging-encoder-poetry) | Gutenberg Poetry Variational Autoencoder | [Arduino](networking/examples?id=arduino) |
