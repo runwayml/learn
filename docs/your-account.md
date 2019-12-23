@@ -4,9 +4,7 @@
 [Sign in](https://account.runwayml.com/) to your RunwayML account.
 
 ## Upgrade Your RunwayML Plan
-If you are a Training Experiments beta tester, training time is limited to a total of five hours. **Subscribe to the Creator Plan** in your [RunwayML User Dashboard](https://account.runwayml.com/) for unlimited access to training. With or without the Creator Plan, training time uses [credits](https://support.runwayml.com/en/articles/3000086-how-much-does-runwayml-cost). 
-
-The Creator Plan also includes $10 in free credits, 25% bonus on new credit purchases, 8GB of active storage to save your datasets, and access to additional features as they are released. To upgrade your Free Plan to the Creator Plan, visit the RunwayML [User Dashboard](https://account.runwayml.com/).
+Subscribe to the [Creator Plan](https://support.runwayml.com/en/articles/3000086-how-much-does-runwayml-cost) in your [RunwayML User Dashboard](https://account.runwayml.com/).
 
 ## Add Credits
 To add credits to your account:
