@@ -56,3 +56,4 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Kids-Self-Portrait-GAN](https://open-app.runwayml.com/?model=thedofl/Kids-Self-Portrait-GAN) | An experiment using self portraits from kids | |
 | [Pottery](https://open-app.runwayml.com/?model=claraharguindey/Pottery) | Generate photorealistic images of pottery | |
 | [Seascapes](https://open-app.runwayml.com/?model=claraharguindey/seascapes) | Generate photorealistic images of seascapes | |
+| [SnowGAN](https://open-app.runwayml.com/?model=shiffman/SnowGAN) | Do you want to build a snowman? | |
