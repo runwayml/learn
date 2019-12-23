@@ -57,4 +57,5 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Pottery](https://open-app.runwayml.com/?model=claraharguindey/Pottery) | Generate photorealistic images of pottery | |
 | [SantaGAN](https://open-app.runwayml.com/?model=shiffman/SantaGAN) | Generate a Santa Claus | |
 | [Seascapes](https://open-app.runwayml.com/?model=claraharguindey/seascapes) | Generate photorealistic images of seascapes | |
+| [Simpsons-Heaven](https://open-app.runwayml.com/?model=hospitaltapes/Simpsons-Heaven) | Welcome to Latent Springfield | |
 | [SnowGAN](https://open-app.runwayml.com/?model=shiffman/SnowGAN) | Do you want to build a snowman? | |
