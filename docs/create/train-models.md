@@ -103,8 +103,11 @@ Your choice of a Pre-Trained Model from which to start your training will impact
     * If you are training a model on a dataset of fantastical cartoon characters, you might select a Pre-Trained Model of cats or dogs as opposed to bedrooms or cars to create a model that generates images with more cohesive forms and greater fidelity. 
     * Or not! Have fun exploring the options for different results: there are can be unexpected visual outcomes from training a model that is significantly different from your dataset, especially midway through the training process.
 * **Output Size**: 
-    * The Pre-Trained Models generate images at 1024x1024 pixels, 512x512 pixels, or 256x256 pixels, and the one you choose will impact the size of the images that your model will make once training is complete. The default Pre-Trained model option, Flickr Faces HQ, is the only model that outputs images at 1024x1024 pixels. 
-    * If you prefer to pick Pre-Trained Model for the content, but the output size is too small, know that RunwayML provides several models to quickly [upscale images](create/transform?id=upscale-images), and you can easily [chain](how-to/chain-models-together) your newly-trained model to one of those when you run it in a Workspace.
+    * The Pre-Trained Models generate images at different resolutions, and the one you choose will impact the size of the images that your model will make once training is complete. Here are the output resolutions for the model options:
+        * 1024 x 1024 pixels: CelebHQ and FlickrFacesHQ
+        * 512 x 512 pixels: Cars, Caterpillars, Cupcakes, Flowers Forests, Landscapes, Nebulas, Portraits, Rainbows, and Skyscrapers
+        * 256 x 256 pixels: Bedrooms, Cats, and Dogs
+    * If you prefer to pick Pre-Trained Model for the content but the output size is too small, know that RunwayML provides several models to quickly [upscale images](create/transform?id=upscale-images), and you can easily [chain](how-to/chain-models-together) your newly-trained model to one of those when you run it in a Workspace.
 * **Training Time**: 
     * In general, the more similar the Pre-Trained Model’s images are to the images in your dataset, the faster it will train. 
     * In addition, using Pre-Trained Models that generate larger image sizes will take significantly more time than using models that produce smaller images sizes. The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set (learn more below). 

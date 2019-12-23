@@ -16,6 +16,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Dynamic-Style-Transfer](https://open-app.runwayml.com/?model=sree_harsha/Dynamic-Style-Transfer) | Tune style dynamically without re-training in real time | |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
+| [Neural-Style](https://open-app.runwayml.com/?model=anastasis/Neural-Style) | Real-time style transfer | |
 | [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
 | [Style2paints](https://open-app.runwayml.com/?model=zaid/style2paints) | Automatic Sketch Colorization |[Processing](networking/examples?id=processing) |
 
@@ -24,6 +25,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [CycleGAN](https://open-app.runwayml.com/?model=reiinakano/CycleGAN) | Image-to-image translation without labeled data | [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing)|
+| [DeepDream](https://open-app.runwayml.com/?model=anastasis/DeepDream) | Enhance and hallucinate patterns in images | |
 | [Pix2Pix](https://open-app.runwayml.com/?model=reiinakano/Pix2Pix) | Image-to-image translation with labeled data | [openFrameworks](networking/examples?id=openframeworks), [Processing](networking/examples?id=processing)|
 | [Pix2PixHD-Facemarks2Portrait](https://open-app.runwayml.com/?model=yining/pix2pixHD-Facemarks2Portrait) | Generate a portrait image from a face landmarks image ([Interactive Example](https://experiments.runwayml.com/synthetic_postcard/)) |[Processing](networking/examples?id=processing) |
 | [UGATIT](https://open-app.runwayml.com/?model=runway/UGATIT) | Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | [Processing](networking/examples?id=processing) |

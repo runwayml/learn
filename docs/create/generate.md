@@ -23,6 +23,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [GPT-2](https://open-app.runwayml.com/?model=runway/GPT-2) | Generate paragraphs of text from a prompt |[p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
+| [DistilGPT2](https://open-app.runwayml.com/?model=mhagiwara/DistilGPT2) | Generate paragraphs of text from a prompt using a distilled version of GPT-2 | |
 | [OpenGPT-2](https://open-app.runwayml.com/?model=runway/OpenGPT-2) | Replication effort of GPT-2's largest model (1.5B parameters) |[Processing](networking/examples?id=processing) |
 | [universal-sentence-encoder-xling-runway](https://open-app.runwayml.com/?model=aparrish/universal-sentence-encoder-xling-runway) | Encodes sentences to fixed-length vectors | |
 | [vae-lagging-encoder-poetry](https://open-app.runwayml.com/?model=aparrish/vae-lagging-encoder-poetry) | Gutenberg Poetry Variational Autoencoder | [Arduino](networking/examples?id=arduino) |
@@ -47,6 +48,14 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [Ascinte_Seated](https://open-app.runwayml.com/?model=eryksalvaggio/Ascinte_Seated) | A model trained on the photographic prints of Romanian photographer, Costică Acsinte | |
+| [Brownian-Snowflakes-Processing-Foundation](https://open-app.runwayml.com/?model=shiffman/Brownian-Snowflakes-Processing-Foundation-) | #SupportP5 (Brownian Motion Snowflakes created in Processing) | |
+| [Colorful-Clouds](https://open-app.runwayml.com/?model=ivoilic/Colorful-Clouds) | Generate colorful clouds | |
 | [Comic_Gen](https://open-app.runwayml.com/?model=JuanEgea/Comic_Gen) | Generate Montero-style comics | |
+| [Earth_Image_Generator](https://open-app.runwayml.com/?model=yining/Earth_Image_Generator) | Generate images of Earth from a dataset of satellite images | |
+| [Emoji_Generator](https://open-app.runwayml.com/?model=yining/Emoji_Generator) | Generate new emojis! | |
+| [Kids-Self-Portrait-GAN](https://open-app.runwayml.com/?model=thedofl/Kids-Self-Portrait-GAN) | An experiment using self portraits from kids | |
 | [Pottery](https://open-app.runwayml.com/?model=claraharguindey/Pottery) | Generate photorealistic images of pottery | |
+| [SantaGAN](https://open-app.runwayml.com/?model=shiffman/SantaGAN) | Generate a Santa Claus | |
 | [Seascapes](https://open-app.runwayml.com/?model=claraharguindey/seascapes) | Generate photorealistic images of seascapes | |
+| [Simpsons-Heaven](https://open-app.runwayml.com/?model=hospitaltapes/Simpsons-Heaven) | Welcome to Latent Springfield | |
+| [SnowGAN](https://open-app.runwayml.com/?model=shiffman/SnowGAN) | Do you want to build a snowman? | |
