@@ -16,6 +16,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | [Dynamic-Style-Transfer](https://open-app.runwayml.com/?model=sree_harsha/Dynamic-Style-Transfer) | Tune style dynamically without re-training in real time | |
 | [Fast-Style-Transfer](https://open-app.runwayml.com/?model=genekogan/Fast-Style-Transfer) | Stylize images in the styles of famous painters | [openFrameworks](networking/examples?id=openframeworks), [p5.js](networking/examples?id=p5js), [Processing](networking/examples?id=processing) |
 | [Liquid-Warping-GAN](https://open-app.runwayml.com/?model=runway/Liquid-Warping-GAN) | Motion and appearance style transfer | |
+| [Neural-Style](https://open-app.runwayml.com/?model=anastasis/Neural-Style) | Real-time style transfer | |
 | [ShapeMatchingGAN](https://open-app.runwayml.com/?model=sree_harsha/ShapeMatchingGAN) | Controllable Artistic Text Style Transfer | |
 | [Style2paints](https://open-app.runwayml.com/?model=zaid/style2paints) | Automatic Sketch Colorization |[Processing](networking/examples?id=processing) |
 
