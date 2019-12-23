@@ -48,6 +48,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
 | [Ascinte_Seated](https://open-app.runwayml.com/?model=eryksalvaggio/Ascinte_Seated) | A model trained on the photographic prints of Romanian photographer, Costică Acsinte | |
+| [Brownian-Snowflakes-Processing-Foundation](https://open-app.runwayml.com/?model=shiffman/Brownian-Snowflakes-Processing-Foundation-) | #SupportP5 (Brownian Motion Snowflakes created in Processing) | |
 | [Colorful-Clouds](https://open-app.runwayml.com/?model=ivoilic/Colorful-Clouds) | Generate colorful clouds | |
 | [Comic_Gen](https://open-app.runwayml.com/?model=JuanEgea/Comic_Gen) | Generate Montero-style comics | |
 | [Earth_Image_Generator](https://open-app.runwayml.com/?model=yining/Earth_Image_Generator) | Generate images of Earth from a dataset of satellite images | |
