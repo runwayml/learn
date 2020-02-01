@@ -1,5 +1,4 @@
 # Train Your Own Models
-<br>
 
 ## Overview
 In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can train your own models. This guide will walk you through the steps of training a model, but first, here's a quick FAQ to provide some context.
