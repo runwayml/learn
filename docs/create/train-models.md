@@ -1,10 +1,6 @@
 # Train Your Own Models
 <br>
 
-?>The feature to train your own models is currently available to small group of beta testers. Please [contact us](https://runwayml.com/training-access) if you are interested in testing and providing feedback on this new feature.
-
-🚧 This page will be updated regularly as beta testers provide feedback on the training process. 
-
 ## Overview
 In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can train your own models. This guide will walk you through the steps of training a model, but first, here's a quick FAQ to provide some context.
 
