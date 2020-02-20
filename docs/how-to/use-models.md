@@ -97,8 +97,8 @@ Related Technical Support Resources:
 
 
 Advanced Options:
-*  **Run Models with Local CPU:** To run models locally, you need to download and install them individually. Some models require you to install Docker, a free and open-source software. If you need to install Docker, [follow these steps](http://localhost:4000/#/how-to/advanced-options?id=overview).
-* **Run Models with Local GPU (Linux Only):** If you are running RunwayML on Linux, follow this guide to [use your own GPU hardware](http://localhost:4000/#/how-to/advanced-options?id=local-gpu-linux-only). 
+*  **Run Models with Local CPU:** To run models locally, you need to download and install them individually. Some models require you to install Docker, a free and open-source software. If you need to install Docker, [follow these steps](how-to/advanced-options?id=overview).
+* **Run Models with Local GPU (Linux Only):** If you are running RunwayML on Linux, follow this guide to [use your own GPU hardware](how-to/advanced-options?id=local-gpu-linux-only). 
 
 
 ## Step 8: Stop the Model
