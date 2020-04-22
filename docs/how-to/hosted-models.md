@@ -1,22 +1,29 @@
 # Hosted Models
 
-Hosted Models allow you to create and deploy models as permanent URLs on the web. They provide you with a unique link that you can use to interact with them via HTTP anytime, anywhere, without requiring the Runway app to be open, or even installed!
+Hosted Models allow you to create and deploy models as permanent URLs on the web. They provide you with a unique API endpoint that you can use to interact with them via HTTP anytime, anywhere, without requiring the Runway app to be open, or even installed!
 
 All RunwayML models can now be controlled and manipulated over the internet as Hosted Models. This is useful for getting data in and out of RunwayML programmatically, integrating models with other tools and workflows, and providing control of models through scripting. Each Hosted Model is exposed via an HTTP API and is available to service requests at anytime.
+
+* [What's new with Hosted Models](#whats-new-with-hosted-models)
+* [Example](#example)
+* [Hosted Models API](#hosted-models-api)
+* [Asleep, Awakening, and Awake states](#asleep-awakening-and-awake-states)
+* [Pricing](#pricing)
+* [Security and Access Control](#security-and-access-control)
 
 ## What's new with Hosted Models
 
 We've provided programmatic access to models for a while now via the [Localhost Network API](how-to/network). Hosted Models takes this feature a huge leap forward by providing several exciting and notable changes.
 
-* Hosted models are always available on the web. No need to start or stop the model, it will always be there waiting for you when you make an HTTP request.
-* Hosted models are charged by request and always run remotely. Local Network API models that run remotely are charged by the minute for as long as they are running.
-* Hosted models provide the ability to make models private (default) using `Authorization: Bearer <token>` headers.
-* Hosted models use HTTP only. We've dropped support for OSC and Socket.io, however you can still use these protocols via the Localhost Network API.
-* Hosted models introduce a concept of "asleep", "awakening", and "awake" model states. When models aren't interacted with
-* Hosted models provide a versioned namespace (e.g. `/v1/`), so that the code you write can be guaranteed to work with Hosted Models, even as we make improvements and change APIs in the future.
-* Hosted models are simple! Each model exposes the same three HTTP routes.
+* Hosted Models are always available on the web. No need to start or stop the model, it will always be there waiting for you when you make an HTTP request.
+* Hosted Models are charged by request and always run remotely. [Localhost Network API](how-to/network) models that run remotely are charged by the minute for as long as they are running.
+* Hosted Models are private by default, with the option to make them public as well. `Authorization: Bearer <token>` headers are used to protect private models.
+* Hosted Models introduce the concept of "asleep", "awakening", and "awake" model states. When no requests are made to a Hosted Model for an extended period of time, the model will enter a dormant state until the next request is made (see [Asleep, Awakening, and Awake states](#asleep-awakening-and-awake-states)).
+* Hosted Models provide a versioned namespace (e.g. `/v1/`), so that the code you write can be guaranteed to continue to work with, even as we make improvements and change APIs in the future.
+* Hosted Models use HTTP only. We've dropped support for OSC and Socket.io, however you can still use these protocols via the [Localhost Network API](how-to/network).
+* Hosted Models are simple! Each model exposes the same three HTTP routes (see [Hosted Models API](#hosted-models-api)).
 
-We'll continue to support the Localhost Network API for the forseeable future, but we recommend moving to using Hosted Models for any new projects and updates.
+We'll continue to support the [Localhost Network API](how-to/network) for the forseeable future, but we recommend moving to using Hosted Models for any new projects and updates.
 
 ## Example
 
@@ -85,7 +92,7 @@ You'll notice the `dataRoute` and `errorRoute` are `null` as these routes are av
 
 ### GET `/v1/info`
 
-The GET `/v1/info` route provides metadata describing the inputs and outputs expected from a POST to `/query`. You can use this information at a human level to understand how to craft well-formed POST requests, or at a machine level to auto-generate UI/UX interfaces for your hosted models.
+The GET `/v1/info` route provides metadata describing the inputs and outputs expected from a POST to `/query`. You can use this information at a human level to understand how to craft well-formed POST requests, or at a machine level to auto-generate UI/UX interfaces for your Hosted Models.
 
 ```bash
 curl -H "Authorization: Bearer <token>" \
@@ -173,9 +180,9 @@ curl \
 
 Hosted Models are designed to always be available to service HTTP requests. In order to provide this functionality at a low cost to you, Hosted Models have three states which have different affects on request latency.
 
-* Asleep: The Hosted Model hasn't received any requests for a while and has gone into a dormant state. The next request will wake it up, but take a bit longer to process.
-* Awakening: The Hosted Model is transitioning from the dormant asleep state into the awake state. Requests processed during this time may have long response times, until the model is awake.
-* Awake: The Hosted Model is up and running and requests should be processed quickly.
+* **Asleep**: The Hosted Model hasn't received any requests for a while and has gone into a dormant state. The next request will wake it up, but take a bit longer to process.
+* **Awakening**: The Hosted Model is transitioning from the dormant asleep state into the awake state. Requests processed during this time may have long response times, until the model is awake.
+* **Awake**: The Hosted Model is up and running and requests should be processed quickly.
 
 No matter which state the Hosted Model is currently in, it will always be able to satisfy any request you make to it. The only difference from your perspective is that requests to `/v1/info` anf `/v1/query` may take longer to complete if the model is asleep or awakening.
 
@@ -185,6 +192,16 @@ If the increased latency from the wake up process poses a UI challenge for your 
 
 ## Pricing
 
+Hosted Models are charged at $0.001 (1/10th of a cent) per-request. This cost is accrued to the Hosted Model owner for all routes (`/v1/`, `/v1/info`, `/v1/query`) and response status codes. All charges consume Runway credits which can be purchased via the [account](https://account.runwayml.com/) page.
+
 ## Security and Access Control
 
+Because Hosted Models accrue a cost to their owner, limiting access to the Hosted Model is important to keep unwanted requests from being serviced and charge. All Hosted Models are private by default and can be optionally made public if cost and public access is not a concern.
+
+Private models are protected from unauthorized use by including a secret token in the Authorization header of all requests. Requests to private models that don't include a header in the format `Authorization: Bearer <token>`, or include the wrong `<token>` value, will receive a 401 Unauthorized response.
+
+?> WARNING: Take care to protect the token associated with each endpoint. Including code that interacts with a private Hosted Model in the JavaScript source of a static web page is not sufficient to protect the model from unauthorized use. The only way to protect your private Hosted Models is to protect the secret token, usually by writing a server-side component which can safeguard the token and proxy authorized requests on behalf of the browser to the Hosted Model API in the case of a web page.
+
+<!--
 ## Going Further
+-->
