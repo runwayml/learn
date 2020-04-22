@@ -1,8 +1,11 @@
-# Connect and Interact with Models over the Network
+# Interact with Models over the Local Network
+
+?> This document references the older Localhost Network API. [Hosted Models](how-to/hosted-models) are always available on the web and don't require you to have the Runway app running. We recommend using the new Hosted Models feature in order to interact with models anytime from anywhere.
+
+
+In addition to interacting with models via RunwayML's user interface (UI), all RunwayML models can be controlled and manipulated with over the network. This is useful for getting data in and out of RunwayML, integrating RunwayML models with other tools and workflows, or providing programmatic control of models through scripting. Each RunwayML model exposes itself using three network ports on `localhost`: An **HTTP** port, a **Socket.IO** port, and a **OSC** port. All three servers are available for the duration of the time that the model is running. We've included support for these transport protocols to allow flexibility and convenience around how users interact with models. You are free to use any of these protocols as they all expose the same data and control capabilities.
 
 ?> This document assumes the reader is comfortable with basic scripting and computer networking concepts.
-
-In addition to interacting with models via RunwayML's user interaface (UI), all RunwayML models can be controlled and manipulated with over the network. This is useful for getting data in and out of RunwayML, integrating RunwayML models with other tools and workflows, or providing programmatic control of models through scripting. Each RunwayML model exposes itself using three network ports on `localhost`: An **HTTP** port, a **Socket.IO** port, and a **OSC** port. All three servers are available for the duration of the time that the model is running. We've included support for these transport protocols to allow flexibility and convenience around how users interact with models. You are free to use any of these protocols as they all expose the same data and control capabilities.
 
 ## The Network UI Panel
 
