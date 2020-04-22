@@ -1,0 +1,27 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "<a href=\"#\" target='_self' >   <p align=\"center\">     <img src=\"./docs/assets/images/banner.png\">   </p> </a>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify start ./docs",
+    "dev": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runwayml/learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runwayml/learn/issues"
+  },
+  "homepage": "https://github.com/runwayml/learn#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.0"
+  }
+}
