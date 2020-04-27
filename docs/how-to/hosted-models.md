@@ -192,7 +192,7 @@ If the increased latency from the wake up process poses a UI challenge for your 
 
 ## Pricing
 
-Hosted Models are charged at $0.001 (1/10th of a cent) per-request. This cost is accrued to the Hosted Model owner for all routes (`/v1/`, `/v1/info`, `/v1/query`) and response status codes. All charges consume Runway credits which can be purchased via the [account](https://account.runwayml.com/) page.
+Pricing information for Hosted Models can be found in [this support article](https://support.runwayml.com/en/articles/3967783-hosted-model-pricing).
 
 ## Security and Access Control
 
