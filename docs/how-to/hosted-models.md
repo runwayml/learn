@@ -6,7 +6,8 @@ All RunwayML models can now be controlled and used over the internet as **Hosted
 
 - [Hosted Models](#hosted-models)
   - [What's new with Hosted Models](#whats-new-with-hosted-models)
-  - [Example](#example)
+  - [Creating a Hosted Model](#creating-a-hosted-model)
+  - [Example Code](#example-code)
   - [HTTP API](#http-api)
     - [GET `/v1`](#get-v1)
     - [GET `/v1/info`](#get-v1info)
@@ -25,8 +26,25 @@ Hosted Models are...
 * Ready when you need them! Hosted Models introduce the concept of "asleep", "awakening", and "awake" model states. When no requests are made to a Hosted Model for an extended period of time, the model will enter a dormant state until the next request is made (see [Asleep, Awakening, and Awake states](#asleep-awakening-and-awake-states)).
 * Hosted Models are charged by request and always run remotely.
 
+## Creating a Hosted Model
 
-## Example
+Hosted Models can be created from several places in RunwayML. The first is from the "Model Info" view of any model.
+
+<img src="assets/images/how-to/hosted-models/create-from-model-info.png" alt="Create Hosted Model from Model Info page">
+
+Hosted Models can also be created from the Network > HTTP tab of a model that is in a Workspace.
+
+<img src="assets/images/how-to/hosted-models/create-from-workspace.png" alt="Create Hosted Model from Workspace">
+
+A screen like the one below will appear once you've chosen to host a model. Here you can configure the parameters of your Hosted Model, and give it a unique subdomain. Hosted Model subdomains must be unique across all Runway users, so try a few variations if you find the subdomain you enter is already taken.
+
+<img src="assets/images/how-to/hosted-models/create-modal.png" alt="Create Hosted Model Modal">
+
+Hosted Models will appear in the "Hosted Models" tab once they are created. Here you can manage all of your Hosted Models and view usage statistics. Hosted Models are activated by default and they can begin receiving requests immediately after creation. Click the `</>` icon on the right side of the table to view an example code snippet and get starting using your Hosted Model in your project right away.
+
+<img src="assets/images/how-to/hosted-models/hosted-models-tab.png" alt="Hosted Model tab">
+
+## Example Code
 
 The example code snippet below demonstrates how JavaScript can be used to query a GPT-2 text generation Hosted Model at `https://example-text-generator.hosted-models.stage.runwayml.cloud/v1/`.
 
@@ -56,6 +74,8 @@ fetch("https://example-text-generator.hosted-models.stage.runwayml.cloud/v1/", {
   }
 })
 ```
+
+?> You can interface with Hosted Models using any programming language you'd like, so long as your environment can make HTTP requests.
 
 ## HTTP API
 
@@ -184,7 +204,6 @@ Hosted Models may go to sleep after 5 minutes if they are not used. A model can 
 * **Awake**: The Hosted Model is up and running and requests should be processed quickly.
 
 No matter which state the Hosted Model is currently in, it will always be able to satisfy any request you make to it. The only difference from your perspective is that requests to `/v1/info` and `/v1/query` may take longer to complete if the model is asleep or awakening.
-
 
 ## Pricing
 
