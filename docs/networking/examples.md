@@ -1,6 +1,8 @@
 # Networking Examples
 
-You can interact with models in RunwayML from creative coding and design applications through three networking protocols: HTTP, WebSockets (using Socket.IO), and Open Sound Control (OSC). Here's an [overview](https://learn.runwayml.com/#/how-to/network) of how it works. 
+?> This document references examples which use the older [Localhost Network API](how-to/network) instead of the new [Hosted Models](how-to/hosted-models) feature. We recommend using Hosted Models instead as they are always available on the web and don't require you to have the Runway app running. We'll be working to update some of the examples below, but until then, know that examples which use `http://localhost:...` model URLs reference [the older style network integrations](how-to/network), while examples using `https://*.hosted-models.runwayml.cloud` have been updated to use the newer [Hosted Models](how-to/hosted-models) feature.
+
+You can interact with models in RunwayML from creative coding and design applications through three networking protocols: HTTP, WebSockets (using Socket.IO), and Open Sound Control (OSC). Here's an [overview](https://learn.runwayml.com/#/how-to/network) of how it works.
 
 This page provides tutorials and code examples to help you get started with your own machine learning projects using these networking protocols. Visit [Projects Made with RunwayML](https://runwayml.com/madewith/) for more inspiration. Additional projects, tutorials, and code examples are welcome!
 
@@ -12,9 +14,9 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| AttnGAN | [Send Text to Create Images from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_text_attnGan) | Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 | 
-| BigGAN | [Send Vectors from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_vector_BigGan) |Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 | 
-| VAE-Lagging-Encoder-Poetry |[Receive Data to a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/receive_text_vae_lagging_encoder_poetry)  | Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 | 
+| AttnGAN | [Send Text to Create Images from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_text_attnGan) | Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 |
+| BigGAN | [Send Vectors from a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/send_vector_BigGan) |Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 |
+| VAE-Lagging-Encoder-Poetry |[Receive Data to a Feather Huzzah (ESP8266)](https://github.com/runwayml/arduino/tree/master/Feather_Huzzah/receive_text_vae_lagging_encoder_poetry)  | Tutorial | [Bérenger Recoules](http://b2renger.github.io/) 🎉 |
 
 [RunwayML + Arduino Code Repository](https://github.com/runwayml/arduino)<br>
 [Learn Arduino](https://www.arduino.cc/)
@@ -26,15 +28,15 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| SPADE-COCO | [Noise2D Image Synthesizer](https://github.com/runwayml/javascript/tree/master/SPADE-COCO/Noise2DSynth) | Example | [JP Yepez](https://www.jpyepez.com) 🎉 | 
+| SPADE-COCO | [Noise2D Image Synthesizer](https://github.com/runwayml/javascript/tree/master/SPADE-COCO/Noise2DSynth) | Example | [JP Yepez](https://www.jpyepez.com) 🎉 |
 
 
 **Socket.IO**
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| im2txt | [Generate Text from Webcam Images](https://github.com/runwayml/javascript/tree/master/im2txt/sendWebcam) | Example | RunwayML | 
-| im2txt | [Receive Text from im2txt](https://github.com/runwayml/javascript/tree/master/im2txt/receivesOnly) | Example |  RunwayML  | 
+| im2txt | [Generate Text from Webcam Images](https://github.com/runwayml/javascript/tree/master/im2txt/sendWebcam) | Example | RunwayML |
+| im2txt | [Receive Text from im2txt](https://github.com/runwayml/javascript/tree/master/im2txt/receivesOnly) | Example |  RunwayML  |
 
 [RunwayML + JavaScript Code Repository](https://github.com/runwayml/javascript)
 
@@ -44,7 +46,7 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| im2txt | [Receive Text](https://github.com/runwayml/maxmsp/tree/master/im2txt/receiveCamera) | Example | [Aarón Montoya-Moraga](montoyamoraga.io) 🎉 | 
+| im2txt | [Receive Text](https://github.com/runwayml/maxmsp/tree/master/im2txt/receiveCamera) | Example | [Aarón Montoya-Moraga](montoyamoraga.io) 🎉 |
 
 
 [RunwayML + Max/MSP Code Repository](https://github.com/runwayml/maxmsp)<br>
@@ -56,16 +58,16 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| [Multiple Models](https://github.com/genekogan/ofxRunway) | ofxRunway Addon (v1)  | Addon  | [Gene Kogan](https://genekogan.com) 🎉 | 
-| [Multiple Models](https://github.com/runwayml/ofxRunway) | ofxRunway Addon (v2)  | Addon  | [Roy Macdonald](https://github.com/roymacdonald/) 🎉 | 
+| [Multiple Models](https://github.com/genekogan/ofxRunway) | ofxRunway Addon (v1)  | Addon  | [Gene Kogan](https://genekogan.com) 🎉 |
+| [Multiple Models](https://github.com/runwayml/ofxRunway) | ofxRunway Addon (v2)  | Addon  | [Roy Macdonald](https://github.com/roymacdonald/) 🎉 |
 
 
 **OSC**
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| im2txt | [Generate Text from Images](https://github.com/runwayml/openFrameworks/tree/master/im2txt) | Example | [George Profenza](http://sensori.al/) 🎉 | 
- 
+| im2txt | [Generate Text from Images](https://github.com/runwayml/openFrameworks/tree/master/im2txt) | Example | [George Profenza](http://sensori.al/) 🎉 |
+
 
 [RunwayML + openFrameworks Code Repository](https://github.com/runwayml/openFrameworks)<br>
 [Learn openFrameworks](https://openframeworks.cc)
@@ -77,7 +79,7 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| Face-Landmarks | [Face Tracking](https://github.com/runwayml/OpenRNDR/blob/master/src/main/kotlin/facedetect.kt) | Example | [Ryan Bateman](http://boat.horse/) 🎉 | 
+| Face-Landmarks | [Face Tracking](https://github.com/runwayml/OpenRNDR/blob/master/src/main/kotlin/facedetect.kt) | Example | [Ryan Bateman](http://boat.horse/) 🎉 |
 | PoseNet | [Skeleton Tracking](https://github.com/runwayml/OpenRNDR/blob/master/src/main/kotlin/posenet.kt) | Example |[Ryan Bateman](http://boat.horse/) 🎉  |
 
 
@@ -105,8 +107,8 @@ This page provides tutorials and code examples to help you get started with your
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
 | CycleGAN  | [Image Translation](https://github.com/runwayml/p5js/tree/master/CycleGAN/CycleGAN_Websockets) | Example | [Matthew Kenney](http://matthewkenney.site/) 🎉 |
-| Fast Style Transfer | [Video from Webcam](https://github.com/runwayml/p5js/tree/master/FastStyleTransfer) | Example | [Matthew Kenney](http://matthewkenney.site/) 🎉 | 
-| PhotoSketch | [Create Contour Drawings II](tutorials/tutorial_p5_photosketch.md) | Tutorial | [Matthew Kenney](http://matthewkenney.site/) 🎉 | 
+| Fast Style Transfer | [Video from Webcam](https://github.com/runwayml/p5js/tree/master/FastStyleTransfer) | Example | [Matthew Kenney](http://matthewkenney.site/) 🎉 |
+| PhotoSketch | [Create Contour Drawings II](tutorials/tutorial_p5_photosketch.md) | Tutorial | [Matthew Kenney](http://matthewkenney.site/) 🎉 |
 
 
 [RunwayML + p5.js Code Repository](https://github.com/runwayml/p5js/blob/master/README.md)<br>
@@ -123,15 +125,15 @@ This page provides tutorials and code examples to help you get started with your
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
 | [Multiple HTTP Examples](https://github.com/runwayml/processing-library/tree/master/examples/HTTP) | [RunwayML Library for Processing](https://github.com/runwayml/processing-library) | Examples  | [George Profenza](http://sensori.al/) 🎉 |
- 
+
 
 **OSC**
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| GPT-2 | [Generate Text](tutorials/tutorial_processing_gpt2.md) | Tutorial | RunwayML | 
-| [Multiple OSC Examples](https://github.com/runwayml/processing-library/tree/master/examples/OSC) | [RunwayML Library for Processing](https://github.com/runwayml/processing-library) | Examples | [George Profenza](http://sensori.al/) 🎉 | 
-| PoseNet | [Skeleton Tracking](tutorials/tutorial_posenet.md) | Tutorials | RunwayML and [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉 | 
+| GPT-2 | [Generate Text](tutorials/tutorial_processing_gpt2.md) | Tutorial | RunwayML |
+| [Multiple OSC Examples](https://github.com/runwayml/processing-library/tree/master/examples/OSC) | [RunwayML Library for Processing](https://github.com/runwayml/processing-library) | Examples | [George Profenza](http://sensori.al/) 🎉 |
+| PoseNet | [Skeleton Tracking](tutorials/tutorial_posenet.md) | Tutorials | RunwayML and [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) 🎉 |
 
 
 [RunwayML Library for Processing](https://github.com/runwayml/processing-library)<br>
@@ -143,7 +145,7 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| PoseNet | [Skeleton Tracking](https://github.com/runwayml/puredata/tree/master/posenet) | Tutorial | [Joel Matthys](http://joel.matthysmusic.com) 🎉 | 
+| PoseNet | [Skeleton Tracking](https://github.com/runwayml/puredata/tree/master/posenet) | Tutorial | [Joel Matthys](http://joel.matthysmusic.com) 🎉 |
 
 [RunwayML + Pure Data Code Repository](https://github.com/runwayml/puredata)<br>
 [Learn Pure Data](https://puredata.info)
@@ -155,15 +157,15 @@ This page provides tutorials and code examples to help you get started with your
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| ESRGAN | [Upscale Images and Enhance Textures](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures) | Example | [JP Yepez](https://www.jpyepez.com) 🎉| 
-| MobileNet | [Image Classification](https://github.com/runwayml/touchDesigner/tree/master/MobileNet/TDClassifier) | Example | [JP Yepez](https://www.jpyepez.com) 🎉 | 
+| ESRGAN | [Upscale Images and Enhance Textures](https://github.com/runwayml/touchDesigner/tree/master/ESRGAN/EnhanceTextures) | Example | [JP Yepez](https://www.jpyepez.com) 🎉|
+| MobileNet | [Image Classification](https://github.com/runwayml/touchDesigner/tree/master/MobileNet/TDClassifier) | Example | [JP Yepez](https://www.jpyepez.com) 🎉 |
 
 
 **OSC**
 
 | Model | Description | Type | Source
 | :--- | :---| :--- | :--- |
-| PoseNet | [Face Tracking with PoseNet](https://github.com/BarakChamo/TD_PoseNet) | Example | [Barak Chamo](https://barakchamo.com/) 🎉| 
+| PoseNet | [Face Tracking with PoseNet](https://github.com/BarakChamo/TD_PoseNet) | Example | [Barak Chamo](https://barakchamo.com/) 🎉|
 
 [RunwayML + TouchDesigner Code Repository](https://github.com/runwayml/touchDesigner)<br>
 [Learn TouchDesigner](https://derivative.ca)
