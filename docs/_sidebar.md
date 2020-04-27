@@ -17,9 +17,10 @@
         * [Transform Content](create/transform.md)
         * [Generate Media](create/generate.md)
         * [Chain Models](how-to/chain-models-together.md)
-        * [Train Models](create/train-models.md) 
+        * [Train Models](create/train-models.md)
     * 🤝 **Connect to Models**
-        * [Overview](how-to/network.md)
+        * [Hosted Models](how-to/hosted-models.md)
+        * [Localhost Network API](how-to/network.md)
         * [Examples](networking/examples.md)
     * 🔌 **Plugins**
         * [Photoshop](https://github.com/runwayml/RunwayML-for-Photoshop)
@@ -34,4 +35,3 @@
 * 👉 Help
     * [Your Account](/your-account.md)
     * [Troubleshooting](https://support.runwayml.com/)
-    
