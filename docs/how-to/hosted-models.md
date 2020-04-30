@@ -8,23 +8,24 @@ All RunwayML models can now be controlled and used over the internet as **Hosted
   - [What's new with Hosted Models](#whats-new-with-hosted-models)
   - [Creating a Hosted Model](#creating-a-hosted-model)
   - [Example Code](#example-code)
+  - [Asleep, Awakening, and Awake states](#asleep-awakening-and-awake-states)
+  - [Pricing](#pricing)
+  - [Security and Access Control](#security-and-access-control)
   - [HTTP API](#http-api)
     - [GET `/v1`](#get-v1)
     - [GET `/v1/info`](#get-v1info)
     - [POST `/v1/query`](#post-v1query)
-  - [Asleep, Awakening, and Awake states](#asleep-awakening-and-awake-states)
-  - [Pricing](#pricing)
-  - [Security and Access Control](#security-and-access-control)
+  - [Raw HTTP Example](#raw-http-example)
 
 ## What's new with Hosted Models
 
 Hosted Models are...
 
 * Always available on the web! No need to start or stop the model, it will always be there waiting for you when you make a request.
-* Simple! Each model exposes the same HTTP routes (see [Hosted Models API](#hosted-models-api)).
+* Simple! We've released a small JavaScript SDK for you to get started with [just a few lines of code](#example-code) (read the [HTTP API](#http-api) section to go further).
 * Private by default, with the option to make them public as well (see [Security and Access Control](#security-and-access-control).
 * Ready when you need them! Hosted Models introduce the concept of "asleep", "awakening", and "awake" model states. When no requests are made to a Hosted Model for an extended period of time, the model will enter a dormant state until the next request is made (see [Asleep, Awakening, and Awake states](#asleep-awakening-and-awake-states)).
-* Hosted Models are charged by request and always run remotely.
+* Charged by request and always run remotely.
 
 ## Creating a Hosted Model
 
@@ -44,38 +45,56 @@ Hosted Models will appear in the "Hosted Models" tab once they are created. Here
 
 <img src="assets/images/how-to/hosted-models/hosted-models-tab.png" alt="Hosted Model tab">
 
-## Example Code
+### Example Code
 
-The example code snippet below demonstrates how JavaScript can be used to query a GPT-2 text generation Hosted Model at `https://example-text-generator.hosted-models.stage.runwayml.cloud/v1/`.
+We've released a small [JavaScript SDK](https://github.com/runwayml/hosted-models/) which makes interfacing with Hosted Models from code easy.
 
-```javascript
-const inputs = {
-  "prompt": "Finish my sentence",
-  "max_characters": 512,
-};
+If you're in a browser environment, you can load the library as a script tag.
 
-// Replace this Hosted Model URL with your own
-fetch("https://example-text-generator.hosted-models.stage.runwayml.cloud/v1/", {
-  method: "POST",
-  headers: {
-    "Accept": "application/json",
-    "Content-Type": "application/json",
-    "Authorization": "Bearer <token>", // Replace <token> with your Hosted Models's authorization token
-  },
-  body: JSON.stringify(inputs)
-})
-.then(response => response.json())
-.then(outputs => {
-  const { generated_text, encountered_end } = outputs;
-  // use the outputs in your project
-  console.log(`The model responded to the prompt like so: ${generated_text}`)
-  if (encountered_end) {
-    console.log(`The model produced the end of text character, so it thinks its job is done`)
-  }
-})
+```html
+<script src="https://cdn.jsdelivr.net/npm/@runwayml/hosted-models@latest/dist/hosted-models.js"></script>
 ```
 
-?> You can interface with Hosted Models using any programming language you'd like, so long as your environment can make HTTP requests.
+Using the model is as simple as copy/pasting the Hosted Model `url` and `token` from RunwayML, instantiating a `HostedModel` object, and then calling `model.query(input)`.
+
+```javascript
+const model = new rw.HostedModel({
+  url: 'https://example-text-generator.hosted-models.runwayml.cloud/v1',
+  token: 'my-private-hosted-model-token',
+});
+
+//// You can use the info() method to see what type of input object the model expects
+// mode.info().then(info => console.log(info))
+
+const prompt = 'Hey text generation model, finish my sentence';
+model.query({ prompt }).then(result => console.log(result));
+```
+
+Check out the [Hosted Models JavaScript SDK](https://github.com/runwayml/hosted-models/) repo for more info, including how to import the library as an NPM module if you are using Node.js.
+
+?> You can interface with Hosted Models using any programming language you'd like, so long as your environment can make HTTP requests. See the [Raw HTTP Example](#raw-http-example) below.
+
+## Asleep, Awakening, and Awake states
+
+Hosted Models may go to sleep after 5 minutes if they are not used. A model can be in one of three states:
+
+* **Asleep**: The Hosted Model hasn't received any requests for a while and has gone to sleep. The next request will wake it up.
+* **Awakening**: The Hosted Model is transitioning from the dormant asleep state into the awake state.
+* **Awake**: The Hosted Model is up and running and requests should be processed quickly.
+
+No matter which state the Hosted Model is currently in, it will always be able to satisfy any request you make to it. The only difference is that requests to `/v1/info` and `/v1/query` may take longer to complete if the model is asleep or awakening.
+
+## Pricing
+
+Pricing information for Hosted Models can be found in [this support article](https://support.runwayml.com/en/articles/3967783-hosted-model-pricing).
+
+## Security and Access Control
+
+All Hosted Models are private by default and can optionally be made public.
+
+Private models are protected from unauthorized use by including a secret token in the `Authorization` header of all requests. Requests to private models that don't include a header in the format `Authorization: Bearer <token>`, or include the wrong `<token>` value, will receive a 401 Unauthorized response.
+
+?> Note: Take care to protect the token associated with each Hosted Model. Including code that interacts with a private Hosted Model in the JavaScript source of a static web page is not sufficient to protect the model from unauthorized use!
 
 ## HTTP API
 
@@ -84,6 +103,8 @@ All Hosted Models expose three simple HTTP routes to interface with all RunwayML
 1. GET `/v1/` returns metadata about the Hosted Model
 1. GET `/v1/info` returns the input/output spec of `/v1/query`
 1. POST `/v1/query` is used to run the model on input and produce output
+
+These are the routes that the [JavaScript SDK](https://github.com/runwayml/hosted-models/) uses under the hood. You can use them directly if you prefer, or if you'd like to use Hosted Models from a language other than JavaScript (see the [Raw HTTP Example](#raw-http-example) below).
 
 ?> Note: The GET `/v1` route for each model will always return results quickly. The GET `/v1/info` and POST `/v1/query` have a timeout limit of 10 minutes and can take quite a while to respond if the model is waking up (see [Asleep, Awakening, and Awake states](#asleep-awakening-and-awake-states)), or is taking a while to process the input provided to it.
 
@@ -195,29 +216,33 @@ curl \
   https://example-text-generator.hosted-models.runwayml.cloud/v1/query
 ```
 
-## Asleep, Awakening, and Awake states
+## Raw HTTP Example
 
-Hosted Models may go to sleep after 5 minutes if they are not used. A model can be in one of one of three states:
+Here's an example of using the POST `/v1/query` route via HTTP requests directly, instead of using the [JavaScript SDK](https://github.com/runwayml/hosted-models/).
 
-* **Asleep**: The Hosted Model hasn't received any requests for a while and has gone to sleep. The next request will wake it up.
-* **Awakening**: The Hosted Model is transitioning from the dormant asleep state into the awake state.
-* **Awake**: The Hosted Model is up and running and requests should be processed quickly.
+```javascript
+const inputs = {
+  "prompt": "Finish my sentence",
+  "max_characters": 512,
+};
 
-No matter which state the Hosted Model is currently in, it will always be able to satisfy any request you make to it. The only difference from your perspective is that requests to `/v1/info` and `/v1/query` may take longer to complete if the model is asleep or awakening.
-
-## Pricing
-
-Pricing information for Hosted Models can be found in [this support article](https://support.runwayml.com/en/articles/3967783-hosted-model-pricing).
-
-## Security and Access Control
-
-All Hosted Models are private by default and can optionally be made public.
-
-Private models are protected from unauthorized use by including a secret token in the `Authorization` header of all requests. Requests to private models that don't include a header in the format `Authorization: Bearer <token>`, or include the wrong `<token>` value, will receive a 401 Unauthorized response.
-
-?> Note: Take care to protect the token associated with each Hosted Model. Including code that interacts with a private Hosted Model in the JavaScript source of a static web page is not sufficient to protect the model from unauthorized use!
-
-
-<!--
-## Going Further
--->
+// Replace this Hosted Model URL with your own
+fetch("https://example-text-generator.hosted-models.stage.runwayml.cloud/v1/query", {
+  method: "POST",
+  headers: {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Authorization": "Bearer <token>", // Replace <token> with your Hosted Models's authorization token
+  },
+  body: JSON.stringify(inputs)
+})
+.then(response => response.json())
+.then(outputs => {
+  const { generated_text, encountered_end } = outputs;
+  // use the outputs in your project
+  console.log(`The model responded to the prompt like so: ${generated_text}`)
+  if (encountered_end) {
+    console.log(`The model produced the end of text character, so it thinks its job is done`)
+  }
+})
+```
