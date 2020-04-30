@@ -76,7 +76,7 @@ Check out the [Hosted Models JavaScript SDK](https://github.com/runwayml/hosted-
 
 ## Asleep, Awakening, and Awake states
 
-Hosted Models may go to sleep after 5 minutes if they are not used. A model can be in one of one of three states:
+Hosted Models may go to sleep after 5 minutes if they are not used. A model can be in one of three states:
 
 * **Asleep**: The Hosted Model hasn't received any requests for a while and has gone to sleep. The next request will wake it up.
 * **Awakening**: The Hosted Model is transitioning from the dormant asleep state into the awake state.
