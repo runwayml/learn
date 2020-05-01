@@ -64,7 +64,7 @@ const model = new rw.HostedModel({
 });
 
 //// You can use the info() method to see what type of input object the model expects
-// mode.info().then(info => console.log(info))
+// model.info().then(info => console.log(info))
 
 const prompt = 'Hey text generation model, finish my sentence';
 model.query({ prompt }).then(result => console.log(result));
