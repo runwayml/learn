@@ -21,7 +21,7 @@ RunwayML greatly reduces the amount of time needed to train your own generative 
 
 Even with Transfer Learning, it's not unusual for training to take at least several hours. 
 
-?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), but if you’re just getting started with this feature, then you can train one model per user account without using any credits. Your subscription status determines how long you can train the model. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps and should [subscribe to the Creator Plan](https://account.runwayml.com/) to train it for longer or to train additional models.
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). Only subscribers have access to model training.
 
 ### How many Training Experiments can I run at a time?
 The default limit is five concurrent sessions. We can increase the limit upon request. Just send an email to [support@runwayml.com](mailto:support@runwayml.com).
@@ -130,7 +130,7 @@ The maximum number of Training Steps is 25,000, but a good starting point is 3,0
 
 The estimated training time will update according to a combination of the Pre-Trained Model you select and the number of Training Steps you set. Make sure that your account has enough [credits](https://support.runwayml.com/en/articles/2984968-adding-credits) for the number of training steps (use the **Estimated Cost Calculator**), otherwise your training experiment will stop and save itself before training completes. Enter the **number of Training Steps** and click **Start Training** to continue.
 
-?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits), but if you’re just getting started with this feature, then you can train one model per user account without using any credits. Your subscription status determines how long you can train the model. As of the latest version, RunwayML subscribers have access to one free training experiment with unlimited training steps. Unsubscribed users can train one model up to 3000 steps and should [subscribe to the Creator Plan](https://account.runwayml.com/) to train it for longer or to train additional models.
+?> Training models uses [credits](https://support.runwayml.com/en/articles/2984968-adding-credits). Only subscribers have access to model training.
 
 <img src="assets/images/create/train-models/trainingSteps.png" alt="screen grab of 3000 training steps" width=40%>
 
