@@ -17,7 +17,8 @@
         * [Transform Content](create/transform.md)
         * [Generate Media](create/generate.md)
         * [Chain Models](how-to/chain-models-together.md)
-        * [Train Models](create/train-models.md)
+        * [Train an Image Generation model](create/train-image-generation.md)
+        * [Train an Object Detection Model](create/train-object-detection.md)
     * 🤝 **Connect to Models**
         * [Hosted Models](how-to/hosted-models.md)
         * [Localhost Network API](how-to/network.md)

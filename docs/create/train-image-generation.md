@@ -1,15 +1,12 @@
-# Train Your Own Models
+# Train an Image Generation Model
 
 ## Overview
-In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can train your own models. This guide will walk you through the steps of training a model, but first, here's a quick FAQ to provide some context.
+In addition to publishing open source, pre-trained machine learning models in the RunwayML platform, you can train your own models. This guide will walk you through the steps of training an image generation model, but first, here's a quick FAQ to provide some context.
 
 ### What is a model and what does it mean to train one?
 Generally speaking, a model is a machine learning algorithm that has learned patterns within a given dataset. Instead of being explicitly programmed, it develops its own parameters for how to represent—or model—those patterns to make predictions about new data (such as to detect objects in a video) or generate completely new content that mimics the original data on which it was trained (such as synthesize images from a collection of paintings). 
 
 Training is the process of providing a machine learning algorithm with a dataset to learn patterns in the form of [features](https://en.wikipedia.org/wiki/Feature_(machine_learning)). RunwayML makes training very easy: all you need to do is to supply your own dataset (although we have some available for you to try) and determine the number of steps that the algorithm should take to learn the features. During each step, the model learns a little bit more about the features in your dataset. For a demonstration of the visual patterns a machine learning model might find, watch Gene Kogan's quick video on [What Convolutional Neural Networks See](https://experiments.withgoogle.com/what-neural-nets-see).
-
-### What kind of model can I train?
-Model training is an experimental feature 🧪in RunwayML, and at this time, you can only train a generative model to synthesize images. Support for additional model types will be added in the future. 
 
 ### What kind of dataset do I need?
 To train a generative image model, you need a collection of images. Suggestions for the amount, as well as considerations for how to source and prepare those images are below. RunwayML also provides datasets of public domain images from Flickr to try.
