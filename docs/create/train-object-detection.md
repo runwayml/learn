@@ -1,6 +1,6 @@
 ### Train an Object Detection Model
 
-An object detection model is a machine learning algorithm that has learned to recognize and locate objects in images and videos. Provided an input image, an object detection model can produce a collection of bounding boxes (rectangular regions of interest) for each identified object. 
+An object detection model is a machine learning algorithm that has learned to recognize and locate objects in images and videos. Provided an input image, an object detection model can produce bounding boxes (rectangular regions of interest) for each identified object. 
 
 Introduced in version 0.13.0, Object Detection Training allows you to create your own machine learning model to detect custom objects in images and videos. This guide will walk you through the process of training an object detection model.
 
@@ -8,6 +8,7 @@ Introduced in version 0.13.0, Object Detection Training allows you to create you
  - [Step 2: Upload your dataset](#step-2-upload-your-dataset)
  - [Step 3: Annotate your dataset](#step-3-annotate-your-dataset)
  - [Step 4: Choose training options](#step-4-choose-training-options)
+ - [Step 5: Train your model](#step-5-train-your-model)
 
 
 ## Step 1: Create your training experiment
@@ -40,13 +41,13 @@ Now that you've uploaded your dataset, it's time to annotate the objects in it t
 
 <img src="assets/images/create/train-models/annotationView.png" alt="Go to the Annotation View">
 
-To get started, click "New Annotation Group." An annotation group is a collection of annotated examples for each object category you'd like to recognize. Once you have named your Annotation Group, you will be prompted to input the categories of objects you want to annotate. Type in at least one category to get started annotating - you can always add more categories later.
+To get started, click "New Annotation Group." An annotation group is a collection of annotated examples of objects in your dataset. Once you have named your Annotation Group, you will be prompted to input the categories of objects you want to annotate. Type in at least one category to get started annotating - you can always add more categories later.
 
 <center><img src="assets/images/create/train-models/initialCategories.png" alt="Select initial categories for your annotation group"></center>
 
-?> **How many categories should I add?** The number of categories you should use depends on the dataset and use-case for the model. For example, if you want to locate birds in an image without needing to know the exact species of each bird, then you can have just one category that is "Bird." If you want to identify the kind of bird in the image in addition to locating it, then you can have a different category for each species. Keep in mind that we currently impose a maximum limit of 50 categories. We can increase the limit upon request. Just send an email to [support@runwayml.com](mailto:support@runwayml.com).
+?> **How many categories should I add?** The number of categories you should use depends on the dataset and use-case for the model. For example, if you want to locate birds in an image without needing to know the exact species of each bird, then you can have just one "Bird" category. If you want to identify the kind of bird in the image in addition to locating it, then you can have a different category for each species. Keep in mind that we currently impose a maximum limit of 50 categories. We can increase the limit upon request. Just send an email to [support@runwayml.com](mailto:support@runwayml.com).
 
-You can now get started annotating images in your dataset. There are a few different sections in this interface, so let's explore them one by one:
+You can now get started annotating images in your dataset by drawing bounding boxes around your objects. There are a few different sections in this interface, so let's explore them one by one:
 
 <img src="assets/images/create/train-models/annotationEditor.png" alt="Edit annotations">
 
@@ -66,10 +67,13 @@ You can now get started annotating images in your dataset. There are a few diffe
 
 ?> **Should I submit files without any bounding boxes?** Yes! If there are no objects to annotate in an image, you can still submit it to mark it as a negative example.
 
+Once you've finished annotating your objects, click the "Close" button at the top left corner to navigate back to the Training flow, and then Next to proceed to the Setup view.
 
 ## Step 4: Choose training options
 
-RunwayML greatly reduces the amount of time needed to train your own generative image model by using using a technique called [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning). With this technique, an existing pre-trained neural network model called [YOLO](https://pjreddie.com/darknet/yolo/) (You Only Look Once) is re-trained on your dataset. RunwayML supports the following versions of YOLO:
+<img src="assets/images/create/train-models/objectDetectionTrainingOptions.png" alt="Select training options">
+
+RunwayML greatly reduces the amount of time needed to train your own machine learning model by using using a technique called [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning). With this technique, an existing pre-trained neural network model called [YOLO](https://pjreddie.com/darknet/yolo/) (You Only Look Once) is re-trained on your dataset. RunwayML supports the following versions of YOLO:
 
 * `YOLOv4`: The latest version of the YOLO neural network model. It is a state-of-the-art object detection model that balances speed and accuracy, and takes around 2 hours to train for 5,000 steps.
 
@@ -80,3 +84,13 @@ If you're unsure which pre-trained model you should use, we recommend starting w
 ?> **How many steps should I train for?** The more steps you train your model for, the better it will become at predicting bounding boxes for objects in your images. As a general principle, it is recommended to train your model at least 5,000 steps, or at least 1,000 steps for each category that you’ve annotated, whichever number is greatest. You can always continue training your model after your training experiment has ended, or stop your training experiment before it has ended if you’re seeing good results earlier than you expected.
 
 ?> **How much does training cost?** Training an object detection model requires a subscription to the RunwayML Creator Plan. You can train your first model for free, and subsequent training experiments cost $0.005 per step. You can use the "Estimated Cost" option under the steps selector to determine exactly how much your training experiment will cost. You can find more information about RunwayML's pricing [here](https://support.runwayml.com/en/articles/3000086-how-much-does-runwayml-cost).
+
+Once you've selected the number of steps you'd like to train for, it's time to finally start your training experiment by clicking "Start Training."
+
+## Step 5: Train your model
+
+<img src="assets/images/create/train-models/objectDetectionTrainingProgress.png" alt="Follow the progress of your training experiment">
+
+During object detection training, some of the images in your dataset are selected as "samples" that the model is processing repeatedly every few steps. You can evaluate how well the model is learning by tracking the quality of the sample bounding boxes over time. A more quantitative measure of training progress is the [mean average precision score](https://medium.com/@jonathan_hui/map-mean-average-precision-for-object-detection-45c121a31173), or mAP, which is a statistical score of the performance of an object detection model. How fast the mAP score improves depends on the number of categories and complexity of your dataset. We recommend training a model until its mAP score gets to at least 75%.
+
+?> **I'm seeing a *lot* of bounding boxes in the training samples. Is there an issue with my model?** It's expected to see your model generate a large number of inaccurate bounding boxes at the early steps of training. The reason is that the model has not been trained on enough examples yet to have a proper understanding of the dataset and is making a lot of random guesses.
