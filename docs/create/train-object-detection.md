@@ -9,6 +9,7 @@ Introduced in version 0.13.0, Object Detection Training allows you to create you
  - [Step 3: Annotate your dataset](#step-3-annotate-your-dataset)
  - [Step 4: Choose training options](#step-4-choose-training-options)
  - [Step 5: Train your model](#step-5-train-your-model)
+ - [Step 6: Run your model](#step-6-run-your-model)
 
 
 ## Step 1: Create your training experiment
@@ -94,3 +95,22 @@ Once you've selected the number of steps you'd like to train for, it's time to f
 During object detection training, some of the images in your dataset are selected as "samples" that the model is processing repeatedly every few steps. You can evaluate how well the model is learning by tracking the quality of the sample bounding boxes over time. A more quantitative measure of training progress is the [mean average precision score](https://medium.com/@jonathan_hui/map-mean-average-precision-for-object-detection-45c121a31173), or mAP, which is a statistical score of the performance of an object detection model. How fast the mAP score improves depends on the number of categories and complexity of your dataset. We recommend training a model until its mAP score gets to at least 75%.
 
 ?> **I'm seeing a *lot* of bounding boxes in the training samples. Is there an issue with my model?** It's expected to see your model generate a large number of inaccurate bounding boxes at the early steps of training. The reason is that the model has not been trained on enough examples yet to have a proper understanding of the dataset and is making a lot of random guesses.
+
+## Step 6: Run your model
+
+<img src="assets/images/create/train-models/objectDetectionReview.png" alt="Review your training experiment">
+
+Congratulations! You've finished training your first object detection model, and it's now ready to use.
+
+Next steps:
+
+* **Add the model to workspace** and test the model's predictions on new images.
+
+* Use the **Export** tasks to batch process your assets using your new model. The following tasks are supported:
+
+  * **Visualize Predictions**: Overlay bounding boxes over your images and videos. Useful for quick visualizations.
+  * **Crop Objects**: Get folders of cropped detections from your images and videos. Useful for creating image datasets.
+  * **Get Bounding Boxes**: Export a CSV file containing bounding box positions and categories for detections in your images and videos. Useful for data processing.
+
+* **[Host the model as an API](how-to/hosted-models.md)** to interact with your model programmatically.
+
