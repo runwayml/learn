@@ -43,7 +43,7 @@ You can use models directly of inside the RunwayML app or interact with models t
 
 
 ### Generative Image Models Trained on StyleGAN
-👉Learn how to [train your own generative image model](https://learn.runwayml.com/#/create/train-models).
+👉Learn how to [train your own generative image model](https://learn.runwayml.com/#/create/train-image-generation).
 
 | Model | Description | Networking Examples |
 | :--- | :---| :--- |
