@@ -166,4 +166,4 @@ To run your model, click **Add to Workspace**. A new Workspace will be created d
 
 ?> 📽 To learn more about how generative models work, including StyleGAN, watch this [video series](https://www.youtube.com/playlist?list=PLj598ZXODDO_S1GrkKGr5TP35qzOyi1df) from Gene Kogan. 
 
-?> 📽 To learn even more about StyleGAN, follow up with this [Coding Traing tutorial](https://www.youtube.com/watch?v=vEetoBuHj8g) from Daniel Shiffman.
+?> 📽 To learn even more about StyleGAN, follow up with this [Coding Train tutorial](https://www.youtube.com/watch?v=vEetoBuHj8g) from Daniel Shiffman.
