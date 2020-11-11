@@ -12,7 +12,7 @@
 
 * 🎨 Create
     * 📺 **Video Tools**
-        * [Rotoscoping with Green Screen](video-tools/green-screen.md)
+        * [Green Screen](video-tools/green-screen.md)
     * 🌱 **Model Possibilities**
         <!-- * [Overview]() -->
         * [Detect Objects](create/detect.md)

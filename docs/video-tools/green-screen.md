@@ -1,4 +1,4 @@
-# Rotoscoping with Green Screen
+# Green Screen
 
 <img src="assets/images/video-tools/green-screen/banner.png" alt="Banner image of Green Screen">
 
@@ -56,8 +56,8 @@ frame-by-frame basis.
 ?> You'll notice that there are regions of video where masking can be improved.
 The goal is to create a set of keyframes from which Green Screen can estimate
 the mask for the whole video. A new keyframe is usually neded when the target
-changes apperance (e.g. a dancer turns around or a body part appears for the
-first time in the video).
+apperance changes (e.g. a body part appears for the first time, the subject
+moves to a different background, or lighting conditions vary).
 
 Now you rinse-and-repeat, creating keyframes where the current results are
 lacking, and then previewing the updated results. Depending on the amount of
