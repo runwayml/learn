@@ -14,12 +14,12 @@ the region.
 
 <img src="assets/images/video-tools/green-screen/composite.gif" alt="Sample motion graphics ouptut">
 
-Most tools for rotoscoping require painstaking frame-by-frame edits by
-manually highlighting the border of objects. We created Green Screen because
-we think this process should be a lot easier. Here are the steps to get
-started...
+Most tools for rotoscoping require painstaking frame-by-frame edits by manually
+highlighting the border of objects. With Runway, you can create professional
+masks and cut object from videos with **just a ffew clicks**. Here are the
+steps to get started...
 
-## Step 1: Clip selection
+## Step 1: Choose your clip
 
 Open Green Screen by clicking on **Video Tools** under the media sidebar. Now
 select an asset by opening the **Assets** sidebar. All of your exports from
@@ -35,7 +35,7 @@ consistent camera angles and lighting conditions, and then edit each one with
 Green Screen individually. If you want to track two separate objects in the
 same video, we recommend you use Green Screen twice to track them separately.
 
-## Step 2: Creating keyframes
+## Step 2: Click to create keyframes
 
 To start off the process, seek to an initial frame which contains the desired
 object in clear view. Then click on the object in frame to create your initial mask.
@@ -64,17 +64,18 @@ movement and background complexity, Green Screen may need just a pair of
 keyframes for the entire clip, or it may require one keyframe every few 
 seconds.
 
-## Step 3: Exporting your result
+## Step 3: Export your result
 
 Once you're satisfied with the mask, click **Export** to output a video file.
-You can change the name of the video, and select a chroma-key background.
+You can change the name of the video, and select a
+[chroma-key](https://en.wikipedia.org/wiki/Chroma_key) background.
 
 <img src="assets/images/video-tools/green-screen/export.gif" alt="Gif showing the export process">
 
 The output will appear in your **Assets**, from which you can export the file
 into other software to add visual effects.
 
-## Bonus: Compositing text with iMovie
+## Bonus: Composite text with iMovie
 
 Using our exported file in any video editor or compositor is quite easy. Here
 we use iMovie, but similar effects can be achieved with most video software.
@@ -88,3 +89,6 @@ subject on top of the text.
 <img src="assets/images/video-tools/green-screen/compositing.gif" alt="Gif showing how to composite with iMovie">
 
 Congratulations, you've just done your first Green Screen!
+
+If you have any questions or feedback, [let us know](mailto:support@runwayml.com)!
+We can't wait to see what you create.
