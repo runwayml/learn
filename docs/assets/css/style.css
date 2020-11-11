@@ -57,11 +57,14 @@ a:hover{
     margin: auto 0 !important;
     text-align: left;
     cursor: pointer;
+    align-items: center;
 }
 
 .Menu__Top__LogoContainer_Logo {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
     display: inline;
     text-align: right;
 }
@@ -89,6 +92,7 @@ a:hover{
     .Menu__Top__LogoContainer{
         width: 300px !important;
         flex: 3;
+        align-items: left;
     }
     .Menu__Top__Menu{
         flex: 1;
