@@ -11,6 +11,8 @@
     * [Video Tutorials](https://www.youtube.com/runwayml)
 
 * 🎨 Create
+    * 📺 **Video Tools**
+        * [Green Screen](video-tools/green-screen.md)
     * 🌱 **Model Possibilities**
         <!-- * [Overview]() -->
         * [Detect Objects](create/detect.md)
