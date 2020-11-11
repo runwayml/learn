@@ -6,10 +6,11 @@
 
 ## What is Green Screen? 
 
-Green Screen is the first of our video tools centered around cutting out
-objects from videos, known as rotoscoping. This is the bread-and-butter of video manipulation. 
-Once you have a cutout of your video, you can swap out the background,
-display text behind it, or even selectively apply visual effects to the region.
+Green Screen is our first video tools which allows you to cut out objects from
+videos, a process known as rotoscoping. This is the bread-and-butter of video
+manipulation.  Once you have a cutout of your video, you can swap out the
+background, display text behind it, or even selectively apply visual effects to
+the region.
 
 <img src="assets/images/video-tools/green-screen/composite.gif" alt="Sample motion graphics ouptut">
 
@@ -34,16 +35,19 @@ consistent camera angles and lighting conditions, and then edit each one with
 Green Screen individually. If you want to track two separate objects in the
 same video, we recommend you use Green Screen twice to track them separately.
 
-## Step 2: Creating keyframes, previewing, and refining
+## Step 2: Creating keyframes
 
-To start off the process we're, seek to an initial frame which contains
-the desired object in clear view. Using clicks you can indicate which parts of
-the frame contain the target. The toolbar above the timeline allows you to
-switch between **Include** clicks which expand the mask to the clicked location
-and **Exclude** clicks which retract the mask. 
+To start off the process, seek to an initial frame which contains the desired
+object in clear view. Using clicks indicate which parts of the frame contain
+the your target. 
 
-Now that you have an initial mask, by clicking on **Preview**, you can see what
-would happen if you were to propagte the mask to the rest of the video.  You
+The toolbar above the timeline allows you to switch between
+**Include** clicks which expand the mask to the clicked location and
+**Exclude** clicks which retract the mask. You can also swap between
+**Foreground** and **Background** to see what the masked object looks like.
+
+Now that you have an initial mask, you can click **Preview** to see the
+expected result if you were to propagte the mask to the rest of the video. You
 can also click on the timeline or use the arrow keys to check the results on a
 frame-by-frame basis.
 
@@ -60,7 +64,7 @@ lacking, and then previewing the updated results. Depending on the amount of
 movement and background complexity, Green Screen may need just a pair of
 keyframes or one every couple of seconds.
 
-## Step 3: Exporting the result
+## Step 3: Exporting your result
 
 Once you're satisfied with the mask, click **Export** to output a video file.
 You can change the name of the video, and select a chroma-key background.
@@ -70,7 +74,17 @@ You can change the name of the video, and select a chroma-key background.
 The output will appear in your **Assets**, from which you can export the file
 into other software to add visual effects.
 
-## Bonus: compositing with Premiere
+## Bonus: compositing text with iMovie
 
 Using our exported file in any video editor or compositor is quite easy. Here
-we use Adobe Premiere, but similar effects are doable across most software.
+we use iMovie, but similar effects can be achieved with most video software.
+
+First, place the desired text on top of your source video. Then, import the
+output from Green Screen into iMovie and place it on top of the desired text.
+By applying a the green-screen effect, as shown
+[here](https://support.apple.com/en-us/HT210891) you can overlay just the
+subject on top of the text.
+
+<img src="assets/images/video-tools/green-screen/compositing.gif" alt="Gif showing how to composite with iMovie">
+
+Congratulations, you've just done your first Green Screen!
