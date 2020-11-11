@@ -1,4 +1,4 @@
-<h3 class="Main__Title">Introduction to RunwayML</h3>
+<h3 class="Main__Title">Introduction to Runway</h3>
 
 <p class="Main__Description">RunwayML is a platform for creators of all kinds to use machine learning tools in intuitive ways without any coding experience. These resources will help you start get started.</p>
 
