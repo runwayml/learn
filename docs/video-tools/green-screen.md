@@ -2,7 +2,7 @@
 
 <img src="assets/images/video-tools/green-screen/banner.png" alt="Banner image of Green Screen">
 
-?> Click [here]() for a video walk-through of Green Screen.
+?> Click [here](https://www.youtube.com/watch?v=-2UBoklCtjk&feature=youtu.be) for a video walk-through of Green Screen.
 
 ## What is Green Screen? 
 
