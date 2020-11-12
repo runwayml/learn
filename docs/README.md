@@ -5,11 +5,9 @@
 <br>
 <br>
 <div class="Main__Buttons">
-    <a class="Main__Button" href='https://runwayml.com/download' target="_blank">Download RunwayML</a>
-    |
-    <a class="Main__Button" href='https://runwayml.com/madewith' target="_blank">Projects Made with RunwayML</a>
-    |
-    <a class="Main__Button"  href='https://runwayml.com/integrations'>Plugins & Extensions</a>
+    <a class="Main__Button" href="https://app.runwayml.com/signup" target="_blank">Sign up for RunwayML</a>
+    <a class="Main__Button" href="https://runwayml.com/madewith" target="_blank">Projects Made with RunwayML</a>
+    <a class="Main__Button" href="https://runwayml.com/integrations" target="_blank">Plugins & Extensions</a>
 </div>
 <br>
 <br>
