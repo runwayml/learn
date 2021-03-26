@@ -1,5 +1,7 @@
 # Hosted Models
 
+?> Hosted models are an experimental feature. Timeouts for POST requests against hosted models can vary greatly depending on a number of circumstances. As a result, we don't recommend using hosted models in any critical infrastructure or production code. We don't currently offer an SLA around model availability or request timeouts.
+
 Hosted Models allow you to create and deploy models as permanent URLs on the web. They provide you with a unique API endpoint that you can use to interact with them anytime, anywhere, without requiring RunwayML to be open!
 
 All RunwayML models can now be controlled and used over the internet as **Hosted Models**. This is useful for getting data in and out of RunwayML programmatically, integrating models with other tools and workflows, and providing control of models through scripting. Each Hosted Model is exposed via an API URL and is available to service requests at anytime.
